@@ -1,0 +1,418 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Pure Chinese,STKaiti,20,&H00F5F5F5,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,8,1
+Style: chs&eng,STKaiti,20,&H00F5F5F5,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:03.17,0:00:04.87,Pure Chinese,,0000,0000,0000,,{\blur3}（"神奇发现"）
+Dialogue: 0,0:00:05.75,0:00:08.88,chs&eng,,0000,0000,0000,,{\blur3}大家好 欢迎收看"神奇发现"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Welcome, everybody. Welcome to Amazing Discoveries.{\r}
+Dialogue: 0,0:00:10.30,0:00:11.59,chs&eng,,0000,0000,0000,,{\blur3}又开始了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, oh! It's on again.{\r}
+Dialogue: 0,0:00:11.76,0:00:14.63,chs&eng,,0000,0000,0000,,{\blur3}各位 拜托别看了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Guys, could we please not watch this?{\r}
+Dialogue: 0,0:00:14.80,0:00:18.18,chs&eng,,0000,0000,0000,,{\blur3}大家遇过这种事吗 你想好好喝杯牛奶{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Folks, this ever happen to you? You go to get a nice glass of milk...{\r}
+Dialogue: 0,0:00:18.35,0:00:21.64,chs&eng,,0000,0000,0000,,{\blur3}但牛奶纸盒怎么样都打不开{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...but these darn cartons are so flinging, flanging hard to open.{\r}
+Dialogue: 0,0:00:21.85,0:00:23.77,chs&eng,,0000,0000,0000,,{\blur3}天啊 你说的对 麦克{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Boy, you said it, Mike.{\r}
+Dialogue: 0,0:00:26.35,0:00:30.02,chs&eng,,0000,0000,0000,,{\blur3}- 一定有更好的办法   - 没错 凯文{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- There's gotta be a better way.     - And there is, Kevin.{\r}
+Dialogue: 0,0:00:30.19,0:00:33.44,chs&eng,,0000,0000,0000,,{\blur3}- 可以把电视关了吗    - 想都别想 凯文{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Can we please turn this off?     - No way, Kevin.{\r}
+Dialogue: 0,0:00:33.65,0:00:37.36,chs&eng,,0000,0000,0000,,{\blur3}如果我告诉大家 有一种新产品保证…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What if I told you there's a new product that guarantees...{\r}
+Dialogue: 0,0:00:37.53,0:00:40.49,chs&eng,,0000,0000,0000,,{\blur3}你不必再打开牛奶纸盒了呢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...you'll never have to open up milk cartons again?{\r}
+Dialogue: 0,0:00:40.66,0:00:42.91,chs&eng,,0000,0000,0000,,{\blur3}为大家介绍牛奶大师2000{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Meet the Milkmaster 2000.{\r}
+Dialogue: 0,0:00:45.12,0:00:47.79,chs&eng,,0000,0000,0000,,{\blur3}- 有兴趣吗   - 我当然有兴趣{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Intrigued?     - You're flinging, flanging right I am.{\r}
+Dialogue: 0,0:00:49.54,0:00:51.05,chs&eng,,0000,0000,0000,,{\blur3}这是他的第一次 他没用过这个{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This is his first time. He's never used this.{\r}
+Dialogue: 0,0:00:51.24,0:00:54.05,chs&eng,,0000,0000,0000,,{\blur3}你会看到这使用起来有多方便{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're gonna see how easy this is to do.{\r}
+Dialogue: 0,0:00:54.92,0:00:58.01,chs&eng,,0000,0000,0000,,{\blur3}- 适用于所有牛奶纸盒   - 好简单{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- This works in any milk carton.     - Wow, it is easy. Ha, ha.{\r}
+Dialogue: 0,0:00:58.18,0:01:00.60,chs&eng,,0000,0000,0000,,{\blur3}现在我每天都可以喝牛奶了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Now I can have milk every day.{\r}
+Dialogue: 0,0:01:09.50,0:01:14.00,chs&eng,,0000,0000,0000,,{\blur3}# 没有人告诉你活着有多累 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# So no one told you life was gonna be this way #{\r}
+Dialogue: 0,0:01:14.57,0:01:18.74,chs&eng,,0000,0000,0000,,{\blur3}# 上班受罪 口袋空空 爱情变累赘 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# Your job's a joke, you're broke, your love life's D.O.A. #{\r}
+Dialogue: 0,0:01:19.65,0:01:23.46,chs&eng,,0000,0000,0000,,{\blur3}# 寂寞又潦倒 受气又受累 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# It's like you're always stuck in second gear #{\r}
+Dialogue: 0,0:01:23.92,0:01:26.02,chs&eng,,0000,0000,0000,,{\blur3}# 日复一日 年复一年 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# When it hasn't been your day, #{\r}
+Dialogue: 0,0:01:26.02,0:01:29.02,chs&eng,,0000,0000,0000,,{\blur3}# 时运不济 活着受罪 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# your week, your month, or even your year #{\r}
+Dialogue: 0,0:01:29.02,0:01:32.98,chs&eng,,0000,0000,0000,,{\blur3}# 你我永不离弃 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# but I'll be there for you #{\r}
+Dialogue: 0,0:01:32.98,0:01:34.81,chs&eng,,0000,0000,0000,,{\blur3}# 纵有狂风暴雨 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# When the rain starts to pour #{\r}
+Dialogue: 0,0:01:34.81,0:01:37.93,chs&eng,,0000,0000,0000,,{\blur3}# 你我永不离弃 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# I'll be there for you #{\r}
+Dialogue: 0,0:01:37.93,0:01:39.77,chs&eng,,0000,0000,0000,,{\blur3}# 支持一如往昔 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# Like I've been there before #{\r}
+Dialogue: 0,0:01:39.77,0:01:42.78,chs&eng,,0000,0000,0000,,{\blur3}# 你我永不离弃 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# I'll be there for you #{\r}
+Dialogue: 0,0:01:42.78,0:01:46.44,chs&eng,,0000,0000,0000,,{\blur3}# 你我相偎相依 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# 'Cause you're there for me too #{\r}
+Dialogue: 0,0:01:53.78,0:01:56.24,chs&eng,,0000,0000,0000,,{\blur3}这是正式结果 根本没有好电影可看{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's official. There are no good movies.{\r}
+Dialogue: 0,0:01:56.40,0:01:58.99,chs&eng,,0000,0000,0000,,{\blur3}我们可以去看烂电影 在电影院里亲热{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So let's go to a bad one and make out.{\r}
+Dialogue: 0,0:02:03.74,0:02:08.08,chs&eng,,0000,0000,0000,,{\blur3}或许你们会希望我转过来 靠着我的背亲热{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Perhaps you would like me to turn like this so you can bunny-bump against my back?{\r}
+Dialogue: 0,0:02:09.87,0:02:10.87,chs&eng,,0000,0000,0000,,{\blur3}- 嘿   - 嘿{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey.     - Hey.{\r}
+Dialogue: 0,0:02:11.04,0:02:13.92,chs&eng,,0000,0000,0000,,{\blur3}- 兄弟 怎么了   - 或许你能告诉我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey, man. What's up?     - Maybe you can tell me.{\r}
+Dialogue: 0,0:02:14.17,0:02:17.88,chs&eng,,0000,0000,0000,,{\blur3}我的经纪人想知道为什么今天我没有去试镜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My agent would like to know why I didn't show up at my audition today...{\r}
+Dialogue: 0,0:02:18.05,0:02:21.93,chs&eng,,0000,0000,0000,,{\blur3}数周以来她首度帮我找到的好机会 为什么你没把留言给我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...the first good thing she gets me in weeks. How could you not give me the message?{\r}
+Dialogue: 0,0:02:22.10,0:02:24.51,chs&eng,,0000,0000,0000,,{\blur3}我可以告诉你 我很享受罪恶感{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll tell you, I do enjoy guilt...{\r}
+Dialogue: 0,0:02:25.06,0:02:26.81,chs&eng,,0000,0000,0000,,{\blur3}但那不是我干的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...but it wasn't me.{\r}
+Dialogue: 0,0:02:26.98,0:02:28.93,chs&eng,,0000,0000,0000,,{\blur3}对 就是他{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, it was. It was him. Uh-huh.{\r}
+Dialogue: 0,0:02:30.90,0:02:32.23,chs&eng,,0000,0000,0000,,{\blur3}好吧 是我干的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, it was me.{\r}
+Dialogue: 0,0:02:34.40,0:02:37.73,chs&eng,,0000,0000,0000,,{\blur3}- 为什么会是你   - 这真的很疯狂{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- How was it you?     - Well, it was all so crazy, you know?{\r}
+Dialogue: 0,0:02:37.99,0:02:40.99,chs&eng,,0000,0000,0000,,{\blur3}钱德躲在柜子里数到十 但他数到七的时候{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Chandler was in the closet counting to 10 and was up to seven...{\r}
+Dialogue: 0,0:02:41.16,0:02:43.16,chs&eng,,0000,0000,0000,,{\blur3}我还没有找到地方躲{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...and I hadn't found a place to hide yet.{\r}
+Dialogue: 0,0:02:44.49,0:02:48.95,chs&eng,,0000,0000,0000,,{\blur3}听着 我打算跟你说 我都写在手上 看吧 真的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look, I meant to tell you, and I wrote it all down on my hand. See? All of it.{\r}
+Dialogue: 0,0:02:49.41,0:02:51.25,chs&eng,,0000,0000,0000,,{\blur3}- 对 那的确是我的试镜   - 没错{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Yep, that's my audition.     - Yeah.{\r}
+Dialogue: 0,0:02:51.54,0:02:54.42,chs&eng,,0000,0000,0000,,{\blur3}看吧 这就是为什么我会四处放便条纸{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}See? Now, this is why I keep notepads everywhere.{\r}
+Dialogue: 0,0:02:54.59,0:02:57.50,chs&eng,,0000,0000,0000,,{\blur3}对 所以我们不找你一起玩{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yep. And that's why we don't invite you to play.{\r}
+Dialogue: 0,0:02:58.59,0:03:02.09,chs&eng,,0000,0000,0000,,{\blur3}那有什么好难过的 你可以改个时间去试镜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is the great tragedy here? Get yourself another appointment.{\r}
+Dialogue: 0,0:03:02.34,0:03:06.39,chs&eng,,0000,0000,0000,,{\blur3}伊斯特试过了 选角导演说我错失了机会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, Estelle tried. The casting director told her I missed my chance.{\r}
+Dialogue: 0,0:03:06.56,0:03:07.81,chs&eng,,0000,0000,0000,,{\blur3}那不公平{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, that is unfair.{\r}
+Dialogue: 0,0:03:07.97,0:03:10.64,chs&eng,,0000,0000,0000,,{\blur3}我打电话跟她说那是我的错{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll call her. I'll tell her it was totally my fault.{\r}
+Dialogue: 0,0:03:10.85,0:03:13.77,chs&eng,,0000,0000,0000,,{\blur3}你不能那么做 选角导演不跟朋友说话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You can't. The casting director doesn't talk to friends.{\r}
+Dialogue: 0,0:03:13.98,0:03:17.27,chs&eng,,0000,0000,0000,,{\blur3}- 她只跟经纪人谈   - 她一定过着悲惨的生活{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- She only talks to agents.     - What a sad little life she must lead.{\r}
+Dialogue: 0,0:03:18.78,0:03:20.78,chs&eng,,0000,0000,0000,,{\blur3}好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. Ooh.{\r}
+Dialogue: 0,0:03:20.95,0:03:24.57,chs&eng,,0000,0000,0000,,{\blur3}- 你在做什么   - 不 我知道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- What are you doing? What are you doing?     - No, I know, I know. Ooh.{\r}
+Dialogue: 0,0:03:25.07,0:03:28.33,chs&eng,,0000,0000,0000,,{\blur3}我是菲比•布非办公室的凯特琳{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi, this is Caitlin from Phoebe Buffay's office.{\r}
+Dialogue: 0,0:03:28.49,0:03:32.25,chs&eng,,0000,0000,0000,,{\blur3}安可以跟菲比说话吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Um, is, um, Anne there for Phoebe?{\r}
+Dialogue: 0,0:03:32.42,0:03:34.75,chs&eng,,0000,0000,0000,,{\blur3}她会知道是关于什么事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She'll know what it's about.{\r}
+Dialogue: 0,0:03:34.92,0:03:36.88,chs&eng,,0000,0000,0000,,{\blur3}快挂断…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hang up. Hang up right...{\r}
+Dialogue: 0,0:03:38.38,0:03:41.97,chs&eng,,0000,0000,0000,,{\blur3}安妮 听着 乔伊•崔比亚尼有个问题{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Annie? Hi. Listen, we've got a problem with Joey Tribbiani.{\r}
+Dialogue: 0,0:03:42.22,0:03:45.68,chs&eng,,0000,0000,0000,,{\blur3}显然他没去试镜 你是跟我办公室的哪个人联络的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Apparently, he missed his audition. Who did you speak to in my office?{\r}
+Dialogue: 0,0:03:45.97,0:03:48.26,chs&eng,,0000,0000,0000,,{\blur3}伊斯特 我不知道该怎么处理她{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Estelle? I don't know what I'm gonna do with her.{\r}
+Dialogue: 0,0:03:48.43,0:03:52.64,chs&eng,,0000,0000,0000,,{\blur3}就算你老公跑了 还烧掉房子 日子还是得过下去{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So your husband leaves and burns down the apartment. The world does not stop.{\r}
+Dialogue: 0,0:03:53.81,0:03:55.40,chs&eng,,0000,0000,0000,,{\blur3}有人跟我一样害怕吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is anybody else scared?{\r}
+Dialogue: 0,0:03:56.98,0:04:00.90,chs&eng,,0000,0000,0000,,{\blur3}如果乔伊无法试镜 那都是伊斯特的错 我不在乎{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If Joey loses this audition, then that is it for Estelle. I don't care.{\r}
+Dialogue: 0,0:04:01.90,0:04:04.57,chs&eng,,0000,0000,0000,,{\blur3}安妮 你太棒了 你何时能见他{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Annie, you are a doll. What time can you see him?{\r}
+Dialogue: 0,0:04:04.74,0:04:06.87,chs&eng,,0000,0000,0000,,{\blur3}我需要笔{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I need a pen. Pen.{\r}
+Dialogue: 0,0:04:12.66,0:04:16.58,chs&eng,,0000,0000,0000,,{\blur3}拿便条纸给她…快点{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get the woman a pad. Get the woman a pad. A pad! A pad!{\r}
+Dialogue: 0,0:04:16.75,0:04:19.42,chs&eng,,0000,0000,0000,,{\blur3}现在你要便条纸了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, now you want a pad.{\r}
+Dialogue: 0,0:04:22.76,0:04:24.05,chs&eng,,0000,0000,0000,,{\blur3}- 嘿   - 哈罗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey.     - Hello.{\r}
+Dialogue: 0,0:04:24.22,0:04:26.22,chs&eng,,0000,0000,0000,,{\blur3}我的儿子在哪里{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where's my boy?{\r}
+Dialogue: 0,0:04:26.39,0:04:28.51,chs&eng,,0000,0000,0000,,{\blur3}我儿子来了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here's my boy.{\r}
+Dialogue: 0,0:04:28.68,0:04:32.47,chs&eng,,0000,0000,0000,,{\blur3}他拿着他的洋娃娃{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And here's his Barbie.{\r}
+Dialogue: 0,0:04:36.56,0:04:39.77,chs&eng,,0000,0000,0000,,{\blur3}我儿子拿着洋娃娃做什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's, uh...? What's my boy doing with a Barbie?{\r}
+Dialogue: 0,0:04:40.86,0:04:43.53,chs&eng,,0000,0000,0000,,{\blur3}他自己在玩具店挑的 他很喜欢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He picked it out at the toy store himself. He loves it.{\r}
+Dialogue: 0,0:04:43.70,0:04:46.36,chs&eng,,0000,0000,0000,,{\blur3}他带着它四处跑 把它当成安抚毯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He carries it everywhere, like a security blanket.{\r}
+Dialogue: 0,0:04:46.53,0:04:49.57,chs&eng,,0000,0000,0000,,{\blur3}只是多了滑雪靴跟超酷的贝雷帽{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But with ski boots and a kicky beret.{\r}
+Dialogue: 0,0:04:50.49,0:04:52.20,chs&eng,,0000,0000,0000,,{\blur3}对 真的很酷{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, it's cute.{\r}
+Dialogue: 0,0:04:52.37,0:04:55.37,chs&eng,,0000,0000,0000,,{\blur3}为什么他要买洋娃娃{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why does he have it again?{\r}
+Dialogue: 0,0:04:55.58,0:04:58.54,chs&eng,,0000,0000,0000,,{\blur3}他买了洋娃娃 有什么大不了的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So he's got a doll. So what?{\r}
+Dialogue: 0,0:04:59.38,0:05:02.92,chs&eng,,0000,0000,0000,,{\blur3}除非你害怕他长大后会…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Unless you're afraid he's gonna grow up to be...{\r}
+Dialogue: 0,0:05:03.09,0:05:04.72,chs&eng,,0000,0000,0000,,{\blur3}加入演艺圈{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...in show business.{\r}
+Dialogue: 0,0:05:05.38,0:05:09.05,chs&eng,,0000,0000,0000,,{\blur3}这跟他由两个女人抚养长大的事实毫无关系吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This wouldn't have to do with the fact that he's being raised by two women?{\r}
+Dialogue: 0,0:05:11.10,0:05:16.06,chs&eng,,0000,0000,0000,,{\blur3}你们知道吗 没关系 如果你们不反对洋娃娃 我也是{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? It's fine. If you're okay with the Barbie thing, so am I.{\r}
+Dialogue: 0,0:05:16.23,0:05:19.52,chs&eng,,0000,0000,0000,,{\blur3}把洋娃娃交给爸爸 洋娃娃给我 好吧 要不要…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Give Daddy the Barbie. Give me the Barbie. Okay, how about...?{\r}
+Dialogue: 0,0:05:19.73,0:05:22.07,chs&eng,,0000,0000,0000,,{\blur3}你不想玩怪兽卡车吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't you wanna play with a monster truck?{\r}
+Dialogue: 0,0:05:24.15,0:05:25.40,chs&eng,,0000,0000,0000,,{\blur3}不要吗 好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No? Okay.{\r}
+Dialogue: 0,0:05:25.57,0:05:28.32,chs&eng,,0000,0000,0000,,{\blur3}要不要玩恐龙战士{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ooh, ooh. How about a Dino-Soldier?{\r}
+Dialogue: 0,0:05:34.08,0:05:35.50,chs&eng,,0000,0000,0000,,{\blur3}罗斯 你太可悲了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You are so pathetic.{\r}
+Dialogue: 0,0:05:35.66,0:05:39.12,chs&eng,,0000,0000,0000,,{\blur3}为什么你儿子不能玩洋娃娃{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why can't your son just play with his doll?{\r}
+Dialogue: 0,0:05:45.42,0:05:47.09,chs&eng,,0000,0000,0000,,{\blur3}我得去上班了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I gotta go to work.{\r}
+Dialogue: 0,0:05:48.76,0:05:50.47,chs&eng,,0000,0000,0000,,{\blur3}谁看到我左边的咪咪了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Has anybody seen my left boob?{\r}
+Dialogue: 0,0:05:52.47,0:05:54.10,chs&eng,,0000,0000,0000,,{\blur3}我喜欢那部电影{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I loved that movie.{\r}
+Dialogue: 0,0:05:58.27,0:06:00.27,chs&eng,,0000,0000,0000,,{\blur3}原来在这里 乔伊 你在做什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here it is. Joey, what are you doing?{\r}
+Dialogue: 0,0:06:01.06,0:06:03.15,chs&eng,,0000,0000,0000,,{\blur3}对不起 感觉太舒服了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry. It just felt nice.{\r}
+Dialogue: 0,0:06:06.28,0:06:08.53,chs&eng,,0000,0000,0000,,{\blur3}乔伊 快接电话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Joe. Joe. Answer the phone.{\r}
+Dialogue: 0,0:06:08.70,0:06:12.28,chs&eng,,0000,0000,0000,,{\blur3}我只剩一只手 你得帮我服务 帮我拿毛衣过来{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I only got one arm. You should do stuff for me. Get me a sweater.{\r}
+Dialogue: 0,0:06:13.79,0:06:15.45,chs&eng,,0000,0000,0000,,{\blur3}快点 是珍妮丝打来的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just do it. It's Janice.{\r}
+Dialogue: 0,0:06:15.62,0:06:17.62,chs&eng,,0000,0000,0000,,{\blur3}我一接 今晚就得跟她见面{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And if I get it, I'm gonna have to see her tonight.{\r}
+Dialogue: 0,0:06:20.29,0:06:22.67,chs&eng,,0000,0000,0000,,{\blur3}太棒了 今晚我得跟她见面{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, that's great. I'm gonna have to see her tonight.{\r}
+Dialogue: 0,0:06:22.84,0:06:25.13,chs&eng,,0000,0000,0000,,{\blur3}为什么你不想见珍妮丝{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why don't you wanna see Janice?{\r}
+Dialogue: 0,0:06:25.30,0:06:27.55,chs&eng,,0000,0000,0000,,{\blur3}昨天吃晚餐时 一上菜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Last night at dinner, when the meals came...{\r}
+Dialogue: 0,0:06:27.72,0:06:32.47,chs&eng,,0000,0000,0000,,{\blur3}她将她点的柠檬香鸡排一半放进我盘子里 挖走我的番茄{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...she put half her chicken piccata on my plate and took all my tomatoes.{\r}
+Dialogue: 0,0:06:34.39,0:06:36.52,chs&eng,,0000,0000,0000,,{\blur3}那真的很糟糕 因为…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And that's bad...{\r}
+Dialogue: 0,0:06:36.68,0:06:38.98,chs&eng,,0000,0000,0000,,{\blur3}你讨厌柠檬香鸡排{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...because you hate chicken piccata?{\r}
+Dialogue: 0,0:06:39.64,0:06:40.81,chs&eng,,0000,0000,0000,,{\blur3}不{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No.{\r}
+Dialogue: 0,0:06:40.98,0:06:45.36,chs&eng,,0000,0000,0000,,{\blur3}你不想分享番茄 番茄对你来说很重要{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You didn't wanna share your tomatoes. Tomatoes are very important to you.{\r}
+Dialogue: 0,0:06:45.53,0:06:47.48,chs&eng,,0000,0000,0000,,{\blur3}不是 是突然间我们变成这样的情侣{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All of a sudden, we were this couple.{\r}
+Dialogue: 0,0:06:47.69,0:06:50.32,chs&eng,,0000,0000,0000,,{\blur3}我的脑海里警铃大响{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And this alarm started going off in my head.{\r}
+Dialogue: 0,0:06:50.49,0:06:52.66,chs&eng,,0000,0000,0000,,{\blur3}为了你的人生 快跑 快离开这栋大楼{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"Run for your life! Get out of the building!"{\r}
+Dialogue: 0,0:06:53.66,0:06:55.91,chs&eng,,0000,0000,0000,,{\blur3}男人太难以置信了 珍妮丝以为她给了你鸡肉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ugh. Men are unbelievable. Janice thought she was giving you chicken.{\r}
+Dialogue: 0,0:06:56.16,0:06:57.70,chs&eng,,0000,0000,0000,,{\blur3}你们到底是怎么了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is it with you people?{\r}
+Dialogue: 0,0:06:58.00,0:07:00.91,chs&eng,,0000,0000,0000,,{\blur3}你们一有感觉就得逃跑{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The minute you feel something, you have to run away?{\r}
+Dialogue: 0,0:07:01.42,0:07:03.33,chs&eng,,0000,0000,0000,,{\blur3}我知道 那…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know. That...{\r}
+Dialogue: 0,0:07:04.67,0:07:09.13,chs&eng,,0000,0000,0000,,{\blur3}所以今晚我不想去 我担心我会说出蠢话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's why I don't wanna go tonight. I'm afraid I'm gonna say something stupid.{\r}
+Dialogue: 0,0:07:09.34,0:07:12.18,chs&eng,,0000,0000,0000,,{\blur3}你是说男人会装出冷淡无情{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. You mean that guy thing where you act mean and distant...{\r}
+Dialogue: 0,0:07:12.34,0:07:14.55,chs&eng,,0000,0000,0000,,{\blur3}逼我们跟你们分手{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...until you get us to break up with you?{\r}
+Dialogue: 0,0:07:14.72,0:07:15.93,chs&eng,,0000,0000,0000,,{\blur3}你们都知道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, you know about that?{\r}
+Dialogue: 0,0:07:17.85,0:07:19.52,chs&eng,,0000,0000,0000,,{\blur3}我怎么做我要过这一关{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What do I do? I wanna get past this.{\r}
+Dialogue: 0,0:07:19.68,0:07:22.02,chs&eng,,0000,0000,0000,,{\blur3}我不要害怕承诺{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't wanna be afraid of the commitment thing.{\r}
+Dialogue: 0,0:07:22.19,0:07:25.69,chs&eng,,0000,0000,0000,,{\blur3}我要通过隧道 直奔另一头{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I wanna go through the tunnel to the other side.{\r}
+Dialogue: 0,0:07:26.69,0:07:29.94,chs&eng,,0000,0000,0000,,{\blur3}在那里你不会害怕承诺{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where there's no fear of commitment.{\r}
+Dialogue: 0,0:07:30.11,0:07:32.07,chs&eng,,0000,0000,0000,,{\blur3}大家有…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do we have any...?{\r}
+Dialogue: 0,0:07:36.37,0:07:37.91,chs&eng,,0000,0000,0000,,{\blur3}大家有点子吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do we have any thoughts here?{\r}
+Dialogue: 0,0:07:38.45,0:07:40.50,chs&eng,,0000,0000,0000,,{\blur3}我不曾通过隧道 因为…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've never been through the tunnel myself because...{\r}
+Dialogue: 0,0:07:40.66,0:07:43.33,chs&eng,,0000,0000,0000,,{\blur3}因为车上只能有一个女孩{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...you're not allowed through with more than one girl in the car.{\r}
+Dialogue: 0,0:07:46.88,0:07:51.17,chs&eng,,0000,0000,0000,,{\blur3}但我觉得这跟其他事一样 面对恐惧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But it seems to me it's pretty much like anything else. Face your fear.{\r}
+Dialogue: 0,0:07:51.38,0:07:54.38,chs&eng,,0000,0000,0000,,{\blur3}怕高的人就爬到大楼顶楼{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have a fear of heights? Go to the top of the building.{\r}
+Dialogue: 0,0:07:54.55,0:07:56.55,chs&eng,,0000,0000,0000,,{\blur3}怕虫子的人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're afraid of bugs.{\r}
+Dialogue: 0,0:07:57.18,0:07:58.43,chs&eng,,0000,0000,0000,,{\blur3}去抓只虫子来{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get a bug.{\r}
+Dialogue: 0,0:07:59.64,0:08:01.06,chs&eng,,0000,0000,0000,,{\blur3}对吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Right?{\r}
+Dialogue: 0,0:08:01.23,0:08:02.98,chs&eng,,0000,0000,0000,,{\blur3}以现在的情况 你害怕承诺{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have a fear of commitment.{\r}
+Dialogue: 0,0:08:03.23,0:08:07.69,chs&eng,,0000,0000,0000,,{\blur3}我建议你乖乖出现 成为史上最爱承诺的男人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So I say you go in there and you be the most committed guy there ever was.{\r}
+Dialogue: 0,0:08:07.86,0:08:10.11,chs&eng,,0000,0000,0000,,{\blur3}没错 那真的很有道理{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Amazingly, that makes sense.{\r}
+Dialogue: 0,0:08:10.99,0:08:14.07,chs&eng,,0000,0000,0000,,{\blur3}- 你们真的那么想   - 对 冲啊 兄弟{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Do you think?     - Oh, yeah. Go for it, man.{\r}
+Dialogue: 0,0:08:14.24,0:08:15.41,chs&eng,,0000,0000,0000,,{\blur3}从高处跳下{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Jump off the high dive.{\r}
+Dialogue: 0,0:08:15.57,0:08:19.24,chs&eng,,0000,0000,0000,,{\blur3}盯着枪管 逆风尿尿{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stare down the barrel of the gun. Pee into the wind.{\r}
+Dialogue: 0,0:08:21.00,0:08:23.46,chs&eng,,0000,0000,0000,,{\blur3}乔伊 如果我得盯着枪管看{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Joe, if I'm staring down the barrel of a gun...{\r}
+Dialogue: 0,0:08:23.62,0:08:26.71,chs&eng,,0000,0000,0000,,{\blur3}我会尿得到处都是{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...I'm gonna be pretty much peeing every which way.{\r}
+Dialogue: 0,0:08:28.75,0:08:31.21,chs&eng,,0000,0000,0000,,{\blur3}（中央咖啡厅）{\r}
+Dialogue: 0,0:08:31.96,0:08:33.59,chs&eng,,0000,0000,0000,,{\blur3}是你今天早上的试镜结果{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ooh, it's your audition from this morning.{\r}
+Dialogue: 0,0:08:34.97,0:08:36.01,chs&eng,,0000,0000,0000,,{\blur3}我能打一下电话吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can I use the phone?{\r}
+Dialogue: 0,0:08:36.18,0:08:39.80,chs&eng,,0000,0000,0000,,{\blur3}当然 那是电话的功能 供紧急事件跟假经纪人使用{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sure, that's what it's there for. Emergencies and, uh, pretend agents.{\r}
+Dialogue: 0,0:08:41.81,0:08:43.81,chs&eng,,0000,0000,0000,,{\blur3}加油 宝贝{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, baby. Come on.{\r}
+Dialogue: 0,0:08:45.44,0:08:48.44,chs&eng,,0000,0000,0000,,{\blur3}嗨 我是菲比•布非 请问哪位找{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi. I have Phoebe Buffay returning a page.{\r}
+Dialogue: 0,0:08:48.61,0:08:52.19,chs&eng,,0000,0000,0000,,{\blur3}好的 她在车里 我帮你接过去{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, well, she's in her car. I'll have to patch you through.{\r}
+Dialogue: 0,0:08:52.36,0:08:54.03,chs&eng,,0000,0000,0000,,{\blur3}非常聪明{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Very nice touch.{\r}
+Dialogue: 0,0:08:55.45,0:08:56.66,chs&eng,,0000,0000,0000,,{\blur3}好的 请说{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, go ahead.{\r}
+Dialogue: 0,0:08:58.24,0:09:00.37,chs&eng,,0000,0000,0000,,{\blur3}快说…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Talk, talk, talk.{\r}
+Dialogue: 0,0:09:00.54,0:09:02.33,chs&eng,,0000,0000,0000,,{\blur3}嗨 安妮{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi, Annie?{\r}
+Dialogue: 0,0:09:02.50,0:09:03.83,chs&eng,,0000,0000,0000,,{\blur3}太棒了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Fantastic.{\r}
+Dialogue: 0,0:09:04.00,0:09:06.33,chs&eng,,0000,0000,0000,,{\blur3}- 你被录取了   - 你被录取了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- You got it.     - Oh! You got it.{\r}
+Dialogue: 0,0:09:06.79,0:09:09.29,chs&eng,,0000,0000,0000,,{\blur3}你问我他是照薪资标准计薪吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Um, will he work for scale, you ask me?{\r}
+Dialogue: 0,0:09:09.46,0:09:10.67,chs&eng,,0000,0000,0000,,{\blur3}我不知道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I don't know about that.{\r}
+Dialogue: 0,0:09:10.84,0:09:13.46,chs&eng,,0000,0000,0000,,{\blur3}我要他那么做 他就得那么做{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Except that l do and he will.{\r}
+Dialogue: 0,0:09:14.17,0:09:16.55,chs&eng,,0000,0000,0000,,{\blur3}太棒了 你真是个甜心{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Great. Oh, you are such a sweetheart.{\r}
+Dialogue: 0,0:09:16.76,0:09:19.14,chs&eng,,0000,0000,0000,,{\blur3}我很乐意跟你共进午餐{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I would love to have lunch with you.{\r}
+Dialogue: 0,0:09:19.30,0:09:22.14,chs&eng,,0000,0000,0000,,{\blur3}我们何不约下…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How about we have lunch next...?{\r}
+Dialogue: 0,0:09:22.31,0:09:24.39,chs&eng,,0000,0000,0000,,{\blur3}我进隧道了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oop, went through a tunnel. Ha, ha.{\r}
+Dialogue: 0,0:09:24.56,0:09:25.68,chs&eng,,0000,0000,0000,,{\blur3}不可思议{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Unbelievable.{\r}
+Dialogue: 0,0:09:25.85,0:09:27.89,chs&eng,,0000,0000,0000,,{\blur3}太谢谢你了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, thank you so much.{\r}
+Dialogue: 0,0:09:28.06,0:09:32.69,chs&eng,,0000,0000,0000,,{\blur3}这真的很好玩 我是说我没用过汽车电话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It was really fun. I mean, I've never talked on a car phone before.{\r}
+Dialogue: 0,0:09:32.86,0:09:36.11,chs&eng,,0000,0000,0000,,{\blur3}你真的太棒了 你能帮我一个大忙吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. You are so amazing. Could you do me this huge favor?{\r}
+Dialogue: 0,0:09:36.28,0:09:39.78,chs&eng,,0000,0000,0000,,{\blur3}我要参加另一场试镜 但伊斯特始终没办法帮我安排{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There's this one other audition I want, and Estelle couldn't get me in.{\r}
+Dialogue: 0,0:09:39.99,0:09:42.49,chs&eng,,0000,0000,0000,,{\blur3}我不知道 一次还蛮好玩的 可是…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Uh, I don't know. It was fun one time, but...{\r}
+Dialogue: 0,0:09:42.66,0:09:45.16,chs&eng,,0000,0000,0000,,{\blur3}别这样 拜托 再一次就好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, please? It would just be this one more.{\r}
+Dialogue: 0,0:09:45.33,0:09:46.83,chs&eng,,0000,0000,0000,,{\blur3}事实上是两次{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, actually it's two.{\r}
+Dialogue: 0,0:09:47.00,0:09:48.16,chs&eng,,0000,0000,0000,,{\blur3}- 两次   - 对{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Two?     - Yeah.{\r}
+Dialogue: 0,0:09:48.33,0:09:49.87,chs&eng,,0000,0000,0000,,{\blur3}应该是三次{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, really it's three.{\r}
+Dialogue: 0,0:09:50.33,0:09:54.09,chs&eng,,0000,0000,0000,,{\blur3}拜托 你真的很厉害 我爱你{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please? You're so good at it. I love you.{\r}
+Dialogue: 0,0:09:54.84,0:09:56.76,chs&eng,,0000,0000,0000,,{\blur3}好吧 就三次 对吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. But just these three, right?{\r}
+Dialogue: 0,0:09:56.92,0:09:58.22,chs&eng,,0000,0000,0000,,{\blur3}不 是四次{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, it's four.{\r}
+Dialogue: 0,0:10:02.68,0:10:04.85,chs&eng,,0000,0000,0000,,{\blur3}为什么今晚你想在家里吃饭{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So how come you wanted to eat in tonight?{\r}
+Dialogue: 0,0:10:05.60,0:10:07.73,chs&eng,,0000,0000,0000,,{\blur3}因为我要…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Because I wanted...{\r}
+Dialogue: 0,0:10:07.89,0:10:09.52,chs&eng,,0000,0000,0000,,{\blur3}送你这个{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...to give you this.{\r}
+Dialogue: 0,0:10:09.69,0:10:14.44,chs&eng,,0000,0000,0000,,{\blur3}你真的太窝心了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. Are you a puppy!{\r}
+Dialogue: 0,0:10:18.20,0:10:19.57,chs&eng,,0000,0000,0000,,{\blur3}壁纸贴{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Contact paper.{\r}
+Dialogue: 0,0:10:21.03,0:10:24.03,chs&eng,,0000,0000,0000,,{\blur3}跟你上床的人送你壁纸贴时{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You never know what to say when someone you're sleeping with...{\r}
+Dialogue: 0,0:10:24.20,0:10:25.95,chs&eng,,0000,0000,0000,,{\blur3}你会不知道该说什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...gives you contact paper. Ha, ha.{\r}
+Dialogue: 0,0:10:26.70,0:10:30.92,chs&eng,,0000,0000,0000,,{\blur3}等一下 还有一样礼物 看吧 壁纸贴少不了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait, there's more. See, the contact paper is to go...{\r}
+Dialogue: 0,0:10:31.08,0:10:33.96,chs&eng,,0000,0000,0000,,{\blur3}全新抽屉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...in your brand-new drawer.{\r}
+Dialogue: 0,0:10:36.05,0:10:38.38,chs&eng,,0000,0000,0000,,{\blur3}听着 这是我柜子的抽屉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}See, the drawer actually goes in my dresser.{\r}
+Dialogue: 0,0:10:38.59,0:10:42.09,chs&eng,,0000,0000,0000,,{\blur3}你不必这么做{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. You didn't have to do this.{\r}
+Dialogue: 0,0:10:42.60,0:10:43.76,chs&eng,,0000,0000,0000,,{\blur3}我一定要{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, I did.{\r}
+Dialogue: 0,0:10:43.93,0:10:46.47,chs&eng,,0000,0000,0000,,{\blur3}我一定要 因为你是我的女朋友{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, I did. Because you're my girlfriend...{\r}
+Dialogue: 0,0:10:46.64,0:10:50.06,chs&eng,,0000,0000,0000,,{\blur3}女朋友就该得到那些东西{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...and that's what girlfriends should get.{\r}
+Dialogue: 0,0:10:50.69,0:10:54.06,chs&eng,,0000,0000,0000,,{\blur3}我不知道该怎么说{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. Well, I gotta buy a vowel...{\r}
+Dialogue: 0,0:10:55.73,0:10:59.44,chs&eng,,0000,0000,0000,,{\blur3}因为…天啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...because, oh, my God. Mwah.{\r}
+Dialogue: 0,0:10:59.61,0:11:01.78,chs&eng,,0000,0000,0000,,{\blur3}谁想得到有一天{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who would've thought that someday...{\r}
+Dialogue: 0,0:11:01.99,0:11:05.08,chs&eng,,0000,0000,0000,,{\blur3}钱德宾会送我抽屉呢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...Chandler Bing would buy me a drawer?{\r}
+Dialogue: 0,0:11:06.45,0:11:08.45,chs&eng,,0000,0000,0000,,{\blur3}我也想不到{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, not me.{\r}
+Dialogue: 0,0:11:09.46,0:11:13.46,chs&eng,,0000,0000,0000,,{\blur3}但事实就是那样 还有一件事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But that's what's happened. And, uh, there's more.{\r}
+Dialogue: 0,0:11:14.75,0:11:16.42,chs&eng,,0000,0000,0000,,{\blur3}我们该去旅行{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We should take a trip.{\r}
+Dialogue: 0,0:11:17.09,0:11:18.09,chs&eng,,0000,0000,0000,,{\blur3}是吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We should?{\r}
+Dialogue: 0,0:11:18.26,0:11:21.09,chs&eng,,0000,0000,0000,,{\blur3}对 我们是情侣 情侣都会那么做{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yup. We're a couple, and that's what couples do.{\r}
+Dialogue: 0,0:11:21.76,0:11:23.80,chs&eng,,0000,0000,0000,,{\blur3}我要跟你爸妈见面{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And I wanna meet your parents.{\r}
+Dialogue: 0,0:11:23.97,0:11:26.81,chs&eng,,0000,0000,0000,,{\blur3}我们该跟你爸妈一起旅行{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We should take a trip with your parents.{\r}
+Dialogue: 0,0:11:30.94,0:11:36.31,chs&eng,,0000,0000,0000,,{\blur3}我想我们不必那么做 因为你吓到我了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't think we need to, because you're tripping me out right now.{\r}
+Dialogue: 0,0:11:36.48,0:11:38.73,chs&eng,,0000,0000,0000,,{\blur3}- 你没事吧   - 我很好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Are you okay?     - No, I am.{\r}
+Dialogue: 0,0:11:38.90,0:11:41.32,chs&eng,,0000,0000,0000,,{\blur3}我好得很 这真的太棒了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ha, ha. I actually am. This is amazing.{\r}
+Dialogue: 0,0:11:41.53,0:11:44.78,chs&eng,,0000,0000,0000,,{\blur3}我一辈子都害怕这么做{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My entire life, I have feared this place.{\r}
+Dialogue: 0,0:11:45.03,0:11:47.74,chs&eng,,0000,0000,0000,,{\blur3}现在我做了 这有什么大不了的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And now that I'm here, it's like, what was the big deal?{\r}
+Dialogue: 0,0:11:47.91,0:11:51.79,chs&eng,,0000,0000,0000,,{\blur3}或许我可以说"我们一起住吧" 我也能接受{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I could probably say, "Let's move in together," and I'd be okay.{\r}
+Dialogue: 0,0:11:52.29,0:11:54.62,chs&eng,,0000,0000,0000,,{\blur3}或许你要我们住在一起{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You probably want us to move in together?{\r}
+Dialogue: 0,0:11:56.00,0:11:59.05,chs&eng,,0000,0000,0000,,{\blur3}- 我不害怕   - 对 我害怕得要命{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- It doesn't scare me.     - Yeah, well it scares me.{\r}
+Dialogue: 0,0:11:59.21,0:12:03.13,chs&eng,,0000,0000,0000,,{\blur3}我还没有办好离婚手续 你邀请我来吃意大利面{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm not even divorced yet. You just invited me over here for pasta...{\r}
+Dialogue: 0,0:12:03.30,0:12:06.30,chs&eng,,0000,0000,0000,,{\blur3}突然间你说我们得住在一起{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...and all of a sudden you're talking about moving in together.{\r}
+Dialogue: 0,0:12:06.47,0:12:08.56,chs&eng,,0000,0000,0000,,{\blur3}我甚至一点都不饿{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And I wasn't even that hungry.{\r}
+Dialogue: 0,0:12:08.72,0:12:12.68,chs&eng,,0000,0000,0000,,{\blur3}你知道吗 已经很晚了 我该…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? It's getting really late, and I should just, um...{\r}
+Dialogue: 0,0:12:12.85,0:12:15.85,chs&eng,,0000,0000,0000,,{\blur3}别走 我吓到你了 我说太多了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't go. I've scared you. I've said too much.{\r}
+Dialogue: 0,0:12:16.02,0:12:19.07,chs&eng,,0000,0000,0000,,{\blur3}我无药可救又绝望 渴求着爱情{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm hopeless and awkward and desperate for love.{\r}
+Dialogue: 0,0:12:26.20,0:12:27.99,chs&eng,,0000,0000,0000,,{\blur3}嘿 珍妮丝 是我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, Janice, it's me.{\r}
+Dialogue: 0,0:12:29.49,0:12:33.41,chs&eng,,0000,0000,0000,,{\blur3}我要预先跟你道歉 因为我要跑到街上追你{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I wanted to apologize in advance for having chased you down the street.{\r}
+Dialogue: 0,0:12:33.58,0:12:35.37,chs&eng,,0000,0000,0000,,{\blur3}再见{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Bye-bye.{\r}
+Dialogue: 0,0:12:40.34,0:12:42.63,chs&eng,,0000,0000,0000,,{\blur3}拿去吧 甜心 这应该会有帮助{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here you go, honey. This will help.{\r}
+Dialogue: 0,0:12:43.47,0:12:45.47,chs&eng,,0000,0000,0000,,{\blur3}我终于追上她 她说{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So I catch up to her and she says...{\r}
+Dialogue: 0,0:12:45.63,0:12:48.09,chs&eng,,0000,0000,0000,,{\blur3}这段关系发展得太快 我们应该放慢脚步{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...this relationship's going too fast and we have to slow down.{\r}
+Dialogue: 0,0:12:48.26,0:12:51.01,chs&eng,,0000,0000,0000,,{\blur3}那不是件好事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}gh. That is never good.{\r}
+Dialogue: 0,0:12:51.22,0:12:52.97,chs&eng,,0000,0000,0000,,{\blur3}然后她说我…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Then I got all...{\r}
+Dialogue: 0,0:12:53.52,0:12:55.69,chs&eng,,0000,0000,0000,,{\blur3}太黏人 太依赖了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...needy and clingy.{\r}
+Dialogue: 0,0:12:55.85,0:12:59.61,chs&eng,,0000,0000,0000,,{\blur3}等一下 或许没那么糟糕 你们是怎么分开的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Now, wait a minute. Maybe it's not so bad. How did you leave it?{\r}
+Dialogue: 0,0:12:59.77,0:13:00.82,chs&eng,,0000,0000,0000,,{\blur3}她说她会打电话给我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She said she'd call me.{\r}
+Dialogue: 0,0:13:04.15,0:13:05.24,chs&eng,,0000,0000,0000,,{\blur3}天啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, God.{\r}
+Dialogue: 0,0:13:05.40,0:13:08.74,chs&eng,,0000,0000,0000,,{\blur3}欢迎光临我们这边的隧道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ugh. Welcome to our side of the tunnel.{\r}
+Dialogue: 0,0:13:09.53,0:13:11.83,chs&eng,,0000,0000,0000,,{\blur3}对了 这个冰淇淋好难吃的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This ice cream tastes like crap, by the way.{\r}
+Dialogue: 0,0:13:12.04,0:13:15.62,chs&eng,,0000,0000,0000,,{\blur3}对 那是低卡脱脂豆浆冰淇淋{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, well, it's that low-cal, nondairy, soy-milk junk.{\r}
+Dialogue: 0,0:13:15.79,0:13:18.75,chs&eng,,0000,0000,0000,,{\blur3}我们只在无药可救时 才会吃真的冰淇淋{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We save the real stuff for the truly terminal cases.{\r}
+Dialogue: 0,0:13:19.54,0:13:23.17,chs&eng,,0000,0000,0000,,{\blur3}当你常常无药可救时 就得改吃低脂冰淇淋{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}When you start getting screwed over all the time, you gotta switch to low-fat.{\r}
+Dialogue: 0,0:13:23.34,0:13:25.26,chs&eng,,0000,0000,0000,,{\blur3}没错{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, you do.{\r}
+Dialogue: 0,0:13:25.42,0:13:27.68,chs&eng,,0000,0000,0000,,{\blur3}你们不觉得我无药可救{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So you don't think I'm terminal?{\r}
+Dialogue: 0,0:13:27.84,0:13:32.10,chs&eng,,0000,0000,0000,,{\blur3}当然 你不是无药可救 我们只是得做些损害控管{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, no, not at all. You're not terminal. We just need some damage control.{\r}
+Dialogue: 0,0:13:32.26,0:13:34.14,chs&eng,,0000,0000,0000,,{\blur3}好吧 我该打电话给她吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. Okay. So should I call her?{\r}
+Dialogue: 0,0:13:34.31,0:13:36.06,chs&eng,,0000,0000,0000,,{\blur3}不{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No.{\r}
+Dialogue: 0,0:13:37.06,0:13:40.73,chs&eng,,0000,0000,0000,,{\blur3}现在是关键时刻 如果你想打电话给她{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's a critical time. If you feel yourself reaching for that phone...{\r}
+Dialogue: 0,0:13:40.90,0:13:43.40,chs&eng,,0000,0000,0000,,{\blur3}你得去血拼或泡个澡{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...you go shopping, you get your butt in a bubble bath.{\r}
+Dialogue: 0,0:13:43.57,0:13:47.15,chs&eng,,0000,0000,0000,,{\blur3}如果你要她回来 就得开始表现出高傲的样子{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If you want her back, you have got to start acting aloof.{\r}
+Dialogue: 0,0:13:47.40,0:13:49.41,chs&eng,,0000,0000,0000,,{\blur3}她得知道你一点都不黏人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She has to know you're not needy.{\r}
+Dialogue: 0,0:13:49.57,0:13:51.37,chs&eng,,0000,0000,0000,,{\blur3}你要做的是{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So, what you have to do is...{\r}
+Dialogue: 0,0:13:51.53,0:13:54.49,chs&eng,,0000,0000,0000,,{\blur3}就是故意跟她巧遇{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...you have to accidentally run into her on purpose...{\r}
+Dialogue: 0,0:13:54.66,0:13:56.50,chs&eng,,0000,0000,0000,,{\blur3}装出高仿的模样{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...and then act aloof.{\r}
+Dialogue: 0,0:13:58.17,0:14:00.75,chs&eng,,0000,0000,0000,,{\blur3}那样我就不会失去她{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So I'm not gonna lose her?{\r}
+Dialogue: 0,0:14:00.92,0:14:03.50,chs&eng,,0000,0000,0000,,{\blur3}甜心 你不是个失败者{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, honey, you're not a total loser.{\r}
+Dialogue: 0,0:14:07.09,0:14:09.26,chs&eng,,0000,0000,0000,,{\blur3}我是问我就不会失去她了吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I said, so I'm not gonna lose her?{\r}
+Dialogue: 0,0:14:17.10,0:14:18.18,chs&eng,,0000,0000,0000,,{\blur3}看看是谁来了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Guess who's here.{\r}
+Dialogue: 0,0:14:18.44,0:14:21.40,chs&eng,,0000,0000,0000,,{\blur3}他是玩具王国的超级硬汉 小班{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's the toughest guy in Toyland, Ben.{\r}
+Dialogue: 0,0:14:21.61,0:14:25.65,chs&eng,,0000,0000,0000,,{\blur3}真正的美国英雄 我是特种部队{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Real American hero I'm G.I. Joe{\r}
+Dialogue: 0,0:14:25.82,0:14:28.32,chs&eng,,0000,0000,0000,,{\blur3}放下洋娃娃…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Drop the Barbie. Drop the Barbie.{\r}
+Dialogue: 0,0:14:28.53,0:14:32.12,chs&eng,,0000,0000,0000,,{\blur3}特种部队 你真的觉得他会玩吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}G.I. Joe? You really think he's gonna fall for that?{\r}
+Dialogue: 0,0:14:33.37,0:14:36.74,chs&eng,,0000,0000,0000,,{\blur3}特种部队 酷啊 我能玩吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}G.I. Joe? Cool. Can I play?{\r}
+Dialogue: 0,0:14:38.46,0:14:42.25,chs&eng,,0000,0000,0000,,{\blur3}看吧 小班 他是保护美国海外石油利益的玩具{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look, Ben. It's a toy that protects U.S. Oil interests overseas.{\r}
+Dialogue: 0,0:14:42.42,0:14:44.50,chs&eng,,0000,0000,0000,,{\blur3}加油 特种部队{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Go, Joe!{\r}
+Dialogue: 0,0:14:45.67,0:14:46.96,chs&eng,,0000,0000,0000,,{\blur3}哈罗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello. Oh.{\r}
+Dialogue: 0,0:14:47.13,0:14:49.38,chs&eng,,0000,0000,0000,,{\blur3}- 菲比 你来了  - 不 我走错门了 抱歉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Phoebe, there you are.     - No, it's not. Sorry.{\r}
+Dialogue: 0,0:14:49.55,0:14:52.30,chs&eng,,0000,0000,0000,,{\blur3}菲比 等一下{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But, Phoebe, wait, wait. Phoebe. Phoebe.{\r}
+Dialogue: 0,0:14:52.47,0:14:55.60,chs&eng,,0000,0000,0000,,{\blur3}乔伊 好吧 你穿那条裤子{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, Joey. Oh, okay. See, I didn't recognize you...{\r}
+Dialogue: 0,0:14:55.76,0:14:57.35,chs&eng,,0000,0000,0000,,{\blur3}害我都认不出来了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...in those pants.{\r}
+Dialogue: 0,0:14:59.23,0:15:01.64,chs&eng,,0000,0000,0000,,{\blur3}听着 我试镜的那部电视电影 有消息了吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That TV movie I went in for, did you hear anything?{\r}
+Dialogue: 0,0:15:01.90,0:15:03.61,chs&eng,,0000,0000,0000,,{\blur3}我想我有机会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I think I got a shot at it.{\r}
+Dialogue: 0,0:15:03.77,0:15:05.52,chs&eng,,0000,0000,0000,,{\blur3}对 他们打电话来 你没被录取{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, they called. You didn't get it.{\r}
+Dialogue: 0,0:15:06.90,0:15:10.61,chs&eng,,0000,0000,0000,,{\blur3}好吗你没被录取 抱歉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay? I mean, you didn't get it. I'm sorry. I'm sorry.{\r}
+Dialogue: 0,0:15:10.78,0:15:13.28,chs&eng,,0000,0000,0000,,{\blur3}没关系 这种事常发生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's okay. These things happen.{\r}
+Dialogue: 0,0:15:13.45,0:15:16.28,chs&eng,,0000,0000,0000,,{\blur3}但不该是这样的 你知道吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But they shouldn't happen. You know what?{\r}
+Dialogue: 0,0:15:16.49,0:15:18.62,chs&eng,,0000,0000,0000,,{\blur3}你从事一个非常糟糕的行业{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're in a terrible, terrible business.{\r}
+Dialogue: 0,0:15:19.87,0:15:23.42,chs&eng,,0000,0000,0000,,{\blur3}我不想害你露出那种表情{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't wanna be the person who makes your face look like that. Ugh.{\r}
+Dialogue: 0,0:15:23.63,0:15:26.42,chs&eng,,0000,0000,0000,,{\blur3}我没事 看吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm okay. See?{\r}
+Dialogue: 0,0:15:27.25,0:15:29.84,chs&eng,,0000,0000,0000,,{\blur3}现在你既悲伤又可怕{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Now you're sad and creepy.{\r}
+Dialogue: 0,0:15:30.38,0:15:32.63,chs&eng,,0000,0000,0000,,{\blur3}你知道吗 对不起 我不干了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? I'm sorry. I quit, okay?{\r}
+Dialogue: 0,0:15:32.80,0:15:36.47,chs&eng,,0000,0000,0000,,{\blur3}不 你不能不干了 你是我最棒的经纪人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no, you can't quit. You're the best agent I ever had.{\r}
+Dialogue: 0,0:15:36.68,0:15:40.18,chs&eng,,0000,0000,0000,,{\blur3}听着 当演员你一定会被拒绝 你不能把它视为人身攻击{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look, rejection is part of being an actor. You can't take it personal.{\r}
+Dialogue: 0,0:15:40.43,0:15:43.42,chs&eng,,0000,0000,0000,,{\blur3}这不是人身攻击 他们说从没看过{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Not personal? They said they'd never met an Italian actor{\r}
+Dialogue: 0,0:15:43.63,0:15:45.02,chs&eng,,0000,0000,0000,,{\blur3}意大利腔这么怪的意大利裔演员{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}with a worse Italian accent.{\r}
+Dialogue: 0,0:15:45.61,0:15:47.15,chs&eng,,0000,0000,0000,,{\blur3}他们真的那样说{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They actually said that?{\r}
+Dialogue: 0,0:15:47.36,0:15:51.32,chs&eng,,0000,0000,0000,,{\blur3}对 天啊 你又是那个表情 看吧 我没办法做这份工作{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah. Oh, God, there's that face again. See? I can't do this job.{\r}
+Dialogue: 0,0:15:51.49,0:15:53.74,chs&eng,,0000,0000,0000,,{\blur3}不 所以你非做这份工作不可{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, this is why you have to do this job.{\r}
+Dialogue: 0,0:15:53.91,0:15:55.11,chs&eng,,0000,0000,0000,,{\blur3}经纪人老是在说谎{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Agents always lie.{\r}
+Dialogue: 0,0:15:55.32,0:15:58.28,chs&eng,,0000,0000,0000,,{\blur3}伊斯特会说 "他们挑了其他类型的演员“{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Estelle just says stuff like, "They went another way."{\r}
+Dialogue: 0,0:15:58.54,0:16:00.33,chs&eng,,0000,0000,0000,,{\blur3}但我可以利用这一点{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But this? I can use this.{\r}
+Dialogue: 0,0:16:00.54,0:16:03.37,chs&eng,,0000,0000,0000,,{\blur3}我可以练习新腔调{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can work on a new accent.{\r}
+Dialogue: 0,0:16:04.38,0:16:07.50,chs&eng,,0000,0000,0000,,{\blur3}好吧 如果那真的能帮助你 好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, okay. No. If it helps you, okay. Yeah.{\r}
+Dialogue: 0,0:16:07.71,0:16:11.13,chs&eng,,0000,0000,0000,,{\blur3}你永远抓不到我 特种部队{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You'll never get me, Joe!{\r}
+Dialogue: 0,0:16:24.19,0:16:26.02,chs&eng,,0000,0000,0000,,{\blur3}不 谢谢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, thank you.{\r}
+Dialogue: 0,0:16:28.07,0:16:29.82,chs&eng,,0000,0000,0000,,{\blur3}钱德{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Chandler.{\r}
+Dialogue: 0,0:16:30.23,0:16:32.32,chs&eng,,0000,0000,0000,,{\blur3}哈罗 珍妮丝{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello, Janice.{\r}
+Dialogue: 0,0:16:34.57,0:16:36.86,chs&eng,,0000,0000,0000,,{\blur3}你来这里做什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing here?{\r}
+Dialogue: 0,0:16:37.03,0:16:38.83,chs&eng,,0000,0000,0000,,{\blur3}我来买东西{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Uh, just a bit of shopping.{\r}
+Dialogue: 0,0:16:38.99,0:16:40.87,chs&eng,,0000,0000,0000,,{\blur3}你还好吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How have you been?{\r}
+Dialogue: 0,0:16:41.91,0:16:44.41,chs&eng,,0000,0000,0000,,{\blur3}你在学英国口音吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you being British?{\r}
+Dialogue: 0,0:16:44.92,0:16:46.08,chs&eng,,0000,0000,0000,,{\blur3}不{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No.{\r}
+Dialogue: 0,0:16:46.25,0:16:48.25,chs&eng,,0000,0000,0000,,{\blur3}现在不是了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Not anymore.{\r}
+Dialogue: 0,0:16:48.71,0:16:52.05,chs&eng,,0000,0000,0000,,{\blur3}为什么你会来这里买东西 你根本不住在这个社区{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why are you shopping here? You don't live in this neighborhood.{\r}
+Dialogue: 0,0:16:52.21,0:16:54.26,chs&eng,,0000,0000,0000,,{\blur3}你在这里等我吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Were you here waiting for me?{\r}
+Dialogue: 0,0:16:58.39,0:17:00.05,chs&eng,,0000,0000,0000,,{\blur3}我只是…你知道的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm just, uh, you know...{\r}
+Dialogue: 0,0:17:00.22,0:17:02.68,chs&eng,,0000,0000,0000,,{\blur3}来买派对需要用的东西{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...picking up some things for a party.{\r}
+Dialogue: 0,0:17:04.60,0:17:06.39,chs&eng,,0000,0000,0000,,{\blur3}大麦{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Barley?{\r}
+Dialogue: 0,0:17:06.56,0:17:08.69,chs&eng,,0000,0000,0000,,{\blur3}哪门子的派对会吃大麦{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What kind of a party serves barley?{\r}
+Dialogue: 0,0:17:08.86,0:17:11.98,chs&eng,,0000,0000,0000,,{\blur3}对不起 我的朋友没有你朋友优雅{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I'm sorry if my friends aren't as sophisticated as yours.{\r}
+Dialogue: 0,0:17:13.57,0:17:15.95,chs&eng,,0000,0000,0000,,{\blur3}- 派对在哪里举行   - 就在这里雀儿喜区{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Where is this party?     - Here in Chelsea.{\r}
+Dialogue: 0,0:17:16.49,0:17:17.91,chs&eng,,0000,0000,0000,,{\blur3}派对主人是谁{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Whose party is it?{\r}
+Dialogue: 0,0:17:18.12,0:17:20.45,chs&eng,,0000,0000,0000,,{\blur3}- 一个女人   - 哪个女人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- A woman's.     - What woman?{\r}
+Dialogue: 0,0:17:21.95,0:17:23.70,chs&eng,,0000,0000,0000,,{\blur3}雀儿喜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Chelsea.{\r}
+Dialogue: 0,0:17:25.08,0:17:28.42,chs&eng,,0000,0000,0000,,{\blur3}好 这只有两种可能 要不是你背着我偷人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Either you're seeing somebody behind my back...{\r}
+Dialogue: 0,0:17:28.58,0:17:31.25,chs&eng,,0000,0000,0000,,{\blur3}那让你成为全世界头号混蛋{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...which would make you the biggest jerk on the planet...{\r}
+Dialogue: 0,0:17:31.42,0:17:33.67,chs&eng,,0000,0000,0000,,{\blur3}就是你假装另结新欢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...or you're pretending you're seeing somebody...{\r}
+Dialogue: 0,0:17:33.84,0:17:37.51,chs&eng,,0000,0000,0000,,{\blur3}那让你变得超可悲 我想要当场抱头痛哭{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...which just makes you so pathetic I could just start crying right here.{\r}
+Dialogue: 0,0:17:37.68,0:17:41.26,chs&eng,,0000,0000,0000,,{\blur3}你想成为哪种男人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So which of these two guys do you wanna be?{\r}
+Dialogue: 0,0:17:42.31,0:17:44.47,chs&eng,,0000,0000,0000,,{\blur3}我可以变得跟那个男人一样吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can I be that guy?{\r}
+Dialogue: 0,0:17:46.64,0:17:50.90,chs&eng,,0000,0000,0000,,{\blur3}好吧 我们又被正面拒绝了 很多地方需要改进{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, we got some more good rejections. Lots of stuff to work on.{\r}
+Dialogue: 0,0:17:51.07,0:17:53.23,chs&eng,,0000,0000,0000,,{\blur3}好吧 快告诉我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. Okay. Shoot.{\r}
+Dialogue: 0,0:17:53.40,0:17:56.11,chs&eng,,0000,0000,0000,,{\blur3}好的 动物园广告{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. Um... Oh, the zoo commercial.{\r}
+Dialogue: 0,0:17:56.32,0:17:57.53,chs&eng,,0000,0000,0000,,{\blur3}- 我没被录取   - 对{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I didn't get it?     - No.{\r}
+Dialogue: 0,0:17:57.70,0:18:01.66,chs&eng,,0000,0000,0000,,{\blur3}他们说你演起人类非常不像{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They said that you "weren't believable as a human being."{\r}
+Dialogue: 0,0:18:02.62,0:18:05.58,chs&eng,,0000,0000,0000,,{\blur3}你可以加强一下{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So you can work on that.{\r}
+Dialogue: 0,0:18:05.75,0:18:07.54,chs&eng,,0000,0000,0000,,{\blur3}太棒了 还有什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Great. What else?{\r}
+Dialogue: 0,0:18:07.71,0:18:11.67,chs&eng,,0000,0000,0000,,{\blur3}外百老汇舞台剧的人说 你很帅 可惜太笨了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Um, the off-Broadway-play people said that you were "pretty but dumb."{\r}
+Dialogue: 0,0:18:11.84,0:18:14.17,chs&eng,,0000,0000,0000,,{\blur3}不 等一下 抱歉 应该是超级笨才对{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, wait, I'm sorry. That's "pretty dumb."{\r}
+Dialogue: 0,0:18:14.34,0:18:18.01,chs&eng,,0000,0000,0000,,{\blur3}听着 没关系 不 真的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. Look, it's okay, no, no, no. Really.{\r}
+Dialogue: 0,0:18:18.18,0:18:19.51,chs&eng,,0000,0000,0000,,{\blur3}听着{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look, um...{\r}
+Dialogue: 0,0:18:19.68,0:18:22.30,chs&eng,,0000,0000,0000,,{\blur3}我真的很感激你 菲比{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...I really appreciate this, Pheebs...{\r}
+Dialogue: 0,0:18:22.47,0:18:24.89,chs&eng,,0000,0000,0000,,{\blur3}但是我想我得回去跟伊斯特合作{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...but I'm gonna have to go back to Estelle.{\r}
+Dialogue: 0,0:18:26.27,0:18:28.68,chs&eng,,0000,0000,0000,,{\blur3}别误会我 做起经纪人 你比她优秀多了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't get me wrong. You're a better agent than she is...{\r}
+Dialogue: 0,0:18:28.85,0:18:32.73,chs&eng,,0000,0000,0000,,{\blur3}至少跟她在一起我的笨脑袋不会爆炸{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...but at least with her, I don't wanna blow my pretty dumb brains out.{\r}
+Dialogue: 0,0:18:33.98,0:18:35.94,chs&eng,,0000,0000,0000,,{\blur3}对 不 我了解{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, no, I understand.{\r}
+Dialogue: 0,0:18:36.11,0:18:37.82,chs&eng,,0000,0000,0000,,{\blur3}- 是吗 谢谢 好吧    - 对{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- You do? Thanks. Okay.     - Yeah.{\r}
+Dialogue: 0,0:18:37.99,0:18:39.61,chs&eng,,0000,0000,0000,,{\blur3}抱歉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry.{\r}
+Dialogue: 0,0:18:42.83,0:18:44.03,chs&eng,,0000,0000,0000,,{\blur3}- 等一下   - 什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Wait a minute.     - What?{\r}
+Dialogue: 0,0:18:44.20,0:18:45.45,chs&eng,,0000,0000,0000,,{\blur3}等一下{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait a minute.{\r}
+Dialogue: 0,0:18:45.66,0:18:49.08,chs&eng,,0000,0000,0000,,{\blur3}你编出那些东西 只为了不想当我的经纪人吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Did you just make all that stuff up to get out of being my agent?{\r}
+Dialogue: 0,0:18:49.25,0:18:51.62,chs&eng,,0000,0000,0000,,{\blur3}喔 被发现了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, he caught me.{\r}
+Dialogue: 0,0:18:53.04,0:18:54.21,chs&eng,,0000,0000,0000,,{\blur3}我完蛋了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I am so busted.{\r}
+Dialogue: 0,0:18:55.92,0:18:58.59,chs&eng,,0000,0000,0000,,{\blur3}我就怀疑会是那样{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's what I suspected.{\r}
+Dialogue: 0,0:19:01.72,0:19:04.05,chs&eng,,0000,0000,0000,,{\blur3}然后我…你们知道的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And then I just, you know...{\r}
+Dialogue: 0,0:19:04.47,0:19:08.22,chs&eng,,0000,0000,0000,,{\blur3}丢下那包大麦 跑出超市{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...threw the bag of barley at her and ran out of the store.{\r}
+Dialogue: 0,0:19:08.39,0:19:12.73,chs&eng,,0000,0000,0000,,{\blur3}天啊 钱德 我们要你高傲一点 不是要你当呆瓜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My God, Chandler, we said be aloof, not a doof.{\r}
+Dialogue: 0,0:19:13.81,0:19:17.23,chs&eng,,0000,0000,0000,,{\blur3}我真的毁了一切 对吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've actually ruined this, haven't I?{\r}
+Dialogue: 0,0:19:18.19,0:19:20.32,chs&eng,,0000,0000,0000,,{\blur3}现在能吃真的冰淇淋了 对吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's time for the good ice cream now, right?{\r}
+Dialogue: 0,0:19:20.99,0:19:22.82,chs&eng,,0000,0000,0000,,{\blur3}- 没错   - 好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Yeah, it is.     - Okay.{\r}
+Dialogue: 0,0:19:22.99,0:19:26.20,chs&eng,,0000,0000,0000,,{\blur3}你知道吗 一定会没事的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? Everything's gonna be okay.{\r}
+Dialogue: 0,0:19:29.41,0:19:30.45,chs&eng,,0000,0000,0000,,{\blur3}喂{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello?{\r}
+Dialogue: 0,0:19:31.37,0:19:33.04,chs&eng,,0000,0000,0000,,{\blur3}嗨 珍妮丝{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi, Janice.{\r}
+Dialogue: 0,0:19:33.21,0:19:34.92,chs&eng,,0000,0000,0000,,{\blur3}你能等一下吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can you hold on for a second?{\r}
+Dialogue: 0,0:19:35.09,0:19:36.75,chs&eng,,0000,0000,0000,,{\blur3}好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. Okay.{\r}
+Dialogue: 0,0:19:36.92,0:19:38.05,chs&eng,,0000,0000,0000,,{\blur3}我该怎么办{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What do I do?{\r}
+Dialogue: 0,0:19:38.21,0:19:40.17,chs&eng,,0000,0000,0000,,{\blur3}我不知道 从来没发生过这种事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know. This is unprecedented.{\r}
+Dialogue: 0,0:19:40.42,0:19:43.05,chs&eng,,0000,0000,0000,,{\blur3}如果我们做出你做过的事 男人从不会打电话来{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If we ever did what you did, a man would never call.{\r}
+Dialogue: 0,0:19:43.22,0:19:44.26,chs&eng,,0000,0000,0000,,{\blur3}怎么办{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello?{\r}
+Dialogue: 0,0:19:44.43,0:19:47.43,chs&eng,,0000,0000,0000,,{\blur3}我知道了 假装你刚睡醒 那会把她气坏了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I got it. Pretend you just woke up. That'll throw her off.{\r}
+Dialogue: 0,0:19:47.64,0:19:49.77,chs&eng,,0000,0000,0000,,{\blur3}- 爱睡虫   - 对 慵懒一点{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Be sleepy.     - Yes. And grumpy.{\r}
+Dialogue: 0,0:19:50.02,0:19:52.64,chs&eng,,0000,0000,0000,,{\blur3}你们在…别一直叫小矮人的名字{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you...? Stop naming dwarves.{\r}
+Dialogue: 0,0:19:55.56,0:19:57.77,chs&eng,,0000,0000,0000,,{\blur3}喂 珍妮丝 嗨{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello, Janice. Hi.{\r}
+Dialogue: 0,0:19:57.94,0:20:00.57,chs&eng,,0000,0000,0000,,{\blur3}我很高兴你打电话来{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm so glad that you called.{\r}
+Dialogue: 0,0:20:01.78,0:20:06.20,chs&eng,,0000,0000,0000,,{\blur3}我知道我最近怪怪的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know I've been acting really weird lately...{\r}
+Dialogue: 0,0:20:07.53,0:20:10.58,chs&eng,,0000,0000,0000,,{\blur3}那是因为我为你疯狂{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...and it's just because I'm crazy about you...{\r}
+Dialogue: 0,0:20:13.25,0:20:17.42,chs&eng,,0000,0000,0000,,{\blur3}我变得超蠢的 非常害怕{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...and I just got stupid and scared...{\r}
+Dialogue: 0,0:20:17.59,0:20:19.55,chs&eng,,0000,0000,0000,,{\blur3}好几次做出傻事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...and stupid a couple more times.{\r}
+Dialogue: 0,0:20:20.84,0:20:21.88,chs&eng,,0000,0000,0000,,{\blur3}对不起{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And I'm sorry.{\r}
+Dialogue: 0,0:20:23.38,0:20:24.93,chs&eng,,0000,0000,0000,,{\blur3}真的吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Really?{\r}
+Dialogue: 0,0:20:25.76,0:20:28.43,chs&eng,,0000,0000,0000,,{\blur3}真的吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ha, ha. Really?{\r}
+Dialogue: 0,0:20:28.60,0:20:30.93,chs&eng,,0000,0000,0000,,{\blur3}他太幸运了 如果珍妮丝是男人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's so lucky. If Janice were a guy...{\r}
+Dialogue: 0,0:20:31.10,0:20:33.94,chs&eng,,0000,0000,0000,,{\blur3}她已经跟别人上床了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...she'd be sleeping with somebody else by now.{\r}
+Dialogue: 0,0:20:35.23,0:20:36.52,chs&eng,,0000,0000,0000,,{\blur3}我也爱你{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I love you too.{\r}
+Dialogue: 0,0:20:36.69,0:20:38.40,chs&eng,,0000,0000,0000,,{\blur3}太不公平了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ugh. It's so unfair.{\r}
+Dialogue: 0,0:20:46.49,0:20:48.78,chs&eng,,0000,0000,0000,,{\blur3}特种部队{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}G.I. Joe? G.I. Joe?{\r}
+Dialogue: 0,0:20:48.95,0:20:52.79,chs&eng,,0000,0000,0000,,{\blur3}我不知道该怎么跟你们说 那是他选的娃娃{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, I don't know what to tell you guys. That's the doll he chose.{\r}
+Dialogue: 0,0:20:52.96,0:20:55.50,chs&eng,,0000,0000,0000,,{\blur3}你做了什么在玩具上沾糖{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What'd you do, dip it in sugar?{\r}
+Dialogue: 0,0:20:55.75,0:20:58.13,chs&eng,,0000,0000,0000,,{\blur3}听着 特种部队来了 洋娃娃得闪一边{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look, G.I. Joe's in, Barbie's out.{\r}
+Dialogue: 0,0:20:58.29,0:21:01.71,chs&eng,,0000,0000,0000,,{\blur3}如果你们无法接受 那是你们的问题{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And if you guys can't deal with it, that's just your too bad.{\r}
+Dialogue: 0,0:21:03.67,0:21:07.64,chs&eng,,0000,0000,0000,,{\blur3}你干嘛这么紧张 他有洋娃娃 没什么了不起的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you being such a weenie for? So he has a Barbie. Big deal.{\r}
+Dialogue: 0,0:21:07.84,0:21:09.93,chs&eng,,0000,0000,0000,,{\blur3}以前你会打扮成女生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You used to dress up like a woman.{\r}
+Dialogue: 0,0:21:16.02,0:21:17.77,chs&eng,,0000,0000,0000,,{\blur3}什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What?{\r}
+Dialogue: 0,0:21:17.94,0:21:20.27,chs&eng,,0000,0000,0000,,{\blur3}你以前总是会穿妈妈的衣服{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The way you used to dress up in Mom's clothes?{\r}
+Dialogue: 0,0:21:20.48,0:21:22.36,chs&eng,,0000,0000,0000,,{\blur3}你在胡说什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you talking about?{\r}
+Dialogue: 0,0:21:22.61,0:21:25.53,chs&eng,,0000,0000,0000,,{\blur3}大帽子 珍珠项链 粉红色小手提包{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The big hat, the pearls, the little pink handbag?{\r}
+Dialogue: 0,0:21:25.82,0:21:28.36,chs&eng,,0000,0000,0000,,{\blur3}好吧 那全是你编出来的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. You are totally making this up.{\r}
+Dialogue: 0,0:21:28.87,0:21:30.87,chs&eng,,0000,0000,0000,,{\blur3}你怎么会不记得{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How can you not remember?{\r}
+Dialogue: 0,0:21:31.03,0:21:32.74,chs&eng,,0000,0000,0000,,{\blur3}你逼我们叫你小碧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You made us call you "Bea"?{\r}
+Dialogue: 0,0:21:39.38,0:21:41.17,chs&eng,,0000,0000,0000,,{\blur3}天啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, God.{\r}
+Dialogue: 0,0:21:41.71,0:21:45.26,chs&eng,,0000,0000,0000,,{\blur3}我从来没有这么快乐过{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've literally never been this happy.{\r}
+Dialogue: 0,0:21:45.42,0:21:47.55,chs&eng,,0000,0000,0000,,{\blur3}你不是很喜欢唱那首歌吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wasn't there a little song?{\r}
+Dialogue: 0,0:21:47.76,0:21:50.18,chs&eng,,0000,0000,0000,,{\blur3}拜托 天啊 我们想听{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, please, God, let there be a song.{\r}
+Dialogue: 0,0:21:50.35,0:21:52.56,chs&eng,,0000,0000,0000,,{\blur3}我才没有唱歌{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There was no song. There was no song.{\r}
+Dialogue: 0,0:21:52.72,0:21:54.14,chs&eng,,0000,0000,0000,,{\blur3}我是小碧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I am Bea{\r}
+Dialogue: 0,0:21:54.64,0:21:56.39,chs&eng,,0000,0000,0000,,{\blur3}- 我会喝茶   - 够了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I drink tea...     - That's enough.{\r}
+Dialogue: 0,0:21:56.56,0:21:57.98,chs&eng,,0000,0000,0000,,{\blur3}你不想…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Won't you?{\r}
+Dialogue: 0,0:21:59.35,0:22:00.77,chs&eng,,0000,0000,0000,,{\blur3}你不想…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Won't you?{\r}
+Dialogue: 0,0:22:01.48,0:22:02.77,chs&eng,,0000,0000,0000,,{\blur3}你不想…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Won't you?{\r}
+Dialogue: 0,0:22:04.40,0:22:06.86,chs&eng,,0000,0000,0000,,{\blur3}你不想跟我跳舞吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Won't you dance around with me?{\r}
+Dialogue: 0,0:22:13.20,0:22:16.00,chs&eng,,0000,0000,0000,,{\blur3}我是小碧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I am Bea{\r}
+Dialogue: 0,0:22:16.16,0:22:18.87,chs&eng,,0000,0000,0000,,{\blur3}我喝茶{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I drink tea{\r}
+Dialogue: 0,0:22:19.04,0:22:23.63,chs&eng,,0000,0000,0000,,{\blur3}你不想跟我跳…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Won't you dance around with...?{\r}
+Dialogue: 0,0:22:33.68,0:22:35.60,chs&eng,,0000,0000,0000,,{\blur3}罗斯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ross!{\r}

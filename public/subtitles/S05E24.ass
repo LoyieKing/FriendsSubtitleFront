@@ -1,0 +1,355 @@
+﻿[Script Info]
+;AutoASS 1.2
+;Copyright(C) 2013-2014 cmct 阿忧
+
+Title: cmct
+Original Script: cmct
+Original Translation:
+Original Timing:
+Original Editing:
+Script Updated By:
+Update Details:
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: 中上英下,华文楷体,20,&H00E0E0E0,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+Dialogue: 0,0:00:02.00,0:00:03.87,中上英下,,0000,0000,0000,,{\blur3}《六人行》前情提要…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Previously on Friends
+Dialogue: 0,0:00:04.08,0:00:06.29,中上英下,,0000,0000,0000,,{\blur3}不要过来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Don't come out here.
+Dialogue: 0,0:00:06.50,0:00:09.71,中上英下,,0000,0000,0000,,{\blur3}- 我遇见了理查   - 哪个理查？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I ran into Richard.     - Which Richard?
+Dialogue: 0,0:00:09.92,0:00:11.17,中上英下,,0000,0000,0000,,{\blur3}我前男友\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}My ex-boyfriend.
+Dialogue: 0,0:00:11.38,0:00:13.72,中上英下,,0000,0000,0000,,{\blur3}纪念日发生这种事 真是再扫兴不过了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This is the worst thing that could happen.
+Dialogue: 0,0:00:13.93,0:00:18.01,中上英下,,0000,0000,0000,,{\blur3}很好 你最后还是决定 要跟钱德说理查的事了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You decided to tell him about the Richard thing.
+Dialogue: 0,0:00:19.18,0:00:21.31,中上英下,,0000,0000,0000,,{\blur3}糟糕\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, no.
+Dialogue: 0,0:00:21.52,0:00:24.44,中上英下,,0000,0000,0000,,{\blur3}- 你不能再跟他见面   - 你不能对我发号施令\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- You can't see him.     - You can't tell me what to do.
+Dialogue: 0,0:00:24.64,0:00:27.48,中上英下,,0000,0000,0000,,{\blur3}很有趣 刚才不就是了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's funny, I think I just did.
+Dialogue: 0,0:00:27.69,0:00:31.73,中上英下,,0000,0000,0000,,{\blur3}- 我找到我的双胞手了   - 什么是双胞手？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I have found my identical hand twin.     - What's that?
+Dialogue: 0,0:00:31.94,0:00:36.74,中上英下,,0000,0000,0000,,{\blur3}有个人的手跟我一模一样 我要变成百万富翁了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}A guy with my identical hands. I'm gonna be a millionaire!
+Dialogue: 0,0:00:43.66,0:00:46.67,中上英下,,0000,0000,0000,,{\blur3}你当真以为我想跟你上床？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You thought I wanted to have sex with you?
+Dialogue: 0,0:00:46.83,0:00:48.25,中上英下,,0000,0000,0000,,{\blur3}才不是呢…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No.
+Dialogue: 0,0:00:49.34,0:00:51.71,中上英下,,0000,0000,0000,,{\blur3}昨晚对你其实也很尴尬\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Last night was embarrassing for you too.
+Dialogue: 0,0:00:51.92,0:00:54.63,中上英下,,0000,0000,0000,,{\blur3}我只是没有那么容易尴尬\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I just don't embarrass that easily.
+Dialogue: 0,0:01:02.97,0:01:05.60,中上英下,,0000,0000,0000,,{\blur3}- 登记柜台应该在那里   - 啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I think the check-in is that way.     - Ah.
+Dialogue: 0,0:01:08.73,0:01:09.94,中上英下,,0000,0000,0000,,{\blur3}你好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello.
+Dialogue: 0,0:01:12.90,0:01:15.28,中上英下,,0000,0000,0000,,{\blur3}小孩子最喜欢我了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ah, kids love me.
+Dialogue: 0,0:01:15.57,0:01:18.57,中上英下,,0000,0000,0000,,{\blur3}嘿 菲比 你们来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey! Hi. You guys are here!
+Dialogue: 0,0:01:18.74,0:01:22.20,中上英下,,0000,0000,0000,,{\blur3}嗨 你去参加化妆舞会了？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yay! What'd you do? Did you go to a costume party?
+Dialogue: 0,0:01:23.08,0:01:25.50,中上英下,,0000,0000,0000,,{\blur3}我来猜 你是扮庞丘维亚？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Let me guess. Um, Pancho Villa.
+Dialogue: 0,0:01:27.58,0:01:29.46,中上英下,,0000,0000,0000,,{\blur3}你是鲍伯塞吉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And you're Bob Saget.
+Dialogue: 0,0:01:31.80,0:01:32.88,中上英下,,0000,0000,0000,,{\blur3}庞丘维亚？是啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Pancho Villa?
+Dialogue: 0,0:01:34.84,0:01:36.84,中上英下,,0000,0000,0000,,{\blur3}菲比 你在说什么啊？我不…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What are you talking about, Pheebs? I don't...
+Dialogue: 0,0:01:40.97,0:01:43.64,中上英下,,0000,0000,0000,,{\blur3}天啊 你偷画我？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God! You drew on me?
+Dialogue: 0,0:01:43.85,0:01:45.93,中上英下,,0000,0000,0000,,{\blur3}谁叫你弄湿我裤子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, you wet my pants!
+Dialogue: 0,0:01:46.85,0:01:48.60,中上英下,,0000,0000,0000,,{\blur3}这是哪种派对啊？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Whoa, what kind of party was this?
+Dialogue: 0,0:01:49.65,0:01:53.32,中上英下,,0000,0000,0000,,{\blur3}我打从下飞机就是这样子？你实在是太过分了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I've been walking around like this? You have so crossed a line.
+Dialogue: 0,0:01:54.11,0:01:56.82,中上英下,,0000,0000,0000,,{\blur3}瑞秋 等等 男厕在那里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Rach, wait. The men's room is that way.
+Dialogue: 0,0:02:01.57,0:02:03.20,中上英下,,0000,0000,0000,,{\blur3}- 噢   - 怎么了？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Oh!     - What?
+Dialogue: 0,0:02:03.41,0:02:06.87,中上英下,,0000,0000,0000,,{\blur3}这已经是第三次 那女士接我手玩 结果赢钱了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's the third time she's won on a machine I was playing.
+Dialogue: 0,0:02:07.04,0:02:09.62,中上英下,,0000,0000,0000,,{\blur3}我赌她一定是那种人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh. I bet she's one of those people.
+Dialogue: 0,0:02:11.13,0:02:12.54,中上英下,,0000,0000,0000,,{\blur3}有痣的人？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Mole people?
+Dialogue: 0,0:02:13.42,0:02:14.80,中上英下,,0000,0000,0000,,{\blur3}不是啦 是跟赌人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What? No, a lurker.
+Dialogue: 0,0:02:14.96,0:02:16.67,中上英下,,0000,0000,0000,,{\blur3}跟赌人是什么？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh. What's that?
+Dialogue: 0,0:02:16.84,0:02:19.55,中上英下,,0000,0000,0000,,{\blur3}你玩赌博机没有赢钱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}When you're playing a machine and it hasn't paid out...
+Dialogue: 0,0:02:19.80,0:02:22.22,中上英下,,0000,0000,0000,,{\blur3}跟赌人等你放弃枕来接手玩 然后…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...a lurker waits for you to give up and then...
+Dialogue: 0,0:02:22.39,0:02:23.43,中上英下,,0000,0000,0000,,{\blur3}杀你灭口？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Kills you?
+Dialogue: 0,0:02:25.01,0:02:28.23,中上英下,,0000,0000,0000,,{\blur3}不是啦 他们半路杀进来 偷走本来你会中的大奖\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, they swoop in and steal your jackpot.
+Dialogue: 0,0:02:29.06,0:02:30.14,中上英下,,0000,0000,0000,,{\blur3}- 噢   - 嗯\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Oh.     - Mm-hm.
+Dialogue: 0,0:02:30.35,0:02:33.48,中上英下,,0000,0000,0000,,{\blur3}- 你怎么会知道这种事？ - 我保姆以前就干这行\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- How do you know about this?     - My nana used to do it.
+Dialogue: 0,0:02:34.15,0:02:36.78,中上英下,,0000,0000,0000,,{\blur3}她就是用这收入 帮我付舞蹈… 空手道的学费\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's how she paid for my dance... Karate lessons.
+Dialogue: 0,0:02:37.69,0:02:39.07,中上英下,,0000,0000,0000,,{\blur3}舞蹈空手道？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Dance karate?
+Dialogue: 0,0:02:39.28,0:02:41.82,中上英下,,0000,0000,0000,,{\blur3}对 那是种美丽…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes, it's a deadly...
+Dialogue: 0,0:02:42.03,0:02:43.91,中上英下,,0000,0000,0000,,{\blur3}却致命的运动\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...but beautiful sport.
+Dialogue: 0,0:02:47.91,0:02:49.96,中上英下,,0000,0000,0000,,{\blur3}- 我弄不掉   - 什么？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- It won't come off.     - What?
+Dialogue: 0,0:02:50.21,0:02:51.33,中上英下,,0000,0000,0000,,{\blur3}什么？我弄不掉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It won't come off.
+Dialogue: 0,0:02:51.54,0:02:53.75,中上英下,,0000,0000,0000,,{\blur3}天啊 瑞秋 你确定吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God. Rach, are you sure?
+Dialogue: 0,0:02:53.96,0:02:56.38,中上英下,,0000,0000,0000,,{\blur3}不确定 其实我弄掉了 又自己再画回去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I took it off, and then I drew it back on.
+Dialogue: 0,0:02:57.96,0:02:59.63,中上英下,,0000,0000,0000,,{\blur3}嘿…你们到了 乔伊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey! You made it!
+Dialogue: 0,0:03:02.68,0:03:04.09,中上英下,,0000,0000,0000,,{\blur3}你朋友是谁？他真辣\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Who's your friend? He's hot.
+Dialogue: 0,0:03:05.89,0:03:06.93,中上英下,,0000,0000,0000,,{\blur3}多谢夸奖\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thanks, man.
+Dialogue: 0,0:03:07.10,0:03:11.14,中上英下,,0000,0000,0000,,{\blur3}钱德跟我说过了 电影的事我很遗憾\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Listen, I talked to Chandler, and I'm sorry about the movie.
+Dialogue: 0,0:03:11.35,0:03:12.39,中上英下,,0000,0000,0000,,{\blur3}不用抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Don't be sorry.
+Dialogue: 0,0:03:12.60,0:03:15.98,中上英下,,0000,0000,0000,,{\blur3}不要也罢 我找到我的双胞手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't need it anymore. I found my identical hand twin.
+Dialogue: 0,0:03:16.65,0:03:17.69,中上英下,,0000,0000,0000,,{\blur3}你的什么？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Your what?
+Dialogue: 0,0:03:17.90,0:03:21.40,中上英下,,0000,0000,0000,,{\blur3}我的双胞手 那个人的手掌跟我完全一样\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}My identical hand twin. The person whose hands are like mine.
+Dialogue: 0,0:03:21.61,0:03:22.95,中上英下,,0000,0000,0000,,{\blur3}这可是金矿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This is a gold mine.
+Dialogue: 0,0:03:23.16,0:03:24.41,中上英下,,0000,0000,0000,,{\blur3}什么？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What?
+Dialogue: 0,0:03:25.99,0:03:28.08,中上英下,,0000,0000,0000,,{\blur3}靠那个赚不了钱的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That won't make you any money.
+Dialogue: 0,0:03:28.29,0:03:29.62,中上英下,,0000,0000,0000,,{\blur3}好 你这样想也无所谓\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, fine.
+Dialogue: 0,0:03:29.87,0:03:33.25,中上英下,,0000,0000,0000,,{\blur3}到时我盖了手掌形的大厦 你们谁都休想来住\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}None of you will live with me in my hand-shaped mansion.
+Dialogue: 0,0:03:35.17,0:03:37.54,中上英下,,0000,0000,0000,,{\blur3}菲比 你例外 大拇指给你住\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Except, uh, you. You can live in the thumb.
+Dialogue: 0,0:04:18.54,0:04:20.55,中上英下,,0000,0000,0000,,{\blur3}好吧 加油\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, baby, come on!
+Dialogue: 0,0:04:20.71,0:04:21.92,中上英下,,0000,0000,0000,,{\blur3}漂亮\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes! Yes!
+Dialogue: 0,0:04:22.09,0:04:24.51,中上英下,,0000,0000,0000,,{\blur3}- 挡都挡不住   - 摩妮卡 再见\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I am on fire!     - See you later.
+Dialogue: 0,0:04:25.22,0:04:26.68,中上英下,,0000,0000,0000,,{\blur3}等等 钱德 你在干嘛？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What are you doing?
+Dialogue: 0,0:04:26.89,0:04:28.55,中上英下,,0000,0000,0000,,{\blur3}你看呢？我要回家\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What's it look like? Going home.
+Dialogue: 0,0:04:28.76,0:04:30.26,中上英下,,0000,0000,0000,,{\blur3}等等 为什么？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Why?
+Dialogue: 0,0:04:30.81,0:04:32.27,中上英下,,0000,0000,0000,,{\blur3}钱德…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Chandler.
+Dialogue: 0,0:04:32.48,0:04:33.73,中上英下,,0000,0000,0000,,{\blur3}你等等\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Chandler, wait.
+Dialogue: 0,0:04:34.19,0:04:36.81,中上英下,,0000,0000,0000,,{\blur3}对不起 我只是下来玩一下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Sorry, I was just playing for one second.
+Dialogue: 0,0:04:37.02,0:04:40.36,中上英下,,0000,0000,0000,,{\blur3}我本来打算要跟你说 若你不让我理查再见面\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}If you don't want me to see Richard again, I won't.
+Dialogue: 0,0:04:40.57,0:04:42.23,中上英下,,0000,0000,0000,,{\blur3}我答应 他对我没有任何意义\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He means nothing to me.
+Dialogue: 0,0:04:42.44,0:04:44.74,中上英下,,0000,0000,0000,,{\blur3}得了吧 我又不是瞎子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, come on. I was there.
+Dialogue: 0,0:04:47.49,0:04:49.28,中上英下,,0000,0000,0000,,{\blur3}我知道他是你追求的真爱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I know he's the love of your life.
+Dialogue: 0,0:04:50.58,0:04:51.87,中上英下,,0000,0000,0000,,{\blur3}再也不是了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Not anymore.
+Dialogue: 0,0:04:52.95,0:04:54.20,中上英下,,0000,0000,0000,,{\blur3}真的？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Really?
+Dialogue: 0,0:04:55.16,0:04:56.83,中上英下,,0000,0000,0000,,{\blur3}真的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Really.
+Dialogue: 0,0:05:00.00,0:05:01.42,中上英下,,0000,0000,0000,,{\blur3}好吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right?
+Dialogue: 0,0:05:01.63,0:05:05.42,中上英下,,0000,0000,0000,,{\blur3}忘了什么要回家的事 我们来庆祝周年纪念日\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Let's forget about going home and celebrate our anniversary.
+Dialogue: 0,0:05:07.18,0:05:08.68,中上英下,,0000,0000,0000,,{\blur3}袋子里是空的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, this is empty.
+Dialogue: 0,0:05:10.05,0:05:12.85,中上英下,,0000,0000,0000,,{\blur3}我想要搞得很戏剧化 可是我又讨厌打包\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I wanted to make a dramatic scene, but I hate packing.
+Dialogue: 0,0:05:17.35,0:05:18.60,中上英下,,0000,0000,0000,,{\blur3}另一个人呢？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Where's the other guy?
+Dialogue: 0,0:05:19.02,0:05:20.31,中上英下,,0000,0000,0000,,{\blur3}哪个人？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Which guy?
+Dialogue: 0,0:05:20.52,0:05:23.19,中上英下,,0000,0000,0000,,{\blur3}高高的 深色头发 手掌跟我一模一样 你看\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Tall, dark hair, hand looks exactly like this?
+Dialogue: 0,0:05:23.99,0:05:27.49,中上英下,,0000,0000,0000,,{\blur3}我不知道什么手掌的 不过在我之前的发牌员去上厕所了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't know about the hands, but he went to the restroom.
+Dialogue: 0,0:05:27.70,0:05:29.16,中上英下,,0000,0000,0000,,{\blur3}好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay.
+Dialogue: 0,0:05:34.25,0:05:37.83,中上英下,,0000,0000,0000,,{\blur3}- 你好吗？ - 我很忙\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- How you doing?     - Very busy.
+Dialogue: 0,0:05:38.04,0:05:39.58,中上英下,,0000,0000,0000,,{\blur3}对耶 好吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Right. Okay.
+Dialogue: 0,0:05:44.17,0:05:46.17,中上英下,,0000,0000,0000,,{\blur3}你好 我有个问题\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes, hello. I have a question.
+Dialogue: 0,0:05:46.34,0:05:51.55,中上英下,,0000,0000,0000,,{\blur3}我用你们的笔画我朋友的脸\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Um, I used your pen to draw on my friend's face.
+Dialogue: 0,0:05:52.39,0:05:54.47,中上英下,,0000,0000,0000,,{\blur3}画了胡子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}A beard and a mustache.
+Dialogue: 0,0:05:57.19,0:05:59.35,中上英下,,0000,0000,0000,,{\blur3}谢谢你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thank you.
+Dialogue: 0,0:06:00.52,0:06:02.69,中上英下,,0000,0000,0000,,{\blur3}不 她不以为然\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, she didn't think so.
+Dialogue: 0,0:06:02.90,0:06:04.90,中上英下,,0000,0000,0000,,{\blur3}我知道 对啊 那其实…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I know. It's like... Anyway...
+Dialogue: 0,0:06:06.53,0:06:10.70,中上英下,,0000,0000,0000,,{\blur3}用化妆品盖不过去 我们试过所有方法都去不掉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Makeup didn't cover it. We've tried everything, and nothing's worked.
+Dialogue: 0,0:06:10.95,0:06:12.78,中上英下,,0000,0000,0000,,{\blur3}这要怎么办？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What do we do?
+Dialogue: 0,0:06:13.62,0:06:15.62,中上英下,,0000,0000,0000,,{\blur3}对 是…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah. Uh-huh.
+Dialogue: 0,0:06:16.16,0:06:19.25,中上英下,,0000,0000,0000,,{\blur3}好…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah. Oh, okay.
+Dialogue: 0,0:06:19.46,0:06:21.29,中上英下,,0000,0000,0000,,{\blur3}多谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, thank you.
+Dialogue: 0,0:06:21.50,0:06:23.38,中上英下,,0000,0000,0000,,{\blur3}对 这个墨水擦不掉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, it's not coming off.
+Dialogue: 0,0:06:24.30,0:06:26.13,中上英下,,0000,0000,0000,,{\blur3}什么？那他还说了什么？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What? What else did he say?
+Dialogue: 0,0:06:26.34,0:06:29.59,中上英下,,0000,0000,0000,,{\blur3}他说他觉得我很逗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Um, he said he thought I was funny.
+Dialogue: 0,0:06:31.59,0:06:34.64,中上英下,,0000,0000,0000,,{\blur3}好 你听我说…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, look. Let's just go downstairs...
+Dialogue: 0,0:06:34.85,0:06:38.23,中上英下,,0000,0000,0000,,{\blur3}我们下楼去好好玩 你就会忘记这回事了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...we'll have some fun, and you will forget all about it.
+Dialogue: 0,0:06:38.43,0:06:41.52,中上英下,,0000,0000,0000,,{\blur3}休想 罗斯 我这张脸像这样 绝对不出房门\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There's no way I am leaving looking like this!
+Dialogue: 0,0:06:41.73,0:06:43.81,中上英下,,0000,0000,0000,,{\blur3}别这样啦 没有那么难看\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on, Rach. It's not that bad.
+Dialogue: 0,0:06:44.07,0:06:46.07,中上英下,,0000,0000,0000,,{\blur3}罗斯 我变成人体涂鸦了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ross, I am a human doodle!
+Dialogue: 0,0:06:47.53,0:06:51.78,中上英下,,0000,0000,0000,,{\blur3}别因为一个白痴在你脸上乱画 而阻碍你玩乐的权利\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Just because some idiot drew on your face doesn't mean you can't have fun.
+Dialogue: 0,0:06:52.03,0:06:54.24,中上英下,,0000,0000,0000,,{\blur3}而且又没人会看你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Besides, no one will even look at you.
+Dialogue: 0,0:06:54.45,0:06:58.29,中上英下,,0000,0000,0000,,{\blur3}这里可是赌城 怪人一大堆\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This is Vegas. Hello? There are tons of other freaks here.
+Dialogue: 0,0:06:59.79,0:07:04.88,中上英下,,0000,0000,0000,,{\blur3}这里有一大堆怪人 你不算\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There are tons of freaks here. No other. No.
+Dialogue: 0,0:07:05.13,0:07:07.84,中上英下,,0000,0000,0000,,{\blur3}走啦 我发誓没人会注意到\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on. No one will notice. I swear.
+Dialogue: 0,0:07:15.01,0:07:17.72,中上英下,,0000,0000,0000,,{\blur3}是有一些人指指点点\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There was some staring and pointing.
+Dialogue: 0,0:07:19.68,0:07:20.93,中上英下,,0000,0000,0000,,{\blur3}我得喝点酒\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I need a drink.
+Dialogue: 0,0:07:21.64,0:07:24.31,中上英下,,0000,0000,0000,,{\blur3}冰箱里的酒都太贵了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}They really overcharge you for that stuff.
+Dialogue: 0,0:07:26.19,0:07:29.11,中上英下,,0000,0000,0000,,{\blur3}但是谁在乎呢？因为我请客\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But who cares, because it's all on me.
+Dialogue: 0,0:07:33.74,0:07:36.28,中上英下,,0000,0000,0000,,{\blur3}你的一点酒还真不少\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That is one big drink.
+Dialogue: 0,0:07:37.29,0:07:38.49,中上英下,,0000,0000,0000,,{\blur3}要吃夏威夷果仁吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Macadamia nut?
+Dialogue: 0,0:07:38.66,0:07:42.16,中上英下,,0000,0000,0000,,{\blur3}哇哦 这个果仁还真值钱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Um, wow! That's some pricey nut.
+Dialogue: 0,0:07:44.54,0:07:46.79,中上英下,,0000,0000,0000,,{\blur3}你真的很喜欢吃果仁是吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Really like those macadamia nuts, huh?
+Dialogue: 0,0:07:47.30,0:07:49.00,中上英下,,0000,0000,0000,,{\blur3}不喜欢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Nope.
+Dialogue: 0,0:08:00.31,0:08:02.52,中上英下,,0000,0000,0000,,{\blur3}跟赌人 走开啦\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Get out of here, you lurker!
+Dialogue: 0,0:08:02.77,0:08:04.06,中上英下,,0000,0000,0000,,{\blur3}滚啦\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Go on, get!
+Dialogue: 0,0:08:06.11,0:08:08.94,中上英下,,0000,0000,0000,,{\blur3}- 嘿 菲比   - 你们和好了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey, Pheebs.     - You made up.
+Dialogue: 0,0:08:09.61,0:08:11.69,中上英下,,0000,0000,0000,,{\blur3}是啊 我没办法一直生他的气\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I couldn't be mad at him for too long.
+Dialogue: 0,0:08:11.99,0:08:13.90,中上英下,,0000,0000,0000,,{\blur3}没有钱德的爱 她不能活\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}She couldn't live without the "Chand love."
+Dialogue: 0,0:08:16.53,0:08:17.95,中上英下,,0000,0000,0000,,{\blur3}啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Aw.
+Dialogue: 0,0:08:18.12,0:08:20.29,中上英下,,0000,0000,0000,,{\blur3}去开房间啦\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Get a room.
+Dialogue: 0,0:08:20.50,0:08:22.45,中上英下,,0000,0000,0000,,{\blur3}- 我们有房间   - 我知道 快去用啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- We have one.     - I know. Use it.
+Dialogue: 0,0:08:26.29,0:08:27.67,中上英下,,0000,0000,0000,,{\blur3}哦 是啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, yeah.
+Dialogue: 0,0:08:29.25,0:08:31.96,中上英下,,0000,0000,0000,,{\blur3}可得好好照顾你的手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's right. Take good care of those babies.
+Dialogue: 0,0:08:32.59,0:08:34.80,中上英下,,0000,0000,0000,,{\blur3}- 你说什么？ - 我是乔伊啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Excuse me?     - It's me. Joey.
+Dialogue: 0,0:08:35.01,0:08:37.30,中上英下,,0000,0000,0000,,{\blur3}我认识你吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Do I know you?
+Dialogue: 0,0:08:37.51,0:08:38.89,中上英下,,0000,0000,0000,,{\blur3}乔伊啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Joey?
+Dialogue: 0,0:08:40.26,0:08:42.22,中上英下,,0000,0000,0000,,{\blur3}喔 对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, yeah.
+Dialogue: 0,0:08:42.43,0:08:44.73,中上英下,,0000,0000,0000,,{\blur3}秀手的那个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, the hand guy.
+Dialogue: 0,0:08:44.94,0:08:48.27,中上英下,,0000,0000,0000,,{\blur3}我们要怎么处理双胞手的事？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So, what are we gonna do about this hand twin thing?
+Dialogue: 0,0:08:49.48,0:08:50.73,中上英下,,0000,0000,0000,,{\blur3}不用处理？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Nothing.
+Dialogue: 0,0:08:51.69,0:08:54.78,中上英下,,0000,0000,0000,,{\blur3}你和我拥有上帝的赐礼\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, you and I have been given a gift.
+Dialogue: 0,0:08:54.99,0:08:58.91,中上英下,,0000,0000,0000,,{\blur3}我们得要好好利用 好比手部模特或是变魔术\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We have to do something with it. Like hand modeling. Or magic.
+Dialogue: 0,0:08:59.12,0:09:01.87,中上英下,,0000,0000,0000,,{\blur3}太空总署一定也想找我们聊聊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And you know NASA's gonna want to talk to us.
+Dialogue: 0,0:09:03.50,0:09:05.37,中上英下,,0000,0000,0000,,{\blur3}- 我得回去…   - 等等…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I have to get back to work.     - Whoa, whoa, whoa.
+Dialogue: 0,0:09:05.87,0:09:07.46,中上英下,,0000,0000,0000,,{\blur3}我们可以自己组秀\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We can have our own show.
+Dialogue: 0,0:09:07.67,0:09:10.88,中上英下,,0000,0000,0000,,{\blur3}我们把手掌合在一起 大家一定超爱看的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We can clap our hands together. People will love it!
+Dialogue: 0,0:09:11.75,0:09:12.80,中上英下,,0000,0000,0000,,{\blur3}哈？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Huh?
+Dialogue: 0,0:09:12.96,0:09:14.88,中上英下,,0000,0000,0000,,{\blur3}我还替我们写了一首主题曲\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And I wrote a song for us.
+Dialogue: 0,0:09:15.13,0:09:17.68,中上英下,,0000,0000,0000,,{\blur3}这是你的手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This hand is your hand
+Dialogue: 0,0:09:18.80,0:09:21.22,中上英下,,0000,0000,0000,,{\blur3}这是我的手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This hand is my hand
+Dialogue: 0,0:09:21.72,0:09:24.02,中上英下,,0000,0000,0000,,{\blur3}等等 那是你的手才对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, wait, that's your hand
+Dialogue: 0,0:09:25.98,0:09:28.40,中上英下,,0000,0000,0000,,{\blur3}不对 是我的手才对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, wait, it's my hand
+Dialogue: 0,0:09:30.86,0:09:34.57,中上英下,,0000,0000,0000,,{\blur3}- 还是算了   - 你还没听到副歌耶\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- That's okay.     - But you haven't even heard the chorus!
+Dialogue: 0,0:09:37.03,0:09:38.28,中上英下,,0000,0000,0000,,{\blur3}天啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God.
+Dialogue: 0,0:09:38.70,0:09:41.16,中上英下,,0000,0000,0000,,{\blur3}我现在看起来 好像我姑婆茉莉儿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I look like my great-aunt, Muriel.
+Dialogue: 0,0:09:41.95,0:09:43.41,中上英下,,0000,0000,0000,,{\blur3}你知道什么？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, you know what?
+Dialogue: 0,0:09:43.62,0:09:45.75,中上英下,,0000,0000,0000,,{\blur3}其实我们用不着下楼\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We don't have to go downstairs.
+Dialogue: 0,0:09:45.96,0:09:48.58,中上英下,,0000,0000,0000,,{\blur3}房间里就可以是赌城\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We can bring Vegas up to us.
+Dialogue: 0,0:09:48.79,0:09:50.04,中上英下,,0000,0000,0000,,{\blur3}快\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, come on.
+Dialogue: 0,0:09:50.29,0:09:52.92,中上英下,,0000,0000,0000,,{\blur3}我们来玩黑杰克 来罗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We'll play some blackjack. Here we go.
+Dialogue: 0,0:09:53.63,0:09:55.21,中上英下,,0000,0000,0000,,{\blur3}- 13点   - 再加\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Thirteen.     - Hit me.
+Dialogue: 0,0:09:55.46,0:09:57.42,中上英下,,0000,0000,0000,,{\blur3}23 爆了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ooh, 23.
+Dialogue: 0,0:09:58.84,0:10:02.51,中上英下,,0000,0000,0000,,{\blur3}我们这间赌场23点最大\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Which is what we play to at this casino!
+Dialogue: 0,0:10:04.18,0:10:05.77,中上英下,,0000,0000,0000,,{\blur3}你赢了10美元\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You win $10!
+Dialogue: 0,0:10:05.98,0:10:08.14,中上英下,,0000,0000,0000,,{\blur3}- 我押了20美元   - 没错\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I bet 20.     - Right.
+Dialogue: 0,0:10:13.36,0:10:16.28,中上英下,,0000,0000,0000,,{\blur3}帮我的小钱钱买双新鞋\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}A new pair of shoes for the Chan-Chan man!
+Dialogue: 0,0:10:17.28,0:10:18.86,中上英下,,0000,0000,0000,,{\blur3}好耶\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes!
+Dialogue: 0,0:10:19.03,0:10:20.86,中上英下,,0000,0000,0000,,{\blur3}我这辈子还没看过有这么旺的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I've never seen a roll like this!
+Dialogue: 0,0:10:21.07,0:10:22.32,中上英下,,0000,0000,0000,,{\blur3}宝贝 你说对了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's right, baby!
+Dialogue: 0,0:10:22.53,0:10:23.87,中上英下,,0000,0000,0000,,{\blur3}这次要押几号？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What do I want now?
+Dialogue: 0,0:10:25.66,0:10:28.16,中上英下,,0000,0000,0000,,{\blur3}8号 还是6号？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Eight? Uh, six.
+Dialogue: 0,0:10:28.41,0:10:31.29,中上英下,,0000,0000,0000,,{\blur3}选一个啦 你只有这个任务\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Pick a number! That is your only job.
+Dialogue: 0,0:10:31.50,0:10:32.75,中上英下,,0000,0000,0000,,{\blur3}- 8号   - 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Eight.     - Thank you.
+Dialogue: 0,0:10:32.96,0:10:35.80,中上英下,,0000,0000,0000,,{\blur3}如果你中了这一把 晚赛就请在场的各位吃牛排\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}If you get this, we buy everybody a steak dinner.
+Dialogue: 0,0:10:39.09,0:10:40.55,中上英下,,0000,0000,0000,,{\blur3}- 8号   - 好耶\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Eight it is.     - Yes!
+Dialogue: 0,0:10:41.80,0:10:43.80,中上英下,,0000,0000,0000,,{\blur3}我们真的要请他们吃牛排？假的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We're not buying steak dinners, are we?
+Dialogue: 0,0:10:44.01,0:10:45.68,中上英下,,0000,0000,0000,,{\blur3}- 不   - 那就好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- No.     - Okay, good.
+Dialogue: 0,0:10:47.02,0:10:49.23,中上英下,,0000,0000,0000,,{\blur3}- 这次要押几号？ - 再硬押个8\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What do I want now?     - Try a hard eight.
+Dialogue: 0,0:10:49.44,0:10:50.94,中上英下,,0000,0000,0000,,{\blur3}- 什么？ - 4加4啦\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What?     - Two fours.
+Dialogue: 0,0:10:52.31,0:10:54.06,中上英下,,0000,0000,0000,,{\blur3}8号\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Eight!
+Dialogue: 0,0:10:54.65,0:10:57.65,中上英下,,0000,0000,0000,,{\blur3}千万要把握住她 你太幸运了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Don't you let her go. You're a lucky guy.
+Dialogue: 0,0:10:57.86,0:11:00.07,中上英下,,0000,0000,0000,,{\blur3}谢谢你 醉赌徒先生\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thank you, Mr. Drunken Gambler.
+Dialogue: 0,0:11:00.91,0:11:04.41,中上英下,,0000,0000,0000,,{\blur3}好 如果你中了这一把 我们就租下这里最大的套房\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You get this, and, uh, we get the biggest suite in the place.
+Dialogue: 0,0:11:08.25,0:11:10.50,中上英下,,0000,0000,0000,,{\blur3}我说的我们是我和她\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We get the biggest suite in the place.
+Dialogue: 0,0:11:10.71,0:11:12.46,中上英下,,0000,0000,0000,,{\blur3}好 这里最大的套房来罗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The biggest suite in the place!
+Dialogue: 0,0:11:12.67,0:11:14.13,中上英下,,0000,0000,0000,,{\blur3}好耶\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on!
+Dialogue: 0,0:11:15.67,0:11:18.05,中上英下,,0000,0000,0000,,{\blur3}我爱你 我都忘记我们在吵什么了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I love you! I can't remember why we fought.
+Dialogue: 0,0:11:18.30,0:11:20.22,中上英下,,0000,0000,0000,,{\blur3}因为我和理查吃中饭…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Because I had lunch with Rich...
+Dialogue: 0,0:11:20.47,0:11:21.76,中上英下,,0000,0000,0000,,{\blur3}我也忘了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Me neither!
+Dialogue: 0,0:11:22.47,0:11:24.47,中上英下,,0000,0000,0000,,{\blur3}- 这次要押几号？ - 再硬押次8\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What now?     - Uh, another hard eight.
+Dialogue: 0,0:11:24.72,0:11:26.97,中上英下,,0000,0000,0000,,{\blur3}硬押8？简单8才对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hard eight? Let's call it easy eight!
+Dialogue: 0,0:11:27.22,0:11:30.52,中上英下,,0000,0000,0000,,{\blur3}好 这样吧 如果这次再中…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'll tell you what. You roll another hard eight...
+Dialogue: 0,0:11:31.23,0:11:33.85,中上英下,,0000,0000,0000,,{\blur3}我们今晚就在这里结婚\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...and we get married here, tonight.
+Dialogue: 0,0:11:36.86,0:11:38.57,中上英下,,0000,0000,0000,,{\blur3}快啊…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on
+Dialogue: 0,0:11:38.73,0:11:40.32,中上英下,,0000,0000,0000,,{\blur3}闭嘴\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Shut up!
+Dialogue: 0,0:11:42.78,0:11:45.20,中上英下,,0000,0000,0000,,{\blur3}好戏才正要上场\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It just got interesting!
+Dialogue: 0,0:11:51.16,0:11:52.46,中上英下,,0000,0000,0000,,{\blur3}你刚才说什么？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What did you say?
+Dialogue: 0,0:11:52.83,0:11:55.71,中上英下,,0000,0000,0000,,{\blur3}你再赢一次8 我们今晚就在这里结婚\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You roll another eight, we get married tonight.
+Dialogue: 0,0:11:56.71,0:11:59.67,中上英下,,0000,0000,0000,,{\blur3}- 你是认真的？ - 是啊 我爱你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- You serious?     - Yes. I love you.
+Dialogue: 0,0:11:59.88,0:12:05.97,中上英下,,0000,0000,0000,,{\blur3}我不曾这样爱过一个人我也不曾爱过你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I've never loved anybody as much as I love you.
+Dialogue: 0,0:12:06.43,0:12:10.22,中上英下,,0000,0000,0000,,{\blur3}好 如果再出8就是天意 我们今晚就结婚\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So if an eight comes up, we take it as a sign and we do it.
+Dialogue: 0,0:12:10.47,0:12:12.52,中上英下,,0000,0000,0000,,{\blur3}好不好？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What do you say?
+Dialogue: 0,0:12:12.73,0:12:13.94,中上英下,,0000,0000,0000,,{\blur3}- 好   - 好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Okay.     - Okay.
+Dialogue: 0,0:12:14.81,0:12:16.31,中上英下,,0000,0000,0000,,{\blur3}来吧… 8号…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hard eight.
+Dialogue: 0,0:12:20.11,0:12:23.19,中上英下,,0000,0000,0000,,{\blur3}有一个是4 另一个呢？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's a four. And where's the other one?
+Dialogue: 0,0:12:23.40,0:12:26.61,中上英下,,0000,0000,0000,,{\blur3}- 掉到桌子底下了   - 通通不许动\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Under the table.     - Nobody move!
+Dialogue: 0,0:12:26.87,0:12:29.41,中上英下,,0000,0000,0000,,{\blur3}你找那边 我找这边 好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You look that way, I look this way.
+Dialogue: 0,0:12:32.87,0:12:34.29,中上英下,,0000,0000,0000,,{\blur3}在这里…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Here it is, here it is.
+Dialogue: 0,0:12:36.04,0:12:37.50,中上英下,,0000,0000,0000,,{\blur3}一半4 一半5\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That could be 4 or 5.
+Dialogue: 0,0:12:40.59,0:12:42.01,中上英下,,0000,0000,0000,,{\blur3}你决定\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's your call.
+Dialogue: 0,0:12:45.51,0:12:47.22,中上英下,,0000,0000,0000,,{\blur3}那是4\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's a four.
+Dialogue: 0,0:12:50.60,0:12:52.18,中上英下,,0000,0000,0000,,{\blur3}我也这样觉得\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I think so too.
+Dialogue: 0,0:13:19.17,0:13:21.63,中上英下,,0000,0000,0000,,{\blur3}好吧 又没赢到钱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, well, lost again.
+Dialogue: 0,0:13:26.01,0:13:28.34,中上英下,,0000,0000,0000,,{\blur3}够了 我们去外面解决\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's it. You and me. Outside!
+Dialogue: 0,0:13:28.55,0:13:32.10,中上英下,,0000,0000,0000,,{\blur3}我可不想看到 你美丽的金发少了一撮\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I wouldn't want you to lose a chunk of that pretty blond hair!
+Dialogue: 0,0:13:34.73,0:13:36.18,中上英下,,0000,0000,0000,,{\blur3}噢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh!
+Dialogue: 0,0:13:37.27,0:13:38.52,中上英下,,0000,0000,0000,,{\blur3}假装没事…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Be cool.
+Dialogue: 0,0:13:42.32,0:13:44.44,中上英下,,0000,0000,0000,,{\blur3}女士 你跟赌的日子结束了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, your lurking days are over.
+Dialogue: 0,0:13:44.65,0:13:48.32,中上英下,,0000,0000,0000,,{\blur3}- 什么？ - 从现在开始 我要抢先你一步\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What?     - Everyone you lurk, I'll lurk first.
+Dialogue: 0,0:13:48.57,0:13:51.32,中上英下,,0000,0000,0000,,{\blur3}不管你找谁下手 我都会捷足先登\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You move on, I'll be one step ahead of you...
+Dialogue: 0,0:13:51.53,0:13:52.78,中上英下,,0000,0000,0000,,{\blur3}一次都不放过\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...every single time.
+Dialogue: 0,0:13:52.99,0:13:56.66,中上英下,,0000,0000,0000,,{\blur3}我每天都会紧紧跟着你…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And then I'll be on your ass every hour of every day...
+Dialogue: 0,0:13:56.87,0:13:58.46,中上英下,,0000,0000,0000,,{\blur3}直到星期一\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...till Monday...
+Dialogue: 0,0:13:58.75,0:14:01.04,中上英下,,0000,0000,0000,,{\blur3}因为我那天要回家\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...because that's when I go home.
+Dialogue: 0,0:14:01.75,0:14:04.46,中上英下,,0000,0000,0000,,{\blur3}- 你何时要回家？ - 也是星期一\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- When do you leave?     - Also Monday.
+Dialogue: 0,0:14:04.67,0:14:07.01,中上英下,,0000,0000,0000,,{\blur3}几点？说不定能共乘计程车\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What time? Maybe we can share a cab.
+Dialogue: 0,0:14:09.39,0:14:10.64,中上英下,,0000,0000,0000,,{\blur3}再加\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hit me.
+Dialogue: 0,0:14:11.35,0:14:22.11,中上英下,,0000,0000,0000,,{\blur3}再加\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hit me.
+Dialogue: 0,0:14:22.90,0:14:24.19,中上英下,,0000,0000,0000,,{\blur3}我们得再去买牌\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We need more cards.
+Dialogue: 0,0:14:25.82,0:14:29.24,中上英下,,0000,0000,0000,,{\blur3}对 还要再来点酒 你等等\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, and we also need more, um, drinks. Hold on a second.
+Dialogue: 0,0:14:32.78,0:14:34.41,中上英下,,0000,0000,0000,,{\blur3}喂？赌城吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello, Vegas?
+Dialogue: 0,0:14:36.16,0:14:37.79,中上英下,,0000,0000,0000,,{\blur3}我们还需要酒\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We would like more alcohol.
+Dialogue: 0,0:14:38.04,0:14:40.96,中上英下,,0000,0000,0000,,{\blur3}对了 再来点啤酒\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know what else? We would like some more beers.
+Dialogue: 0,0:14:43.79,0:14:46.09,中上英下,,0000,0000,0000,,{\blur3}喔 我竟然忘了拨号\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, I forgot to dial.
+Dialogue: 0,0:14:49.84,0:14:52.84,中上英下,,0000,0000,0000,,{\blur3}一定是送酒来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That must be our alcohol and beers.
+Dialogue: 0,0:14:56.56,0:14:59.89,中上英下,,0000,0000,0000,,{\blur3}- 嘿   - 是乔伊 我爱乔伊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey.     - It's Joey! I love Joey!
+Dialogue: 0,0:15:00.10,0:15:01.73,中上英下,,0000,0000,0000,,{\blur3}我爱乔伊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, I love Joey!
+Dialogue: 0,0:15:01.94,0:15:03.23,中上英下,,0000,0000,0000,,{\blur3}乔伊跟鸭子住一起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Joey lives with a duck.
+Dialogue: 0,0:15:05.94,0:15:07.82,中上英下,,0000,0000,0000,,{\blur3}你们听我说 我需要帮助\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, I need some help, okay?
+Dialogue: 0,0:15:08.07,0:15:11.20,中上英下,,0000,0000,0000,,{\blur3}谁去叫我那双胞手合作点\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Someone has to convince my hand twin to cooperate.
+Dialogue: 0,0:15:11.41,0:15:16.33,中上英下,,0000,0000,0000,,{\blur3}我去 不管你有什么需要 找我就对了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'll do it. Whatever you need me to do, I'm your man.
+Dialogue: 0,0:15:19.58,0:15:21.00,中上英下,,0000,0000,0000,,{\blur3}喔…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Whoa. Whoa. Whoa.
+Dialogue: 0,0:15:21.21,0:15:23.17,中上英下,,0000,0000,0000,,{\blur3}你还好吧？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Are you okay?
+Dialogue: 0,0:15:25.79,0:15:27.75,中上英下,,0000,0000,0000,,{\blur3}对 我很好 谢了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah. Fine. Thanks.
+Dialogue: 0,0:15:30.88,0:15:32.22,中上英下,,0000,0000,0000,,{\blur3}嘿 瑞秋？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, Rach?
+Dialogue: 0,0:15:32.47,0:15:34.30,中上英下,,0000,0000,0000,,{\blur3}你好吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}How you doing?
+Dialogue: 0,0:15:36.93,0:15:39.68,中上英下,,0000,0000,0000,,{\blur3}宝贝 我很好 你呢？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm doing good, baby. How you doing?
+Dialogue: 0,0:15:41.52,0:15:43.35,中上英下,,0000,0000,0000,,{\blur3}罗斯 别再让她喝了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Don't let her drink anymore.
+Dialogue: 0,0:15:47.23,0:15:51.03,中上英下,,0000,0000,0000,,{\blur3}是那颗夏威夷果仁\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Here's that macadamia nut.
+Dialogue: 0,0:15:53.11,0:15:54.95,中上英下,,0000,0000,0000,,{\blur3}- 不对 是别的东西   - 糟糕\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- No, something else.     - Oops.
+Dialogue: 0,0:16:00.83,0:16:02.71,中上英下,,0000,0000,0000,,{\blur3}好吧 你现在要干嘛？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So, what do you wanna do now?
+Dialogue: 0,0:16:02.92,0:16:05.12,中上英下,,0000,0000,0000,,{\blur3}我要离开这房间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I wanna get out of the room.
+Dialogue: 0,0:16:06.88,0:16:10.05,中上英下,,0000,0000,0000,,{\blur3}我真想念楼下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I really miss downstairs.
+Dialogue: 0,0:16:10.80,0:16:15.34,中上英下,,0000,0000,0000,,{\blur3}我跟你说 要我离开这个房间 只有一个方法\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, you know what? There is only one way I am leaving this hotel room.
+Dialogue: 0,0:16:17.26,0:16:18.89,中上英下,,0000,0000,0000,,{\blur3}嗨\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, hello!
+Dialogue: 0,0:16:20.10,0:16:21.85,中上英下,,0000,0000,0000,,{\blur3}我是罗斯\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm Ross.
+Dialogue: 0,0:16:22.31,0:16:25.69,中上英下,,0000,0000,0000,,{\blur3}- 祝你好运   - 抱歉 先生 你脸上有东西\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Good luck to you.     - Sir, you've got a little something...
+Dialogue: 0,0:16:31.49,0:16:33.70,中上英下,,0000,0000,0000,,{\blur3}- 你好   - 你好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hello.     - Hello.
+Dialogue: 0,0:17:01.81,0:17:04.68,中上英下,,0000,0000,0000,,{\blur3}我赢了 …我终于赢了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I won! I won! I finally won!
+Dialogue: 0,0:17:04.89,0:17:06.64,中上英下,,0000,0000,0000,,{\blur3}是我赢才对 那是我的硬币\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I won! That was my quarter!
+Dialogue: 0,0:17:06.85,0:17:08.98,中上英下,,0000,0000,0000,,{\blur3}好啦 还给你 滚吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Take a hike, toots.
+Dialogue: 0,0:17:10.48,0:17:11.90,中上英下,,0000,0000,0000,,{\blur3}先生 不好意思\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Excuse me, sir.
+Dialogue: 0,0:17:12.11,0:17:14.78,中上英下,,0000,0000,0000,,{\blur3}这位小姐用我的硬币玩 这是我赢的钱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This lady played my quarter. This is my money.
+Dialogue: 0,0:17:14.99,0:17:16.28,中上英下,,0000,0000,0000,,{\blur3}小姐 真的是这样吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Is that true, miss?
+Dialogue: 0,0:17:17.78,0:17:20.66,中上英下,,0000,0000,0000,,{\blur3}- 卖毒品给小孩   - 什么？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Sells drugs to kids.     - What?
+Dialogue: 0,0:17:21.66,0:17:23.54,中上英下,,0000,0000,0000,,{\blur3}她卖毒品给小孩\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}She sells drugs to kids.
+Dialogue: 0,0:17:24.91,0:17:26.87,中上英下,,0000,0000,0000,,{\blur3}那是我的硬币\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It was my quarter.
+Dialogue: 0,0:17:27.08,0:17:28.33,中上英下,,0000,0000,0000,,{\blur3}那硬币是她的吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Was it her quarter?
+Dialogue: 0,0:17:29.04,0:17:31.75,中上英下,,0000,0000,0000,,{\blur3}我们等吃晚餐再聊如何？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}How about we talk about this over dinner?
+Dialogue: 0,0:17:31.96,0:17:35.72,中上英下,,0000,0000,0000,,{\blur3}- 好了 小姐 请你出去   - 不 你不能逮捕我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Okay, lady, you're out of here.     - No, you can't arrest me!
+Dialogue: 0,0:17:35.92,0:17:38.01,中上英下,,0000,0000,0000,,{\blur3}我才不要重回火坑\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I won't go back to that hellhole!
+Dialogue: 0,0:17:39.76,0:17:42.26,中上英下,,0000,0000,0000,,{\blur3}我只是要把你带出去而已\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm just taking you outside.
+Dialogue: 0,0:17:42.47,0:17:43.97,中上英下,,0000,0000,0000,,{\blur3}那好吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, okay.
+Dialogue: 0,0:17:48.02,0:17:52.94,中上英下,,0000,0000,0000,,{\blur3}快点 一定要凑齐四样东西 我们才能结婚\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I need something old, something new, something borrowed and something blue.
+Dialogue: 0,0:17:54.07,0:17:56.36,中上英下,,0000,0000,0000,,{\blur3}这是蓝色的 而且也是新的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Here's something blue and new.
+Dialogue: 0,0:17:56.57,0:17:59.03,中上英下,,0000,0000,0000,,{\blur3}我们真有效率 我爱你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You are so efficient. I love you.
+Dialogue: 0,0:17:59.45,0:18:00.70,中上英下,,0000,0000,0000,,{\blur3}- 走吧   - 还不行…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Let's go.     - No, wait!
+Dialogue: 0,0:18:00.95,0:18:02.45,中上英下,,0000,0000,0000,,{\blur3}我们还需要旧的东西\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We need something old.
+Dialogue: 0,0:18:02.66,0:18:06.50,中上英下,,0000,0000,0000,,{\blur3}好 我皮夹里有个保险套 我从12岁放到现在\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I have a condom in my wallet that I've had since I was 12.
+Dialogue: 0,0:18:08.42,0:18:10.04,中上英下,,0000,0000,0000,,{\blur3}可以用啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That'll work.
+Dialogue: 0,0:18:10.25,0:18:11.92,中上英下,,0000,0000,0000,,{\blur3}我想应该不能用了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't think so.
+Dialogue: 0,0:18:13.46,0:18:15.59,中上英下,,0000,0000,0000,,{\blur3}好 现在只剩借来的东西\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Now something borrowed.
+Dialogue: 0,0:18:16.51,0:18:20.09,中上英下,,0000,0000,0000,,{\blur3}- 那就把这毛衣拿走   - 这是偷窃耶\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Here, just take this.     - That's stealing.
+Dialogue: 0,0:18:20.64,0:18:22.85,中上英下,,0000,0000,0000,,{\blur3}到时再还回来就是了 塞进你的洋装里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We'll bring it back. Put it under your dress.
+Dialogue: 0,0:18:30.40,0:18:32.40,中上英下,,0000,0000,0000,,{\blur3}啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Aw.
+Dialogue: 0,0:18:34.53,0:18:36.48,中上英下,,0000,0000,0000,,{\blur3}好啦 先结婚再怀孕\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay. One thing at a time.
+Dialogue: 0,0:18:48.91,0:18:52.38,中上英下,,0000,0000,0000,,{\blur3}- 你要玩吗？ - 不要 我没半毛钱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Are you gonna play?     - No, I don't really have any money.
+Dialogue: 0,0:18:53.50,0:18:56.17,中上英下,,0000,0000,0000,,{\blur3}只是时候未到而已喔\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Not yet, anyway.
+Dialogue: 0,0:18:57.67,0:18:59.38,中上英下,,0000,0000,0000,,{\blur3}你不玩就不能坐在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Can't sit here if you don't play.
+Dialogue: 0,0:19:13.77,0:19:17.53,中上英下,,0000,0000,0000,,{\blur3}嗨 我是瑞吉娜佛兰姬\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello. My name is Regina Phalange.
+Dialogue: 0,0:19:19.36,0:19:22.03,中上英下,,0000,0000,0000,,{\blur3}我是生意人 这趟是来出差的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm a businesswoman in town on business.
+Dialogue: 0,0:19:22.24,0:19:24.03,中上英下,,0000,0000,0000,,{\blur3}你要我的名片吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Would you like to see my card?
+Dialogue: 0,0:19:24.24,0:19:25.99,中上英下,,0000,0000,0000,,{\blur3}我的名片夹到哪儿去了？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What did I do with my Filofax?
+Dialogue: 0,0:19:26.24,0:19:28.45,中上英下,,0000,0000,0000,,{\blur3}一定是忘在B会议室\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I must've left it in Conference Room B.
+Dialogue: 0,0:19:29.58,0:19:31.58,中上英下,,0000,0000,0000,,{\blur3}- 14点   - 再加\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Fourteen.     - Hit me.
+Dialogue: 0,0:19:32.04,0:19:37.63,中上英下,,0000,0000,0000,,{\blur3}天啊 我得说两位的手一模一样\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God. May I just say that you gentlemen have the exact same hands?
+Dialogue: 0,0:19:39.17,0:19:40.51,中上英下,,0000,0000,0000,,{\blur3}一个模子刻出来的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}They're identical.
+Dialogue: 0,0:19:40.72,0:19:43.43,中上英下,,0000,0000,0000,,{\blur3}我在商业界做了这么久 从来没看过这种事\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I've never seen that in the business world.
+Dialogue: 0,0:19:45.10,0:19:46.80,中上英下,,0000,0000,0000,,{\blur3}别再说了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Stop it.
+Dialogue: 0,0:19:47.72,0:19:52.56,中上英下,,0000,0000,0000,,{\blur3}佛兰姬女士 以局外人的身分 我能请教你一个问题吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Miss Phalange, may I ask you a question as an impartial person at this table?
+Dialogue: 0,0:19:52.77,0:19:54.31,中上英下,,0000,0000,0000,,{\blur3}请你别再说了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Please stop it.
+Dialogue: 0,0:19:56.15,0:19:59.15,中上英下,,0000,0000,0000,,{\blur3}你愿不愿意花大钱 去看手掌一模一样的两个人…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Wouldn't you pay good money to see identical hands...
+Dialogue: 0,0:19:59.40,0:20:03.78,中上英下,,0000,0000,0000,,{\blur3}这种娱乐性的演出？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...showcased in some type of an entertainment venue?
+Dialogue: 0,0:20:03.99,0:20:07.87,中上英下,,0000,0000,0000,,{\blur3}只要你愿意离开 我就把手砍下来送你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}If you leave now, I will chop off my hand and give it to you!
+Dialogue: 0,0:20:10.87,0:20:12.62,中上英下,,0000,0000,0000,,{\blur3}我不是才把你赶出去了吗？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Didn't I just throw you out?
+Dialogue: 0,0:20:13.12,0:20:14.96,中上英下,,0000,0000,0000,,{\blur3}不 你赶出去的是菲比\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, you threw out Phoebe.
+Dialogue: 0,0:20:15.21,0:20:18.00,中上英下,,0000,0000,0000,,{\blur3}我是瑞吉娜佛兰姬女士\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm Regina Phalange. Phalange.
+Dialogue: 0,0:20:18.59,0:20:20.38,中上英下,,0000,0000,0000,,{\blur3}小姐 你别闹了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on, lady.
+Dialogue: 0,0:20:20.59,0:20:21.92,中上英下,,0000,0000,0000,,{\blur3}请你把他也带走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Please take him too.
+Dialogue: 0,0:20:22.13,0:20:24.80,中上英下,,0000,0000,0000,,{\blur3}我？别这样嘛\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Me? Oh, come on, man.
+Dialogue: 0,0:20:25.01,0:20:26.26,中上英下,,0000,0000,0000,,{\blur3}走吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on, buddy.
+Dialogue: 0,0:20:27.14,0:20:29.39,中上英下,,0000,0000,0000,,{\blur3}你不能这样\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Don't let him do this. Come on!
+Dialogue: 0,0:20:29.64,0:20:32.27,中上英下,,0000,0000,0000,,{\blur3}我是你的双胞手耶\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm your hand twin!
+Dialogue: 0,0:20:36.52,0:20:38.73,中上英下,,0000,0000,0000,,{\blur3}嗨 登记结婚\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello. One marriage, please.
+Dialogue: 0,0:20:38.98,0:20:40.40,中上英下,,0000,0000,0000,,{\blur3}对 我们要结婚\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We want to get married.
+Dialogue: 0,0:20:40.61,0:20:43.28,中上英下,,0000,0000,0000,,{\blur3}有婚礼正在进行 先请坐\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There's a service in progress. Have a seat.
+Dialogue: 0,0:20:43.78,0:20:45.11,中上英下,,0000,0000,0000,,{\blur3}好吧…\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right.
+Dialogue: 0,0:20:54.00,0:20:55.25,中上英下,,0000,0000,0000,,{\blur3}你在干嘛？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What are you doing?
+Dialogue: 0,0:20:55.50,0:20:58.00,中上英下,,0000,0000,0000,,{\blur3}那是结婚进行曲 听了有没有吓到？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The "Wedding March." Does that freak you out?
+Dialogue: 0,0:20:58.21,0:21:00.09,中上英下,,0000,0000,0000,,{\blur3}没有 因为那是毕业歌\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, it's the graduation song.
+Dialogue: 0,0:21:04.76,0:21:06.22,中上英下,,0000,0000,0000,,{\blur3}好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay.
+Dialogue: 0,0:21:06.43,0:21:09.26,中上英下,,0000,0000,0000,,{\blur3}来吧 我们要结婚了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This is it. We're gonna get married.
+Dialogue: 0,0:21:09.47,0:21:11.06,中上英下,,0000,0000,0000,,{\blur3}你确定你真的想结婚？\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You sure you wanna do this?
+Dialogue: 0,0:21:16.73,0:21:18.98,中上英下,,0000,0000,0000,,{\blur3}嗨 罗斯太太\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello, Mrs. Ross!
+Dialogue: 0,0:21:19.23,0:21:22.32,中上英下,,0000,0000,0000,,{\blur3}嗨 瑞秋先生\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, hello, Mr. Rachel!
+Dialogue: 0,0:21:24.49,0:21:26.28,中上英下,,0000,0000,0000,,{\blur3}等等 好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Wait. Okay.

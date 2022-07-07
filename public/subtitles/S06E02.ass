@@ -1,0 +1,408 @@
+﻿[Script Info]
+;SrtEdit 6.2.2012.322
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: YYeTs
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: chs&eng,STKaiti,20,&H00F5F5F5,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,2,1
+Style: Pure Chinese,STKaiti,20,&H00F5F5F5,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,8,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:02.91,0:00:04.16,chs&eng,,0000,0000,0000,,{\blur3}- 嗨   - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hi.     - Hey.
+Dialogue: 0,0:00:04.33,0:00:06.63,chs&eng,,0000,0000,0000,,{\blur3}手续办得还顺利吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So, uh, did everything go okay with the annulment?
+Dialogue: 0,0:00:06.79,0:00:09.29,chs&eng,,0000,0000,0000,,{\blur3}没问题 都办好了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, yeah. No problems. It's all taken care of.
+Dialogue: 0,0:00:09.46,0:00:10.80,chs&eng,,0000,0000,0000,,{\blur3}- 罗斯 谢谢你   - 哈{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Ross, thank you.     - Ah.
+Dialogue: 0,0:00:12.42,0:00:15.22,chs&eng,,0000,0000,0000,,{\blur3}- 你们要不要去看电影？ - 好啊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- You guys want to go see a movie?     - Yeah, why not?
+Dialogue: 0,0:00:15.39,0:00:17.59,chs&eng,,0000,0000,0000,,{\blur3}- 我去穿毛衣   - 好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Let me get my sweater.     - Okay.
+Dialogue: 0,0:00:20.31,0:00:21.89,chs&eng,,0000,0000,0000,,{\blur3}想不想听件奇怪的事？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Want to hear something weird?
+Dialogue: 0,0:00:22.06,0:00:23.39,chs&eng,,0000,0000,0000,,{\blur3}当然{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Always.
+Dialogue: 0,0:00:25.06,0:00:27.15,chs&eng,,0000,0000,0000,,{\blur3}我没去办注销{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I didn't get the annulment.
+Dialogue: 0,0:00:28.90,0:00:31.11,chs&eng,,0000,0000,0000,,{\blur3}- 什么？ - 我们还是夫妻{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What?     - We're still married.
+Dialogue: 0,0:00:32.49,0:00:34.53,chs&eng,,0000,0000,0000,,{\blur3}不要告诉瑞秋 待会见{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Don't tell Rachel. See you later.
+Dialogue: 0,0:00:38.03,0:00:41.66,chs&eng,,0000,0000,0000,,{\blur3}- 你有口香糖吗？ - 有{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey, do you have any gum?     - Oh, yeah.
+Dialogue: 0,0:00:41.83,0:00:45.87,chs&eng,,0000,0000,0000,,{\blur3}等等 罗斯 可以跟你谈一下吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Wait! Wait! Hi. Ross, can I just talk to you for just a second?
+Dialogue: 0,0:00:46.04,0:00:47.88,chs&eng,,0000,0000,0000,,{\blur3}但是电影快开演了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, but we'll be late for the movie.
+Dialogue: 0,0:00:48.04,0:00:50.50,chs&eng,,0000,0000,0000,,{\blur3}那里有计程车 计程车{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, there's a cab. Taxi!
+Dialogue: 0,0:00:50.67,0:00:52.17,chs&eng,,0000,0000,0000,,{\blur3}太好了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, that's great.
+Dialogue: 0,0:00:52.34,0:00:55.01,chs&eng,,0000,0000,0000,,{\blur3}来得正好 上车吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What timing! My God, huh? There you go.
+Dialogue: 0,0:00:55.76,0:00:58.47,chs&eng,,0000,0000,0000,,{\blur3}我们要走去前面的安洁丽戏院{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We're gonna walk. It's right at the Angelika.
+Dialogue: 0,0:00:58.64,0:01:00.05,chs&eng,,0000,0000,0000,,{\blur3}安洁丽戏院 开车{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, the Angelika! Go! Go!
+Dialogue: 0,0:01:02.35,0:01:04.10,chs&eng,,0000,0000,0000,,{\blur3}你没去注销？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You didn't get the annulment?
+Dialogue: 0,0:01:04.31,0:01:07.44,chs&eng,,0000,0000,0000,,{\blur3}- 我知道   - 罗斯{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I know.     - Ross!
+Dialogue: 0,0:01:07.60,0:01:10.94,chs&eng,,0000,0000,0000,,{\blur3}我试过 但在律师楼我只听到{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I tried, but when I got to my lawyer's office, all I heard was:
+Dialogue: 0,0:01:11.15,0:01:13.69,chs&eng,,0000,0000,0000,,{\blur3}"离婚三次 离婚三次"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}"Three divorces! Three divorces!"
+Dialogue: 0,0:01:15.11,0:01:19.66,chs&eng,,0000,0000,0000,,{\blur3}我不希望我的墓碑上刻着 "罗斯·盖勒 离婚三次"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I just don't want my tombstone to read "Ross Geller: Three Divorces."
+Dialogue: 0,0:01:19.87,0:01:23.41,chs&eng,,0000,0000,0000,,{\blur3}你不用担心那个 你爱刻什么就刻什么{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Don't worry about that. Your tombstone can say whatever you want.
+Dialogue: 0,0:01:23.58,0:01:26.41,chs&eng,,0000,0000,0000,,{\blur3}你可以刻 "罗斯·盖勒 婚姻高手"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It can say, "Ross Geller: Good at Marriage."
+Dialogue: 0,0:01:27.50,0:01:31.79,chs&eng,,0000,0000,0000,,{\blur3}我的会刻 "菲比·布非 活埋在此"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know? Mine's gonna say, "Phoebe Buffay: Buried Alive."
+Dialogue: 0,0:01:32.38,0:01:35.88,chs&eng,,0000,0000,0000,,{\blur3}反正我不能再添一次失败婚姻{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All I know is, I can't have another failed marriage.
+Dialogue: 0,0:01:36.09,0:01:39.97,chs&eng,,0000,0000,0000,,{\blur3}所以你要娶个不知情的女生？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So you're gonna be married to a girl who doesn't even know about it?
+Dialogue: 0,0:01:40.22,0:01:42.01,chs&eng,,0000,0000,0000,,{\blur3}女人 抱歉{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Woman. Sorry.
+Dialogue: 0,0:01:43.43,0:01:47.06,chs&eng,,0000,0000,0000,,{\blur3}我还没想好要怎么做{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, okay, so I don't have it all worked out quite yet.
+Dialogue: 0,0:01:47.31,0:01:52.86,chs&eng,,0000,0000,0000,,{\blur3}- 拜托你先别告诉瑞秋   - 瑞秋是我最要好的朋友之一{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Just don't say anything to Rachel.     - Rachel is one of my closest friends.
+Dialogue: 0,0:01:53.15,0:01:57.36,chs&eng,,0000,0000,0000,,{\blur3}不过当唯一知情的人威觉不赖 好吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But being the only one that knows about this makes me feel special. Okay.
+Dialogue: 0,0:02:00.32,0:02:02.83,chs&eng,,0000,0000,0000,,{\blur3}停车 菲比？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, stop, stop! Phoebe?
+Dialogue: 0,0:02:02.99,0:02:04.37,chs&eng,,0000,0000,0000,,{\blur3}瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, Rach!
+Dialogue: 0,0:02:05.58,0:02:07.12,chs&eng,,0000,0000,0000,,{\blur3}你在搞什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What was that?
+Dialogue: 0,0:02:07.33,0:02:08.96,chs&eng,,0000,0000,0000,,{\blur3}抱歉 弄错了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Sorry. Mix-up.
+Dialogue: 0,0:02:10.08,0:02:11.33,chs&eng,,0000,0000,0000,,{\blur3}电影好看吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}How was the movie?
+Dialogue: 0,0:02:12.13,0:02:13.96,chs&eng,,0000,0000,0000,,{\blur3}我还没看{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I haven't seen it yet.
+Dialogue: 0,0:02:14.21,0:02:16.38,chs&eng,,0000,0000,0000,,{\blur3}那就要快了 安洁丽戏院 开车{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You'd better hurry. The Angelika! Go. Go!
+Dialogue: 0,0:02:16.55,0:02:18.01,chs&eng,,0000,0000,0000,,{\blur3}不{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No!
+Dialogue: 0,0:02:20.00,0:02:23.00,Pure Chinese,,0000,0000,0008,,{\blur3}老友记 {\fs16}第六季 第二集
+Dialogue: 0,0:02:59.63,0:03:02.26,chs&eng,,0000,0000,0000,,{\blur3}等我们同居 我可以买一台泡泡糖机吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}When we move in together, can I get a gumball machine?
+Dialogue: 0,0:03:02.43,0:03:05.39,chs&eng,,0000,0000,0000,,{\blur3}当然可以 乔伊不让你买？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Of course. Joey wouldn't let you have one?
+Dialogue: 0,0:03:05.56,0:03:08.81,chs&eng,,0000,0000,0000,,{\blur3}对 他对甜食要求特别严{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, when it comes to sweets, he's surprisingly strict.
+Dialogue: 0,0:03:09.81,0:03:11.94,chs&eng,,0000,0000,0000,,{\blur3}你想好要怎么说了吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Did you tell him you're moving out?
+Dialogue: 0,0:03:12.19,0:03:15.48,chs&eng,,0000,0000,0000,,{\blur3}还没 我试了好几次 只能说出"乔伊 我得..."{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, I keep trying. And I can get out "Joey, I have to..."
+Dialogue: 0,0:03:15.73,0:03:19.65,chs&eng,,0000,0000,0000,,{\blur3}然后就退缩改说 "去上厕所"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Then I lose my nerve and I finish with "...go to the bathroom."
+Dialogue: 0,0:03:20.28,0:03:21.82,chs&eng,,0000,0000,0000,,{\blur3}他可能以为我有病{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He may think I'm sick.
+Dialogue: 0,0:03:22.66,0:03:26.16,chs&eng,,0000,0000,0000,,{\blur3}我真的得告诉瑞秋了... 早死早超生{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I have to tell Rachel, but I... We just gotta get it over with.
+Dialogue: 0,0:03:26.41,0:03:29.66,chs&eng,,0000,0000,0000,,{\blur3}下次见到他们 我们就说 就这么决定{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Next time we see them, we'll just tell them. That's it.
+Dialogue: 0,0:03:29.87,0:03:33.04,chs&eng,,0000,0000,0000,,{\blur3}以后你都要这样指使我是吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's how it'll work now? You'll just order me around?
+Dialogue: 0,0:03:33.88,0:03:35.71,chs&eng,,0000,0000,0000,,{\blur3}- 差不多   - 好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Pretty much.     - All right.
+Dialogue: 0,0:03:36.84,0:03:39.00,chs&eng,,0000,0000,0000,,{\blur3}嘿 摩妮卡 你有没有好一点？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, Monica. Hey, man, you feeling better?
+Dialogue: 0,0:03:43.30,0:03:44.47,chs&eng,,0000,0000,0000,,{\blur3}乔伊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Joey.
+Dialogue: 0,0:03:44.89,0:03:46.60,chs&eng,,0000,0000,0000,,{\blur3}我们有事要说{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We have something to tell you.
+Dialogue: 0,0:03:47.64,0:03:48.89,chs&eng,,0000,0000,0000,,{\blur3}天哪{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God!
+Dialogue: 0,0:03:49.14,0:03:50.85,chs&eng,,0000,0000,0000,,{\blur3}你怀孕了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're pregnant!
+Dialogue: 0,0:03:52.52,0:03:54.60,chs&eng,,0000,0000,0000,,{\blur3}不是 没有吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No! No?
+Dialogue: 0,0:03:54.77,0:03:56.44,chs&eng,,0000,0000,0000,,{\blur3}- 不是   - 没有{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- No.     - No!
+Dialogue: 0,0:03:57.86,0:04:00.15,chs&eng,,0000,0000,0000,,{\blur3}乔伊 是这样的...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, Joe, here's the thing. Um...
+Dialogue: 0,0:04:01.78,0:04:05.57,chs&eng,,0000,0000,0000,,{\blur3}摩妮卡和我决定在这里同居{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Monica and I have decided to live together, here.
+Dialogue: 0,0:04:06.45,0:04:08.45,chs&eng,,0000,0000,0000,,{\blur3}所以我会搬出来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So I'm gonna be moving out, man.
+Dialogue: 0,0:04:12.21,0:04:13.50,chs&eng,,0000,0000,0000,,{\blur3}哇{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Wow.
+Dialogue: 0,0:04:13.67,0:04:15.58,chs&eng,,0000,0000,0000,,{\blur3}哦 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, uh, hey!
+Dialogue: 0,0:04:15.79,0:04:19.96,chs&eng,,0000,0000,0000,,{\blur3}我真替你们高兴 恭喜 回见{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm really happy for you guys. Congratulations. See you later.
+Dialogue: 0,0:04:20.17,0:04:22.09,chs&eng,,0000,0000,0000,,{\blur3}- 等等 乔伊 你还好吗？ - 嗯{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Joey! Joey! Are you okay?     - Yeah.
+Dialogue: 0,0:04:22.30,0:04:24.76,chs&eng,,0000,0000,0000,,{\blur3}很好 我得走了 我有戏要演{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I gotta go. I've got an acting job.
+Dialogue: 0,0:04:26.93,0:04:28.18,chs&eng,,0000,0000,0000,,{\blur3}你们会信才怪{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Like you'd believe that.
+Dialogue: 0,0:04:30.06,0:04:31.22,chs&eng,,0000,0000,0000,,{\blur3}讨厌啦{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This sucks!
+Dialogue: 0,0:04:31.72,0:04:34.35,chs&eng,,0000,0000,0000,,{\blur3}我只是要搬到对面 我保证...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'll be across the hall. And I promise you...
+Dialogue: 0,0:04:34.56,0:04:38.11,chs&eng,,0000,0000,0000,,{\blur3}摩妮卡和我一分手 我就回去跟你住{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}the minute Monica and I break up, I'm moving right back in.
+Dialogue: 0,0:04:39.65,0:04:41.86,chs&eng,,0000,0000,0000,,{\blur3}好 如果你要跟他住...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, uh, If you're gonna move in with him...
+Dialogue: 0,0:04:42.03,0:04:45.32,chs&eng,,0000,0000,0000,,{\blur3}我有责任揭穿他的真面目{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I feel it is my responsibility to tell you the truth about him.
+Dialogue: 0,0:04:45.49,0:04:47.61,chs&eng,,0000,0000,0000,,{\blur3}他是个很烂的室友{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He's a terrible roommate. Terrible.
+Dialogue: 0,0:04:47.82,0:04:49.53,chs&eng,,0000,0000,0000,,{\blur3}他会忘记...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He, uh, forgets to, um...
+Dialogue: 0,0:04:50.70,0:04:53.16,chs&eng,,0000,0000,0000,,{\blur3}他老是...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He always, he always, uh...
+Dialogue: 0,0:04:53.91,0:04:55.91,chs&eng,,0000,0000,0000,,{\blur3}我骗谁啊？他最棒了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Who am I kidding? He's the best roommate!
+Dialogue: 0,0:05:01.55,0:05:04.01,chs&eng,,0000,0000,0000,,{\blur3}- 菲比 你有看到瑞秋吗？ - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey, Pheebs. Have you seen Rachel?     - Hey.
+Dialogue: 0,0:05:04.22,0:05:06.43,chs&eng,,0000,0000,0000,,{\blur3}- 没有 怎么？ - 我有个好消息{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- No, why?     - I have some exciting news.
+Dialogue: 0,0:05:06.97,0:05:08.14,chs&eng,,0000,0000,0000,,{\blur3}你怀孕了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're pregnant.
+Dialogue: 0,0:05:09.47,0:05:11.01,chs&eng,,0000,0000,0000,,{\blur3}不是{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No!
+Dialogue: 0,0:05:12.10,0:05:13.93,chs&eng,,0000,0000,0000,,{\blur3}钱德和我决定同居{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Chandler and I are moving in together.
+Dialogue: 0,0:05:14.14,0:05:15.68,chs&eng,,0000,0000,0000,,{\blur3}太好了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, that's good!
+Dialogue: 0,0:05:15.94,0:05:19.56,chs&eng,,0000,0000,0000,,{\blur3}不过如果你有宝宝要叫什么？提示 菲比{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But if you were pregnant, what would you name it? Hint, Phoebe.
+Dialogue: 0,0:05:21.36,0:05:23.15,chs&eng,,0000,0000,0000,,{\blur3}- 嘿   - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey.     - Hey.
+Dialogue: 0,0:05:23.53,0:05:25.40,chs&eng,,0000,0000,0000,,{\blur3}- 怎么样？ - 嗯...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What's up?     - Well, um...
+Dialogue: 0,0:05:26.78,0:05:29.20,chs&eng,,0000,0000,0000,,{\blur3}钱德和我要住在一起{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Chandler and I are moving in together.
+Dialogue: 0,0:05:29.45,0:05:31.58,chs&eng,,0000,0000,0000,,{\blur3}天哪{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God.
+Dialogue: 0,0:05:31.91,0:05:35.45,chs&eng,,0000,0000,0000,,{\blur3}我妹妹和我的死党...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my little sister and my best friend...
+Dialogue: 0,0:05:35.66,0:05:37.29,chs&eng,,0000,0000,0000,,{\blur3}搞在一起{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}shacking up.
+Dialogue: 0,0:05:39.00,0:05:41.84,chs&eng,,0000,0000,0000,,{\blur3}太好了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's great. That's great. Mwah.
+Dialogue: 0,0:05:42.00,0:05:45.05,chs&eng,,0000,0000,0000,,{\blur3}- 喂 我也很高兴   - 好 起来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Guys, I'm happy too.     - Okay, come here.
+Dialogue: 0,0:05:46.13,0:05:50.68,chs&eng,,0000,0000,0000,,{\blur3}今天真热闹 有人要同居 有人办注销{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Big day, huh? People moving in. People getting annulled.
+Dialogue: 0,0:05:53.85,0:05:55.72,chs&eng,,0000,0000,0000,,{\blur3}我要去找瑞秋了 不过...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I gotta go find Rachel. But, um...
+Dialogue: 0,0:05:55.98,0:06:00.27,chs&eng,,0000,0000,0000,,{\blur3}你们能不能先灌些坏消息给她 减轻一些冲击？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}If you see her, give her some really bad news, so mine doesn't seem so bad.
+Dialogue: 0,0:06:00.73,0:06:02.15,chs&eng,,0000,0000,0000,,{\blur3}再见{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, bye.
+Dialogue: 0,0:06:03.15,0:06:06.07,chs&eng,,0000,0000,0000,,{\blur3}讲给瑞秋听的坏消息{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hmm. Something bad to tell Rachel.
+Dialogue: 0,0:06:07.65,0:06:10.28,chs&eng,,0000,0000,0000,,{\blur3}什么是她的坏消息？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Bad news for Rachel. What could that be?
+Dialogue: 0,0:06:11.53,0:06:13.83,chs&eng,,0000,0000,0000,,{\blur3}你能不能别再提了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Can you just lay off, please?
+Dialogue: 0,0:06:14.08,0:06:18.62,chs&eng,,0000,0000,0000,,{\blur3}我的人生很难堪 我应该去住在别人的楼梯底下{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}My life is an embarrassment. I should just go live under somebody's stairs.
+Dialogue: 0,0:06:19.50,0:06:22.92,chs&eng,,0000,0000,0000,,{\blur3}根本没那么严重 离婚三次又怎样？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's not that big a deal. You'll have been divorced three times.
+Dialogue: 0,0:06:23.17,0:06:25.21,chs&eng,,0000,0000,0000,,{\blur3}你还是会有生活 会约会...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You'll have a life, you'll date...
+Dialogue: 0,0:06:25.42,0:06:29.59,chs&eng,,0000,0000,0000,,{\blur3}才不会 我的约会指数降到谷底{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, I won't. I'll be at the bottom of the dating barrel now.
+Dialogue: 0,0:06:29.84,0:06:32.26,chs&eng,,0000,0000,0000,,{\blur3}比我低的只有离婚四次的人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The only guys below me will be Four-Divorce Guy...
+Dialogue: 0,0:06:32.43,0:06:34.89,chs&eng,,0000,0000,0000,,{\blur3}杀人犯...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}uh, Murderer Guy...
+Dialogue: 0,0:06:35.10,0:06:36.31,chs&eng,,0000,0000,0000,,{\blur3}和地质学家{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}and geologists.
+Dialogue: 0,0:06:38.18,0:06:42.19,chs&eng,,0000,0000,0000,,{\blur3}罗斯 你别傻了 你可爱 聪明又体贴{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ross, you're being ridiculous. You are cute and smart and sweet.
+Dialogue: 0,0:06:42.44,0:06:45.61,chs&eng,,0000,0000,0000,,{\blur3}这比离婚三次重要多了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That is much more important than three stupid divorces.
+Dialogue: 0,0:06:45.82,0:06:48.82,chs&eng,,0000,0000,0000,,{\blur3}是吗？你交过离婚三次的男朋友吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Have you dated anyone who's been divorced three times?
+Dialogue: 0,0:06:49.03,0:06:53.37,chs&eng,,0000,0000,0000,,{\blur3}这样问不公平 离三次婚的人通常都六十了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's not fair. Most guys that have been divorced three times are 60.
+Dialogue: 0,0:06:55.16,0:06:57.62,chs&eng,,0000,0000,0000,,{\blur3}只有你自己在意{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Nobody cares about this except you.
+Dialogue: 0,0:06:57.83,0:07:01.16,chs&eng,,0000,0000,0000,,{\blur3}什么难堪都是你在想像{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This embarrassment thing is all in your head.
+Dialogue: 0,0:07:01.75,0:07:04.50,chs&eng,,0000,0000,0000,,{\blur3}- 我证明给你看 过来   - 干嘛？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Here, I'll show you. Come here.     - What?
+Dialogue: 0,0:07:04.75,0:07:08.88,chs&eng,,0000,0000,0000,,{\blur3}你好 我朋友罗斯即将三度离婚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hi. My friend Ross is about to be divorced for the third time.
+Dialogue: 0,0:07:09.09,0:07:10.55,chs&eng,,0000,0000,0000,,{\blur3}但你们会和他约会吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But wouldn't you date him?
+Dialogue: 0,0:07:11.88,0:07:14.89,chs&eng,,0000,0000,0000,,{\blur3}你们稍候 我去找罗斯来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And if you wait right here, I'll go get Ross.
+Dialogue: 0,0:07:18.72,0:07:20.93,chs&eng,,0000,0000,0000,,{\blur3}- 嘿   - 我还以为你是瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey.     - Agh. Thought you were Rachel.
+Dialogue: 0,0:07:21.44,0:07:24.19,chs&eng,,0000,0000,0000,,{\blur3}- 我哪里露出破绽了？ - 我得赶快告诉她{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What gave me away?     - I gotta tell her.
+Dialogue: 0,0:07:24.36,0:07:27.57,chs&eng,,0000,0000,0000,,{\blur3}我已经告诉罗斯和菲比 只剩她了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Get it over with. I told Ross and Phoebe. She's the only one left.
+Dialogue: 0,0:07:27.73,0:07:30.40,chs&eng,,0000,0000,0000,,{\blur3}所以大家都知道了 我们确定要同居了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's official. We're moving in together.
+Dialogue: 0,0:07:30.65,0:07:31.78,chs&eng,,0000,0000,0000,,{\blur3}不能反悔{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No turning back.
+Dialogue: 0,0:07:31.95,0:07:33.99,chs&eng,,0000,0000,0000,,{\blur3}你怕吗？怕吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Are you scared? Are you?
+Dialogue: 0,0:07:35.20,0:07:36.24,chs&eng,,0000,0000,0000,,{\blur3}不怕{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No.
+Dialogue: 0,0:07:36.45,0:07:39.33,chs&eng,,0000,0000,0000,,{\blur3}那是我最可怕的声音 你真勇敢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That was my scariest voice. You're brave.
+Dialogue: 0,0:07:41.46,0:07:43.25,chs&eng,,0000,0000,0000,,{\blur3}- 嘿   - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey. Ugh.     - Hey.
+Dialogue: 0,0:07:43.42,0:07:44.58,chs&eng,,0000,0000,0000,,{\blur3}今天真惨{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The worst day.
+Dialogue: 0,0:07:44.83,0:07:49.42,chs&eng,,0000,0000,0000,,{\blur3}你以为自己终于受重视了 结果老板却叫你拉壳儿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're finally making progress at work, then your boss calls you Racquel.
+Dialogue: 0,0:07:50.63,0:07:52.88,chs&eng,,0000,0000,0000,,{\blur3}我进公司前四年 大家都叫我...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}First four years of my work, they called me...
+Dialogue: 0,0:08:01.10,0:08:03.10,chs&eng,,0000,0000,0000,,{\blur3}- 是真的   - 我相信{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Seriously.     - I believe you.
+Dialogue: 0,0:08:04.65,0:08:08.52,chs&eng,,0000,0000,0000,,{\blur3}当时正在开员工大会 当然不会有人纠正她{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It was in the middle of a meeting, so no one wants to correct her.
+Dialogue: 0,0:08:08.73,0:08:10.44,chs&eng,,0000,0000,0000,,{\blur3}于是大家都叫我拉壳儿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So everyone's calling me Racquel.
+Dialogue: 0,0:08:10.69,0:08:14.40,chs&eng,,0000,0000,0000,,{\blur3}到了下班前 收发室的人已经叫成洛基了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}By the end of the day, the mailroom guys were calling me Rocky.
+Dialogue: 0,0:08:16.03,0:08:19.58,chs&eng,,0000,0000,0000,,{\blur3}我还是觉得你很好很漂亮{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, I still think you're very, very nice and very pretty.
+Dialogue: 0,0:08:20.58,0:08:21.62,chs&eng,,0000,0000,0000,,{\blur3}什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What?
+Dialogue: 0,0:08:23.29,0:08:24.83,chs&eng,,0000,0000,0000,,{\blur3}交给你了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All yours, babe.
+Dialogue: 0,0:08:25.58,0:08:27.13,chs&eng,,0000,0000,0000,,{\blur3}瑞秋 过来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Rachel, come here.
+Dialogue: 0,0:08:27.84,0:08:28.88,chs&eng,,0000,0000,0000,,{\blur3}坐{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Have a seat.
+Dialogue: 0,0:08:29.59,0:08:30.75,chs&eng,,0000,0000,0000,,{\blur3}好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay.
+Dialogue: 0,0:08:30.92,0:08:33.30,chs&eng,,0000,0000,0000,,{\blur3}听我说 钱德和我...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Listen, um, Chandler and I...
+Dialogue: 0,0:08:34.01,0:08:35.84,chs&eng,,0000,0000,0000,,{\blur3}要一起住{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}are going to live together.
+Dialogue: 0,0:08:36.22,0:08:37.26,chs&eng,,0000,0000,0000,,{\blur3}住在这里{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Here.
+Dialogue: 0,0:08:40.60,0:08:41.77,chs&eng,,0000,0000,0000,,{\blur3}天哪{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God.
+Dialogue: 0,0:08:43.27,0:08:44.81,chs&eng,,0000,0000,0000,,{\blur3}真是太棒了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's so great!
+Dialogue: 0,0:08:46.52,0:08:48.94,chs&eng,,0000,0000,0000,,{\blur3}我真替你们高兴{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm so happy for you guys!
+Dialogue: 0,0:08:49.15,0:08:50.23,chs&eng,,0000,0000,0000,,{\blur3}真的？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Really?
+Dialogue: 0,0:08:50.48,0:08:52.82,chs&eng,,0000,0000,0000,,{\blur3}你真好 还先问我{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And that was so sweet of you to ask.
+Dialogue: 0,0:08:53.03,0:08:56.91,chs&eng,,0000,0000,0000,,{\blur3}天哪 我们三个 在一起一定会很开心{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The three of us are gonna have such a good time living together!
+Dialogue: 0,0:08:58.74,0:08:59.82,chs&eng,,0000,0000,0000,,{\blur3}是啊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes, we are.
+Dialogue: 0,0:09:00.95,0:09:04.12,chs&eng,,0000,0000,0000,,{\blur3}钱德 你早上不能慢慢冲澡了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Chandler, you'll have to watch those long showers you take...
+Dialogue: 0,0:09:04.37,0:09:07.29,chs&eng,,0000,0000,0000,,{\blur3}因为拉壳儿不能迟到{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}because you know Racquel can't be late.
+Dialogue: 0,0:09:08.46,0:09:10.38,chs&eng,,0000,0000,0000,,{\blur3}- 瑞秋   - 他会注意的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Rach.     - He'll work on that.
+Dialogue: 0,0:09:10.55,0:09:13.80,chs&eng,,0000,0000,0000,,{\blur3}好兴奋喔{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh. Aw, this is so exciting!
+Dialogue: 0,0:09:14.13,0:09:16.01,chs&eng,,0000,0000,0000,,{\blur3}哦 哇{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, wow.
+Dialogue: 0,0:09:17.39,0:09:19.26,chs&eng,,0000,0000,0000,,{\blur3}来敲我的门{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come and knock on our door
+Dialogue: 0,0:09:21.56,0:09:23.68,chs&eng,,0000,0000,0000,,{\blur3}我们等着你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We'll be waiting for you
+Dialogue: 0,0:09:27.94,0:09:30.94,chs&eng,,0000,0000,0000,,{\blur3}看吧 一旦知道内情 就没那么糟了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}See? Once you know the stories, it's not that bad.
+Dialogue: 0,0:09:31.15,0:09:34.65,chs&eng,,0000,0000,0000,,{\blur3}第一次 老婆隐瞒性向 不是我的错{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}First marriage: Wife's hidden sexuality. Not my fault.
+Dialogue: 0,0:09:35.82,0:09:38.82,chs&eng,,0000,0000,0000,,{\blur3}第二次 宣誓时叫错人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Second marriage: Said the wrong name at the altar.
+Dialogue: 0,0:09:39.07,0:09:40.78,chs&eng,,0000,0000,0000,,{\blur3}有一点点是我的错{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}A little my fault.
+Dialogue: 0,0:09:42.03,0:09:45.12,chs&eng,,0000,0000,0000,,{\blur3}第三次 他们不让你结婚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Third marriage: They shouldn't let you get married...
+Dialogue: 0,0:09:45.37,0:09:47.79,chs&eng,,0000,0000,0000,,{\blur3}怎么能让脸上涂鸦的醉鬼结婚？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}when you're drunk and have writing on your face.
+Dialogue: 0,0:09:48.00,0:09:49.54,chs&eng,,0000,0000,0000,,{\blur3}内华达州的错{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Nevada's fault.
+Dialogue: 0,0:09:51.04,0:09:55.05,chs&eng,,0000,0000,0000,,{\blur3}你们觉得怎样？谁会没兴趣？谁会不想和他约会？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So, what do you think, ladies? Who wouldn't want to date him?
+Dialogue: 0,0:09:55.38,0:09:57.76,chs&eng,,0000,0000,0000,,{\blur3}离婚无所谓 我会和他约会{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The divorces don't bother me. I'd date him.
+Dialogue: 0,0:09:57.93,0:09:59.47,chs&eng,,0000,0000,0000,,{\blur3}但他得先恢复自由身{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But not while he's still married.
+Dialogue: 0,0:09:59.64,0:10:01.72,chs&eng,,0000,0000,0000,,{\blur3}那你呢？你也想吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And you, wouldn't you want a date?
+Dialogue: 0,0:10:01.89,0:10:03.97,chs&eng,,0000,0000,0000,,{\blur3}事实上我再也不约会了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm not dating at all anymore.
+Dialogue: 0,0:10:04.14,0:10:06.56,chs&eng,,0000,0000,0000,,{\blur3}我老是看上对我不好的男人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I was only dating guys that were bad for me.
+Dialogue: 0,0:10:06.73,0:10:08.44,chs&eng,,0000,0000,0000,,{\blur3}在我解决这个...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So I decided that until I work that...
+Dialogue: 0,0:10:08.60,0:10:10.06,chs&eng,,0000,0000,0000,,{\blur3}随便啦{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Good. Good. Whatever.
+Dialogue: 0,0:10:11.40,0:10:12.56,chs&eng,,0000,0000,0000,,{\blur3}梅格 你呢？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What about you, Meg?
+Dialogue: 0,0:10:12.73,0:10:15.48,chs&eng,,0000,0000,0000,,{\blur3}我也不在意离婚的事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, I don't care about the divorces either.
+Dialogue: 0,0:10:15.69,0:10:17.82,chs&eng,,0000,0000,0000,,{\blur3}但我不会和他约会{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But I wouldn't date him.
+Dialogue: 0,0:10:18.95,0:10:22.74,chs&eng,,0000,0000,0000,,{\blur3}他显然还爱着这个瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's just that he's obviously still in love with this Rachel girl.
+Dialogue: 0,0:10:22.91,0:10:24.16,chs&eng,,0000,0000,0000,,{\blur3}什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What?
+Dialogue: 0,0:10:24.33,0:10:27.66,chs&eng,,0000,0000,0000,,{\blur3}她说"他显然还爱着这个瑞秋"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}She said, "He's obviously still in love with this Rachel girl."
+Dialogue: 0,0:10:30.58,0:10:33.92,chs&eng,,0000,0000,0000,,{\blur3}这话太扯了 没错 瑞秋是我的好朋友{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This is crazy. I mean, yes, Rachel is my good friend.
+Dialogue: 0,0:10:34.17,0:10:36.80,chs&eng,,0000,0000,0000,,{\blur3}我过去确实爱过她...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And I have loved her in the past...
+Dialogue: 0,0:10:37.05,0:10:39.34,chs&eng,,0000,0000,0000,,{\blur3}但现在她只是我的妻子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}but now, she is just my wife.
+Dialogue: 0,0:10:41.34,0:10:43.76,chs&eng,,0000,0000,0000,,{\blur3}菲比 帮我说句话好吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Phoebe, will you help me out here?
+Dialogue: 0,0:10:43.97,0:10:47.02,chs&eng,,0000,0000,0000,,{\blur3}你娶她时我也以为你爱她{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, I thought you loved her when you married her.
+Dialogue: 0,0:10:47.27,0:10:51.69,chs&eng,,0000,0000,0000,,{\blur3}我们喝醉了 喝那么多我连乔伊都会娶{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We were drunk! I would've married Joey with that amount of alcohol.
+Dialogue: 0,0:10:51.90,0:10:55.36,chs&eng,,0000,0000,0000,,{\blur3}嘿 比乔伊?崔比亚尼烂的人多得是{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey! You could do a lot worse than Joey Tribbiani!
+Dialogue: 0,0:10:57.90,0:10:59.74,chs&eng,,0000,0000,0000,,{\blur3}很抱歉 但是你们错了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm sorry, but you guys are wrong.
+Dialogue: 0,0:10:59.95,0:11:03.20,chs&eng,,0000,0000,0000,,{\blur3}我只是不想离三次婚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I just don't want to be divorced three times.
+Dialogue: 0,0:11:03.41,0:11:05.87,chs&eng,,0000,0000,0000,,{\blur3}没错 他以此为藉口不想离婚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes, and now he's using this three-divorces reason...
+Dialogue: 0,0:11:06.04,0:11:09.20,chs&eng,,0000,0000,0000,,{\blur3}因为他爱她{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}because he wants to stay married to her because he loves her.
+Dialogue: 0,0:11:09.46,0:11:11.87,chs&eng,,0000,0000,0000,,{\blur3}我必须说:梅格 干得好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I must say, well done. Bravo, Meg.
+Dialogue: 0,0:11:13.58,0:11:15.63,chs&eng,,0000,0000,0000,,{\blur3}好 如果你们这么想...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, fine. If this is what you think...
+Dialogue: 0,0:11:15.80,0:11:18.13,chs&eng,,0000,0000,0000,,{\blur3}那我就不管了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}forget about the whole three-divorce thing.
+Dialogue: 0,0:11:18.30,0:11:22.59,chs&eng,,0000,0000,0000,,{\blur3}我现在就去找律师办注销{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'll go to my lawyer's office right now and get this marriage annulled. Okay?
+Dialogue: 0,0:11:22.76,0:11:24.72,chs&eng,,0000,0000,0000,,{\blur3}因为我一点也不爱她{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}She means nothing to me.
+Dialogue: 0,0:11:24.89,0:11:27.26,chs&eng,,0000,0000,0000,,{\blur3}一点也不爱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Noth... Nothing!
+Dialogue: 0,0:11:28.68,0:11:32.48,chs&eng,,0000,0000,0000,,{\blur3}现在是你的神经质让我发毛{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, now I wouldn't date you because you seem a little creepy.
+Dialogue: 0,0:11:32.94,0:11:35.11,chs&eng,,0000,0000,0000,,{\blur3}我突然觉得他好有魅力{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I am so attracted to him right now.
+Dialogue: 0,0:11:40.49,0:11:43.20,chs&eng,,0000,0000,0000,,{\blur3}我们什么时候要跟瑞秋说实话？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}When will we tell Rachel what actually will happen?
+Dialogue: 0,0:11:43.36,0:11:44.45,chs&eng,,0000,0000,0000,,{\blur3}快了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Soon.
+Dialogue: 0,0:11:44.62,0:11:47.49,chs&eng,,0000,0000,0000,,{\blur3}我刚才说不出口 你也看到乔伊多难过{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I just couldn't before. You saw how upset Joey got.
+Dialogue: 0,0:11:47.74,0:11:50.08,chs&eng,,0000,0000,0000,,{\blur3}我不忍心伤害我最好的朋友{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I couldn't do it. She's my best friend.
+Dialogue: 0,0:11:50.29,0:11:51.79,chs&eng,,0000,0000,0000,,{\blur3}乔伊也是我最好的朋友{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Joey's my best friend.
+Dialogue: 0,0:11:52.54,0:11:54.58,chs&eng,,0000,0000,0000,,{\blur3}我不是吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm not your best friend?
+Dialogue: 0,0:11:55.84,0:11:57.25,chs&eng,,0000,0000,0000,,{\blur3}你自己刚才说...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You just said...!
+Dialogue: 0,0:11:57.42,0:11:58.71,chs&eng,,0000,0000,0000,,{\blur3}呃{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ugh.
+Dialogue: 0,0:11:58.88,0:12:01.05,chs&eng,,0000,0000,0000,,{\blur3}你当然是{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Of course, you're my best friend.
+Dialogue: 0,0:12:02.01,0:12:03.30,chs&eng,,0000,0000,0000,,{\blur3}但请你告诉瑞秋 好吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Would you tell Rachel?
+Dialogue: 0,0:12:03.93,0:12:06.68,chs&eng,,0000,0000,0000,,{\blur3}- 好啦 至少我现在有准备   - 好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- All right. At least I'm prepared.     - Okay.
+Dialogue: 0,0:12:08.39,0:12:09.85,chs&eng,,0000,0000,0000,,{\blur3}- 漂亮   - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Oh, yes.     - Hey!
+Dialogue: 0,0:12:10.02,0:12:11.56,chs&eng,,0000,0000,0000,,{\blur3}嘿 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, hey.
+Dialogue: 0,0:12:11.73,0:12:14.52,chs&eng,,0000,0000,0000,,{\blur3}- 不是给你的 你有不开心吗？ - 现在有了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- They're not for you. Are you upset?     - I am now.
+Dialogue: 0,0:12:17.40,0:12:18.86,chs&eng,,0000,0000,0000,,{\blur3}嘿 室友{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, roomie.
+Dialogue: 0,0:12:19.28,0:12:20.94,chs&eng,,0000,0000,0000,,{\blur3}好 再见{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, bye.
+Dialogue: 0,0:12:24.49,0:12:25.66,chs&eng,,0000,0000,0000,,{\blur3}瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Rach. Ahem.
+Dialogue: 0,0:12:25.95,0:12:29.58,chs&eng,,0000,0000,0000,,{\blur3}我有重要的事要告诉你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There's something, um, important I have to tell you.
+Dialogue: 0,0:12:29.79,0:12:31.08,chs&eng,,0000,0000,0000,,{\blur3}你怀孕了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Are you pregnant?
+Dialogue: 0,0:12:32.29,0:12:34.16,chs&eng,,0000,0000,0000,,{\blur3}没有 但我要扔掉这件衣服{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, but I'm throwing this shirt away.
+Dialogue: 0,0:12:36.00,0:12:38.33,chs&eng,,0000,0000,0000,,{\blur3}刚才有一些误会{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I think there was a little misunderstanding before.
+Dialogue: 0,0:12:38.50,0:12:39.63,chs&eng,,0000,0000,0000,,{\blur3}- 嗯哼   - 唔...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Mm-hm.     - Um...
+Dialogue: 0,0:12:39.80,0:12:44.80,chs&eng,,0000,0000,0000,,{\blur3}我说钱德和我想住在一起{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}When I said that, uh, Chandler and I wanted to live together...
+Dialogue: 0,0:12:45.30,0:12:48.26,chs&eng,,0000,0000,0000,,{\blur3}意思是只有我们两个人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}we meant alone together.
+Dialogue: 0,0:12:52.31,0:12:55.48,chs&eng,,0000,0000,0000,,{\blur3}天哪 真好笑 我居然会误会{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God. That's funny. I can't believe I did that.
+Dialogue: 0,0:12:55.73,0:12:58.40,chs&eng,,0000,0000,0000,,{\blur3}不 是我不好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, sweetie. You know what? This is my fault.
+Dialogue: 0,0:12:58.65,0:13:00.27,chs&eng,,0000,0000,0000,,{\blur3}我没说清楚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I wasn't clear.
+Dialogue: 0,0:13:00.48,0:13:02.53,chs&eng,,0000,0000,0000,,{\blur3}真的很抱歉{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm really sorry.
+Dialogue: 0,0:13:03.24,0:13:06.65,chs&eng,,0000,0000,0000,,{\blur3}你可以慢慢找房子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Listen, you take as much time as you need to move out, okay?
+Dialogue: 0,0:13:06.91,0:13:08.62,chs&eng,,0000,0000,0000,,{\blur3}一点也不用急{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There's absolutely no rush.
+Dialogue: 0,0:13:09.91,0:13:12.20,chs&eng,,0000,0000,0000,,{\blur3}好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay.
+Dialogue: 0,0:13:18.08,0:13:19.67,chs&eng,,0000,0000,0000,,{\blur3}你不吃饼干吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Don't you want a cookie?
+Dialogue: 0,0:13:20.59,0:13:21.75,chs&eng,,0000,0000,0000,,{\blur3}好啊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Sure.
+Dialogue: 0,0:13:24.26,0:13:25.42,chs&eng,,0000,0000,0000,,{\blur3}谢谢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thanks.
+Dialogue: 0,0:13:25.59,0:13:26.93,chs&eng,,0000,0000,0000,,{\blur3}需要面纸吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Do you need a tissue?
+Dialogue: 0,0:13:27.09,0:13:28.64,chs&eng,,0000,0000,0000,,{\blur3}嗯{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Mm-hm.
+Dialogue: 0,0:13:31.01,0:13:33.56,chs&eng,,0000,0000,0000,,{\blur3}- 这是哪里的饼干？ - 我做的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Where did you get these?     - I made them.
+Dialogue: 0,0:13:33.77,0:13:36.48,chs&eng,,0000,0000,0000,,{\blur3}天哪 真好吃{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, God, they're so yummy!
+Dialogue: 0,0:13:39.98,0:13:43.48,chs&eng,,0000,0000,0000,,{\blur3}天啊 回到家你人却不在 感觉一定会很奇怪{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's gonna be weird when I come home and you're not here.
+Dialogue: 0,0:13:43.78,0:13:45.53,chs&eng,,0000,0000,0000,,{\blur3}没有乔伊和钱德家了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No more Joey and Chan's.
+Dialogue: 0,0:13:45.78,0:13:47.95,chs&eng,,0000,0000,0000,,{\blur3}没有乔和钱家了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No more J and C's.
+Dialogue: 0,0:13:48.32,0:13:51.57,chs&eng,,0000,0000,0000,,{\blur3}要不要去乔伊和钱德家？不行 已经不在了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Want to go to Joey and Chandler's? Can't. It's not there.
+Dialogue: 0,0:13:52.58,0:13:55.95,chs&eng,,0000,0000,0000,,{\blur3}我只是搬到对面 我们还是可以跟以前一样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'll be across the hall. We can still do all the same stuff.
+Dialogue: 0,0:13:56.21,0:13:58.96,chs&eng,,0000,0000,0000,,{\blur3}但以后就不能半夜起来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We won't be able in the night and have those long talks...
+Dialogue: 0,0:13:59.12,0:14:01.21,chs&eng,,0000,0000,0000,,{\blur3}促膝长谈感觉和未来了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}about our feelings and the future.
+Dialogue: 0,0:14:02.29,0:14:03.84,chs&eng,,0000,0000,0000,,{\blur3}我们一次也没做过{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Not once did we do that.
+Dialogue: 0,0:14:06.05,0:14:07.51,chs&eng,,0000,0000,0000,,{\blur3}- 嗨   - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hi.     - Hey.
+Dialogue: 0,0:14:08.30,0:14:11.43,chs&eng,,0000,0000,0000,,{\blur3}我告诉瑞秋我们要自己住了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So I told Rachel that it's just gonna be the two of us.
+Dialogue: 0,0:14:11.68,0:14:13.97,chs&eng,,0000,0000,0000,,{\blur3}是吗？她还好吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, yeah? Well, how'd she take it?
+Dialogue: 0,0:14:14.52,0:14:16.35,chs&eng,,0000,0000,0000,,{\blur3}非常好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Really well. Yeah.
+Dialogue: 0,0:14:16.56,0:14:18.10,chs&eng,,0000,0000,0000,,{\blur3}令人意外的好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Surprisingly well.
+Dialogue: 0,0:14:18.35,0:14:21.56,chs&eng,,0000,0000,0000,,{\blur3}没有哭 也没有生气或难过{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}She didn't cry. She wasn't angry or sad.
+Dialogue: 0,0:14:24.48,0:14:27.94,chs&eng,,0000,0000,0000,,{\blur3}你很不爽没把手帕交弄哭？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And you're upset because you didn't make your best friend cry?
+Dialogue: 0,0:14:28.70,0:14:31.03,chs&eng,,0000,0000,0000,,{\blur3}我只求一点真情流露{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All I'm asking for is a little emotion.
+Dialogue: 0,0:14:31.28,0:14:33.41,chs&eng,,0000,0000,0000,,{\blur3}我们六年室友耶{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Is that too much to ask after six years?
+Dialogue: 0,0:14:33.66,0:14:36.41,chs&eng,,0000,0000,0000,,{\blur3}我们没你们要好吗？没你们开心吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What, are Rachel and I not as close as you guys?
+Dialogue: 0,0:14:36.62,0:14:40.75,chs&eng,,0000,0000,0000,,{\blur3}我不值得她掉几滴泪吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I mean, did we not have as much fun? Don't I deserve a few tears?
+Dialogue: 0,0:14:42.17,0:14:44.17,chs&eng,,0000,0000,0000,,{\blur3}乔伊一听到就哭得死去活来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}When we told Joey, he cried his eyes out.
+Dialogue: 0,0:14:44.34,0:14:48.17,chs&eng,,0000,0000,0000,,{\blur3}嘿 我才没有哭得死去活来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey! I did not cry my eyes out!
+Dialogue: 0,0:14:48.72,0:14:50.84,chs&eng,,0000,0000,0000,,{\blur3}这就像一个时代的结束{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on, it's like the end of an era.
+Dialogue: 0,0:14:51.09,0:14:52.97,chs&eng,,0000,0000,0000,,{\blur3}再也没有乔兄和钱哥了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No more J-Man and Channy's!
+Dialogue: 0,0:14:54.97,0:14:57.31,chs&eng,,0000,0000,0000,,{\blur3}我一定要问 有谁那样叫我们？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, I gotta ask, who calls us that?
+Dialogue: 0,0:15:03.86,0:15:06.15,chs&eng,,0000,0000,0000,,{\blur3}你又结婚了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You got married again?
+Dialogue: 0,0:15:07.15,0:15:08.19,chs&eng,,0000,0000,0000,,{\blur3}对{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes.
+Dialogue: 0,0:15:09.11,0:15:12.70,chs&eng,,0000,0000,0000,,{\blur3}这是你两年内第二次结婚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So that's your second marriage in two years?
+Dialogue: 0,0:15:12.87,0:15:15.16,chs&eng,,0000,0000,0000,,{\blur3}对 两年两次{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes. Second in two years.
+Dialogue: 0,0:15:15.41,0:15:17.74,chs&eng,,0000,0000,0000,,{\blur3}总共三次{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Third, overall.
+Dialogue: 0,0:15:18.50,0:15:21.25,chs&eng,,0000,0000,0000,,{\blur3}罗斯 我当了二十三年离婚律师{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I have been a divorce attorney for 23 years...
+Dialogue: 0,0:15:21.50,0:15:24.58,chs&eng,,0000,0000,0000,,{\blur3}没有一个客户比你捧场{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}and never have I had so much business from one client.
+Dialogue: 0,0:15:26.50,0:15:29.34,chs&eng,,0000,0000,0000,,{\blur3}告诉我怎么回事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Why don't you tell me what happened?
+Dialogue: 0,0:15:30.26,0:15:34.05,chs&eng,,0000,0000,0000,,{\blur3}基本上 瑞秋和我在赌城 我们喝醉了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Basically, Rachel and I were in Vegas, and we got drunk.
+Dialogue: 0,0:15:34.26,0:15:37.60,chs&eng,,0000,0000,0000,,{\blur3}抱歉 她就是你上次结婚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm sorry, is this the same Rachel whose name you said...
+Dialogue: 0,0:15:37.85,0:15:39.72,chs&eng,,0000,0000,0000,,{\blur3}叫错的那个瑞秋？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}at the altar in the second marriage?
+Dialogue: 0,0:15:39.93,0:15:41.77,chs&eng,,0000,0000,0000,,{\blur3}对...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes, yes, yes. Heh.
+Dialogue: 0,0:15:41.94,0:15:43.94,chs&eng,,0000,0000,0000,,{\blur3}但是我并不爱她{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But I do not love her.
+Dialogue: 0,0:15:44.15,0:15:45.23,chs&eng,,0000,0000,0000,,{\blur3}噢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh.
+Dialogue: 0,0:15:45.44,0:15:47.07,chs&eng,,0000,0000,0000,,{\blur3}这就好多了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's better then.
+Dialogue: 0,0:15:48.53,0:15:51.99,chs&eng,,0000,0000,0000,,{\blur3}这只是酒醉犯错 我要办注销{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This was just a drunken mistake, and I need to get it annulled.
+Dialogue: 0,0:15:52.20,0:15:53.32,chs&eng,,0000,0000,0000,,{\blur3}我懂了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I see.
+Dialogue: 0,0:15:53.82,0:15:56.41,chs&eng,,0000,0000,0000,,{\blur3}你考虑过接受治疗吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Have you considered therapy?
+Dialogue: 0,0:15:58.33,0:16:02.12,chs&eng,,0000,0000,0000,,{\blur3}我想今天办注销就好了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I think just the annulment for today.
+Dialogue: 0,0:16:02.41,0:16:04.71,chs&eng,,0000,0000,0000,,{\blur3}- 要填几份表格   - 简单{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- There are some forms to fill out.     - Easy.
+Dialogue: 0,0:16:04.96,0:16:09.38,chs&eng,,0000,0000,0000,,{\blur3}必须有证人证明 你们当时神智不清{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We'll need witnesses who can testify that you were not of sound mind.
+Dialogue: 0,0:16:09.59,0:16:11.46,chs&eng,,0000,0000,0000,,{\blur3}没问题{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No problem. Heh.
+Dialogue: 0,0:16:11.72,0:16:14.88,chs&eng,,0000,0000,0000,,{\blur3}你和瑞秋得向法官说明{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We'll need you and Rachel to testify before a judge.
+Dialogue: 0,0:16:15.47,0:16:16.76,chs&eng,,0000,0000,0000,,{\blur3}噢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ooh.
+Dialogue: 0,0:16:18.51,0:16:20.85,chs&eng,,0000,0000,0000,,{\blur3}不能不找她吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There's no way to do this without her?
+Dialogue: 0,0:16:21.10,0:16:24.98,chs&eng,,0000,0000,0000,,{\blur3}我已经告诉她事情都办妥了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Because I kind of already told her it was taken care of.
+Dialogue: 0,0:16:25.19,0:16:27.19,chs&eng,,0000,0000,0000,,{\blur3}你当然这么说{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Of course you did.
+Dialogue: 0,0:16:29.07,0:16:33.44,chs&eng,,0000,0000,0000,,{\blur3}罗斯 你和瑞秋都在场 才能办理注销{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, you can't get an annulment unless you and Rachel are both there.
+Dialogue: 0,0:16:33.65,0:16:34.82,chs&eng,,0000,0000,0000,,{\blur3}呃{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh-huh.
+Dialogue: 0,0:16:35.24,0:16:38.41,chs&eng,,0000,0000,0000,,{\blur3}那找一个长得像瑞秋的人呢？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What about someone who looks like Rachel?
+Dialogue: 0,0:16:39.99,0:16:41.95,chs&eng,,0000,0000,0000,,{\blur3}我会考虑接受治疗{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I will think about the therapy.
+Dialogue: 0,0:16:47.71,0:16:48.79,chs&eng,,0000,0000,0000,,{\blur3}- 嘿   - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey.     - Hey.
+Dialogue: 0,0:16:49.63,0:16:54.01,chs&eng,,0000,0000,0000,,{\blur3}我想我们应该开始分东西了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So, um, I was thinking that maybe we should start dividing up our stuff.
+Dialogue: 0,0:16:54.72,0:16:56.09,chs&eng,,0000,0000,0000,,{\blur3}好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay.
+Dialogue: 0,0:16:56.68,0:16:58.55,chs&eng,,0000,0000,0000,,{\blur3}没必要拖拖拉拉的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No point in dragging it out.
+Dialogue: 0,0:16:59.10,0:17:02.22,chs&eng,,0000,0000,0000,,{\blur3}我是说你搬走{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Dragging out the long process of you moving out...
+Dialogue: 0,0:17:02.47,0:17:04.60,chs&eng,,0000,0000,0000,,{\blur3}我们分开的事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}and us not living together anymore.
+Dialogue: 0,0:17:04.94,0:17:06.10,chs&eng,,0000,0000,0000,,{\blur3}是{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay.
+Dialogue: 0,0:17:09.98,0:17:11.44,chs&eng,,0000,0000,0000,,{\blur3}- 瑞秋   - 怎样？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey, Rach.     - Yeah?
+Dialogue: 0,0:17:11.65,0:17:14.24,chs&eng,,0000,0000,0000,,{\blur3}这个要归谁？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What about this? Who gets this?
+Dialogue: 0,0:17:14.45,0:17:18.20,chs&eng,,0000,0000,0000,,{\blur3}我不知道我想不想要 它有太多回忆{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't know if I want it because it might be too many memories.
+Dialogue: 0,0:17:19.87,0:17:21.41,chs&eng,,0000,0000,0000,,{\blur3}- 那是什么？ - 我不知道{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What is that?     - I don't know.
+Dialogue: 0,0:17:23.54,0:17:24.58,chs&eng,,0000,0000,0000,,{\blur3}瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Rachel.
+Dialogue: 0,0:17:24.91,0:17:27.79,chs&eng,,0000,0000,0000,,{\blur3}大盘子呢？我要你留着大盘子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}How about this? I want you to have the big plate.
+Dialogue: 0,0:17:28.83,0:17:32.09,chs&eng,,0000,0000,0000,,{\blur3}谢谢 我很喜欢这个盘子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Wow, Monica, thanks. I love this plate.
+Dialogue: 0,0:17:32.42,0:17:35.21,chs&eng,,0000,0000,0000,,{\blur3}这样你就会记得我{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Something to remember me by.
+Dialogue: 0,0:17:36.51,0:17:39.14,chs&eng,,0000,0000,0000,,{\blur3}你又不是快死了 我只是要搬出去{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Mon, you're not dying. I'm just moving out.
+Dialogue: 0,0:17:40.10,0:17:42.60,chs&eng,,0000,0000,0000,,{\blur3}我们还是会常常见面{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We're gonna see each other all the time.
+Dialogue: 0,0:17:42.89,0:17:45.77,chs&eng,,0000,0000,0000,,{\blur3}但这是个大转变{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But still, it's a big change.
+Dialogue: 0,0:17:46.02,0:17:49.15,chs&eng,,0000,0000,0000,,{\blur3}甚至是一个时代的结束{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The end of an era, you might say.
+Dialogue: 0,0:17:52.07,0:17:53.94,chs&eng,,0000,0000,0000,,{\blur3}你还好吗？眼睛都没眨{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Are you okay? You're not blinking.
+Dialogue: 0,0:17:55.15,0:17:59.32,chs&eng,,0000,0000,0000,,{\blur3}我很好 我只是在想一个时代要结束了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm fine. I was thinking about how it's an end of an era.
+Dialogue: 0,0:17:59.78,0:18:01.37,chs&eng,,0000,0000,0000,,{\blur3}好吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, all right.
+Dialogue: 0,0:18:03.24,0:18:07.41,chs&eng,,0000,0000,0000,,{\blur3}但老实说 六年应该称不上一个时代{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But I gotta say, I don't think six years counts as an era.
+Dialogue: 0,0:18:07.66,0:18:10.54,chs&eng,,0000,0000,0000,,{\blur3}一个时代就是一段重要的日子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}An era is defined as a significant period of time.
+Dialogue: 0,0:18:10.79,0:18:14.17,chs&eng,,0000,0000,0000,,{\blur3}我觉得重要 或许你不觉得重要{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It was significant for me. Maybe it wasn't significant to you!
+Dialogue: 0,0:18:14.38,0:18:17.80,chs&eng,,0000,0000,0000,,{\blur3}- 你是怎么了？ - 你才怎么了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What is the matter with you?     - What is the matter with you?
+Dialogue: 0,0:18:19.22,0:18:20.80,chs&eng,,0000,0000,0000,,{\blur3}你为什么没有更不开心？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Why aren't you more upset?
+Dialogue: 0,0:18:21.05,0:18:24.10,chs&eng,,0000,0000,0000,,{\blur3}我们要分开了你不难过吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Aren't you gonna be sad that we're not living together?
+Dialogue: 0,0:18:24.35,0:18:26.31,chs&eng,,0000,0000,0000,,{\blur3}你都不会想我吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Aren't you gonna miss me at all?
+Dialogue: 0,0:18:26.64,0:18:29.48,chs&eng,,0000,0000,0000,,{\blur3}好吧 说出来你别生气{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Monica, all right. But don't get mad at me.
+Dialogue: 0,0:18:31.19,0:18:33.82,chs&eng,,0000,0000,0000,,{\blur3}我只是有点难以相信{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's just a little hard to believe.
+Dialogue: 0,0:18:34.57,0:18:36.07,chs&eng,,0000,0000,0000,,{\blur3}难以相信什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What's hard to believe?
+Dialogue: 0,0:18:36.24,0:18:40.36,chs&eng,,0000,0000,0000,,{\blur3}你们啊 你们就是这样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I mean, it's you guys. You do this kind of stuff, you know?
+Dialogue: 0,0:18:40.61,0:18:44.70,chs&eng,,0000,0000,0000,,{\blur3}你们在赌城说要结婚 又不结了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You were gonna get married in Vegas, and then you backed out.
+Dialogue: 0,0:18:44.95,0:18:49.37,chs&eng,,0000,0000,0000,,{\blur3}我并不认为你们会真的同居 对不起{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm not upset because I don't see you going through with it. I'm sorry.
+Dialogue: 0,0:18:52.92,0:18:54.42,chs&eng,,0000,0000,0000,,{\blur3}瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Rachel.
+Dialogue: 0,0:18:55.50,0:18:57.46,chs&eng,,0000,0000,0000,,{\blur3}事情已经确定了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's going to happen.
+Dialogue: 0,0:18:57.84,0:18:59.30,chs&eng,,0000,0000,0000,,{\blur3}钱德会搬进来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Chandler is gonna move in here.
+Dialogue: 0,0:18:59.51,0:19:02.39,chs&eng,,0000,0000,0000,,{\blur3}- 但我...   - 你先听我说完{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- But I...     - No, wait. Just let me finish, okay?
+Dialogue: 0,0:19:03.30,0:19:07.10,chs&eng,,0000,0000,0000,,{\blur3}这不是在赌城的一时冲动{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This isn't something that we just impulsively decided to do in Vegas.
+Dialogue: 0,0:19:07.35,0:19:09.85,chs&eng,,0000,0000,0000,,{\blur3}我们真的想要住在一起{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This is something that we both really want.
+Dialogue: 0,0:19:11.52,0:19:14.06,chs&eng,,0000,0000,0000,,{\blur3}我们会住在一起{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And it is going to happen.
+Dialogue: 0,0:19:14.86,0:19:16.23,chs&eng,,0000,0000,0000,,{\blur3}是吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It is?
+Dialogue: 0,0:19:18.40,0:19:19.69,chs&eng,,0000,0000,0000,,{\blur3}真的？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Really?
+Dialogue: 0,0:19:20.15,0:19:21.82,chs&eng,,0000,0000,0000,,{\blur3}没错{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, sweetie.
+Dialogue: 0,0:19:23.62,0:19:27.54,chs&eng,,0000,0000,0000,,{\blur3}我们不能再住在一起了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You mean, we're not gonna live together anymore?
+Dialogue: 0,0:19:28.79,0:19:29.87,chs&eng,,0000,0000,0000,,{\blur3}不行了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No.
+Dialogue: 0,0:19:31.25,0:19:32.29,chs&eng,,0000,0000,0000,,{\blur3}嗯...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well...
+Dialogue: 0,0:19:33.21,0:19:35.96,chs&eng,,0000,0000,0000,,{\blur3}天哪 我会好想你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God. I'm gonna miss you so much.
+Dialogue: 0,0:19:36.17,0:19:37.96,chs&eng,,0000,0000,0000,,{\blur3}我也是{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm gonna miss you.
+Dialogue: 0,0:19:39.09,0:19:40.92,chs&eng,,0000,0000,0000,,{\blur3}这是个时代的结束{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I mean, it's the end of an era!
+Dialogue: 0,0:19:41.13,0:19:42.63,chs&eng,,0000,0000,0000,,{\blur3}我知道{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I know!
+Dialogue: 0,0:19:46.01,0:19:48.51,chs&eng,,0000,0000,0000,,{\blur3}- 再见   - 又来了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Okay, bye.     - Oh, no.
+Dialogue: 0,0:19:49.22,0:19:51.52,chs&eng,,0000,0000,0000,,{\blur3}你去办注销了吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So did you get the annulment?
+Dialogue: 0,0:19:51.73,0:19:54.85,chs&eng,,0000,0000,0000,,{\blur3}- 我办不了   - 我就知道 因为你爱瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I couldn't.     - I knew it. Because you love Rachel.
+Dialogue: 0,0:19:55.65,0:19:58.57,chs&eng,,0000,0000,0000,,{\blur3}不是那样的 事情比想像中复杂...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's not that. Annulments are more complicated...
+Dialogue: 0,0:19:58.82,0:20:01.07,chs&eng,,0000,0000,0000,,{\blur3}爱让它变得复杂{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Complicated because of the love.
+Dialogue: 0,0:20:01.53,0:20:04.11,chs&eng,,0000,0000,0000,,{\blur3}我不爱瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I do not love Rachel.
+Dialogue: 0,0:20:04.36,0:20:06.28,chs&eng,,0000,0000,0000,,{\blur3}我现在就去告诉她{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm telling her about the whole thing...
+Dialogue: 0,0:20:06.53,0:20:09.37,chs&eng,,0000,0000,0000,,{\blur3}好尽快把手续办好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}so we can get this marriage annulled as fast as possible.
+Dialogue: 0,0:20:09.54,0:20:11.95,chs&eng,,0000,0000,0000,,{\blur3}我如果爱她会这么做吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Would I do that if I loved her?
+Dialogue: 0,0:20:12.16,0:20:15.12,chs&eng,,0000,0000,0000,,{\blur3}我现在更确信你爱她{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I've never been more convinced of your love for her.
+Dialogue: 0,0:20:15.54,0:20:19.63,chs&eng,,0000,0000,0000,,{\blur3}我对瑞秋没有感觉 好吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I do not have feelings for Rachel, okay?
+Dialogue: 0,0:20:22.80,0:20:25.18,chs&eng,,0000,0000,0000,,{\blur3}怎么了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, what's wrong?
+Dialogue: 0,0:20:26.30,0:20:28.39,chs&eng,,0000,0000,0000,,{\blur3}摩妮卡和钱德真的要同居了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Monica and Chandler are moving in here...
+Dialogue: 0,0:20:28.64,0:20:31.39,chs&eng,,0000,0000,0000,,{\blur3}我得搬出去 一切都要变了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}and I have to move out and everything is changing.
+Dialogue: 0,0:20:31.60,0:20:34.81,chs&eng,,0000,0000,0000,,{\blur3}过来 别难过{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my, come here, come here. It's okay.
+Dialogue: 0,0:20:34.98,0:20:37.36,chs&eng,,0000,0000,0000,,{\blur3}不会有事的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Aw, everything's gonna be okay.
+Dialogue: 0,0:20:37.52,0:20:38.65,chs&eng,,0000,0000,0000,,{\blur3}谢谢你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thank you.
+Dialogue: 0,0:20:38.82,0:20:40.90,chs&eng,,0000,0000,0000,,{\blur3}不客气{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Of course.
+Dialogue: 0,0:20:51.25,0:20:54.75,chs&eng,,0000,0000,0000,,{\blur3}罗斯和瑞秋结婚了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So Ross and Rachel got married.
+Dialogue: 0,0:20:54.92,0:20:57.54,chs&eng,,0000,0000,0000,,{\blur3}摩妮卡和钱德差点结婚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Monica and Chandler almost got married.
+Dialogue: 0,0:20:57.92,0:20:59.63,chs&eng,,0000,0000,0000,,{\blur3}我们要不要试试？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You think you and I should hook up?
+Dialogue: 0,0:21:01.71,0:21:02.96,chs&eng,,0000,0000,0000,,{\blur3}要{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, we do. Ha, ha.
+Dialogue: 0,0:21:03.13,0:21:04.67,chs&eng,,0000,0000,0000,,{\blur3}但不是现在{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But not just yet.
+Dialogue: 0,0:21:06.05,0:21:08.14,chs&eng,,0000,0000,0000,,{\blur3}是吗？那是什么时候？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Really? Well, when?
+Dialogue: 0,0:21:09.18,0:21:10.64,chs&eng,,0000,0000,0000,,{\blur3}好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay. Um.
+Dialogue: 0,0:21:10.81,0:21:14.27,chs&eng,,0000,0000,0000,,{\blur3}首先 钱德和摩妮卡会结婚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ahem, well, first Chandler and Monica will get married...
+Dialogue: 0,0:21:14.43,0:21:16.60,chs&eng,,0000,0000,0000,,{\blur3}还会发大财{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}and be filthy rich, by the way.
+Dialogue: 0,0:21:16.81,0:21:18.81,chs&eng,,0000,0000,0000,,{\blur3}- 但婚姻会破裂   - 天哪{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- But it won't work out.     - Wow.
+Dialogue: 0,0:21:18.98,0:21:20.15,chs&eng,,0000,0000,0000,,{\blur3}是啊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I know.
+Dialogue: 0,0:21:21.65,0:21:24.19,chs&eng,,0000,0000,0000,,{\blur3}然后我会为钱嫁给钱德{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Then I'm gonna marry Chandler for the money.
+Dialogue: 0,0:21:24.36,0:21:27.78,chs&eng,,0000,0000,0000,,{\blur3}你会娶瑞秋生几个漂亮小孩{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And you'll marry Rachel and have the beautiful kids.
+Dialogue: 0,0:21:27.95,0:21:29.32,chs&eng,,0000,0000,0000,,{\blur3}太好了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Great.
+Dialogue: 0,0:21:30.08,0:21:32.49,chs&eng,,0000,0000,0000,,{\blur3}接着我们就抛弃他们结婚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But then we ditch those two and we get married.
+Dialogue: 0,0:21:33.16,0:21:35.71,chs&eng,,0000,0000,0000,,{\blur3}我们会有钱德的财产 瑞秋的孩子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We'll have Chandler's money and Rachel's kids.
+Dialogue: 0,0:21:35.96,0:21:39.96,chs&eng,,0000,0000,0000,,{\blur3}监护权很好抢 因为瑞秋酗酒{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Getting custody will be easy because of Rachel's drinking problem.
+Dialogue: 0,0:21:40.54,0:21:42.34,chs&eng,,0000,0000,0000,,{\blur3}那罗斯呢？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ooh, ooh, what about Ross?
+Dialogue: 0,0:21:42.55,0:21:44.88,chs&eng,,0000,0000,0000,,{\blur3}我不想多说 不过...{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't want to go into the whole thing, but, um...
+Dialogue: 0,0:21:45.05,0:21:47.63,chs&eng,,0000,0000,0000,,{\blur3}我们吵架 我杀了他{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}we have words and I kill him.

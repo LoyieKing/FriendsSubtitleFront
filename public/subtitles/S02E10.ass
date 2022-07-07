@@ -1,0 +1,428 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00E0E0E0,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:06.29,0:00:07.38,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}乔伊 你可以慢一点吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Joey, would you slow down?{\r}
+Dialogue: 0,0:00:07.54,0:00:10.25,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}报纸不会在凌晨一点卖光的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They're not gonna be sold out of papers at 1:00 in the morning.{\r}
+Dialogue: 0,0:00:10.46,0:00:13.05,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我好兴奋 我从来没有被剧评过{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm excited. I've never gotten reviewed before.{\r}
+Dialogue: 0,0:00:13.26,0:00:16.80,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你演的国王好棒 我超欣赏的 真的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You were so amazing as the king. I'm really impressed. I was.{\r}
+Dialogue: 0,0:00:17.05,0:00:18.30,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不过你知道吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But you know what?{\r}
+Dialogue: 0,0:00:18.51,0:00:21.02,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你得考虑一下 下次要穿内裤{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You might wanna consider wearing underwear next time.{\r}
+Dialogue: 0,0:00:21.56,0:00:24.94,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你坐上王位时 看得到你的…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Because when you sat on your throne, you could kind of see your...{\r}
+Dialogue: 0,0:00:25.19,0:00:26.77,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}皇家物件{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}royal subjects.{\r}
+Dialogue: 0,0:00:27.98,0:00:29.69,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}在这里{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here it is. Here it is.{\r}
+Dialogue: 0,0:00:30.28,0:00:33.86,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}"唯一比没脑幼稚的导演糟的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"The only thing worse than the mindless adolescent direction...{\r}
+Dialogue: 0,0:00:34.07,0:00:38.87,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}是乔伊·崔比亚尼对国王不熟练的诠释"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}was Joseph Tribbiani's disturbingly unskilled portrayal of the king."{\r}
+Dialogue: 0,0:00:39.37,0:00:41.58,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}听好 这只是一个人的主观意见{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, look. That is one guy's opinion.{\r}
+Dialogue: 0,0:00:41.83,0:00:44.46,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 好吗？菲比 念你的   - 好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- All right? Pheebs, read yours.     - Okay.{\r}
+Dialogue: 0,0:00:44.66,0:00:48.29,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}"唯一比没脑幼稚的导演糟的"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"The only thing worse than the mindless, adolescent direction..."{\r}
+Dialogue: 0,0:00:48.50,0:00:50.54,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}谁有别的报纸？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Does anybody have one from a different paper?{\r}
+Dialogue: 0,0:00:52.09,0:00:53.30,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}罗斯 念你的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ross, read yours.{\r}
+Dialogue: 0,0:00:53.97,0:00:55.34,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我不要{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't want to.{\r}
+Dialogue: 0,0:00:56.97,0:01:00.35,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}乔伊 他们不晓得自己在说什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Joey, honey, they don't know what they're talking about.{\r}
+Dialogue: 0,0:01:00.81,0:01:01.85,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}也许他们知道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Maybe they do.{\r}
+Dialogue: 0,0:01:02.10,0:01:05.06,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我在这行已经十年了 还一无所成{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've been doing this 10 years and I haven't gotten anywhere.{\r}
+Dialogue: 0,0:01:05.23,0:01:06.27,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}一定有原因的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There's gotta be a reason.{\r}
+Dialogue: 0,0:01:06.44,0:01:08.73,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}别这样 你还是在付出阶段{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, man, you're just, uh, paying your dues.{\r}
+Dialogue: 0,0:01:08.94,0:01:11.11,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不是 真的是太困难了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no. It's too hard.{\r}
+Dialogue: 0,0:01:11.32,0:01:13.23,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}真不值得 我不干了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's not worth it. I quit.{\r}
+Dialogue: 0,0:01:13.44,0:01:14.69,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 什么？ - 你疯了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- What?     - That's crazy.{\r}
+Dialogue: 0,0:01:14.90,0:01:17.28,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}等等 等等{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait, wait one minute. Wait a minute.{\r}
+Dialogue: 0,0:01:17.53,0:01:20.24,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这会让你改变心意{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I believe this will change your mind.{\r}
+Dialogue: 0,0:01:20.45,0:01:25.70,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}"凭着平凡的剧本 乔伊·崔比亚尼成功地达到全新水平的…"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"In a mediocre play, Joseph Tribbiani was able to achieve brilliant new levels of..."{\r}
+Dialogue: 0,0:01:25.87,0:01:27.54,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}153页继续{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Continued on page 153.{\r}
+Dialogue: 0,0:01:28.33,0:01:29.54,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}"烂透了"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"sucking."{\r}
+Dialogue: 0,0:01:35.93,0:01:40.46,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}没有人告诉你活着有多累{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ So no one told you life was gonna be this way ∮{\r}
+Dialogue: 0,0:01:41.00,0:01:45.17,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}上班受罪 口袋空空 爱情变累赘{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ Your job's a joke, you're broke, your love life's D.O.A. ∮{\r}
+Dialogue: 0,0:01:46.08,0:01:49.89,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}寂寞又潦倒 受气又受累{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ It's like you're always stuck in second gear ∮{\r}
+Dialogue: 0,0:01:50.35,0:01:52.45,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}日复一日 年复一年{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ When it hasn't been your day, ∮{\r}
+Dialogue: 0,0:01:52.45,0:01:55.45,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}时运不济 活着受罪{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ your week, your month, or even your year ∮{\r}
+Dialogue: 0,0:01:55.45,0:01:59.41,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你我永不离弃{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ but I'll be there for you ∮{\r}
+Dialogue: 0,0:01:59.41,0:02:01.24,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}纵有狂风暴雨{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ When the rain starts to pour ∮{\r}
+Dialogue: 0,0:02:01.24,0:02:04.36,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你我永不离弃{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ I'll be there for you ∮{\r}
+Dialogue: 0,0:02:04.36,0:02:06.20,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}支持一如往昔{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ Like I've been there before ∮{\r}
+Dialogue: 0,0:02:06.20,0:02:09.21,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你我永不离弃{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ I'll be there for you ∮{\r}
+Dialogue: 0,0:02:09.21,0:02:12.87,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你我相偎相依{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}∮ 'Cause you're there for me too ∮{\r}
+Dialogue: 0,0:02:17.42,0:02:19.42,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我小时候 梦想当个兽医{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}When I was little, I wanted to be a veterinarian.{\r}
+Dialogue: 0,0:02:19.63,0:02:23.01,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}但在我发现我必须把手伸进牛里之类的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But then I found out you have to put your hands into cows and stuff.{\r}
+Dialogue: 0,0:02:25.35,0:02:26.64,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}嗨{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi.{\r}
+Dialogue: 0,0:02:28.35,0:02:29.39,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你还好吧？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you okay?{\r}
+Dialogue: 0,0:02:29.64,0:02:32.27,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}就是个水深火热的一天{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, just a tough day at work, you know?{\r}
+Dialogue: 0,0:02:32.48,0:02:34.77,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}剑龙倒下 困住一个孩子{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stegosaurus fell over, trapped a kid.{\r}
+Dialogue: 0,0:02:37.65,0:02:40.45,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我知道这件外套 这是好笑巴比的外套{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know this jacket. This is Fun Bobby's jacket.{\r}
+Dialogue: 0,0:02:40.66,0:02:42.78,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}他在哪儿？他在这儿 对吧？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where is he? What? He's here, isn't he?{\r}
+Dialogue: 0,0:02:42.99,0:02:44.78,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 也许   - 别耍我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Maybe.     - Don't toy with me.{\r}
+Dialogue: 0,0:02:45.29,0:02:47.95,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 盖勒   - 你好 好笑巴比{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Geller!     - Hey, Fun Bobby.{\r}
+Dialogue: 0,0:02:48.20,0:02:50.04,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你最近都在上健身房吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Whoa, hey. You been working out?{\r}
+Dialogue: 0,0:02:50.25,0:02:51.29,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}才没有{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Not at all.{\r}
+Dialogue: 0,0:02:51.54,0:02:53.00,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我爱这家伙{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I love this guy.{\r}
+Dialogue: 0,0:02:54.42,0:02:56.84,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我很开心你和我妹妹和好了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was so psyched to hear you're back with my sister.{\r}
+Dialogue: 0,0:02:57.05,0:02:59.17,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 我们两个都是   - 我有错过什么吗？快招{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- You and me both.     - So, what'd I miss? Come on.{\r}
+Dialogue: 0,0:02:59.38,0:03:01.72,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我们想让乔伊开心起来{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. We were trying to make Joey feel better.{\r}
+Dialogue: 0,0:03:02.47,0:03:05.72,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 你要不要我把你举起来？ - 不要 我很好 真的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey, do you need me to pick you up?     - No, I'm all right, man, really.{\r}
+Dialogue: 0,0:03:05.93,0:03:07.31,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我要举你起来喽{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, I'm picking you up.{\r}
+Dialogue: 0,0:03:07.56,0:03:09.81,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}说真的 我不需要你…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, no, seriously. I don't need you to...{\r}
+Dialogue: 0,0:03:12.52,0:03:14.81,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 好耶 还是有用   - 很好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- All right, it still works.     - Okay.{\r}
+Dialogue: 0,0:03:14.98,0:03:18.36,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}在我走之前 哪个人需要被举起来的？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Now, before I go, does anybody else need to be picked up?{\r}
+Dialogue: 0,0:03:18.53,0:03:19.99,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我还是要走{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm still gonna go.{\r}
+Dialogue: 0,0:03:20.90,0:03:23.57,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 晚点见 宝贝   - 噢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Okay, I'll see you later, babe.     - Ah.{\r}
+Dialogue: 0,0:03:24.37,0:03:28.16,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}现在有公开亲热镜头 你们可以转头{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Public display of affection coming up. You can avert your eyes.{\r}
+Dialogue: 0,0:03:28.49,0:03:30.08,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}唔{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Mm.{\r}
+Dialogue: 0,0:03:35.50,0:03:37.38,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 再见   - 拜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- See you.     - Bye.{\r}
+Dialogue: 0,0:03:38.00,0:03:39.59,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好笑巴比真棒{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Fun Bobby is so great.{\r}
+Dialogue: 0,0:03:39.80,0:03:40.92,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}可不是吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, isn't he?{\r}
+Dialogue: 0,0:03:41.17,0:03:45.84,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我真的在想或许跟他是有未来的 他让我很开心{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I really think this time it may work with him. I mean, he makes me feel so good.{\r}
+Dialogue: 0,0:03:46.05,0:03:49.39,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这两个月我感觉很糟 没工作 没男朋友{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And I've been feeling so lousy, you know, no job, no boyfriend.{\r}
+Dialogue: 0,0:03:49.60,0:03:51.85,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}现在至少杯子是半满的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, at least my cup is half full.{\r}
+Dialogue: 0,0:03:52.60,0:03:54.69,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}"半满的爱"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Half full of love.{\r}
+Dialogue: 0,0:03:57.19,0:04:00.94,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}为了庆祝我们的两礼拜纪念日 他周末要带我去他表弟的小木屋{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And for our two-week anniversary, he's gonna take me to his cousin's cabin.{\r}
+Dialogue: 0,0:04:01.15,0:04:03.11,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}爱的小木屋{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Cabin of love.{\r}
+Dialogue: 0,0:04:05.28,0:04:07.57,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我们今晚喝掉了很多红酒{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We went through a lot of wine tonight, you guys.{\r}
+Dialogue: 0,0:04:07.83,0:04:10.29,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 真的？我才喝了两杯   - 我才喝一杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Really? I only had two glasses.     - I just had a glass.{\r}
+Dialogue: 0,0:04:10.58,0:04:12.45,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 两杯   - 我一杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Two.     - I had one glass.{\r}
+Dialogue: 0,0:04:12.62,0:04:14.21,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我用这个可爱的…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I had about a mug full in this lovely...{\r}
+Dialogue: 0,0:04:14.37,0:04:17.38,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}"我在自然历史博物馆嗨翻了" 马克杯喝了一杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"I got boned at the Museum of Natural History" mug.{\r}
+Dialogue: 0,0:04:19.30,0:04:21.80,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}所以那是 两瓶吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, so that's, what? Two bottles.{\r}
+Dialogue: 0,0:04:22.05,0:04:24.47,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}但是我们喝掉了五瓶{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And yet somehow we went through five?{\r}
+Dialogue: 0,0:04:31.10,0:04:32.31,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}哇{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Whoa.{\r}
+Dialogue: 0,0:04:33.52,0:04:34.77,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}噢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh.{\r}
+Dialogue: 0,0:04:37.23,0:04:39.86,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}那又怎样？他今晚喝多了一点{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So what? So he drank a lot tonight.{\r}
+Dialogue: 0,0:04:40.02,0:04:41.98,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}但你知道 现在我想起来…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, but, you know, now that I think about it...{\r}
+Dialogue: 0,0:04:42.15,0:04:46.32,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好笑巴比手上永远都有一杯酒{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't think I've ever seen Fun Bobby without a drink in his hand.{\r}
+Dialogue: 0,0:04:46.78,0:04:48.62,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}对啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah. Ooh, ooh, yeah, you know?{\r}
+Dialogue: 0,0:04:48.78,0:04:51.74,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你们有注意到 他故事的开始总是{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Did you notice how he always starts his stories with, um:{\r}
+Dialogue: 0,0:04:51.95,0:04:55.29,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}"我当时好醉"或是 "我们都喝茫了"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"Okay, I was so wasted," or, "Oh, we were so bombed."{\r}
+Dialogue: 0,0:04:55.46,0:04:59.84,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}又或是"我醒来时发现我在康州的一个垃圾箱里"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Or, um, "So I wake up and I'm in this Dumpster in Connecticut."{\r}
+Dialogue: 0,0:05:02.01,0:05:04.76,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}摩妮卡 你有看过他没喝酒过吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Monica, have you ever been with him when he wasn't drinking?{\r}
+Dialogue: 0,0:05:04.97,0:05:08.68,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我们都恰巧到那些可以喝酒的地方{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, we just happen to go to a lot of places where you might drink.{\r}
+Dialogue: 0,0:05:08.89,0:05:12.10,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}去个品酒会 总不能不喝吧？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I mean, how do you go to a wine-tasting without having a drink?{\r}
+Dialogue: 0,0:05:12.52,0:05:14.93,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}或是夜店 或…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Or to a club, or to the...{\r}
+Dialogue: 0,0:05:15.23,0:05:16.44,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}动物园{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}zoo.{\r}
+Dialogue: 0,0:05:21.40,0:05:23.82,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}瑞秋 这里面有脱脂牛奶吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Rach, does this have nonfat milk?{\r}
+Dialogue: 0,0:05:23.99,0:05:26.32,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不知道 你为什么不试一下？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Um, I don't know, why don't you taste it?{\r}
+Dialogue: 0,0:05:28.36,0:05:29.99,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}没有{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Mm. No.{\r}
+Dialogue: 0,0:05:30.24,0:05:32.12,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}太晚了 你已经喝到了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, well, too late, you already had some.{\r}
+Dialogue: 0,0:05:35.58,0:05:38.83,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我们来把它变成爱尔兰咖啡怎么样？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What do you say we make these, uh, coffees Irish?{\r}
+Dialogue: 0,0:05:41.88,0:05:43.59,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}蛋糕{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Um, cake.{\r}
+Dialogue: 0,0:05:44.96,0:05:47.55,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}对 我们想要来点蛋糕{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, we're gonna... We're gonna get some cake.{\r}
+Dialogue: 0,0:05:50.05,0:05:54.14,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}最近你把很多东西都变爱尔兰式的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know, it seems like you've been making an awful lot of stuff Irish lately.{\r}
+Dialogue: 0,0:05:54.39,0:05:58.73,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我也可以做比利时式 但松饼比较难塞进酒瓶里{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I would make them Belgian, but the waffles are hard to get into that flask.{\r}
+Dialogue: 0,0:05:59.19,0:06:00.65,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}巴比{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Bobby.{\r}
+Dialogue: 0,0:06:00.81,0:06:01.86,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, okay.{\r}
+Dialogue: 0,0:06:02.19,0:06:05.98,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}也许这不关我的事 也许是 我不知道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look, maybe this is none of my business, or maybe it is, I don't know.{\r}
+Dialogue: 0,0:06:06.15,0:06:09.03,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我有点担心你{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But, um, I'm kind of worried about you.{\r}
+Dialogue: 0,0:06:10.07,0:06:13.70,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这不是第一次有人和我提这件事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, look, this isn't the first time somebody said something to me about this.{\r}
+Dialogue: 0,0:06:13.87,0:06:18.37,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我总是找藉口 像"我只是交际一下"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But, I don't know, I always made excuses, like "I'm just a social drinker."{\r}
+Dialogue: 0,0:06:18.62,0:06:21.08,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}或"今天是国旗日 "{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Or "Hey, come on, it's Flag Day."{\r}
+Dialogue: 0,0:06:23.21,0:06:25.00,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你想说什么？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So, what are you saying now?{\r}
+Dialogue: 0,0:06:26.55,0:06:28.38,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我想说的是…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I guess I'm saying...{\r}
+Dialogue: 0,0:06:28.63,0:06:30.01,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我会试着戒酒{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll try and quit.{\r}
+Dialogue: 0,0:06:30.59,0:06:32.39,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你这样担心我 我很窝心{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I kind of like that you worry about me.{\r}
+Dialogue: 0,0:06:36.06,0:06:38.02,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}发生什么事啦？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So, what's going on?{\r}
+Dialogue: 0,0:06:38.43,0:06:40.56,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我会试着戒酒{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I am gonna try and quit drinking.{\r}
+Dialogue: 0,0:06:40.77,0:06:42.35,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}为什么？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. Why?{\r}
+Dialogue: 0,0:06:46.15,0:06:47.19,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 大家好   - 嘿{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey.     - Hey.{\r}
+Dialogue: 0,0:06:47.44,0:06:49.11,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 嗨   - 大家好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey.     - Hey.{\r}
+Dialogue: 0,0:06:49.49,0:06:50.95,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}猜猜谁又东山再起了？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Guess who's back in show business.{\r}
+Dialogue: 0,0:06:51.11,0:06:53.28,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}洛恩·格林？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ooh, ooh. Lorne Greene?{\r}
+Dialogue: 0,0:06:56.08,0:06:58.16,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}菲比 不是 你知道为什么吗？因为他死掉了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, Pheebs. You know why? Because he's dead.{\r}
+Dialogue: 0,0:06:58.41,0:06:59.62,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不会吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, no.{\r}
+Dialogue: 0,0:07:01.79,0:07:04.04,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我想这有点苦乐参半…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, I guess this is gonna seem bittersweet now...{\r}
+Dialogue: 0,0:07:04.25,0:07:05.84,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}是乔伊 就是他{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}but Joey, that's who.{\r}
+Dialogue: 0,0:07:06.00,0:07:07.50,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 真的？ - 太好了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, yay!     - Really?{\r}
+Dialogue: 0,0:07:07.67,0:07:10.63,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我经纪人才打来 叫我去《我们的日子》试镜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My agent just called me with an audition for Days of our Lives.{\r}
+Dialogue: 0,0:07:11.43,0:07:13.18,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}棒呆了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Kick ass.{\r}
+Dialogue: 0,0:07:13.64,0:07:17.06,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我们得庆祝 就肥皂剧主题趴好了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We have to celebrate. We should do a soap opera theme.{\r}
+Dialogue: 0,0:07:17.27,0:07:20.73,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我们可以全睡在一起 然后要有一人失忆{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, yeah. We could all sleep together, and then one of us could get amnesia.{\r}
+Dialogue: 0,0:07:24.94,0:07:27.65,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}瑞秋 你几点下班？我们今晚有节目{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Rach, what time do you get off? We're all gonna do something tonight.{\r}
+Dialogue: 0,0:07:27.82,0:07:32.24,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}事实上 我下班了 但是我已经有约了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Uh, well, actually, I'm already done. Ahem. But I kind of got plans.{\r}
+Dialogue: 0,0:07:33.61,0:07:34.91,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你有其他的朋友？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have other friends?{\r}
+Dialogue: 0,0:07:36.08,0:07:38.91,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我有个约会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, I, uh... I have a date.{\r}
+Dialogue: 0,0:07:39.12,0:07:41.12,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 什么？ - 跟一个男人？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- What?     - With a man?{\r}
+Dialogue: 0,0:07:42.54,0:07:44.75,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}怎么？我有约会很奇怪吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What? What is so strange about me having a date?{\r}
+Dialogue: 0,0:07:44.96,0:07:46.17,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}那罗斯怎么办？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What about Ross?{\r}
+Dialogue: 0,0:07:46.38,0:07:48.88,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你还在生他的气？因他做了有关…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you still mad at him because he made that list about...?{\r}
+Dialogue: 0,0:07:49.09,0:07:51.51,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}没有 我才没有生气{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, I'm not mad at him.{\r}
+Dialogue: 0,0:07:51.72,0:07:54.30,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我再也不会对他有什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm not really anything at him anymore.{\r}
+Dialogue: 0,0:07:54.55,0:07:56.97,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 你在讲什么？ - 我不知道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- What are you talking about?     - I don't know.{\r}
+Dialogue: 0,0:07:58.51,0:08:02.27,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不管我以前怎么感觉 现在就是不会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Whatever I was feeling, I'm... not.{\r}
+Dialogue: 0,0:08:02.48,0:08:04.10,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你们就只差那一步{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But you guys came so close.{\r}
+Dialogue: 0,0:08:04.31,0:08:07.40,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}大伙儿 很抱歉 你们得习惯…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, I know. I'm sorry, you guys. You're gonna have to get used to the fact...{\r}
+Dialogue: 0,0:08:07.61,0:08:09.69,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我不再和罗斯交往{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}that I will not be dating Ross.{\r}
+Dialogue: 0,0:08:11.69,0:08:14.11,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}他来了 嗨{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here he is. Hi.{\r}
+Dialogue: 0,0:08:14.36,0:08:16.62,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}大家 这是洛斯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Guys, this is Russ.{\r}
+Dialogue: 0,0:08:17.37,0:08:18.58,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}大家好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi.{\r}
+Dialogue: 0,0:08:30.67,0:08:33.97,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我不是说你没斤两 你很有才华{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no. I'm not saying you're not talented. You're very talented.{\r}
+Dialogue: 0,0:08:34.18,0:08:38.51,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}只是鸟死掉 就没什么戏分了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's just that with the bird dead and all, there's very little act left.{\r}
+Dialogue: 0,0:08:38.68,0:08:42.56,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}甜心 饶了我吧 我们晚一点联络{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, honey, give me a break, will you? Oh, oh. I'll talk to you later.{\r}
+Dialogue: 0,0:08:42.77,0:08:44.64,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我最喜爱的客户{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, there's my favorite client.{\r}
+Dialogue: 0,0:08:44.81,0:08:47.44,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}达令 试镜试得如何？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So tell me, darling, how was the audition?{\r}
+Dialogue: 0,0:08:47.69,0:08:51.65,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}很不错 我礼拜四还要再试镜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I think it went pretty well. I got a callback for Thursday.{\r}
+Dialogue: 0,0:08:51.86,0:08:54.95,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}乔伊 你看过我狂喜吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Joey. Have you ever seen me ecstatic?{\r}
+Dialogue: 0,0:08:55.24,0:08:58.66,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 没有   - 准备好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- No.     - Well, here it is.{\r}
+Dialogue: 0,0:09:02.25,0:09:06.12,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}有件事我想和你谈一谈{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. Uh, listen, there's something I want to talk to you about.{\r}
+Dialogue: 0,0:09:06.33,0:09:09.67,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 那个选角的女人   - 罗莉很讨人喜欢吧？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- The network casting lady...     - Oh, isn't Lori a doll?{\r}
+Dialogue: 0,0:09:09.92,0:09:11.92,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}对 她很不错{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, yeah, she's great.{\r}
+Dialogue: 0,0:09:12.59,0:09:16.97,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我感觉得到…她对我有点意思{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But I kind of got the feeling that she was sort of coming on to me.{\r}
+Dialogue: 0,0:09:17.22,0:09:21.56,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我肯定拿得到工作 如果我…你也知道的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And I definitely would get the part if I were to, you know...{\r}
+Dialogue: 0,0:09:25.73,0:09:28.60,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 看我是否得派小将军出场   - 哦{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- lf I would have sent the little general in.     - Oh.{\r}
+Dialogue: 0,0:09:30.82,0:09:34.61,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}知道了 让我打个电话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I see. Well, I'm just gonna put in a call here...{\r}
+Dialogue: 0,0:09:34.82,0:09:37.65,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我们来把事情搞清楚 解决掉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}and we'll find out what's going on and straighten it out.{\r}
+Dialogue: 0,0:09:37.82,0:09:40.95,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}喂 麻烦转罗莉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, hi. Lori, please.{\r}
+Dialogue: 0,0:09:43.08,0:09:44.87,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}喂 达令{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi, darling.{\r}
+Dialogue: 0,0:09:45.16,0:09:48.12,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}乔伊·崔比亚尼 当那计程车司机适合吧？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So how about Joey Tribbiani for the part of the cab driver?{\r}
+Dialogue: 0,0:09:48.33,0:09:50.08,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}他超棒的 对不对？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Isn't he terrific?{\r}
+Dialogue: 0,0:09:50.29,0:09:54.17,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}啊-哦{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Uh-huh.{\r}
+Dialogue: 0,0:09:54.63,0:09:56.88,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好 美女 晚一点再说喽{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, doll, talk to you later.{\r}
+Dialogue: 0,0:09:57.05,0:09:59.18,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}没错 你得跟她上床{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, you're gonna have to sleep with her.{\r}
+Dialogue: 0,0:10:03.22,0:10:05.10,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 怎么啦？ - 好笑巴比{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- What's the matter?     - Fun Bobby.{\r}
+Dialogue: 0,0:10:05.31,0:10:06.64,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}怎么？他不是戒酒了？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What? Isn't he sober?{\r}
+Dialogue: 0,0:10:06.85,0:10:08.27,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}他还算清醒{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, he's sober all right.{\r}
+Dialogue: 0,0:10:08.48,0:10:11.23,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}结果是 好笑巴比 有趣是有原因的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just turns out that Fun Bobby was fun for a reason.{\r}
+Dialogue: 0,0:10:12.48,0:10:15.15,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}知道了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ah. Okay.{\r}
+Dialogue: 0,0:10:16.19,0:10:18.45,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}来喽 甜心{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, here you go, sweetie.{\r}
+Dialogue: 0,0:10:19.28,0:10:21.82,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}谢谢 你们想听笑话吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thanks. You wanna hear something funny?{\r}
+Dialogue: 0,0:10:22.07,0:10:23.66,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}天啊 当然{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, God, yes.{\r}
+Dialogue: 0,0:10:25.29,0:10:29.66,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}格林威治村过了午夜 五金行就关门了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There are no hardware stores open past midnight in the Village.{\r}
+Dialogue: 0,0:10:32.71,0:10:34.29,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}很好笑{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That is funny.{\r}
+Dialogue: 0,0:10:35.42,0:10:37.63,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}有一晚我得买支铁锤…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I needed to buy a hammer the other night...{\r}
+Dialogue: 0,0:10:37.80,0:10:40.18,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我就在附近逛逛{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}and I'm out walking around the neighborhood.{\r}
+Dialogue: 0,0:10:40.38,0:10:41.80,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}显然地…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But apparently...{\r}
+Dialogue: 0,0:10:41.97,0:10:46.77,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}格林威治村过了午夜所有五金行就关门了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}there are no hardware stores open past midnight in the Village.{\r}
+Dialogue: 0,0:10:51.94,0:10:54.11,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}甜心 你现在不是有个面试？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Uh, say, honey, don't you have to be at your interview?{\r}
+Dialogue: 0,0:10:54.36,0:10:55.77,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}是啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, yeah.{\r}
+Dialogue: 0,0:10:58.57,0:11:00.78,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 再见   - 拜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- See you guys.     - Bye...{\r}
+Dialogue: 0,0:11:01.66,0:11:03.70,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}超级无趣的巴比{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}ridiculously dull Bobby.{\r}
+Dialogue: 0,0:11:05.20,0:11:08.04,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 我的天   - 没那么糟啦{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, my God.     - He's not that bad.{\r}
+Dialogue: 0,0:11:08.25,0:11:12.21,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}没那么糟？你没听到那铁锤的故事吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Not that bad? Did you not hear the hammer story?{\r}
+Dialogue: 0,0:11:12.42,0:11:14.58,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不要那么挑剔就好了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, okay, don't get all squinky.{\r}
+Dialogue: 0,0:11:16.30,0:11:19.09,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}也许是要在场才能体会的事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Maybe it was just the kind of story where you had to be there.{\r}
+Dialogue: 0,0:11:19.30,0:11:20.63,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}但是我会在场{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But I'm gonna be there.{\r}
+Dialogue: 0,0:11:20.88,0:11:23.26,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我下半辈子都会在场{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}For the rest of my life.{\r}
+Dialogue: 0,0:11:24.76,0:11:26.85,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我没办法跟他分手 是我要他戒酒的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can't break up with him. I made him quit drinking.{\r}
+Dialogue: 0,0:11:27.01,0:11:29.77,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 他因为我而无趣   - 别这么说{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- He's dull because of me.     - All right, don't say that.{\r}
+Dialogue: 0,0:11:29.98,0:11:33.35,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}也许他一直都很无聊 你只是…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's probably always been dull. You just, you know...{\r}
+Dialogue: 0,0:11:33.60,0:11:34.90,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}解放了他{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}set it free.{\r}
+Dialogue: 0,0:11:36.98,0:11:39.53,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 嗨   - 嗨 罗斯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hi.     - Hey, Ross. Ah.{\r}
+Dialogue: 0,0:11:40.82,0:11:41.86,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}嗨 洛斯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi, Russ.{\r}
+Dialogue: 0,0:11:42.11,0:11:44.61,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}还有两桌要清 然后我们就能走了 好吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've just got two more tables to clean, and then we'll go, okay?{\r}
+Dialogue: 0,0:11:44.78,0:11:47.70,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好 我就坐在这里…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. I'll just sit here and, uh...{\r}
+Dialogue: 0,0:11:48.12,0:11:49.99,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}跟你的…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}chat with your, uh...{\r}
+Dialogue: 0,0:11:50.87,0:11:53.96,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}同伙们聊天{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}friend-type people.{\r}
+Dialogue: 0,0:11:59.17,0:12:01.63,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}瑞秋？你好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Rachel? Um, hi.{\r}
+Dialogue: 0,0:12:01.80,0:12:02.88,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 嗨   - 好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hi.     - Okay.{\r}
+Dialogue: 0,0:12:03.05,0:12:04.59,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你知道你在做什么 对吧？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So you know what you're doing, right?{\r}
+Dialogue: 0,0:12:05.30,0:12:06.47,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}当女服务生？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ha, ha. Waitressing?{\r}
+Dialogue: 0,0:12:06.72,0:12:09.22,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不是 我是指…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, yeah. But, no. I mean, um...{\r}
+Dialogue: 0,0:12:10.02,0:12:12.98,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}洛斯没有让你想起某人？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Doesn't Russ just remind you of someone?{\r}
+Dialogue: 0,0:12:13.73,0:12:17.61,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 鲍伯·萨格特？ - 对哦{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Huh. Bob Saget?     - Oh, yeah.{\r}
+Dialogue: 0,0:12:18.90,0:12:21.40,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 不…   - 你好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- No, no, no. Oh, oh.     - Hi.{\r}
+Dialogue: 0,0:12:21.65,0:12:22.86,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}天啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, my, oh.{\r}
+Dialogue: 0,0:12:23.11,0:12:24.65,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}怎么了？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What...? What's wrong?{\r}
+Dialogue: 0,0:12:24.86,0:12:28.62,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 我 很好   - 她不开心是因为…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I... Okay.     - She's just upset because she, uh...{\r}
+Dialogue: 0,0:12:28.78,0:12:30.95,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}她今早把一只蜘蛛涂在吐司上了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She buttered a spider into her toast this morning.{\r}
+Dialogue: 0,0:12:31.12,0:12:32.66,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}嗯-哼{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Mm-hm.{\r}
+Dialogue: 0,0:12:32.83,0:12:34.00,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right.{\r}
+Dialogue: 0,0:12:36.25,0:12:38.88,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}听着 菲比 没关系的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Listen, Pheebs. This is gonna be okay.{\r}
+Dialogue: 0,0:12:39.38,0:12:41.30,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}罗斯 洛斯 洛斯 罗斯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ross, Russ. Russ, Ross.{\r}
+Dialogue: 0,0:12:42.88,0:12:44.88,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 你好   - 你好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hi.     - Hi.{\r}
+Dialogue: 0,0:12:45.43,0:12:47.51,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你是瑞秋的朋友？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you a, uh, friend of Rachel's?{\r}
+Dialogue: 0,0:12:47.72,0:12:48.76,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我是{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes. Yes, I am.{\r}
+Dialogue: 0,0:12:48.97,0:12:51.60,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你是瑞秋的朋友？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you a, uh, friend of Rachel's?{\r}
+Dialogue: 0,0:12:51.85,0:12:54.73,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}事实上 我算是…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Actually, I'm, uh, kind of a...{\r}
+Dialogue: 0,0:12:55.02,0:12:56.10,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}是她的…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}you know...{\r}
+Dialogue: 0,0:12:56.65,0:12:59.23,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}瑞秋的…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}a date-type thing...{\r}
+Dialogue: 0,0:12:59.65,0:13:00.69,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}约会对象{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}of Rachel's.{\r}
+Dialogue: 0,0:13:01.73,0:13:04.82,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 约会？ - 对 她的约会对象{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- A date?     - Yeah. I'm her date.{\r}
+Dialogue: 0,0:13:05.03,0:13:06.78,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你是…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. Oh, you're, uh...{\r}
+Dialogue: 0,0:13:07.03,0:13:09.62,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你是她的约会对象{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, you're the date.{\r}
+Dialogue: 0,0:13:10.03,0:13:11.37,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这事实上是件好事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know, this is actually good...{\r}
+Dialogue: 0,0:13:11.58,0:13:14.20,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}因为万一我们失去罗斯 还有个备胎{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}because if we ever lose Ross, we have a spare.{\r}
+Dialogue: 0,0:13:14.41,0:13:17.75,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你就是那个古生物学家{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. You are the, uh, paleontologist.{\r}
+Dialogue: 0,0:13:18.29,0:13:21.34,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}是的 我是 而你是…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes. Yes, I am. And you are a...{\r}
+Dialogue: 0,0:13:23.21,0:13:24.26,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}牙周病专科医师{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Periodontist.{\r}
+Dialogue: 0,0:13:24.55,0:13:27.59,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}瞧 他们之间的差别简直是夜晚…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}See? Now they're as different as night and...{\r}
+Dialogue: 0,0:13:28.43,0:13:29.89,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}和更深的夜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}later that night.{\r}
+Dialogue: 0,0:13:30.47,0:13:34.10,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我去买个饮料{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I am going to, uh, get a beverage. Heh.{\r}
+Dialogue: 0,0:13:34.31,0:13:37.60,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 很高兴认识你   - 幸会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Uh, it was nice, uh, meeting you.     - Ditto.{\r}
+Dialogue: 0,0:13:42.90,0:13:45.24,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我 见过洛斯了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I, uh... Well, I met Russ.{\r}
+Dialogue: 0,0:13:46.65,0:13:47.86,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}噢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh.{\r}
+Dialogue: 0,0:13:48.03,0:13:50.74,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我不知道我们在跟别人交往{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, I didn't know we were, uh, seeing other people.{\r}
+Dialogue: 0,0:13:51.24,0:13:54.20,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 我们没有在交往 所以…   - 嗯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Well, we're not seeing each other, so...     - Huh.{\r}
+Dialogue: 0,0:13:55.00,0:13:57.87,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}只是让你知道一下 博物馆里有个女人…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, uh, for your information, there's a woman at the museum...{\r}
+Dialogue: 0,0:13:58.12,0:14:01.08,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}负责蛾类还有其他…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}who's curator of moths and other, uh...{\r}
+Dialogue: 0,0:14:02.38,0:14:04.30,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}有翅膀的生物{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}winged things...{\r}
+Dialogue: 0,0:14:04.76,0:14:09.68,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}她很明显地喜欢我 就像是…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}who's, uh, let it be known that she is drawn to me, much like a...{\r}
+Dialogue: 0,0:14:09.89,0:14:12.14,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你知道的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}you know. Ahem.{\r}
+Dialogue: 0,0:14:12.30,0:14:15.14,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我一直试着保持距离 但如果你是这样…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, so far I've been keeping her at bay, but, uh, if this is the deal...{\r}
+Dialogue: 0,0:14:15.35,0:14:16.56,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}是 就是这样{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, this is the deal.{\r}
+Dialogue: 0,0:14:16.77,0:14:18.77,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 好 祝你今晚玩得愉快   - 谢谢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Okay, well, um, have a nice evening.     - Thank you.{\r}
+Dialogue: 0,0:14:19.69,0:14:21.90,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 洛斯 你准备好了吗？ - 好了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Russ, are you ready?     - Yeah.{\r}
+Dialogue: 0,0:14:23.19,0:14:25.28,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 再见   - 再见{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Bye.     - Bye.{\r}
+Dialogue: 0,0:14:28.24,0:14:29.27,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}她在约会？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She's dating?{\r}
+Dialogue: 0,0:14:30.37,0:14:31.40,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}她在约会？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She's dating?{\r}
+Dialogue: 0,0:14:31.66,0:14:34.74,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}对 但你看到她在跟谁约会吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes. Yes, but did you see who she was dating?{\r}
+Dialogue: 0,0:14:35.41,0:14:36.45,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}什么意思？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What do you mean?{\r}
+Dialogue: 0,0:14:37.08,0:14:38.83,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 你看不出来？ - 看到什么？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Do you not see it?     - See what?{\r}
+Dialogue: 0,0:14:39.04,0:14:41.83,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我真不知道她看上那呆子哪一点{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know what she sees in that goober.{\r}
+Dialogue: 0,0:14:44.63,0:14:47.71,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}他需要…不知道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It takes him, what? Like, I don't know, uh...{\r}
+Dialogue: 0,0:14:47.92,0:14:50.84,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}一个礼拜来讲完一句话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}hello, a week to get out a sentence?{\r}
+Dialogue: 0,0:14:51.55,0:14:52.93,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}很讨厌 对吧？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, it's annoying, isn't it?{\r}
+Dialogue: 0,0:14:55.60,0:14:56.64,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}对啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah.{\r}
+Dialogue: 0,0:15:03.69,0:15:05.94,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 嘿   - 嘿{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey.     - Hey.{\r}
+Dialogue: 0,0:15:06.40,0:15:07.98,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}哇 哇{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Whoa, whoa.{\r}
+Dialogue: 0,0:15:09.19,0:15:10.74,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我猜你是没拿到那个角色…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm guessing you didn't get the part...{\r}
+Dialogue: 0,0:15:10.91,0:15:13.53,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}还是意大利打电话来说它饿了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}or, uh, Italy called and said it was hungry?{\r}
+Dialogue: 0,0:15:14.41,0:15:16.28,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}那角色是我的 如果我想要的话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, the part's mine if I want it.{\r}
+Dialogue: 0,0:15:16.83,0:15:17.87,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我的天{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, my God.{\r}
+Dialogue: 0,0:15:18.08,0:15:20.83,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}没错 如果我愿意和选角的女士上床的话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah. If I'm willing to sleep with the casting lady.{\r}
+Dialogue: 0,0:15:21.08,0:15:22.25,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, my...{\r}
+Dialogue: 0,0:15:22.46,0:15:24.21,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}天？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}God?{\r}
+Dialogue: 0,0:15:24.84,0:15:28.59,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这十年来我一直在等像这样的机会 钱德 十年耶{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ten years I've been waiting for a break like this, Chandler. Ten years.{\r}
+Dialogue: 0,0:15:28.80,0:15:32.51,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}《我们的日子》是个电视节目{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I mean, Days of our Lives. That's actually on television.{\r}
+Dialogue: 0,0:15:33.43,0:15:34.84,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你想怎么做？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So, what are you gonna do?{\r}
+Dialogue: 0,0:15:35.05,0:15:37.56,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我应该可以跟她睡 但是…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I guess I could sleep with her. I mean...{\r}
+Dialogue: 0,0:15:37.81,0:15:39.18,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我怎么能那样做？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How can I do that?{\r}
+Dialogue: 0,0:15:39.43,0:15:43.23,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我有本立体书 能告诉我任何我需要知道的事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I've got a pop-up book that told me everything I needed to know.{\r}
+Dialogue: 0,0:15:44.02,0:15:46.19,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我从来没为了一个角色跟人睡过{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've never slept with someone for a part.{\r}
+Dialogue: 0,0:15:46.40,0:15:47.52,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}那她是…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, is she...?{\r}
+Dialogue: 0,0:15:49.82,0:15:50.86,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}抱歉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry.{\r}
+Dialogue: 0,0:15:52.32,0:15:54.20,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 她好看吗？ - 是的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Is she good-looking?     - Yeah.{\r}
+Dialogue: 0,0:15:54.37,0:15:57.53,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}她很迷人 如果我在哪个夜店遇上她…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She's totally good-looking. I mean, if I met her in a bar or something...{\r}
+Dialogue: 0,0:15:57.79,0:16:00.04,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我会想给她买早餐{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'd be buying her breakfast.{\r}
+Dialogue: 0,0:16:01.96,0:16:03.79,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你知道 跟她上床之后{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know, after having slept with her.{\r}
+Dialogue: 0,0:16:09.42,0:16:11.63,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}或许这没什么大不了的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know, maybe this isn't such a big deal.{\r}
+Dialogue: 0,0:16:11.84,0:16:17.35,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}依我看 可以有份很棒的工作 还能跟她上床{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I mean, the way that I see it is, you get a great job and you get to have sex.{\r}
+Dialogue: 0,0:16:17.51,0:16:20.56,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你知道 再放棵树和一个胖子 就是圣诞节了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know? Throw in a tree and a fat guy, and you've got Christmas.{\r}
+Dialogue: 0,0:16:24.02,0:16:28.19,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我只是不想用这样的方式得到工作{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I just... I just don't think that I want it that way though, you know?{\r}
+Dialogue: 0,0:16:28.44,0:16:30.90,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我是说 如果有一天我成名了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I mean, let's say I do make it, all right?{\r}
+Dialogue: 0,0:16:31.15,0:16:34.28,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我永远会想 那真的是因为我的才华吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm always gonna look back and wonder if it was because of my talent...{\r}
+Dialogue: 0,0:16:34.45,0:16:37.37,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}还是 你知道 那个小将军{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}or because of, you know, the little general.{\r}
+Dialogue: 0,0:16:40.12,0:16:42.75,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你以前不是叫他小少校吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Didn't you used to call it the little major?{\r}
+Dialogue: 0,0:16:43.29,0:16:45.75,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}是啊 但在丹妮丝·帝马可后 我给它升级了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, but after Denise DeMarco, I had to promote it.{\r}
+Dialogue: 0,0:16:51.71,0:16:53.26,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}要来一杯酒吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can I get you something from the bar?{\r}
+Dialogue: 0,0:16:53.47,0:16:55.22,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好 我要来一杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, I would like something.{\r}
+Dialogue: 0,0:16:56.22,0:16:58.30,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不要 谢谢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. No, thank you.{\r}
+Dialogue: 0,0:16:58.51,0:17:02.27,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}如果你想喝 我没问题 我得习惯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, if you want a drink, it's okay with me. I've gotta get used to it.{\r}
+Dialogue: 0,0:17:02.47,0:17:05.23,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不要 说真的 我会觉得不对劲{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, really. I wouldn't feel right about it.{\r}
+Dialogue: 0,0:17:05.56,0:17:06.98,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}就来些水好了 谢谢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just some water, please.{\r}
+Dialogue: 0,0:17:07.65,0:17:11.23,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 我冰箱的灯熄了   - 威士忌加冰块跟柠檬皮{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- So the light went out in my refrigerator.     - Scotch on the rocks with a twist.{\r}
+Dialogue: 0,0:17:12.94,0:17:13.99,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}很抱歉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry.{\r}
+Dialogue: 0,0:17:14.24,0:17:16.57,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这游戏很有趣吧 罗斯？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, we're having some fun now, huh, Ross?{\r}
+Dialogue: 0,0:17:16.82,0:17:19.16,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}再做一个吗？洛斯？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wanna do another one? Huh, Russ?{\r}
+Dialogue: 0,0:17:21.20,0:17:23.83,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好 11个字母{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. Eleven letters...{\r}
+Dialogue: 0,0:17:24.00,0:17:27.50,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}原子元素101号 字尾是"ium"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}atomic element number 101, ends in "ium."{\r}
+Dialogue: 0,0:17:27.88,0:17:30.88,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 是镝   - 镝{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Dysprosium.     - Ha, ha. Dysprosium.{\r}
+Dialogue: 0,0:17:31.13,0:17:32.59,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}试试钔{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Try mendelevium.{\r}
+Dialogue: 0,0:17:32.92,0:17:35.05,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}二号答对了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And weenie number two has it.{\r}
+Dialogue: 0,0:17:35.84,0:17:39.64,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}除非直九《白缎的夜》 是"度"迪蓝调唱的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Unless of course 9 Down, "Nights in White Satin" was sung by the Doody Blues.{\r}
+Dialogue: 0,0:17:43.60,0:17:46.10,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你没看懂吗？你真的没看懂？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You don't see it? You actually don't see it?{\r}
+Dialogue: 0,0:17:46.31,0:17:49.52,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 什么事？ - 甜心 你在和罗斯交往{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- What?     - Okay, honey, you're dating Ross.{\r}
+Dialogue: 0,0:17:49.77,0:17:51.48,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不对 菲比 我在和洛斯约会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, Pheebs, I'm dating Russ.{\r}
+Dialogue: 0,0:17:51.69,0:17:54.15,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}洛斯就是罗斯 洛斯 罗斯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Russ is Ross. Russ, Ross.{\r}
+Dialogue: 0,0:17:54.36,0:17:55.69,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}史帝夫 大夫{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Steve, sleeve.{\r}
+Dialogue: 0,0:17:55.90,0:17:58.45,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好 没有人名字叫大夫{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, no one is named sleeve.{\r}
+Dialogue: 0,0:17:59.28,0:18:01.20,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}菲比 你到底在讲什么？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Phoebe, what the hell are we talking about?{\r}
+Dialogue: 0,0:18:01.41,0:18:05.50,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}除了他们的名字相似外 我很抱歉 我看不到你看到的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Other than their names being similar, I'm sorry, I do not see what you're seeing.{\r}
+Dialogue: 0,0:18:05.70,0:18:09.87,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}只是让你知道 是行家 不是老手{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}For your information, it's a card sharp, not a card shark.{\r}
+Dialogue: 0,0:18:10.08,0:18:11.67,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你错到底了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You could not be more wrong.{\r}
+Dialogue: 0,0:18:11.92,0:18:14.38,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你可以试 但你不会成功的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You could try, but you would not be successful.{\r}
+Dialogue: 0,0:18:15.34,0:18:19.55,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好 我先去倒杯咖啡 在你们开始扯头发和戳眼睛前{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, I'm gonna get some more coffee before the pinching and eye-poking begins.{\r}
+Dialogue: 0,0:18:21.47,0:18:24.22,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 我知道你的问题是什么了   - 你知道？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I know what your problem is.     - Oh, you do, do you?{\r}
+Dialogue: 0,0:18:24.39,0:18:25.72,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你在吃醋{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Mm-hm. You're jealous.{\r}
+Dialogue: 0,0:18:27.64,0:18:29.98,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}吃什么醋？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Uh, of what?{\r}
+Dialogue: 0,0:18:30.27,0:18:32.69,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你嫉妒我是真的医生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're jealous because I'm a real doctor.{\r}
+Dialogue: 0,0:18:34.73,0:18:36.48,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你是牙龈医生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, you're a doctor of gums.{\r}
+Dialogue: 0,0:18:36.74,0:18:39.24,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}是能主修的人体最小器官{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's the smallest body part you can major in.{\r}
+Dialogue: 0,0:18:40.32,0:18:43.57,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}就只是 第一天 正确用牙线 第二天 拿到文凭{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's like, day one, floss. Day two, here's your diploma.{\r}
+Dialogue: 0,0:18:43.78,0:18:44.91,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 你听好   - 不要{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Now, you listen...     - No, no.{\r}
+Dialogue: 0,0:18:45.12,0:18:46.91,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 让我说完   - 不 让我说完{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Let me finish.     - No, let me finish.{\r}
+Dialogue: 0,0:18:47.16,0:18:49.12,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不 你让我说{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, you let me fin...{\r}
+Dialogue: 0,0:18:50.92,0:18:52.54,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 嗨   - 嗨{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hi.     - Hi.{\r}
+Dialogue: 0,0:18:54.29,0:18:55.34,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}呕{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ew.{\r}
+Dialogue: 0,0:18:56.00,0:18:58.21,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}呕 呕 呕{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ew, ew, ew.{\r}
+Dialogue: 0,0:19:02.80,0:19:05.01,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 乔伊告诉过你 他要怎么做吗？ - 没有{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Did Joey say what he was gonna do?     - No.{\r}
+Dialogue: 0,0:19:05.60,0:19:07.10,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我不认为他知道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't even think he knew.{\r}
+Dialogue: 0,0:19:07.31,0:19:09.85,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你会为了一份好工作跟某人上床吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, would you sleep with somebody to get a great job?{\r}
+Dialogue: 0,0:19:10.27,0:19:12.60,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不知道 我得跟谁睡？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know. Who would I have to sleep with?{\r}
+Dialogue: 0,0:19:12.81,0:19:14.27,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Me.{\r}
+Dialogue: 0,0:19:16.57,0:19:18.19,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我为什么要跟你上床？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why would I have to sleep with you?{\r}
+Dialogue: 0,0:19:18.36,0:19:20.65,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这是我的游戏 你要这工作还是不要？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's my game. You want the job or not?{\r}
+Dialogue: 0,0:19:23.12,0:19:24.16,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 嗨   - 嘿{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hi.     - Hey.{\r}
+Dialogue: 0,0:19:24.32,0:19:26.62,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 早安   - 你要上哪儿去？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Good morning.     - Where you going?{\r}
+Dialogue: 0,0:19:26.83,0:19:29.08,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}巴比跟我要去度周末 记得吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Bobby and I are going away for the weekend. Remember?{\r}
+Dialogue: 0,0:19:29.25,0:19:30.33,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}哦{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh.{\r}
+Dialogue: 0,0:19:31.04,0:19:32.83,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这些酒又是怎么回事？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's with all the bottles of liquor?{\r}
+Dialogue: 0,0:19:33.04,0:19:35.46,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}怎么了？巴比又开始喝酒？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's going on? Is, uh, Bobby drinking again?{\r}
+Dialogue: 0,0:19:35.71,0:19:38.13,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这不是给他的 是我要喝的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, no, this is not for him. This is for me.{\r}
+Dialogue: 0,0:19:39.59,0:19:43.26,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这样 他还是清醒的 我也会觉得他的鞋带故事有趣多了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That way, he's still sober, but I find his stories about shoelaces more amusing.{\r}
+Dialogue: 0,0:19:48.14,0:19:51.23,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}老天 他连敲门都这么无聊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ugh, God. Even his knock is boring.{\r}
+Dialogue: 0,0:19:53.90,0:19:57.11,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 我马上就准备好了   - 我能和你谈一下吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hi. I'll be ready in just a second.     - Uh, could I talk to you a minute?{\r}
+Dialogue: 0,0:19:57.32,0:19:58.44,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sure.{\r}
+Dialogue: 0,0:20:00.11,0:20:03.74,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 这件事我很难开口   - 老天 你又醉了吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- This is really hard for me to say.     - Oh, God. You fell off the wagon.{\r}
+Dialogue: 0,0:20:03.95,0:20:05.16,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不是{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, no, no.{\r}
+Dialogue: 0,0:20:05.53,0:20:06.57,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}是有关你的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's about you.{\r}
+Dialogue: 0,0:20:07.16,0:20:08.33,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我怎么了？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What about me?{\r}
+Dialogue: 0,0:20:08.87,0:20:11.08,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我想你可能有酗酒问题{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I think you may have a drinking problem.{\r}
+Dialogue: 0,0:20:14.46,0:20:15.83,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}什么 这些？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What, these?{\r}
+Dialogue: 0,0:20:16.00,0:20:19.25,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不是 这是消毒伤口用的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, these are, um, for cuts and scrapes.{\r}
+Dialogue: 0,0:20:20.51,0:20:24.63,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我现在没法进入一段互相依存的关系里{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look, I am just not strong enough to be in a codependent relationship right now.{\r}
+Dialogue: 0,0:20:26.01,0:20:28.18,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}该死{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, shoot.{\r}
+Dialogue: 0,0:20:30.18,0:20:33.02,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}无论如何 希望我们还继续当朋友{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, anyway, I hope we can be friends.{\r}
+Dialogue: 0,0:20:33.23,0:20:34.77,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay.{\r}
+Dialogue: 0,0:20:37.40,0:20:38.44,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}保重{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Take care.{\r}
+Dialogue: 0,0:20:38.69,0:20:41.15,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 好 你也保重   - 再见{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Okay. You too.     - Bye.{\r}
+Dialogue: 0,0:20:44.57,0:20:45.70,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}发生了什么事？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What happened?{\r}
+Dialogue: 0,0:20:46.07,0:20:48.99,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我们分手了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, we kind of broke up.{\r}
+Dialogue: 0,0:20:49.58,0:20:51.24,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}噢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Aw.{\r}
+Dialogue: 0,0:20:56.21,0:20:57.67,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}这些酒谁要？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Does anybody want these?{\r}
+Dialogue: 0,0:20:57.92,0:20:59.09,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我拿一瓶{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll take one.{\r}
+Dialogue: 0,0:21:00.13,0:21:03.63,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}有时我喜欢拿这种东西 来假装我是巨人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sometimes I like to hold stuff like this and pretend I'm a giant.{\r}
+Dialogue: 0,0:21:08.14,0:21:10.89,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 嘿   - 再试镜如何？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey.     - Hey. How'd the callback go?{\r}
+Dialogue: 0,0:21:11.10,0:21:14.85,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}真让人不敢相信 我到了那儿 她就对我上下其手{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ugh, it was unbelievable. I walked in there and she was all over me.{\r}
+Dialogue: 0,0:21:15.06,0:21:17.14,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 那你怎么做？ - 我办不到{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- So, what did you do?     - Well, I couldn't do it.{\r}
+Dialogue: 0,0:21:17.35,0:21:20.27,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 我告诉她我不想这样拿到工作   - 做得好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I told her I didn't want the part that way.     - Good for you.{\r}
+Dialogue: 0,0:21:20.48,0:21:22.82,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}等等 等等 但离开她办公室后…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, wait, wait, wait. But then after I left her office...{\r}
+Dialogue: 0,0:21:22.99,0:21:26.36,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}她追我追到电梯 要给我一个更大的角色{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}she caught up with me at the elevator and offered me an even bigger part.{\r}
+Dialogue: 0,0:21:26.70,0:21:27.74,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}然后呢？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So, and?{\r}
+Dialogue: 0,0:21:29.41,0:21:33.91,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}所以你们现在看到的是德瑞克·雷莫瑞 神经外科医生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So you are now looking at Dr. Drake Ramoray, neurosurgeon...{\r}
+Dialogue: 0,0:21:34.12,0:21:36.12,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}至少四集出场机会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}recurring in at least four episodes.{\r}
+Dialogue: 0,0:21:36.29,0:21:37.79,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}太棒了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right!{\r}
+Dialogue: 0,0:21:37.96,0:21:39.75,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}好了 我要去洗澡了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, I gotta go shower.{\r}
+Dialogue: 0,0:21:53.18,0:21:54.52,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}大家好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi.{\r}
+Dialogue: 0,0:21:54.68,0:21:56.35,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 嘿   - 嗨{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, hey.     - Hi.{\r}
+Dialogue: 0,0:21:56.52,0:21:58.94,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我想你们都听说瑞秋甩了我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I guess you guys heard Rachel dumped me.{\r}
+Dialogue: 0,0:21:59.10,0:22:00.52,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我很遗憾 老兄{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, I'm sorry, man.{\r}
+Dialogue: 0,0:22:00.69,0:22:03.61,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}她只说我让她想起另外一个人{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All she said was that I remind her too much of somebody.{\r}
+Dialogue: 0,0:22:03.78,0:22:05.61,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}你们知道她是指谁吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have any idea who she's talking about?{\r}
+Dialogue: 0,0:22:07.53,0:22:10.24,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}我知道 是鲍伯·萨格特{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, I do. It's Bob Saget.{\r}
+Dialogue: 0,0:22:12.20,0:22:14.04,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 她讨厌他   - 哦{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- She hates him.     - Oh.{\r}
+Dialogue: 0,0:22:14.20,0:22:16.50,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}- 嘿   - 你好 茱莉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey.     - Hey, Julie.{\r}
+Dialogue: 0,0:22:16.66,0:22:17.83,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}最近好吗？{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, how are you doing?{\r}
+Dialogue: 0,0:22:18.00,0:22:21.71,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}不知道 没有罗斯 真的感觉有些奇怪{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh. I don't know. I mean, it's definitely weird not being with Ross...{\r}
+Dialogue: 0,0:22:21.92,0:22:24.00,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}但是我想我还好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}but I guess I'm doing okay.{\r}
+Dialogue: 0,0:22:24.25,0:22:27.09,Default,,0000,0000,0000,,{\blur3\fs20\fn华文楷体}事实上 我拿他的东西来…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Actually, I've got some of his stuff that he, um...{\r}

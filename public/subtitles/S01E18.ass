@@ -1,0 +1,367 @@
+﻿[Script Info]
+;SrtEdit 6.0.2011.1205
+;Copyright(C) 2005-2011 Yuan Weiguo
+
+Title: YYeTs
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: chs,Arial,20,&H00E0E0E0,&H00000000,&H00000000,&H80000000,0,0,0,0,100,100,0,0,0,2,1,2,1,1,3,1
+Style: Default,华文楷体,20,&H00E0E0E0,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0,0,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:15.43,0:00:17.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}瑞秋 我们这边只剩几张履历表了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Rach, we're running low on résumés over here.{\r}
+Dialogue: 0,0:00:18.10,0:00:20.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你真的想去《大众机械杂志》做事？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Do you really want a job with Popular Mechanics?{\r}
+Dialogue: 0,0:00:20.60,0:00:23.89,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}要是想为机械工做点事 那倒是不错的选择{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, if you're gonna work for mechanics, those are the ones to work for.{\r}
+Dialogue: 0,0:00:25.10,0:00:27.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}说真的 我现在什么都可以做了 好吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, look, you guys. I'm going for anything here, okay?{\r}
+Dialogue: 0,0:00:27.65,0:00:29.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我不想再当服务生了 真的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I can't be a waitress anymore. I mean it.{\r}
+Dialogue: 0,0:00:29.86,0:00:33.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}小费那么少 烦死了 而且大家都叫我"不好意思"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm sick of the lousy tips. I'm sick of being called "Excuse Me."{\r}
+Dialogue: 0,0:00:35.32,0:00:37.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}瑞秋 你写完后 有没有检查？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Rach, did you proofread these?{\r}
+Dialogue: 0,0:00:37.78,0:00:39.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}有啊 怎么了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, yeah. Why?{\r}
+Dialogue: 0,0:00:39.74,0:00:45.41,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没什么 你优秀的电"恼"能力 我相信大家都会印象深刻{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, nothing. I'm sure they'll be impressed with your excellent "compuper" skills.{\r}
+Dialogue: 0,0:00:45.58,0:00:48.00,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我的天{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God!{\r}
+Dialogue: 0,0:00:48.17,0:00:50.71,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}每一张上面都写这样吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, do you think it's on all of them?{\r}
+Dialogue: 0,0:00:53.97,0:00:57.34,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不会啦 我相信影印机一定帮你抓到几个错误了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, no, I'm sure the Xerox machine caught a few.{\r}
+Dialogue: 0,0:01:48.81,0:01:50.65,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 大家好   - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey, guys.     - Hey.{\r}
+Dialogue: 0,0:01:50.81,0:01:53.27,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嘿 两位小姐{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey. Hi, ladies.{\r}
+Dialogue: 0,0:01:53.44,0:01:55.94,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}要点什么饮料？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, can I get you anything?{\r}
+Dialogue: 0,0:01:56.11,0:01:58.03,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 去拿信了吗？ - 一堆回信{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Did you bring the mail?     - Lots of responses.{\r}
+Dialogue: 0,0:01:58.20,0:02:01.12,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}真的吗？当然还有司康松糕罗{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Really? Sure we have scones left.{\r}
+Dialogue: 0,0:02:02.03,0:02:03.08,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 念给我听{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, read them to me.{\r}
+Dialogue: 0,0:02:03.24,0:02:07.83,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}"亲爱的葛林小姐: 谢谢您的申请 不过…"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}"Dear Miss Green: Thank you for your inquiry. However..."{\r}
+Dialogue: 0,0:02:08.62,0:02:11.08,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我们有苹果肉挂…   - 好 "亲爱的葛林小姐"…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- We have apple cinnamon...     - Okay, "Dear Miss Green"...{\r}
+Dialogue: 0,0:02:11.25,0:02:14.42,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 好 好 不行{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah. Yeah, yeah. No.{\r}
+Dialogue: 0,0:02:16.59,0:02:17.63,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 哇   - 什么啊？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Wow.     - What?{\r}
+Dialogue: 0,0:02:17.80,0:02:20.22,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你的卡债还真多{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Your Visa bill is huge.{\r}
+Dialogue: 0,0:02:21.09,0:02:22.14,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}拿来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Give me that.{\r}
+Dialogue: 0,0:02:22.51,0:02:24.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我真不敢相信 琳达这么可爱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know, I can't believe you. Linda is so great.{\r}
+Dialogue: 0,0:02:24.60,0:02:26.64,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你为什么不约她出去？ - 不知道{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Why won't you go out with her again?     - I don't know.{\r}
+Dialogue: 0,0:02:26.81,0:02:28.56,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你是不是还在想…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Is this still about her whole...{\r}
+Dialogue: 0,0:02:28.73,0:02:31.23,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}她说的"《摩登原始人》有可能是真的"？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}..."The Flintstones could have really happened" thing?{\r}
+Dialogue: 0,0:02:32.52,0:02:33.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不只是那样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's not just that.{\r}
+Dialogue: 0,0:02:33.86,0:02:36.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我只是想要一个能让我心动…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's just, I want someone who does something for me...{\r}
+Dialogue: 0,0:02:36.86,0:02:38.78,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}让我小鹿乱撞…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...you know, who gets my heart pounding...{\r}
+Dialogue: 0,0:02:39.74,0:02:41.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}让我…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...who makes me, uh...{\r}
+Dialogue: 0,0:02:43.66,0:02:46.03,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}身上穿毛衣的小东西？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Little play things with yarn?{\r}
+Dialogue: 0,0:02:47.66,0:02:49.00,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}什么啊？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What?{\r}
+Dialogue: 0,0:02:49.21,0:02:51.71,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}还有人更让你心动的吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Could you want her more?{\r}
+Dialogue: 0,0:02:52.33,0:02:53.33,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谁？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Who?{\r}
+Dialogue: 0,0:02:53.50,0:02:57.05,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}还有谁？就是肥皂剧里那个女生啊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Who? Dee, the sarcastic sister from What's Happening!!{\r}
+Dialogue: 0,0:03:00.13,0:03:01.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谁啊？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Who?{\r}
+Dialogue: 0,0:03:04.60,0:03:07.18,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}说真的 我对她完全没有感觉了 好吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, I am totally, totally over her, okay?{\r}
+Dialogue: 0,0:03:07.35,0:03:08.93,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我只是… 嘿   - 嘿 还要咖啡吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I just... Hi.     - Hi. Coffee?{\r}
+Dialogue: 0,0:03:09.10,0:03:11.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 不了 这样就好   - 好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- No, we're fine.     - Okay.{\r}
+Dialogue: 0,0:03:16.86,0:03:17.90,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}闭嘴{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Shut up.{\r}
+Dialogue: 0,0:03:18.07,0:03:19.94,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们什么都没说哦{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We're not saying anything.{\r}
+Dialogue: 0,0:03:20.11,0:03:23.20,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 什么啊？ - 乔伊昨晚哭了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What?     - Uh, Joey cried last night.{\r}
+Dialogue: 0,0:03:24.03,0:03:25.66,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谢谢哦{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thank you.{\r}
+Dialogue: 0,0:03:26.12,0:03:27.41,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们不是在玩牌吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We were playing poker, right?{\r}
+Dialogue: 0,0:03:27.58,0:03:30.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}3号牌上有巧克力 所以看起来像8好吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There was chocolate on the three. It looked like an eight, all right?{\r}
+Dialogue: 0,0:03:31.58,0:03:35.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}应该让你们看看 《看着看着就哭了》{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, God, you should've seen him. "Read them and weep."{\r}
+Dialogue: 0,0:03:35.71,0:03:37.63,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他也照办了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And then he did.{\r}
+Dialogue: 0,0:03:38.88,0:03:42.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你们怎么从来不跟我们玩牌？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, now, how come you guys have never played poker with us?{\r}
+Dialogue: 0,0:03:42.72,0:03:44.84,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}对啊 怎么回事？就是只有男生能玩吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, what is that? Like some kind of guy thing?{\r}
+Dialogue: 0,0:03:45.01,0:03:46.89,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}就是只有性别歧视的男生能玩吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Like some kind of sexist guy thing?{\r}
+Dialogue: 0,0:03:47.10,0:03:49.39,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}扑克牌只有男生能玩啊？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Like, it's poker, so only guys can play?{\r}
+Dialogue: 0,0:03:49.77,0:03:51.23,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们也很欢迎女生玩{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No. Women are welcome to play.{\r}
+Dialogue: 0,0:03:51.39,0:03:52.73,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}哦 那怎么了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, okay, so then what is it?{\r}
+Dialogue: 0,0:03:52.89,0:03:56.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}就是… 就是…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Some kind of, you know, like, some kind of, you know, like...{\r}
+Dialogue: 0,0:03:56.36,0:03:58.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好吧 到底是怎样？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, what is it?{\r}
+Dialogue: 0,0:03:59.82,0:04:02.03,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}就只是刚好我们玩牌时 没有女人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There just don't happen to be any women in our game.{\r}
+Dialogue: 0,0:04:02.20,0:04:06.07,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}对啊 我们不认识会玩扑克牌的女人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, we just don't happen to know any women that know how to play poker.{\r}
+Dialogue: 0,0:04:06.24,0:04:10.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}拜托 烂借口 标准的男生答案{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, please. That is such a lame excuse. I mean, it's a typical guy response.{\r}
+Dialogue: 0,0:04:10.41,0:04:12.37,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不好意思 你们当中有人会玩吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Excuse me, do any of you know how to play?{\r}
+Dialogue: 0,0:04:12.54,0:04:14.04,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不会{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No.{\r}
+Dialogue: 0,0:04:15.42,0:04:16.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但是你们可以教我们{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But you could teach us.{\r}
+Dialogue: 0,0:04:16.92,0:04:18.42,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不要{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No.{\r}
+Dialogue: 0,0:04:23.05,0:04:27.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 现在我们抽牌{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, so now we draw cards.{\r}
+Dialogue: 0,0:04:30.56,0:04:33.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我这样不需要再抽了吧？我有顺子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So I wouldn't need any, right? Because I have a straight.{\r}
+Dialogue: 0,0:04:33.18,0:04:35.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 太好了   - 恭喜你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Oh, good for you.     - Congratulations.{\r}
+Dialogue: 0,0:04:38.61,0:04:40.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 菲比 你要几张？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, Pheebs, how many do you want?{\r}
+Dialogue: 0,0:04:40.69,0:04:45.70,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我要两张 黑桃10跟梅花6{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, I just need two. The 10 of spades and the six of clubs.{\r}
+Dialogue: 0,0:04:47.45,0:04:49.07,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不行 菲比 不可以这样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, uh, Pheebs, you can't do that.{\r}
+Dialogue: 0,0:04:49.24,0:04:51.12,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我有黑桃10 你要不要？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I have the 10 of spades. Here, you want it?{\r}
+Dialogue: 0,0:04:51.29,0:04:52.66,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谢谢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thanks.{\r}
+Dialogue: 0,0:04:53.83,0:04:56.37,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不行 不可以这样子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, no, see, uh, you can't do that.{\r}
+Dialogue: 0,0:04:56.54,0:04:58.92,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没关系 我不需要这张牌 我要四张四{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, no. That's okay. I don't need them. I'm going for fours.{\r}
+Dialogue: 0,0:04:59.09,0:05:00.46,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}啊 你在…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, you're...{\r}
+Dialogue: 0,0:05:06.13,0:05:07.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 上菜了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, here we go.{\r}
+Dialogue: 0,0:05:07.43,0:05:10.68,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这是鲑鱼轮盘跟什锦生菜棒{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We've got salmon roulettes and assorted crudités.{\r}
+Dialogue: 0,0:05:10.85,0:05:12.64,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}摩妮卡 你在干什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Whoa, whoa, whoa. Monica, what are you doing?{\r}
+Dialogue: 0,0:05:12.81,0:05:16.64,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们在玩扑克牌 只能吃垃圾零食{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This is a poker game. You can't serve food with more than one syllable.{\r}
+Dialogue: 0,0:05:16.81,0:05:20.27,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}像洋芋片 蝴蝶脆饼…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's got to be like chips or dip or pretz...{\r}
+Dialogue: 0,0:05:22.82,0:05:24.32,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 现在庄家…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, so at this point, the dealer...{\r}
+Dialogue: 0,0:05:24.49,0:05:28.16,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这样好了 开始玩真的吧 我们会了 高风险 玩真钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know what? We got it. We got it. Let's play for real. High stakes. Big bucks.{\r}
+Dialogue: 0,0:05:28.32,0:05:30.70,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你确定吗？菲比刚丢出两张J…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, now, you sure? Phoebe just threw away two jacks...{\r}
+Dialogue: 0,0:05:30.87,0:05:32.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}因为它们看起来很不快乐{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...because they didn't look happy.{\r}
+Dialogue: 0,0:05:36.79,0:05:39.96,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但是我可以玩了 发牌吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But I'm ready. So just deal.{\r}
+Dialogue: 0,0:05:40.13,0:05:43.09,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 最后一课 最后一课 乔伊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, all right, last minute lesson. Last minute lesson. Joey.{\r}
+Dialogue: 0,0:05:43.46,0:05:44.76,chs,NTP,0000,0000,0000,,\N\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}3\NThree...{\r}
+Dialogue: 0,0:05:44.92,0:05:46.42,chs,NTP,0000,0000,0000,,\N\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}8\N...eight.{\r}
+Dialogue: 0,0:05:46.59,0:05:48.59,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}8 3 好 可以开始了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Eight, three. All right. Here we go.{\r}
+Dialogue: 0,0:05:53.68,0:05:55.77,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}该死 该死 该死{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Damn it, damn it, damn it.{\r}
+Dialogue: 0,0:05:55.93,0:05:58.56,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我知道了 原来你是在说谎{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I see. So then, um, you were lying.{\r}
+Dialogue: 0,0:05:58.73,0:06:01.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 说什么谎？ - 说你的牌有多好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- About what?     - About how good your cards were.{\r}
+Dialogue: 0,0:06:01.19,0:06:02.94,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那叫做唬人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Heh. I was bluffing.{\r}
+Dialogue: 0,0:06:03.19,0:06:06.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那"唬人"是什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Aha. And what is "bluffing"?{\r}
+Dialogue: 0,0:06:07.95,0:06:11.16,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不就是说谎吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Is it not another word for lying?{\r}
+Dialogue: 0,0:06:11.70,0:06:13.66,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好了 很抱歉要终止这场派对{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, sorry to break up this party...{\r}
+Dialogue: 0,0:06:13.83,0:06:16.04,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但是我得在明天上班前把履历表发出去{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...but I've got resumes to fax before work tomorrow.{\r}
+Dialogue: 0,0:06:16.20,0:06:18.50,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 哇哦…   - 瑞秋 我们得定局{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Whoa, whoa, whoa.     - Rach, we've got to settle.{\r}
+Dialogue: 0,0:06:18.66,0:06:20.42,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}定什么局？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Settle what?{\r}
+Dialogue: 0,0:06:21.08,0:06:23.59,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}为维吉尼亚州 詹姆士镇的殖民地下定局{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The Jamestown colony of Virginia.{\r}
+Dialogue: 0,0:06:25.46,0:06:28.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那块地是乔治国王要给我们的…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You see, King George is giving us the land, so...{\r}
+Dialogue: 0,0:06:31.30,0:06:34.47,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}瑞秋 这场牌局 这局你欠我们钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The game, Rachel. The game. You owe us money for the game.{\r}
+Dialogue: 0,0:06:34.64,0:06:35.72,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}对哦{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, right.{\r}
+Dialogue: 0,0:06:35.89,0:06:39.35,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这样吧 这是她们第一次玩牌 我们就算了好不好？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know what, guys? It's their first time. Why don't we forget about the money?{\r}
+Dialogue: 0,0:06:39.52,0:06:42.15,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}才不要 我们会付的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hell, no. We'll pay.{\r}
+Dialogue: 0,0:06:42.31,0:06:45.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好吧 摩妮卡 我已经准备好另一个答案{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, Monica, I had another answer all ready.{\r}
+Dialogue: 0,0:06:47.03,0:06:48.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这样好了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And you know what?{\r}
+Dialogue: 0,0:06:48.36,0:06:51.03,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我们再来一场   - 我没问题{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- We want a rematch.     - Well, that's fine with me.{\r}
+Dialogue: 0,0:06:51.20,0:06:53.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我有钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Could use the money.{\r}
+Dialogue: 0,0:06:54.20,0:06:58.45,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}基本上 你们就是靠从朋友那边赢钱来过瘾的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So, basically, you get your ya-yas by taking money from all of your friends.{\r}
+Dialogue: 0,0:06:59.37,0:07:02.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 没错   - 对 我靠去宜家过瘾{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Yeah.     - Yes, and I get my ya-yas from lkea.{\r}
+Dialogue: 0,0:07:04.88,0:07:08.51,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}家具得自己组装 但是便宜一点{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You have to put them together yourself, but they cost a little less.{\r}
+Dialogue: 0,0:07:09.55,0:07:12.59,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}瑞秋 我玩扑克牌的目的就是想赢 好吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, Rachel, this is poker. I play to win, all right?{\r}
+Dialogue: 0,0:07:12.76,0:07:15.10,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我要赢 别人就得输{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}In order for me to win, other people have to lose.{\r}
+Dialogue: 0,0:07:15.26,0:07:18.85,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你要跟我玩扑克牌 就别指望我当好好先生{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So if you're gonna play poker with me, don't expect me to be a nice guy.{\r}
+Dialogue: 0,0:07:19.02,0:07:22.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}因为一发牌…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, because once those cards are dealt...{\r}
+Dialogue: 0,0:07:31.28,0:07:32.61,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}怎样？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah?{\r}
+Dialogue: 0,0:07:35.95,0:07:38.08,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我就不是好好先生{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm not a nice guy.{\r}
+Dialogue: 0,0:07:44.88,0:07:46.50,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好了 大家来吃吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, boys. Let's eat.{\r}
+Dialogue: 0,0:07:46.67,0:07:50.30,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你在"我爱瑞秋"披萨店买的吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ah, did you get that from the "I Love Rachel" pizzeria?{\r}
+Dialogue: 0,0:07:51.01,0:07:52.51,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你还在想那个？ - 拜托{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- You still on that?     - Come on.{\r}
+Dialogue: 0,0:07:52.68,0:07:54.84,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那场"我是坏男人"演讲 是怎么回事？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What was with that whole Black Bart speech?{\r}
+Dialogue: 0,0:07:55.01,0:07:58.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}"我一玩扑克牌 就不是好好先生"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}"When I play poker, I'm not a nice guy".{\r}
+Dialogue: 0,0:07:59.22,0:08:00.60,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}老兄 完全搞错了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're way off, pal.{\r}
+Dialogue: 0,0:08:00.77,0:08:04.94,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我可不这么认为 罗斯 我认为你爱她{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, I don't think so. See, Ross, because I think you love her.{\r}
+Dialogue: 0,0:08:05.15,0:08:06.31,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没有{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, no.{\r}
+Dialogue: 0,0:08:06.48,0:08:09.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我对她有过好感 那都过去了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}See, I might have had feelings for her at one time. Not anymore.{\r}
+Dialogue: 0,0:08:09.98,0:08:12.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我只是… 马塞尔{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I just... Marcel.{\r}
+Dialogue: 0,0:08:12.86,0:08:16.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你拿那片CD干什么？不可以再放了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Where are you going with that disk? You are not putting that on again.{\r}
+Dialogue: 0,0:08:16.41,0:08:21.94,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}马塞尔… 好 敢按下那个键 你就完蛋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Marcel... Okay. If you press that button, you are in very, very big trouble.{\r}
+Dialogue: 0,0:08:35.68,0:08:38.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}真不敢相信 罗斯居然那么浑蛋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You believe what a jerk Ross was being?{\r}
+Dialogue: 0,0:08:38.60,0:08:41.01,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}对啊 他还真是好胜{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, I know. He can get really competitive.{\r}
+Dialogue: 0,0:08:44.56,0:08:45.81,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}干嘛啊？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What?{\r}
+Dialogue: 0,0:08:45.98,0:08:49.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}摩妮卡 你是五十步笑百步吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh. "Hello, Kettle, this is Monica. You're black."{\r}
+Dialogue: 0,0:08:49.94,0:08:51.65,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}拜托{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Please.{\r}
+Dialogue: 0,0:08:54.36,0:08:56.66,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我没有像罗斯那么糟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I am not as bad as Ross.{\r}
+Dialogue: 0,0:08:56.82,0:09:00.28,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}抱歉 我看不出差别 记得比手画脚事件吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, I beg to differ. The Pictionary incident?{\r}
+Dialogue: 0,0:09:00.99,0:09:02.49,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那不是什么事件{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That was not an incident.{\r}
+Dialogue: 0,0:09:02.66,0:09:07.25,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我正在比手画脚 盘子就溜出去了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I was gesturing and the plate slipped out of my hand.{\r}
+Dialogue: 0,0:09:07.42,0:09:08.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}哦{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh.{\r}
+Dialogue: 0,0:09:10.17,0:09:14.63,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我有面试 我有面试了   - 真的吗？哪里？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Oh! I got an interview. I got an interview.     - You're kidding. Where? Where?{\r}
+Dialogue: 0,0:09:14.80,0:09:19.39,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 萨克斯百货公司 第五大街   - 哇 瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Saks Fifth Avenue.     - Oh, Rachel.{\r}
+Dialogue: 0,0:09:19.64,0:09:23.06,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这就好像母船来召你回家乡了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, it's like the mother ship is calling you home.{\r}
+Dialogue: 0,0:09:26.94,0:09:30.11,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 是什么样的职位？ - 助理采购人员{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Well, what's the job?     - Assistant buyer.{\r}
+Dialogue: 0,0:09:30.27,0:09:33.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我可以靠血拼…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh! I would be shopping...{\r}
+Dialogue: 0,0:09:34.94,0:09:36.90,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}吃饭{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...for a living.{\r}
+Dialogue: 0,0:09:38.95,0:09:40.32,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 爱瑞丝阿姨来了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, look. That's Aunt Iris.{\r}
+Dialogue: 0,0:09:40.49,0:09:42.83,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}她5岁就开始玩扑克牌了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This woman has been playing poker since she was 5.{\r}
+Dialogue: 0,0:09:42.99,0:09:45.33,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}她说的每一个字都要注意听{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You've gotta listen to every word she says.{\r}
+Dialogue: 0,0:09:45.50,0:09:47.71,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你好   - 喜剧泰斗东尼•蓝道死了吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hi.     - Is Tony Randall dead?{\r}
+Dialogue: 0,0:09:48.00,0:09:49.29,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 怎么会？ - 我没听说{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Oh, why?     - I don't think so.{\r}
+Dialogue: 0,0:09:49.46,0:09:52.50,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他可能已经死了 我好像刚刚开车撞到他{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, he may be now because I think I hit him with my car.{\r}
+Dialogue: 0,0:09:52.71,0:09:56.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我的天 真的吗？ - 假的 第一课 这就是唬人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- My God. Really?     - No, that's bluffing. Lesson number one.{\r}
+Dialogue: 0,0:09:58.26,0:09:59.63,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}告诉你们吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Let me tell you something.{\r}
+Dialogue: 0,0:09:59.80,0:10:03.39,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}在扑克牌桌上听到的 通通不可以当真{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Everything you hear at a poker game is pure crap.{\r}
+Dialogue: 0,0:10:03.93,0:10:05.93,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 好漂亮的耳环   - 谢…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Nice earrings.     - Thank you.{\r}
+Dialogue: 0,0:10:08.73,0:10:10.56,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}各位小姐 坐下{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Girls, sit down.{\r}
+Dialogue: 0,0:10:10.73,0:10:13.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 爱瑞丝阿姨 这是菲比 瑞秋…   - 好了 好了…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Um, Aunt Iris, this is Phoebe, and Rachel...     - Yeah, yeah, yeah.{\r}
+Dialogue: 0,0:10:13.73,0:10:16.78,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们开始吧 这里停车要计时收费{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Listen, I am parked at a meter. Let's do it.{\r}
+Dialogue: 0,0:10:26.16,0:10:29.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}罗斯 拜托 我们能不能听点别的？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ross, could we please, please, listen to anything else?{\r}
+Dialogue: 0,0:10:29.75,0:10:31.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好啦{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right.{\r}
+Dialogue: 0,0:10:47.56,0:10:49.77,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}今晚我完蛋了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm gonna pay for that tonight.{\r}
+Dialogue: 0,0:10:54.94,0:10:56.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 嗨   - 你好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hi.     - Hey.{\r}
+Dialogue: 0,0:10:56.19,0:10:57.65,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你们猜 你们猜 你们猜{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Guess what, guess what, guess what.{\r}
+Dialogue: 0,0:10:57.82,0:11:02.74,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嗯 第五个牙医投降了 他们开始推荐薄荷口香糖了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, okay. The fifth dentist caved, and now they're all recommending Trident?{\r}
+Dialogue: 0,0:11:08.75,0:11:11.12,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不是 是我的面试{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, the interview.{\r}
+Dialogue: 0,0:11:11.29,0:11:13.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}她好喜欢我 超级喜欢我{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}She loved me. She absolutely loved me.{\r}
+Dialogue: 0,0:11:13.38,0:11:17.09,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们谈了两个半小时 我们的衣着品味相同{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We talked for, like, two and a half hours. We have the same taste in clothes.{\r}
+Dialogue: 0,0:11:17.38,0:11:19.34,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我跟她表妹还去过同一个夏令营{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, I went to camp with her cousin.{\r}
+Dialogue: 0,0:11:19.51,0:11:23.05,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这工作太完美了 我可以做得很好 一定可以{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And, oh, the job is perfect. I can do this. I can do this well.{\r}
+Dialogue: 0,0:11:23.22,0:11:24.59,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}太好了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's great.{\r}
+Dialogue: 0,0:11:24.76,0:11:26.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}而且她的故事超好笑的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}God. And she told the funniest story.{\r}
+Dialogue: 0,0:11:26.72,0:11:28.68,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好极了 你说出来 我们一定会笑的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, great, you'll tell us and we'll laugh.{\r}
+Dialogue: 0,0:11:28.85,0:11:30.77,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}开始玩扑克牌吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Let's play poker.{\r}
+Dialogue: 0,0:11:32.44,0:11:34.23,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 我们谈过了…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, listen, we talked about it...{\r}
+Dialogue: 0,0:11:34.40,0:11:36.94,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}如果你们不想玩 我们可以理解{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...and if you don't want to play, we completely understand.{\r}
+Dialogue: 0,0:11:37.11,0:11:40.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}对 我们可以玩别的 像是 不知道…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes, yes. We can play some other game. Like, I don't know...{\r}
+Dialogue: 0,0:11:40.36,0:11:41.99,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}比手画脚？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...Pictionary?{\r}
+Dialogue: 0,0:11:43.86,0:11:45.16,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}很好笑 很好笑{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Very funny. Very funny.{\r}
+Dialogue: 0,0:11:45.32,0:11:47.78,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们再给扑克牌一次机会吧 好吗 两位小姐？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I think we'd like to give poker another try. Shall we, ladies?{\r}
+Dialogue: 0,0:11:47.95,0:11:49.45,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好啊 没问题{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes, I think we should.{\r}
+Dialogue: 0,0:11:49.62,0:11:51.20,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你要我洗牌吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Rach, do you want me to shuffle those?{\r}
+Dialogue: 0,0:11:51.37,0:11:54.00,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不用了 没关系 我来试试看吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, no. That's okay. You know what? I'm gonna give it a go.{\r}
+Dialogue: 0,0:11:54.17,0:11:55.38,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 好   - 好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- All right.     - All right.{\r}
+Dialogue: 0,0:12:06.60,0:12:09.56,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}菲比欠7块5 摩妮卡 你欠10块{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So Pheebs owes 7.50. Monica, you owe $10.{\r}
+Dialogue: 0,0:12:09.72,0:12:12.73,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}瑞秋 你欠15块{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And, Rachel, you owe 15 big ones.{\r}
+Dialogue: 0,0:12:13.94,0:12:15.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谢谢你教我们唱《斗鸡眼玛莉》{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thanks for teaching us "Crossed-eyed Mary."{\r}
+Dialogue: 0,0:12:15.86,0:12:18.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那个我们一定要放出来的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You guys, we gotta play that other way.{\r}
+Dialogue: 0,0:12:19.73,0:12:23.65,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}7块5拿去 你们要知道 这钱被诅咒了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, here's my 7.50, but I think you should know that this money is cursed.{\r}
+Dialogue: 0,0:12:23.82,0:12:26.28,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 什么？ - 哦 诅咒是我下的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What?     - Oh, I cursed it.{\r}
+Dialogue: 0,0:12:27.99,0:12:30.70,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不管是谁花掉的 都会有倒霉的事发生{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So now bad things will happen to he who spends it.{\r}
+Dialogue: 0,0:12:31.45,0:12:34.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没关系 给我吧 反正我一直都很倒霉{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's all right, I'll take it. Bad things happen to me anyway.{\r}
+Dialogue: 0,0:12:35.67,0:12:38.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这样我就可以用电影解除咒语{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This way, I can break them up with a movie.{\r}
+Dialogue: 0,0:12:38.38,0:12:43.76,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}现在只剩下葛林扑克牌机 她欠我们15块{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So that just leaves the big Green poker machine, who owes 15.{\r}
+Dialogue: 0,0:12:43.97,0:12:46.13,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}真是标准的…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hmm, oh, it's so typical:{\r}
+Dialogue: 0,0:12:46.30,0:12:48.76,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}"我是个男人 我是带把的"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}"Ooh, I'm a man. Ooh, I have a penis.{\r}
+Dialogue: 0,0:12:48.93,0:12:52.81,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}"我就是要赢钱 来显示出驾驭女性的权力"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ooh, I have to win money to exert my power over women."{\r}
+Dialogue: 0,0:12:56.35,0:12:57.85,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你们知道吗？我们还没玩完{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know what? This is not over.{\r}
+Dialogue: 0,0:12:58.19,0:13:01.27,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们会再来找你们 我们会赢 你们会输{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We will play you again. And we will win and you will lose.{\r}
+Dialogue: 0,0:13:01.44,0:13:03.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你们会求饶 我们会讥笑你们{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And you will beg and we will laugh.{\r}
+Dialogue: 0,0:13:03.36,0:13:05.20,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你们所有的钱都会被我们赢光{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And we will take every last dime you have.{\r}
+Dialogue: 0,0:13:05.36,0:13:08.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}然后再一辈子痛恨你们自己{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And you will hate yourselves forever.{\r}
+Dialogue: 0,0:13:09.83,0:13:13.33,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你把我想讲的话都说光了 摩妮卡{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hmm. Kind of stepped on my point there, Mon.{\r}
+Dialogue: 0,0:13:19.46,0:13:21.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}钱你们要现在付吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So you gals wanna hand over your money now?{\r}
+Dialogue: 0,0:13:21.71,0:13:24.84,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这样我们就可以直接跳过玩牌的仪式{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That way, we don't have to go through the formality of actually playing.{\r}
+Dialogue: 0,0:13:25.72,0:13:30.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没关系 我们来看看最后笑的人是谁 猴孩子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, that's fine. We'll see who has the last laugh there, monkey boy.{\r}
+Dialogue: 0,0:13:32.89,0:13:36.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}聊天聊完了没有？要不要认真打牌啊？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, are we done with the chitchat? Are we ready to play serious poker?{\r}
+Dialogue: 0,0:13:36.23,0:13:39.94,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}大家快看 单眼杰克的眼睛一直跟着我{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, you guys, look. The one-eyed jack follows me wherever I go.{\r}
+Dialogue: 0,0:13:41.57,0:13:43.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 好好打一场扑克牌{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Right, okay. Serious poker.{\r}
+Dialogue: 0,0:13:44.82,0:13:46.90,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不好意思 你要去哪里？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Excuse me. Where are you going?{\r}
+Dialogue: 0,0:13:47.07,0:13:48.40,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}上厕所{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, to the bathroom.{\r}
+Dialogue: 0,0:13:48.57,0:13:50.95,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你是来上厕所 还是来玩扑克牌的？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Do you wanna go to the bathroom or do you wanna play poker?{\r}
+Dialogue: 0,0:13:51.12,0:13:52.78,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我想上厕所{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I wanna go to the bathroom.{\r}
+Dialogue: 0,0:13:55.12,0:13:57.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 好 我打电话叫披萨外卖   - 不行 不行 不行{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- All right, well, I'm gonna order a pizza.     - Oh, no, no, no.{\r}
+Dialogue: 0,0:13:57.96,0:13:59.37,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我在等那工作的面试结果{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm waiting to hear from that job.{\r}
+Dialogue: 0,0:13:59.54,0:14:02.13,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}百货公司9点关 你那时候再吃吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And the store closes at 9, so you can eat then.{\r}
+Dialogue: 0,0:14:02.96,0:14:06.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没关系 我吃薄荷糖先垫肚子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's fine. I'll just have a Tic Tac to hold me over.{\r}
+Dialogue: 0,0:14:07.93,0:14:12.30,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 辛辛那提玩法 不下盲注 大家先下注{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right. Cincinnati. No blinds. Everybody ante.{\r}
+Dialogue: 0,0:14:12.72,0:14:14.31,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes.{\r}
+Dialogue: 0,0:14:14.85,0:14:16.52,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Or no.{\r}
+Dialogue: 0,0:14:18.48,0:14:19.94,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right.{\r}
+Dialogue: 0,0:14:20.10,0:14:21.73,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你的钱就是我的 葛林{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Your money's mine, Green.{\r}
+Dialogue: 0,0:14:21.90,0:14:23.61,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你的拉链开着 盖勒{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Your fly's open, Geller.{\r}
+Dialogue: 0,0:14:29.61,0:14:31.28,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你们知道我刚想到什么吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You guys, you know what I just realized?{\r}
+Dialogue: 0,0:14:32.37,0:14:35.45,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}杰克跟扑克只差一个字{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}"Joker" is "poker" with a "J."{\r}
+Dialogue: 0,0:14:37.83,0:14:39.41,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}很巧吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Coincidence?{\r}
+Dialogue: 0,0:14:40.71,0:14:44.59,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}所以我们也可以叫这"杰"克牌{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, that's "jo-incidence" with a "C."{\r}
+Dialogue: 0,0:14:55.01,0:14:58.60,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 菲比 菲比   - 我不跟了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Uh, Phoebe. Phoebe...     - Yeah, I'm out.{\r}
+Dialogue: 0,0:14:59.35,0:15:00.64,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我跟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm in.{\r}
+Dialogue: 0,0:15:00.81,0:15:02.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我也跟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Me too.{\r}
+Dialogue: 0,0:15:02.19,0:15:03.98,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我也跟 好 你是什么牌？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Me too. All right. What do you got?{\r}
+Dialogue: 0,0:15:04.90,0:15:09.40,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你最好离莲蓬头远一点 因为我要出同花牌了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, you better hop out of the shower, because I got a flush.{\r}
+Dialogue: 0,0:15:12.32,0:15:14.07,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}呵 呵 呵{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, well, well.{\r}
+Dialogue: 0,0:15:14.24,0:15:18.91,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}小子 别想逃 我有4张6{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hop back in, bucko, because I got four sixes.{\r}
+Dialogue: 0,0:15:19.08,0:15:22.12,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我有4张6 我赢了 我真的赢了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I got four sixes. I won. I actually won.{\r}
+Dialogue: 0,0:15:22.46,0:15:26.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}天啊 你们知道吗？我要把小罗斯叠成一堆{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God. You know what? I think I'm gonna make a little Ross pile.{\r}
+Dialogue: 0,0:15:28.13,0:15:33.01,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这是罗斯的 这也是罗斯的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I think that one was Ross'. And I think, oh, that one was Ross'.{\r}
+Dialogue: 0,0:15:34.47,0:15:38.31,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你的钱是我的了 你一辈子都看不到了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, I have got your money. And you'll never see it.{\r}
+Dialogue: 0,0:15:38.47,0:15:40.73,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你裤子的拉链还是开着{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And your fly's still open.{\r}
+Dialogue: 0,0:15:41.06,0:15:42.98,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你相信了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I made you look.{\r}
+Dialogue: 0,0:15:45.90,0:15:48.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我跟   - 怎么可能不跟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I'm in.     - I couldn't be inner.{\r}
+Dialogue: 0,0:15:48.61,0:15:51.40,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}摩妮卡？摩妮卡 你跟不跟？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Monica? Monica, in or out?{\r}
+Dialogue: 0,0:15:51.61,0:15:53.53,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我讨厌扑克牌{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I hate this game.{\r}
+Dialogue: 0,0:16:01.62,0:16:03.04,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 乔伊 换你下注了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, Joey, your bet.{\r}
+Dialogue: 0,0:16:03.46,0:16:06.46,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我不来了 就像一个廉价妓女…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I fold, like a cheap hooker who got hit in the stomach...{\r}
+Dialogue: 0,0:16:06.63,0:16:09.50,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}被一个脸上流脓的胖子揍到肚子一样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...by a fat guy with sores on his face.{\r}
+Dialogue: 0,0:16:13.30,0:16:14.47,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不跟了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, I'm out.{\r}
+Dialogue: 0,0:16:15.76,0:16:18.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 罗斯？ - 当然跟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Ross?     - Oh, I'm very in.{\r}
+Dialogue: 0,0:16:19.85,0:16:22.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 钱德呢？ - 怎么可能跟？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Chandler?     - Couldn't be more out.{\r}
+Dialogue: 0,0:16:22.18,0:16:24.64,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我也不跟 喘秋呢？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Me too. Rachel?{\r}
+Dialogue: 0,0:16:24.81,0:16:29.40,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我不但跟 而且还加注{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Um, I will see you and I'll raise you.{\r}
+Dialogue: 0,0:16:29.57,0:16:31.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}如何？想再浪费钱吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What do you say? You wanna waste another buck?{\r}
+Dialogue: 0,0:16:32.49,0:16:34.15,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不了 这次不会{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, not this time.{\r}
+Dialogue: 0,0:16:34.32,0:16:36.49,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你的是什么牌？ - 不告诉你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- So, what did you have?     - I'm not telling.{\r}
+Dialogue: 0,0:16:36.66,0:16:37.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 别这样 给我看看   - 不要{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Come on, show them to me.     - No.{\r}
+Dialogue: 0,0:16:37.99,0:16:40.49,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 给我看看 亮牌吧   - 手拿开 不要{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Show them to me. Let me see.     - Get your hands out of there.{\r}
+Dialogue: 0,0:16:40.66,0:16:42.41,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我有过这样的约会经验{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know, I've had dates like this.{\r}
+Dialogue: 0,0:16:45.17,0:16:48.25,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}老天 你就是输不起 对不对？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Boy, you really can't stand to lose, can you?{\r}
+Dialogue: 0,0:16:48.42,0:16:49.92,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你整个脸都涨红了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Your whole face is getting red.{\r}
+Dialogue: 0,0:16:50.09,0:16:53.67,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}太阳穴的青筋也爆出来了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Little veins popping out of your temple.{\r}
+Dialogue: 0,0:16:53.97,0:16:57.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}而且上衣跟裤子也不搭{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Plus that shirt doesn't really match those pants.{\r}
+Dialogue: 0,0:17:01.18,0:17:02.35,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}首先 我没有输{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}First of all, I'm not losing.{\r}
+Dialogue: 0,0:17:04.35,0:17:06.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 发牌吧   - 喂？我就是瑞秋•葛林{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Just deal.     - Hello? Rachel Green.{\r}
+Dialogue: 0,0:17:08.44,0:17:09.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}请稍等一下{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Excuse me.{\r}
+Dialogue: 0,0:17:09.86,0:17:11.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这是有关工作的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's about the job.{\r}
+Dialogue: 0,0:17:12.03,0:17:14.61,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}芭芭拉吗？你好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Barbara, hi. How are you?{\r}
+Dialogue: 0,0:17:16.74,0:17:18.11,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}唔？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh-huh?{\r}
+Dialogue: 0,0:17:19.07,0:17:20.41,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我了解{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, I understand.{\r}
+Dialogue: 0,0:17:21.58,0:17:26.41,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}喔 没关系 我很好 别傻了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, oh, come on. No, I'm fine. Don't be silly.{\r}
+Dialogue: 0,0:17:26.71,0:17:30.96,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}如果还有什么空缺 请…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah. Oh, but you know, if anything else opens up, please...{\r}
+Dialogue: 0,0:17:31.13,0:17:35.38,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}喂？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello?{\r}
+Dialogue: 0,0:17:43.93,0:17:45.18,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嗯{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hmm.{\r}
+Dialogue: 0,0:17:51.02,0:17:52.23,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我很遗憾 瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Sorry, Rach.{\r}
+Dialogue: 0,0:17:52.40,0:17:54.61,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}对啊 一定会有别的机会出现{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, you know, there's gonna be lots of other stuff.{\r}
+Dialogue: 0,0:17:54.78,0:17:57.45,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}是啊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah. Okay.{\r}
+Dialogue: 0,0:17:58.36,0:18:00.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们玩到哪儿了？好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Where were we? Oh. Okay.{\r}
+Dialogue: 0,0:18:00.99,0:18:05.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}五张牌 11点或更高的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Five card draw. Uh, jacks are better.{\r}
+Dialogue: 0,0:18:05.41,0:18:06.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没有万能牌 大家下注吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Nothing wild, everybody ante.{\r}
+Dialogue: 0,0:18:07.46,0:18:09.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}瑞秋 我们不用再玩下去了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, Rach, we don't have to do this.{\r}
+Dialogue: 0,0:18:10.58,0:18:12.09,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}当然要继续玩{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yes, we do.{\r}
+Dialogue: 0,0:18:14.80,0:18:16.80,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 好 下注   - 下注{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- All right. Check.     - Check.{\r}
+Dialogue: 0,0:18:17.30,0:18:18.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我下5角钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm in for 50 cents.{\r}
+Dialogue: 0,0:18:19.34,0:18:21.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我跟   - 我跟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Call.     - I'm in.{\r}
+Dialogue: 0,0:18:22.60,0:18:25.22,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我跟你5角钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I see your 50 cents...{\r}
+Dialogue: 0,0:18:25.39,0:18:27.52,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}然后加注…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...and I raise you...{\r}
+Dialogue: 0,0:18:28.14,0:18:29.60,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}5块钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...$5.{\r}
+Dialogue: 0,0:18:29.77,0:18:32.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我以为我们有5角钱上限{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I thought, uh, it was a 50-cent limit.{\r}
+Dialogue: 0,0:18:32.36,0:18:35.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我刚刚失去一份工作 我想加注5块钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, I just lost a job, and I'd like to raise the bet 5 bucks.{\r}
+Dialogue: 0,0:18:35.61,0:18:37.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}有人有问题吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Does anybody have a problem with that?{\r}
+Dialogue: 0,0:18:38.65,0:18:40.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 完全没有   - 没有 没有{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Not at all.     - No, no.{\r}
+Dialogue: 0,0:18:44.91,0:18:46.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}输家呢？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Loser?{\r}
+Dialogue: 0,0:18:54.25,0:18:55.34,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不了 我退出{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, I fold.{\r}
+Dialogue: 0,0:18:55.71,0:18:58.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}什么叫你退出？少来 这是干嘛？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What do you mean, you fold? Hey, come on, what is this?{\r}
+Dialogue: 0,0:18:58.38,0:19:02.80,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我还以为 "一发牌 我就不是好好先生"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I thought that, "Once the cards are dealt, I'm not a nice guy."{\r}
+Dialogue: 0,0:19:02.97,0:19:04.99,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}怎么？你只会说大话而已吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I mean, what? Were you just full of it?{\r}
+Dialogue: 0,0:19:18.82,0:19:19.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我跟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm in.{\r}
+Dialogue: 0,0:19:20.74,0:19:22.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你要几张？ - 1张{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- How many you want?     - One.{\r}
+Dialogue: 0,0:19:24.41,0:19:26.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}庄家两张{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Dealer takes two.{\r}
+Dialogue: 0,0:19:26.74,0:19:29.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你下多少？ - 我下2块钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What do you bet?     - I bet $2.{\r}
+Dialogue: 0,0:19:30.87,0:19:31.87,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay.{\r}
+Dialogue: 0,0:19:32.04,0:19:33.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我跟你的2块钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}See your 2...{\r}
+Dialogue: 0,0:19:34.33,0:19:36.46,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}然后加注…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...and I raise you...{\r}
+Dialogue: 0,0:19:38.21,0:19:40.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 20   - 哇{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- ...20.     - Wow.{\r}
+Dialogue: 0,0:19:44.89,0:19:46.35,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我跟你的20块钱…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I see your 20...{\r}
+Dialogue: 0,0:19:47.76,0:19:49.35,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}然后加注25块{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...raise you 25.{\r}
+Dialogue: 0,0:19:55.27,0:19:57.36,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我跟你的25块钱…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}See your 25...{\r}
+Dialogue: 0,0:19:57.69,0:19:59.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}摩妮卡 把我的皮包拿来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...and, uh, Monica, get my purse.{\r}
+Dialogue: 0,0:20:05.20,0:20:06.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}瑞秋 里面没钱了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Rachel, there's nothing in it.{\r}
+Dialogue: 0,0:20:08.95,0:20:11.25,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 那就把你的拿来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, then get me your purse.{\r}
+Dialogue: 0,0:20:14.96,0:20:17.88,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 拿去吧 祝你好运{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay. Here you go. Good luck.{\r}
+Dialogue: 0,0:20:18.05,0:20:19.17,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谢谢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thank you.{\r}
+Dialogue: 0,0:20:19.67,0:20:23.30,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我跟你的25块钱 然后加注…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I saw your 25 and I raise you...{\r}
+Dialogue: 0,0:20:23.84,0:20:25.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}7块钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...7.{\r}
+Dialogue: 0,0:20:26.47,0:20:27.72,chs,NTP,0000,0000,0000,,{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}17\NTeen.{\r}
+Dialogue: 0,0:20:35.98,0:20:38.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}乔伊 我囊中羞涩了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Joey, I'm a little shy.{\r}
+Dialogue: 0,0:20:38.90,0:20:41.53,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没关系 罗斯 想问什么尽管问{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's okay, Ross. You can ask me.{\r}
+Dialogue: 0,0:20:48.03,0:20:49.91,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你需要多少？需要多少？ - 15块{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What do you need? What do you need?     - Fifteen.{\r}
+Dialogue: 0,0:20:50.08,0:20:52.16,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 好 这里有10块   - 我有5块 5块钱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- All right, here's 10.     - Here, I got 5, I got 5.{\r}
+Dialogue: 0,0:20:52.33,0:20:53.70,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 谢谢   - 祝你好运{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Thank you.     - Good luck.{\r}
+Dialogue: 0,0:20:55.29,0:20:58.04,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 追加17块{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, I am calling your 17.{\r}
+Dialogue: 0,0:20:58.21,0:20:59.84,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}亮牌吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What do you got?{\r}
+Dialogue: 0,0:21:10.81,0:21:12.18,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}葫芦{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Full house.{\r}
+Dialogue: 0,0:21:21.07,0:21:22.15,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你赢了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You got me.{\r}
+Dialogue: 0,0:21:22.32,0:21:23.40,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}噢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh!{\r}
+Dialogue: 0,0:21:33.50,0:21:36.29,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 没关系 那很难赢   - 我以为我们赢定了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- That's a tough hand to beat.     - I thought we had them.{\r}
+Dialogue: 0,0:21:36.46,0:21:39.42,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没有好牌就是没有好牌 能怎么办？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, when you don't have the cards, you don't have the cards, you know?{\r}
+Dialogue: 0,0:21:40.25,0:21:42.34,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但是你们看她有多高兴{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But look how happy she is.{\r}
+Dialogue: 0,0:21:53.60,0:21:55.31,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 航空信   - 飞机？机场{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Airmail.     - Airplane. Airport.{\r}
+Dialogue: 0,0:21:55.48,0:21:59.40,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}《75空难》《航爆死亡角》《惊爆九重天》{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Airport '75. Airport '77. Airport '79.{\r}
+Dialogue: 0,0:22:01.06,0:22:02.15,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}时间到{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Time's up.{\r}
+Dialogue: 0,0:22:02.32,0:22:04.73,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}《枭巢扫荡战》{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Bye Bye Birdie.{\r}
+Dialogue: 0,0:22:06.53,0:22:08.65,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那是鸟吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's a bird?{\r}
+Dialogue: 0,0:22:08.82,0:22:10.41,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那是鸟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's a bird.{\r}
+Dialogue: 0,0:22:11.87,0:22:13.78,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 换我了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, okay, it's my turn.{\r}
+Dialogue: 0,0:22:15.87,0:22:17.37,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}开始{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Go.{\r}
+Dialogue: 0,0:22:18.87,0:22:21.83,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}豆子？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, Bean. Bean.{\r}
+Dialogue: 0,0:22:23.42,0:22:25.84,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 《布拉格的春天》   - 答对了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- The Unbearable Lightness of Being.     - Yes!{\r}
+Dialogue: 0,0:22:29.18,0:22:33.18,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这你都懂？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That you get?{\r}

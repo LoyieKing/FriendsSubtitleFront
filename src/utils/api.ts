@@ -4,7 +4,7 @@ import { as00String } from "./string";
 
 
 export async function getSubtitleAsync(season: number, eposide: number): Promise<string> {
-    const ass = await (await axios.get(`subtitles/Friends.S${as00String(season)}E${as00String(eposide)}.1994.BluRay.1080p.x265.10bit.MNHD-.ass`, {
+    const ass = await (await axios.get(`subtitles/S${as00String(season)}E${as00String(eposide)}.ass`, {
         "responseType": "text"
     })).data
     return ass

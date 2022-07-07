@@ -1,0 +1,400 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: chs&eng,STKaiti,20,&H00F5F5F5,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,0,0,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:04.25,0:00:06.04,chs&eng,,0000,0000,0000,,{\blur3}拜托啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, come on!{\r}
+Dialogue: 0,0:00:06.84,0:00:08.75,chs&eng,,0000,0000,0000,,{\blur3}这也是你们的感恩节{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, it's your Thanksgiving too.{\r}
+Dialogue: 0,0:00:08.92,0:00:11.30,chs&eng,,0000,0000,0000,,{\blur3}除了看足球 你们还可以帮忙{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know, instead of watching football, you could help.{\r}
+Dialogue: 0,0:00:11.46,0:00:13.17,chs&eng,,0000,0000,0000,,{\blur3}我们知道{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We know.{\r}
+Dialogue: 0,0:00:14.30,0:00:17.97,chs&eng,,0000,0000,0000,,{\blur3}瑞秋 你要将棉花糖排成同心圆{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Rachel, you wanna put the marshmallows in concentric circles.{\r}
+Dialogue: 0,0:00:19.43,0:00:22.43,chs&eng,,0000,0000,0000,,{\blur3}不 你要把它们排成同心圆{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, you want to put them in concentric circles.{\r}
+Dialogue: 0,0:00:22.60,0:00:24.64,chs&eng,,0000,0000,0000,,{\blur3}我要这么做{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I want to do this.{\r}
+Dialogue: 0,0:00:34.20,0:00:36.07,chs&eng,,0000,0000,0000,,{\blur3}每年都是这样{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Every year.{\r}
+Dialogue: 0,0:00:42.00,0:00:46.50,chs&eng,,0000,0000,0000,,{\blur3}# 没有人告诉你活着有多累 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# So no one told you life was gonna be this way #{\r}
+Dialogue: 0,0:00:47.07,0:00:51.24,chs&eng,,0000,0000,0000,,{\blur3}# 上班受罪 口袋空空 爱情变累赘 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# Your job's a joke, you're broke, your love life's D.O.A. #{\r}
+Dialogue: 0,0:00:52.15,0:00:55.96,chs&eng,,0000,0000,0000,,{\blur3}# 寂寞又潦倒 受气又受累 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# It's like you're always stuck in second gear #{\r}
+Dialogue: 0,0:00:56.42,0:00:58.52,chs&eng,,0000,0000,0000,,{\blur3}# 日复一日 年复一年 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# When it hasn't been your day, #{\r}
+Dialogue: 0,0:00:58.52,0:01:01.52,chs&eng,,0000,0000,0000,,{\blur3}# 时运不济 活着受罪 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# your week, your month, or even your year #{\r}
+Dialogue: 0,0:01:01.52,0:01:05.48,chs&eng,,0000,0000,0000,,{\blur3}# 你我永不离弃 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# but I'll be there for you #{\r}
+Dialogue: 0,0:01:05.48,0:01:07.31,chs&eng,,0000,0000,0000,,{\blur3}# 纵有狂风暴雨 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# When the rain starts to pour #{\r}
+Dialogue: 0,0:01:07.31,0:01:10.43,chs&eng,,0000,0000,0000,,{\blur3}# 你我永不离弃 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# I'll be there for you #{\r}
+Dialogue: 0,0:01:10.43,0:01:12.27,chs&eng,,0000,0000,0000,,{\blur3}# 支持一如往昔 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# Like I've been there before #{\r}
+Dialogue: 0,0:01:12.27,0:01:15.28,chs&eng,,0000,0000,0000,,{\blur3}# 你我永不离弃 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# I'll be there for you #{\r}
+Dialogue: 0,0:01:15.28,0:01:18.94,chs&eng,,0000,0000,0000,,{\blur3}# 你我相偎相依 #{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}# 'Cause you're there for me too #{\r}
+Dialogue: 0,0:01:23.41,0:01:25.70,chs&eng,,0000,0000,0000,,{\blur3}十码 五码 巨人队达阵得分{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}To the 10, to the 5. Touchdown, Giants!{\r}
+Dialogue: 0,0:01:26.54,0:01:31.17,chs&eng,,0000,0000,0000,,{\blur3}我真的想要看一下比赛{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know, for once, I am gonna try to watch one of these things.{\r}
+Dialogue: 0,0:01:32.34,0:01:33.75,chs&eng,,0000,0000,0000,,{\blur3}中场休息{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Halftime.{\r}
+Dialogue: 0,0:01:35.72,0:01:38.93,chs&eng,,0000,0000,0000,,{\blur3}谁要玩一下球 三对三{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who wants to, uh, throw the ball around? Get a little 3-on-3 going?{\r}
+Dialogue: 0,0:01:39.09,0:01:41.80,chs&eng,,0000,0000,0000,,{\blur3}- 那应该会很好玩   - 我能玩吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, that would be so much fun!     - Can I play too?{\r}
+Dialogue: 0,0:01:41.97,0:01:44.39,chs&eng,,0000,0000,0000,,{\blur3}我从未玩过足球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've never played football, ever.{\r}
+Dialogue: 0,0:01:44.56,0:01:46.02,chs&eng,,0000,0000,0000,,{\blur3}太棒了 你可以防守钱德{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Great! You can cover Chandler.{\r}
+Dialogue: 0,0:01:48.73,0:01:50.40,chs&eng,,0000,0000,0000,,{\blur3}我不想玩{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't... I don't really want to play.{\r}
+Dialogue: 0,0:01:51.40,0:01:53.61,chs&eng,,0000,0000,0000,,{\blur3}你跟珍妮丝分手后什么事都没做{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You never do anything since you and Janice broke up.{\r}
+Dialogue: 0,0:01:53.78,0:01:54.82,chs&eng,,0000,0000,0000,,{\blur3}那不是真的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Not true.{\r}
+Dialogue: 0,0:01:54.98,0:01:58.53,chs&eng,,0000,0000,0000,,{\blur3}我整天穿着睡袍啃花生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I wanted to wear my bathrobe and eat peanut clusters all day.{\r}
+Dialogue: 0,0:01:58.70,0:02:01.99,chs&eng,,0000,0000,0000,,{\blur3}一早开始喝酒 别说我没有目标{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And start drinking in the morning. Don't say I don't have goals!{\r}
+Dialogue: 0,0:02:02.83,0:02:05.37,chs&eng,,0000,0000,0000,,{\blur3}你得开始忘了她 好吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have to start getting over her, all right?{\r}
+Dialogue: 0,0:02:05.54,0:02:09.33,chs&eng,,0000,0000,0000,,{\blur3}玩球或许能让你忘记珍妮丝{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If you play, maybe it'll take your mind off Janice.{\r}
+Dialogue: 0,0:02:09.50,0:02:13.96,chs&eng,,0000,0000,0000,,{\blur3}如果你不玩 大家会生你的气 因为两队人数不一样{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If you don't, everyone will be mad at you because the teams won't be even.{\r}
+Dialogue: 0,0:02:14.88,0:02:15.96,chs&eng,,0000,0000,0000,,{\blur3}好吧 我玩就是了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, I'll play.{\r}
+Dialogue: 0,0:02:16.13,0:02:18.38,chs&eng,,0000,0000,0000,,{\blur3}来玩吧 罗斯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yay! Let's do it! Ross?{\r}
+Dialogue: 0,0:02:18.55,0:02:20.51,chs&eng,,0000,0000,0000,,{\blur3}- 什么   - 要玩足球吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- What?     - Wanna play football?{\r}
+Dialogue: 0,0:02:23.60,0:02:26.68,chs&eng,,0000,0000,0000,,{\blur3}摩妮卡跟我不能玩足球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Monica and I aren't supposed to play football.{\r}
+Dialogue: 0,0:02:27.31,0:02:29.89,chs&eng,,0000,0000,0000,,{\blur3}谁说的 你们妈妈说的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Says who? Your mom? Ha-ha-ha.{\r}
+Dialogue: 0,0:02:30.31,0:02:31.35,chs&eng,,0000,0000,0000,,{\blur3}对{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes.{\r}
+Dialogue: 0,0:02:33.48,0:02:37.90,chs&eng,,0000,0000,0000,,{\blur3}以前每年感恩节我们都会玩足球赛{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ahem. Every Thanksgiving, um, we used to have a touch football game...{\r}
+Dialogue: 0,0:02:38.07,0:02:39.70,chs&eng,,0000,0000,0000,,{\blur3}它就叫做盖勒杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...called The Geller Bowl.{\r}
+Dialogue: 0,0:02:39.86,0:02:42.20,chs&eng,,0000,0000,0000,,{\blur3}不 你得骄傲地说出来才行{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no. You say that proudly!{\r}
+Dialogue: 0,0:02:43.28,0:02:46.70,chs&eng,,0000,0000,0000,,{\blur3}总之我跟罗斯总是当队长{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Anyway, Ross and I were always captains, and, um...{\r}
+Dialogue: 0,0:02:46.87,0:02:50.54,chs&eng,,0000,0000,0000,,{\blur3}竞争很激烈 有一年 第六届盖勒杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It got kind of competitive. And one year, Geller Bowl VI...{\r}
+Dialogue: 0,0:02:50.71,0:02:53.96,chs&eng,,0000,0000,0000,,{\blur3}我不小心打断罗斯的鼻子{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...I accidentally broke Ross' nose.{\r}
+Dialogue: 0,0:02:55.30,0:02:57.59,chs&eng,,0000,0000,0000,,{\blur3}那才不是不小心{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It was so not an accident.{\r}
+Dialogue: 0,0:02:57.76,0:02:59.84,chs&eng,,0000,0000,0000,,{\blur3}她知道我要拥抱她 所以她…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She saw I was about to tag her, so she threw...{\r}
+Dialogue: 0,0:03:00.01,0:03:03.14,chs&eng,,0000,0000,0000,,{\blur3}用她那老奶奶般的粗手臂打我的脸{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...her big fat grandma-arm elbow in my face...{\r}
+Dialogue: 0,0:03:03.30,0:03:05.22,chs&eng,,0000,0000,0000,,{\blur3}然后拼命往前跑{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...and just kept running.{\r}
+Dialogue: 0,0:03:05.39,0:03:07.39,chs&eng,,0000,0000,0000,,{\blur3}对了 我达阵得分获得胜利{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}To score the winning touchdown, by the way.{\r}
+Dialogue: 0,0:03:09.35,0:03:12.23,chs&eng,,0000,0000,0000,,{\blur3}你没赢 达阵得分不算{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Uh, you did not win the game. The touchdown didn't count...{\r}
+Dialogue: 0,0:03:12.40,0:03:17.32,chs&eng,,0000,0000,0000,,{\blur3}因为你犯规了 非常野蛮地打断我的鼻子{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...because of the spectacularly illegal, and savage, nose-breaking.{\r}
+Dialogue: 0,0:03:18.57,0:03:19.86,chs&eng,,0000,0000,0000,,{\blur3}我赢了那场比赛{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I won the game.{\r}
+Dialogue: 0,0:03:20.03,0:03:23.45,chs&eng,,0000,0000,0000,,{\blur3}是吗 为什么你没拿到盖勒杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah? Then how come you didn't get the Geller Cup?{\r}
+Dialogue: 0,0:03:24.62,0:03:26.91,chs&eng,,0000,0000,0000,,{\blur3}还有盖勒杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ahem, there was a Geller Cup?{\r}
+Dialogue: 0,0:03:27.58,0:03:30.25,chs&eng,,0000,0000,0000,,{\blur3}对 赢的人可以拿到奖杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, the trophy you got if you won the game.{\r}
+Dialogue: 0,0:03:30.41,0:03:33.83,chs&eng,,0000,0000,0000,,{\blur3}但爸说没有人赢 他讨厌我们打架{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But Dad said nobody won, and he was sick of our fighting.{\r}
+Dialogue: 0,0:03:34.00,0:03:36.25,chs&eng,,0000,0000,0000,,{\blur3}所以他把奖杯拿走{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So he took the trophy...{\r}
+Dialogue: 0,0:03:42.55,0:03:44.51,chs&eng,,0000,0000,0000,,{\blur3}丢进湖里{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...threw it in the lake.{\r}
+Dialogue: 0,0:03:45.26,0:03:47.26,chs&eng,,0000,0000,0000,,{\blur3}诅咒破解了吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And was the curse lifted?{\r}
+Dialogue: 0,0:03:49.35,0:03:50.97,chs&eng,,0000,0000,0000,,{\blur3}总之…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Anyway...{\r}
+Dialogue: 0,0:03:51.56,0:03:54.44,chs&eng,,0000,0000,0000,,{\blur3}妈说我们再也不准玩足球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...Mom said we weren't allowed to play football again.{\r}
+Dialogue: 0,0:03:55.06,0:03:57.98,chs&eng,,0000,0000,0000,,{\blur3}你知道吗 我想我们能打一场比赛{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? I think we should play a game.{\r}
+Dialogue: 0,0:03:58.15,0:04:00.03,chs&eng,,0000,0000,0000,,{\blur3}少来了 那是十二年前的事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I mean, come on. It's been 12 years.{\r}
+Dialogue: 0,0:04:00.90,0:04:02.95,chs&eng,,0000,0000,0000,,{\blur3}我们能谈一谈吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can I see you for a second?{\r}
+Dialogue: 0,0:04:07.41,0:04:08.45,chs&eng,,0000,0000,0000,,{\blur3}胆小鬼{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wuss!{\r}
+Dialogue: 0,0:04:08.62,0:04:10.99,chs&eng,,0000,0000,0000,,{\blur3}好吧 我们要玩{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, we're gonna play.{\r}
+Dialogue: 0,0:04:11.45,0:04:15.33,chs&eng,,0000,0000,0000,,{\blur3}等一下 我们怎么去球场 我妈不让我过街{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait. How we gonna get there? My mom won't let me cross the street.{\r}
+Dialogue: 0,0:04:20.88,0:04:22.30,chs&eng,,0000,0000,0000,,{\blur3}来吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here you go.{\r}
+Dialogue: 0,0:04:22.67,0:04:23.72,chs&eng,,0000,0000,0000,,{\blur3}好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right.{\r}
+Dialogue: 0,0:04:23.88,0:04:25.51,chs&eng,,0000,0000,0000,,{\blur3}- 开始了   - 等一下{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Let's bring it in.     - Wait.{\r}
+Dialogue: 0,0:04:25.68,0:04:27.14,chs&eng,,0000,0000,0000,,{\blur3}甜心 传给我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Honey, throw it to me!{\r}
+Dialogue: 0,0:04:27.30,0:04:29.55,chs&eng,,0000,0000,0000,,{\blur3}接住了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here you go.{\r}
+Dialogue: 0,0:04:31.10,0:04:33.77,chs&eng,,0000,0000,0000,,{\blur3}那几乎打中我的脸{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That almost hit me in the face!{\r}
+Dialogue: 0,0:04:33.94,0:04:35.73,chs&eng,,0000,0000,0000,,{\blur3}我们得选出队长{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We have to pick captains.{\r}
+Dialogue: 0,0:04:35.90,0:04:38.15,chs&eng,,0000,0000,0000,,{\blur3}然后是跟班{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And then "Tennilles."{\r}
+Dialogue: 0,0:04:40.19,0:04:41.65,chs&eng,,0000,0000,0000,,{\blur3}该怎么选呢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So how do we decide that?{\r}
+Dialogue: 0,0:04:41.82,0:04:44.07,chs&eng,,0000,0000,0000,,{\blur3}- 我们何不跳兔子舞   - 什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Why don't we just bunny up?     - What?{\r}
+Dialogue: 0,0:04:44.24,0:04:46.32,chs&eng,,0000,0000,0000,,{\blur3}- 兔子   - 兔子{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Bunny!     - Bunny!{\r}
+Dialogue: 0,0:04:47.32,0:04:49.16,chs&eng,,0000,0000,0000,,{\blur3}看起来罗斯跟我是队长{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Looks like Ross and I are captains.{\r}
+Dialogue: 0,0:04:49.33,0:04:53.20,chs&eng,,0000,0000,0000,,{\blur3}好吧 我先跳的 我能先选 乔伊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, so, um, I bunnied first, so I get to pick first. Joey.{\r}
+Dialogue: 0,0:04:53.37,0:04:55.33,chs&eng,,0000,0000,0000,,{\blur3}- 谢谢   - 摩妮卡{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Thank you.     - Monica.{\r}
+Dialogue: 0,0:04:55.50,0:04:57.33,chs&eng,,0000,0000,0000,,{\blur3}我是你的好朋友{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm your best friend.{\r}
+Dialogue: 0,0:04:57.50,0:04:59.71,chs&eng,,0000,0000,0000,,{\blur3}甜心 别担心 你会被选中的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sweetie, don't worry, you'll get picked.{\r}
+Dialogue: 0,0:04:59.88,0:05:01.71,chs&eng,,0000,0000,0000,,{\blur3}钱德{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Chandler.{\r}
+Dialogue: 0,0:05:03.84,0:05:05.63,chs&eng,,0000,0000,0000,,{\blur3}- 罗斯   - 菲比{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Ross?     - Phoebe.{\r}
+Dialogue: 0,0:05:09.30,0:05:10.97,chs&eng,,0000,0000,0000,,{\blur3}甜心 我要选你{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sweetie, now I pick you.{\r}
+Dialogue: 0,0:05:11.14,0:05:14.56,chs&eng,,0000,0000,0000,,{\blur3}你才没有挑我 你是没有选择了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You don't pick me. You're stuck with me!{\r}
+Dialogue: 0,0:05:15.39,0:05:16.89,chs&eng,,0000,0000,0000,,{\blur3}好吧 就这么办了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. All right. So let's see.{\r}
+Dialogue: 0,0:05:17.06,0:05:20.31,chs&eng,,0000,0000,0000,,{\blur3}比赛场地从垃圾桶到灯柱 好吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's play from the, uh, trash can to the light post, right?{\r}
+Dialogue: 0,0:05:20.48,0:05:21.86,chs&eng,,0000,0000,0000,,{\blur3}双手达阵得分 比赛开始了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Two-hand touch. We'll kick off.{\r}
+Dialogue: 0,0:05:22.03,0:05:24.74,chs&eng,,0000,0000,0000,,{\blur3}各位 听着 我还有28分钟{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}People, listen. I've got 28 minutes...{\r}
+Dialogue: 0,0:05:24.90,0:05:27.07,chs&eng,,0000,0000,0000,,{\blur3}然后我得去帮火鸡涂酱汁{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...before I have to baste again.{\r}
+Dialogue: 0,0:05:27.24,0:05:29.20,chs&eng,,0000,0000,0000,,{\blur3}就像在参加职业比赛{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wow, just like in the pros.{\r}
+Dialogue: 0,0:05:29.37,0:05:31.53,chs&eng,,0000,0000,0000,,{\blur3}好吧 小组会议{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, huddle up! Whoo!{\r}
+Dialogue: 0,0:05:31.70,0:05:35.41,chs&eng,,0000,0000,0000,,{\blur3}- 到这边开小组会议   - 等等我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Huddle up over here!     - Wait for me! Wait for me!{\r}
+Dialogue: 0,0:05:35.71,0:05:37.50,chs&eng,,0000,0000,0000,,{\blur3}酷啊 我的第一次小组会议{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, cool! My first huddle.{\r}
+Dialogue: 0,0:05:37.67,0:05:39.50,chs&eng,,0000,0000,0000,,{\blur3}- 好吧   - 好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Okay.     - Ha, ha. Okay.{\r}
+Dialogue: 0,0:05:39.67,0:05:42.79,chs&eng,,0000,0000,0000,,{\blur3}你们对钱德有什么想法{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So what do you guys really think of Chandler?{\r}
+Dialogue: 0,0:05:44.38,0:05:47.09,chs&eng,,0000,0000,0000,,{\blur3}- 你知道你要做什么吧   - 对{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- You know what you're doing, right?     - Yeah.{\r}
+Dialogue: 0,0:05:47.26,0:05:49.55,chs&eng,,0000,0000,0000,,{\blur3}好吧 乔伊接球 我们阻挡{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. Joey will catch it. We'll block.{\r}
+Dialogue: 0,0:05:49.72,0:05:51.39,chs&eng,,0000,0000,0000,,{\blur3}什么是阻挡{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's "block"?{\r}
+Dialogue: 0,0:05:51.60,0:05:55.68,chs&eng,,0000,0000,0000,,{\blur3}- 我以为你知道你要做什么   - 我以为你是指在生活中{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I thought you knew what you were doing.     - I thought you meant in life!{\r}
+Dialogue: 0,0:05:56.68,0:05:58.23,chs&eng,,0000,0000,0000,,{\blur3}分开{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Break!{\r}
+Dialogue: 0,0:05:58.39,0:06:01.61,chs&eng,,0000,0000,0000,,{\blur3}球是珍妮丝{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The ball is Janice. The ball is Janice.{\r}
+Dialogue: 0,0:06:06.94,0:06:09.20,chs&eng,,0000,0000,0000,,{\blur3}大混蛋{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ow! Son of a...! Ow!{\r}
+Dialogue: 0,0:06:09.36,0:06:11.41,chs&eng,,0000,0000,0000,,{\blur3}- 拜托哦   - 对不起{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Come on!     - I'm sorry. I'm sorry.{\r}
+Dialogue: 0,0:06:11.57,0:06:14.08,chs&eng,,0000,0000,0000,,{\blur3}你们知道吗 我们要直接丢球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? We're just gonna throw it.{\r}
+Dialogue: 0,0:06:15.66,0:06:16.91,chs&eng,,0000,0000,0000,,{\blur3}我来接{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I got it!{\r}
+Dialogue: 0,0:06:17.08,0:06:18.50,chs&eng,,0000,0000,0000,,{\blur3}来吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Go, go, go!{\r}
+Dialogue: 0,0:06:27.30,0:06:30.47,chs&eng,,0000,0000,0000,,{\blur3}得分 七比零{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Score! Seven to nothing!{\r}
+Dialogue: 0,0:06:30.97,0:06:31.97,chs&eng,,0000,0000,0000,,{\blur3}甜心 你没事吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Honey, you okay?{\r}
+Dialogue: 0,0:06:32.14,0:06:33.47,chs&eng,,0000,0000,0000,,{\blur3}来吧 我们走{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, let's go.{\r}
+Dialogue: 0,0:06:33.64,0:06:35.31,chs&eng,,0000,0000,0000,,{\blur3}输家滚开{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Whoo. Losers walk.{\r}
+Dialogue: 0,0:06:35.47,0:06:38.14,chs&eng,,0000,0000,0000,,{\blur3}是吗 输家只爱放话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah? Losers talk.{\r}
+Dialogue: 0,0:06:38.31,0:06:40.94,chs&eng,,0000,0000,0000,,{\blur3}不 你得跟"输家"押韵{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, actually, losers rhyme.{\r}
+Dialogue: 0,0:06:42.90,0:06:44.36,chs&eng,,0000,0000,0000,,{\blur3}43{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Forty-three...{\r}
+Dialogue: 0,0:06:44.52,0:06:45.61,chs&eng,,0000,0000,0000,,{\blur3}74{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...Seventy-four...{\r}
+Dialogue: 0,0:06:49.78,0:06:51.28,chs&eng,,0000,0000,0000,,{\blur3}- 你要直接来   - 对{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- You wanna go shotgun?     - Yeah.{\r}
+Dialogue: 0,0:06:53.83,0:06:54.87,chs&eng,,0000,0000,0000,,{\blur3}开球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hike.{\r}
+Dialogue: 0,0:06:55.03,0:06:57.95,chs&eng,,0000,0000,0000,,{\blur3}- 一   - 这边{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- One Mississippi...     - Over here! Over here! Unh.{\r}
+Dialogue: 0,0:06:58.12,0:07:00.04,chs&eng,,0000,0000,0000,,{\blur3}我差点接到那一球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ha! I almost caught that one!{\r}
+Dialogue: 0,0:07:01.62,0:07:04.63,chs&eng,,0000,0000,0000,,{\blur3}太棒了 现在比数是七比差点七{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Great. Now the score's seven to almost seven.{\r}
+Dialogue: 0,0:07:05.17,0:07:09.80,chs&eng,,0000,0000,0000,,{\blur3}好吧 这一球我要你直冲切右{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, on this play, I want you to do a down-and-out to the right, okay?{\r}
+Dialogue: 0,0:07:09.97,0:07:11.76,chs&eng,,0000,0000,0000,,{\blur3}- 分开   - 等一下 我要做什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Break!     - Wait. What am I gonna do?{\r}
+Dialogue: 0,0:07:11.93,0:07:13.22,chs&eng,,0000,0000,0000,,{\blur3}你呢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You?{\r}
+Dialogue: 0,0:07:13.39,0:07:14.43,chs&eng,,0000,0000,0000,,{\blur3}你直接冲{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You go long.{\r}
+Dialogue: 0,0:07:14.60,0:07:15.89,chs&eng,,0000,0000,0000,,{\blur3}冲到哪里{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How long?{\r}
+Dialogue: 0,0:07:16.06,0:07:17.89,chs&eng,,0000,0000,0000,,{\blur3}直到我们变得很小{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Until we start to look very small.{\r}
+Dialogue: 0,0:07:18.06,0:07:20.77,chs&eng,,0000,0000,0000,,{\blur3}- 好的 分开    - 分开{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Okay. Break!     - Break!{\r}
+Dialogue: 0,0:07:20.94,0:07:22.98,chs&eng,,0000,0000,0000,,{\blur3}- 预备 开始   - 一{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Set, hike!     - One Mississippi...{\r}
+Dialogue: 0,0:07:23.15,0:07:24.86,chs&eng,,0000,0000,0000,,{\blur3}换边{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Switch! Switch! Switch!{\r}
+Dialogue: 0,0:07:25.02,0:07:26.77,chs&eng,,0000,0000,0000,,{\blur3}不{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no, no!{\r}
+Dialogue: 0,0:07:35.95,0:07:38.16,chs&eng,,0000,0000,0000,,{\blur3}谢谢你帮我们捡球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey. Thanks for stopping our ball.{\r}
+Dialogue: 0,0:07:38.33,0:07:40.29,chs&eng,,0000,0000,0000,,{\blur3}你们在玩美式足球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You are playing American football?{\r}
+Dialogue: 0,0:07:40.46,0:07:41.50,chs&eng,,0000,0000,0000,,{\blur3}对{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah.{\r}
+Dialogue: 0,0:07:41.66,0:07:44.71,chs&eng,,0000,0000,0000,,{\blur3}你像是从外国来的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wow, you're, like, from a whole other country!{\r}
+Dialogue: 0,0:07:45.42,0:07:48.55,chs&eng,,0000,0000,0000,,{\blur3}- 我是荷兰人   - 我是乔伊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I'm Dutch.     - Hi, I'm Joey.{\r}
+Dialogue: 0,0:07:49.01,0:07:50.26,chs&eng,,0000,0000,0000,,{\blur3}我是玛哈{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I am Margha.{\r}
+Dialogue: 0,0:07:51.05,0:07:54.05,chs&eng,,0000,0000,0000,,{\blur3}抱歉 荷兰人 尾音我没听清楚{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry, Dutch, I didn't get that last little bit.{\r}
+Dialogue: 0,0:07:54.22,0:07:56.89,chs&eng,,0000,0000,0000,,{\blur3}你要玩足球或…我是钱德{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You wanna play football or...? Hi, I'm Chandler.{\r}
+Dialogue: 0,0:07:57.05,0:07:58.93,chs&eng,,0000,0000,0000,,{\blur3}你好 钱德{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello, Chandler.{\r}
+Dialogue: 0,0:07:59.10,0:08:02.52,chs&eng,,0000,0000,0000,,{\blur3}她叫荷兰人跟玛汉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Her name is Dutch and also "Margham."{\r}
+Dialogue: 0,0:08:03.23,0:08:05.27,chs&eng,,0000,0000,0000,,{\blur3}- 玛哈   - 玛荷{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Margha.     - Margha.{\r}
+Dialogue: 0,0:08:05.44,0:08:06.56,chs&eng,,0000,0000,0000,,{\blur3}玛哈{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Margha.{\r}
+Dialogue: 0,0:08:06.73,0:08:09.44,chs&eng,,0000,0000,0000,,{\blur3}玛汉{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Mahan.{\r}
+Dialogue: 0,0:08:10.19,0:08:12.78,chs&eng,,0000,0000,0000,,{\blur3}来吧 大伙们 开始了 第二次十码进攻{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, guys! Let's go! Second down!{\r}
+Dialogue: 0,0:08:13.74,0:08:16.78,chs&eng,,0000,0000,0000,,{\blur3}- 应该是第三次十码进攻了   - 才不是 是第二次{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Uh, hello? It's third down.     - No, it's not. It's second.{\r}
+Dialogue: 0,0:08:17.95,0:08:19.99,chs&eng,,0000,0000,0000,,{\blur3}怎么了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"Wow" what?{\r}
+Dialogue: 0,0:08:20.16,0:08:24.08,chs&eng,,0000,0000,0000,,{\blur3}我很讶异你还是会这么做{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It just amazes me that you're still pulling stuff like this. Heh.{\r}
+Dialogue: 0,0:08:24.75,0:08:28.71,chs&eng,,0000,0000,0000,,{\blur3}- 什么本来就是第二次进攻   - 好吧 第二次{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Pulling what? It's second down.     - Okay, it's second down.{\r}
+Dialogue: 0,0:08:28.88,0:08:31.63,chs&eng,,0000,0000,0000,,{\blur3}你说是就是{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Take all the second downs you need.{\r}
+Dialogue: 0,0:08:31.88,0:08:34.55,chs&eng,,0000,0000,0000,,{\blur3}- 我听到了   - 我本来就说得很大声{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I heard that.     - Well, I said it loud.{\r}
+Dialogue: 0,0:08:36.43,0:08:38.55,chs&eng,,0000,0000,0000,,{\blur3}我可以在旁边看吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It is okay if I stay and watch?{\r}
+Dialogue: 0,0:08:38.72,0:08:41.89,chs&eng,,0000,0000,0000,,{\blur3}- 就坐那边吧   - 对 你何不留下来呢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Just sit right there.     - Yeah, why don't you stick around?{\r}
+Dialogue: 0,0:08:42.06,0:08:43.77,chs&eng,,0000,0000,0000,,{\blur3}- 一切进行得顺利   - 我也那么想{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- That went well.     - I think so.{\r}
+Dialogue: 0,0:08:43.94,0:08:46.90,chs&eng,,0000,0000,0000,,{\blur3}我考虑跟她要电话号码{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was thinking about, uh, asking her for her number.{\r}
+Dialogue: 0,0:08:47.06,0:08:50.94,chs&eng,,0000,0000,0000,,{\blur3}谢了 兄弟 我自己问的话会比较有诚意{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thanks, man, but it makes a stronger statement if I ask for it myself.{\r}
+Dialogue: 0,0:08:53.15,0:08:57.91,chs&eng,,0000,0000,0000,,{\blur3}我是想自己追她 为了忘记珍妮丝{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was thinking about for me, as part of that getting-over-Janice thing.{\r}
+Dialogue: 0,0:08:58.53,0:09:00.12,chs&eng,,0000,0000,0000,,{\blur3}对 没错{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, yeah. That.{\r}
+Dialogue: 0,0:09:00.95,0:09:02.87,chs&eng,,0000,0000,0000,,{\blur3}如果那真的很重要 我就让你追她{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If it means that much, I'll let you have her.{\r}
+Dialogue: 0,0:09:03.04,0:09:04.12,chs&eng,,0000,0000,0000,,{\blur3}谢谢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thanks.{\r}
+Dialogue: 0,0:09:05.04,0:09:07.12,chs&eng,,0000,0000,0000,,{\blur3}什么让我追她{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wh...? "Let me have her"?{\r}
+Dialogue: 0,0:09:07.96,0:09:10.59,chs&eng,,0000,0000,0000,,{\blur3}你是说你不让我的话 我就毫无机会吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You mean if you didn't, I wouldn't have a shot?{\r}
+Dialogue: 0,0:09:11.21,0:09:13.59,chs&eng,,0000,0000,0000,,{\blur3}我真的不想说出来{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't like to say it out loud...{\r}
+Dialogue: 0,0:09:14.22,0:09:15.38,chs&eng,,0000,0000,0000,,{\blur3}但事实就是如此{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...but yeah!{\r}
+Dialogue: 0,0:09:16.76,0:09:20.14,chs&eng,,0000,0000,0000,,{\blur3}每个人都有自己的优点 你对数字就比较在行{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We all have our strengths. You're better with numbers and stuff.{\r}
+Dialogue: 0,0:09:20.89,0:09:23.89,chs&eng,,0000,0000,0000,,{\blur3}数学你要跟我提数学的事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Math? You're giving me math?{\r}
+Dialogue: 0,0:09:24.81,0:09:27.14,chs&eng,,0000,0000,0000,,{\blur3}好吧 你知道吗 算了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, you know what? Forget about it.{\r}
+Dialogue: 0,0:09:27.31,0:09:29.69,chs&eng,,0000,0000,0000,,{\blur3}你也能追那个女孩 来看看谁可以成功{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You go for the girl. We'll see who gets her.{\r}
+Dialogue: 0,0:09:33.82,0:09:37.03,chs&eng,,0000,0000,0000,,{\blur3}钱德 我要你跑向球门左边 甜心{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I want you to run a post-pattern to the left. And, sweetie...{\r}
+Dialogue: 0,0:09:37.20,0:09:38.53,chs&eng,,0000,0000,0000,,{\blur3}对 我知道 继续跑{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, I know. Go long.{\r}
+Dialogue: 0,0:09:38.70,0:09:41.28,chs&eng,,0000,0000,0000,,{\blur3}我只是在人群中前后跑动{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All I'm doing is running back and forth from the huddle.{\r}
+Dialogue: 0,0:09:42.91,0:09:46.58,chs&eng,,0000,0000,0000,,{\blur3}你想待在那边吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, uh, you wanna just stay out there?{\r}
+Dialogue: 0,0:09:47.16,0:09:49.25,chs&eng,,0000,0000,0000,,{\blur3}- 球能给我一下吗   - 好的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Can I see that for a second?     - Yeah.{\r}
+Dialogue: 0,0:09:52.17,0:09:54.46,chs&eng,,0000,0000,0000,,{\blur3}- 好的   - 好的 开始了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Okay.     - Okay, let's go.{\r}
+Dialogue: 0,0:09:54.63,0:09:56.17,chs&eng,,0000,0000,0000,,{\blur3}- 我来盯钱德   - 开始{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I got Chandler     - Hike!{\r}
+Dialogue: 0,0:09:56.34,0:09:58.97,chs&eng,,0000,0000,0000,,{\blur3}一 二 三{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}One Mississippi, two Mississippi, three Mississippi.{\r}
+Dialogue: 0,0:09:59.14,0:10:00.68,chs&eng,,0000,0000,0000,,{\blur3}掉球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Fumble!{\r}
+Dialogue: 0,0:10:06.93,0:10:09.64,chs&eng,,0000,0000,0000,,{\blur3}你有什么毛病 这是我最喜欢的球衣{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's the matter with you? This is my favorite jersey.{\r}
+Dialogue: 0,0:10:10.19,0:10:12.27,chs&eng,,0000,0000,0000,,{\blur3}现在你有两件了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, now you have two.{\r}
+Dialogue: 0,0:10:13.77,0:10:15.65,chs&eng,,0000,0000,0000,,{\blur3}我对数学真的很在行{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, I am good at math!{\r}
+Dialogue: 0,0:10:16.61,0:10:18.86,chs&eng,,0000,0000,0000,,{\blur3}够了 我还是要让你去追她{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's it. I was still gonna let you have her.{\r}
+Dialogue: 0,0:10:19.03,0:10:21.78,chs&eng,,0000,0000,0000,,{\blur3}现在准备好好难过一场吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But now, prepare to feel bad about yourself.{\r}
+Dialogue: 0,0:10:21.95,0:10:25.29,chs&eng,,0000,0000,0000,,{\blur3}我一辈子都在为那个做准备{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've been preparing for that my entire life!{\r}
+Dialogue: 0,0:10:25.95,0:10:28.16,chs&eng,,0000,0000,0000,,{\blur3}或是为了你的不礼貌{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Or something about you that's mean!{\r}
+Dialogue: 0,0:10:28.71,0:10:30.50,chs&eng,,0000,0000,0000,,{\blur3}来吧 各位 开始了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, guys. Let's go.{\r}
+Dialogue: 0,0:10:30.71,0:10:32.58,chs&eng,,0000,0000,0000,,{\blur3}追平比数 没时问了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Tie score. We're running out of time.{\r}
+Dialogue: 0,0:10:33.04,0:10:34.25,chs&eng,,0000,0000,0000,,{\blur3}42 , 38  开始{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Forty-two, 38, hike!{\r}
+Dialogue: 0,0:10:35.76,0:10:37.67,chs&eng,,0000,0000,0000,,{\blur3}我来接{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I got it! Ooh! Ugh!{\r}
+Dialogue: 0,0:10:37.84,0:10:40.13,chs&eng,,0000,0000,0000,,{\blur3}我的胸部骨折了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Broken boobs! Ow.{\r}
+Dialogue: 0,0:10:40.30,0:10:42.72,chs&eng,,0000,0000,0000,,{\blur3}- 菲比   - 快跑 跑 菲比{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Pheebs, run!     - Run, Phoebe! Run!{\r}
+Dialogue: 0,0:10:42.89,0:10:45.93,chs&eng,,0000,0000,0000,,{\blur3}- 天啊   - 没错 达阵得分 达阵得分{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- God! Touchdown! Touchdown!     - Yes! Touchdown! Hey, oh!{\r}
+Dialogue: 0,0:10:46.60,0:10:49.02,chs&eng,,0000,0000,0000,,{\blur3}不{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no.{\r}
+Dialogue: 0,0:10:49.19,0:10:51.85,chs&eng,,0000,0000,0000,,{\blur3}闹钟响了 那一球不算{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Uh, the buzzer buzzed. It doesn't count.{\r}
+Dialogue: 0,0:10:52.19,0:10:54.11,chs&eng,,0000,0000,0000,,{\blur3}- 在接到球之后   - 在接到球之前{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- After the snap.     - Before the snap.{\r}
+Dialogue: 0,0:10:54.27,0:10:55.48,chs&eng,,0000,0000,0000,,{\blur3}- 之后   - 之前{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- After.     - Before.{\r}
+Dialogue: 0,0:10:55.69,0:10:57.40,chs&eng,,0000,0000,0000,,{\blur3}- 那很重要吗   - 对{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Does it really matter?     - Yes!{\r}
+Dialogue: 0,0:10:57.65,0:11:01.28,chs&eng,,0000,0000,0000,,{\blur3}但我达阵得分 那是我第一次达阵得分{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But I made a touchdown. It was my first touchdown.{\r}
+Dialogue: 0,0:11:01.45,0:11:04.24,chs&eng,,0000,0000,0000,,{\blur3}菲比 那真的很棒 可惜不算{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Pheebs, that's great. Doesn't count.{\r}
+Dialogue: 0,0:11:04.41,0:11:07.04,chs&eng,,0000,0000,0000,,{\blur3}- 那一球算数   - 作弊鬼 霸道女王{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Does so count.     - Cheater, cheater, compulsive eater.{\r}
+Dialogue: 0,0:11:08.83,0:11:10.71,chs&eng,,0000,0000,0000,,{\blur3}天啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, my God!{\r}
+Dialogue: 0,0:11:11.83,0:11:15.67,chs&eng,,0000,0000,0000,,{\blur3}没关系 或许你没长大 但我已经长大了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's fine. Maybe you haven't grown up, but I have.{\r}
+Dialogue: 0,0:11:15.84,0:11:17.59,chs&eng,,0000,0000,0000,,{\blur3}- 好吧   - 去死吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, okay.     - Dead leg!{\r}
+Dialogue: 0,0:11:19.84,0:11:23.26,chs&eng,,0000,0000,0000,,{\blur3}好吧 你想靠作弊赢球 尽管去吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, fine. You want to win by cheating, go ahead.{\r}
+Dialogue: 0,0:11:23.43,0:11:25.39,chs&eng,,0000,0000,0000,,{\blur3}达阵得分算数 你们赢了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The touchdown does count. You win.{\r}
+Dialogue: 0,0:11:25.55,0:11:27.68,chs&eng,,0000,0000,0000,,{\blur3}不{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No!{\r}
+Dialogue: 0,0:11:28.77,0:11:32.64,chs&eng,,0000,0000,0000,,{\blur3}我不要再这么做 我要打败你 让你无法抱怨{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I won't do this again. I wanna beat you when you can't blame it...{\r}
+Dialogue: 0,0:11:32.81,0:11:36.73,chs&eng,,0000,0000,0000,,{\blur3}鼻子断了 铃声响了 或你可能白血球过多{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...on the broken nose or the buzzer or the fact that you might have mono.{\r}
+Dialogue: 0,0:11:36.90,0:11:40.36,chs&eng,,0000,0000,0000,,{\blur3}就说双方平手 现在是中场休息{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's just call this tie score and it's halftime.{\r}
+Dialogue: 0,0:11:40.53,0:11:42.11,chs&eng,,0000,0000,0000,,{\blur3}首先我不跟作弊的人比赛{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}First, I don't play with cheaters.{\r}
+Dialogue: 0,0:11:42.28,0:11:45.28,chs&eng,,0000,0000,0000,,{\blur3}其次你知道我的扁桃腺肿了起来{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Second of all, you know I had swollen glands!{\r}
+Dialogue: 0,0:11:47.45,0:11:49.58,chs&eng,,0000,0000,0000,,{\blur3}你知道吗 我想你会玩的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? I think you'll play.{\r}
+Dialogue: 0,0:11:50.29,0:11:52.00,chs&eng,,0000,0000,0000,,{\blur3}真的吗 为什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, really? Why's that?{\r}
+Dialogue: 0,0:11:52.16,0:11:54.04,chs&eng,,0000,0000,0000,,{\blur3}因为赢的人可以拿到这个{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Because the winner gets this.{\r}
+Dialogue: 0,0:11:54.67,0:11:56.84,chs&eng,,0000,0000,0000,,{\blur3}盖勒杯{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The Geller Cup!{\r}
+Dialogue: 0,0:11:59.34,0:12:02.34,chs&eng,,0000,0000,0000,,{\blur3}大家都看到那个钉在木板上的丑娃娃了吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is everybody else seeing a troll doll nailed to a two-by-four?{\r}
+Dialogue: 0,0:12:03.93,0:12:06.05,chs&eng,,0000,0000,0000,,{\blur3}好吧 太好了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, good.{\r}
+Dialogue: 0,0:12:11.48,0:12:13.52,chs&eng,,0000,0000,0000,,{\blur3}好了 它怎么会在你手上{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, where the hell did you get that?{\r}
+Dialogue: 0,0:12:13.69,0:12:15.98,chs&eng,,0000,0000,0000,,{\blur3}你们到医院治疗你的鼻子{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}When you went to the hospital for your nose...{\r}
+Dialogue: 0,0:12:16.15,0:12:18.98,chs&eng,,0000,0000,0000,,{\blur3}我游到湖里把它捞出来{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...I swam into the lake and fished it out.{\r}
+Dialogue: 0,0:12:19.15,0:12:20.28,chs&eng,,0000,0000,0000,,{\blur3}那个奖杯是我的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That cup is mine!{\r}
+Dialogue: 0,0:12:20.44,0:12:23.57,chs&eng,,0000,0000,0000,,{\blur3}不 才不是 想要把它带回家 你就得赢球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, it's not. You want it, you're gonna have to win it.{\r}
+Dialogue: 0,0:12:23.74,0:12:27.03,chs&eng,,0000,0000,0000,,{\blur3}我们不吃晚餐了吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So are we not having dinner at all?{\r}
+Dialogue: 0,0:12:27.20,0:12:30.99,chs&eng,,0000,0000,0000,,{\blur3}来吧 开始了 认真点 小组会议{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, let's go. It's time to get serious. Huddle up.{\r}
+Dialogue: 0,0:12:31.45,0:12:33.54,chs&eng,,0000,0000,0000,,{\blur3}专心在比赛上{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Keep your head in the game.{\r}
+Dialogue: 0,0:12:33.71,0:12:37.04,chs&eng,,0000,0000,0000,,{\blur3}那真的很难 他在那个荷兰女孩旁边开小组会议{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's hard, you know? His huddle's close to the Dutch girl.{\r}
+Dialogue: 0,0:12:38.42,0:12:42.05,chs&eng,,0000,0000,0000,,{\blur3}如果我在带球时扑倒钱德 你能专心一点吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If I take Chandler out of the running, will you be able to focus?{\r}
+Dialogue: 0,0:12:42.21,0:12:45.18,chs&eng,,0000,0000,0000,,{\blur3}- 你打算怎么做   - 确定让他接到球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- What are you gonna do?     - Just make sure he catches the ball.{\r}
+Dialogue: 0,0:12:45.34,0:12:46.34,chs&eng,,0000,0000,0000,,{\blur3}其他的交给我来办{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll do the rest.{\r}
+Dialogue: 0,0:12:46.51,0:12:49.43,chs&eng,,0000,0000,0000,,{\blur3}- 来吧 胆小鬼   - 好了 来吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Come on, you wuss!     - Okay, come on.{\r}
+Dialogue: 0,0:12:50.26,0:12:52.06,chs&eng,,0000,0000,0000,,{\blur3}- 快跑 钱德   - 我来接{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Go, Cha... Chandler.     - I got it!{\r}
+Dialogue: 0,0:12:52.22,0:12:54.35,chs&eng,,0000,0000,0000,,{\blur3}加油 这边 快点{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on! This way! Come on!{\r}
+Dialogue: 0,0:12:54.77,0:12:56.52,chs&eng,,0000,0000,0000,,{\blur3}小心{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Look out!     - Oof!{\r}
+Dialogue: 0,0:12:59.94,0:13:03.03,chs&eng,,0000,0000,0000,,{\blur3}被女生拥抱 这种画面不多见吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Tackled by a girl! Bet you don't see that every day.{\r}
+Dialogue: 0,0:13:04.24,0:13:06.70,chs&eng,,0000,0000,0000,,{\blur3}为什么要做拥抱{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Whoa, whoa, whoa! What's with the tackling?{\r}
+Dialogue: 0,0:13:06.86,0:13:08.70,chs&eng,,0000,0000,0000,,{\blur3}什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What?{\r}
+Dialogue: 0,0:13:08.87,0:13:10.58,chs&eng,,0000,0000,0000,,{\blur3}我一碰到他 他就跌倒了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I just touched him and he went over.{\r}
+Dialogue: 0,0:13:11.45,0:13:14.75,chs&eng,,0000,0000,0000,,{\blur3}好吧 你要来硬的吗 我们也可以来硬的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. You wanna play rough? We can play rough.{\r}
+Dialogue: 0,0:13:14.91,0:13:17.87,chs&eng,,0000,0000,0000,,{\blur3}准备开打了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's get ready to rumble!{\r}
+Dialogue: 0,0:13:57.75,0:13:59.92,chs&eng,,0000,0000,0000,,{\blur3}- 快点   - 抓住她{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Go, go, go!     - Get her! Get her!{\r}
+Dialogue: 0,0:14:03.88,0:14:05.63,chs&eng,,0000,0000,0000,,{\blur3}我喜欢这种运动{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I love this game!{\r}
+Dialogue: 0,0:14:08.68,0:14:09.88,chs&eng,,0000,0000,0000,,{\blur3}你怎么会有那个{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where'd you get that?{\r}
+Dialogue: 0,0:14:10.72,0:14:12.60,chs&eng,,0000,0000,0000,,{\blur3}我真的跑好远{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I went really long.{\r}
+Dialogue: 0,0:14:13.97,0:14:15.81,chs&eng,,0000,0000,0000,,{\blur3}42比21{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Forty-two to 21.{\r}
+Dialogue: 0,0:14:15.98,0:14:18.43,chs&eng,,0000,0000,0000,,{\blur3}跟火鸡一样 罗斯输了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Like the turkey, Ross is done!{\r}
+Dialogue: 0,0:14:20.06,0:14:23.27,chs&eng,,0000,0000,0000,,{\blur3}你先挑队员 所以你那一队的实力比较好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You got to pick first, so you got the better team.{\r}
+Dialogue: 0,0:14:23.44,0:14:26.44,chs&eng,,0000,0000,0000,,{\blur3}这太可悲了 你何不接受事实 我们会赢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Pathetic! Why can't you just accept that we're winning...{\r}
+Dialogue: 0,0:14:26.61,0:14:27.94,chs&eng,,0000,0000,0000,,{\blur3}因为我比你厉害{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...because I'm better than you?{\r}
+Dialogue: 0,0:14:28.11,0:14:31.99,chs&eng,,0000,0000,0000,,{\blur3}说得太有道理了 你只会吐气{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, what a great argument. Exhaling!{\r}
+Dialogue: 0,0:14:32.74,0:14:34.49,chs&eng,,0000,0000,0000,,{\blur3}好吧 我可以跟你证明{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, I'll prove it to you. Okay?{\r}
+Dialogue: 0,0:14:34.66,0:14:38.58,chs&eng,,0000,0000,0000,,{\blur3}我用乔伊跟你换瑞秋 我还是能赢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll trade you Joey for Rachel and I'll still win the game.{\r}
+Dialogue: 0,0:14:38.75,0:14:41.12,chs&eng,,0000,0000,0000,,{\blur3}什么男生对女生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What? The guys against the girls?{\r}
+Dialogue: 0,0:14:41.29,0:14:44.84,chs&eng,,0000,0000,0000,,{\blur3}我太可笑了 我只落后三记达阵得分{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's ridiculous because I'm only down by three touchdowns.{\r}
+Dialogue: 0,0:14:45.00,0:14:46.75,chs&eng,,0000,0000,0000,,{\blur3}就那么办吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, then bring it on!{\r}
+Dialogue: 0,0:14:46.92,0:14:50.22,chs&eng,,0000,0000,0000,,{\blur3}除非你害怕会输给一群女生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Unless you're afraid you might lose to a bunch of girls.{\r}
+Dialogue: 0,0:14:52.43,0:14:55.81,chs&eng,,0000,0000,0000,,{\blur3}好吧 瑞秋 你到摩妮卡那边 乔伊 你得加入我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Fine. Rachel, you're with Monica. Joey, you're with me.{\r}
+Dialogue: 0,0:14:56.10,0:14:58.14,chs&eng,,0000,0000,0000,,{\blur3}我不敢相信你把我换出去{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can not believe you're trading me.{\r}
+Dialogue: 0,0:14:58.31,0:15:01.48,chs&eng,,0000,0000,0000,,{\blur3}试试看持在优胜队的滋味吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's see what it's like to be on a winning team for a change.{\r}
+Dialogue: 0,0:15:01.65,0:15:03.31,chs&eng,,0000,0000,0000,,{\blur3}你会让我摸球吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're gonna let me play?{\r}
+Dialogue: 0,0:15:03.77,0:15:05.27,chs&eng,,0000,0000,0000,,{\blur3}那么好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, then!{\r}
+Dialogue: 0,0:15:06.11,0:15:07.90,chs&eng,,0000,0000,0000,,{\blur3}比赛结束了吗 我们要吃饭了吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The game is over? We eat now?{\r}
+Dialogue: 0,0:15:08.07,0:15:09.99,chs&eng,,0000,0000,0000,,{\blur3}不 比赛还没有结束 我们在交换队友{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, the game's not over. We're switching teams.{\r}
+Dialogue: 0,0:15:10.15,0:15:14.53,chs&eng,,0000,0000,0000,,{\blur3}钱德发现我太厉害了 我们同一队会比较好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Chandler finds me so intimidating that it's better if we're on the same team.{\r}
+Dialogue: 0,0:15:14.70,0:15:16.78,chs&eng,,0000,0000,0000,,{\blur3}好吧 开始了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, let's play. Let's go.{\r}
+Dialogue: 0,0:15:16.95,0:15:18.37,chs&eng,,0000,0000,0000,,{\blur3}等一下{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, uh, hold on a second.{\r}
+Dialogue: 0,0:15:18.54,0:15:21.08,chs&eng,,0000,0000,0000,,{\blur3}荷兰人是从哪里来的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ahem. Where do Dutch people come from?{\r}
+Dialogue: 0,0:15:28.55,0:15:30.51,chs&eng,,0000,0000,0000,,{\blur3}那个嘛…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Uh, well, the, uh...{\r}
+Dialogue: 0,0:15:30.67,0:15:33.93,chs&eng,,0000,0000,0000,,{\blur3}宾州荷兰人来自宾州{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...Pennsylvania Dutch come from Pennsylvania.{\r}
+Dialogue: 0,0:15:34.47,0:15:36.51,chs&eng,,0000,0000,0000,,{\blur3}其他荷兰人呢{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And the, uh, other Dutch people?{\r}
+Dialogue: 0,0:15:36.68,0:15:39.47,chs&eng,,0000,0000,0000,,{\blur3}他们来自荷兰 对吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They come from somewhere near the Netherlands, right?{\r}
+Dialogue: 0,0:15:39.64,0:15:41.52,chs&eng,,0000,0000,0000,,{\blur3}少唬人了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Nice try.{\r}
+Dialogue: 0,0:15:41.69,0:15:43.94,chs&eng,,0000,0000,0000,,{\blur3}荷兰是虚构的地方{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The Netherlands is this make-believe place...{\r}
+Dialogue: 0,0:15:44.10,0:15:47.11,chs&eng,,0000,0000,0000,,{\blur3}彼得潘跟小仙女住在那里{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...where Peter Pan and Tinker Bell come from.{\r}
+Dialogue: 0,0:15:48.32,0:15:49.86,chs&eng,,0000,0000,0000,,{\blur3}天啊{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, my.{\r}
+Dialogue: 0,0:15:50.65,0:15:53.70,chs&eng,,0000,0000,0000,,{\blur3}疯狂地理课结束了 开始打球吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Enough "geography for the insane." Let's play ball.{\r}
+Dialogue: 0,0:15:53.86,0:15:56.24,chs&eng,,0000,0000,0000,,{\blur3}不 我不要跟这家伙同队{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. No, I'm not playing with this guy.{\r}
+Dialogue: 0,0:15:56.41,0:15:58.99,chs&eng,,0000,0000,0000,,{\blur3}- 我没意见   - 我受够了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, fine with me.     - I've had enough of this.{\r}
+Dialogue: 0,0:15:59.16,0:16:03.08,chs&eng,,0000,0000,0000,,{\blur3}我们就废话少说了 海蒂 你喜欢我的哪个朋友{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's just cut to the chase. Heidi, which of my boys do you like?{\r}
+Dialogue: 0,0:16:04.04,0:16:05.08,chs&eng,,0000,0000,0000,,{\blur3}你在做什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?{\r}
+Dialogue: 0,0:16:05.25,0:16:06.88,chs&eng,,0000,0000,0000,,{\blur3}你在做什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?{\r}
+Dialogue: 0,0:16:08.59,0:16:10.09,chs&eng,,0000,0000,0000,,{\blur3}我喜欢哪一个{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Which do I like?{\r}
+Dialogue: 0,0:16:10.26,0:16:14.01,chs&eng,,0000,0000,0000,,{\blur3}对 约会 打打闹闹 带他回你的风车{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, for dating, general merriment, taking back to your windmill?{\r}
+Dialogue: 0,0:16:14.68,0:16:17.26,chs&eng,,0000,0000,0000,,{\blur3}如果现在我必须选择{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, if I had to choose right now...{\r}
+Dialogue: 0,0:16:17.43,0:16:20.14,chs&eng,,0000,0000,0000,,{\blur3}对了 我觉得这很奇怪{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...which, by the way, I find really weird...{\r}
+Dialogue: 0,0:16:21.56,0:16:23.64,chs&eng,,0000,0000,0000,,{\blur3}我会选钱德{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...I would have to say Chandler.{\r}
+Dialogue: 0,0:16:24.06,0:16:25.40,chs&eng,,0000,0000,0000,,{\blur3}太棒了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes!{\r}
+Dialogue: 0,0:16:26.19,0:16:29.57,chs&eng,,0000,0000,0000,,{\blur3}等一下 她不了解问题{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait a minute. She didn't understand the question.{\r}
+Dialogue: 0,0:16:29.73,0:16:32.94,chs&eng,,0000,0000,0000,,{\blur3}为什么你不请虎克船长跟他解释一下{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why don't you have Captain Hook explain it to her?{\r}
+Dialogue: 0,0:16:34.28,0:16:36.36,chs&eng,,0000,0000,0000,,{\blur3}抱歉 那是我的真心话{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry. That is my truth.{\r}
+Dialogue: 0,0:16:36.53,0:16:40.12,chs&eng,,0000,0000,0000,,{\blur3}你听到了吗 那是她的真心话 "我让你追她"先生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You hear that? That is her truth, Mr. "I'll Let You Have Her"!{\r}
+Dialogue: 0,0:16:40.29,0:16:43.08,chs&eng,,0000,0000,0000,,{\blur3}我赢了 你太逊了 我是最棒的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I win! You suck! I rule all!{\r}
+Dialogue: 0,0:16:43.25,0:16:45.87,chs&eng,,0000,0000,0000,,{\blur3}帮我跳迷你波浪舞庆祝一下{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Mini-wave in celebration of me!{\r}
+Dialogue: 0,0:16:49.84,0:16:55.01,chs&eng,,0000,0000,0000,,{\blur3}我想我的答案要改成 "我谁都不要选"{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I am now thinking I would like to change my answer to "no one."{\r}
+Dialogue: 0,0:16:55.18,0:16:56.76,chs&eng,,0000,0000,0000,,{\blur3}什么{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What?{\r}
+Dialogue: 0,0:16:57.34,0:16:59.85,chs&eng,,0000,0000,0000,,{\blur3}我发现你很肤浅{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I now find you shallow, and, um...{\r}
+Dialogue: 0,0:17:00.01,0:17:01.76,chs&eng,,0000,0000,0000,,{\blur3}是个呆瓜{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...a dork.{\r}
+Dialogue: 0,0:17:02.31,0:17:03.85,chs&eng,,0000,0000,0000,,{\blur3}再见{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Bye-bye.{\r}
+Dialogue: 0,0:17:04.35,0:17:05.85,chs&eng,,0000,0000,0000,,{\blur3}干得好{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Heh. Nice going.{\r}
+Dialogue: 0,0:17:06.02,0:17:08.69,chs&eng,,0000,0000,0000,,{\blur3}你害自己几个月没有性生活{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You just saved yourself a couple months of sex.{\r}
+Dialogue: 0,0:17:09.57,0:17:11.90,chs&eng,,0000,0000,0000,,{\blur3}那不重要 因为她选了我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It doesn't matter, because she picked me.{\r}
+Dialogue: 0,0:17:12.07,0:17:14.15,chs&eng,,0000,0000,0000,,{\blur3}从现在开始 我可以去约会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}From now on, I get the dates...{\r}
+Dialogue: 0,0:17:14.32,0:17:17.95,chs&eng,,0000,0000,0000,,{\blur3}星期六晚上 你只能待在家里看烹饪节目{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...and you stay home on Saturday nights watching Ready, Set, Cook!{\r}
+Dialogue: 0,0:17:18.49,0:17:21.37,chs&eng,,0000,0000,0000,,{\blur3}别说了 时间紧迫{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Save the breakthroughs for therapy. The clock is ticking.{\r}
+Dialogue: 0,0:17:21.54,0:17:24.25,chs&eng,,0000,0000,0000,,{\blur3}我们没时间了 我们输给女生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We have no time, and we are losing to girls.{\r}
+Dialogue: 0,0:17:24.41,0:17:26.04,chs&eng,,0000,0000,0000,,{\blur3}我们不会输给女生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We're not gonna lose to girls.{\r}
+Dialogue: 0,0:17:26.21,0:17:27.79,chs&eng,,0000,0000,0000,,{\blur3}现在比数是42比21{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's 42-21!{\r}
+Dialogue: 0,0:17:27.96,0:17:31.42,chs&eng,,0000,0000,0000,,{\blur3}这真的很逊 刚刚我还赢那么多{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This sucks! I was just up by that much!{\r}
+Dialogue: 0,0:17:32.42,0:17:35.92,chs&eng,,0000,0000,0000,,{\blur3}我们到底要不要比赛 来吧 你们这些长毛猩猩{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are we playing football or what? Come on, you hairy-backed Marys!{\r}
+Dialogue: 0,0:17:37.51,0:17:40.85,chs&eng,,0000,0000,0000,,{\blur3}我们非赢不可 我们为全世界的女人这么做{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We have to do this. We're playing for women everywhere.{\r}
+Dialogue: 0,0:17:41.01,0:17:43.56,chs&eng,,0000,0000,0000,,{\blur3}想像你们的每一次烂约会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Think about every lousy date you ever had.{\r}
+Dialogue: 0,0:17:43.72,0:17:46.77,chs&eng,,0000,0000,0000,,{\blur3}每次亲热时 男人的眼睛都盯着电视看{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Every guy who kept one eye on the TV while you were making out.{\r}
+Dialogue: 0,0:17:46.94,0:17:50.19,chs&eng,,0000,0000,0000,,{\blur3}天啊 你也跟装了玻璃假眼的男人约会{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, my God. You dated someone with a glass eye too?{\r}
+Dialogue: 0,0:17:52.02,0:17:55.99,chs&eng,,0000,0000,0000,,{\blur3}加油 好吗 这都是为了女人 痛宰他们{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, okay? This is for all womankind. Let's kill them!{\r}
+Dialogue: 0,0:17:56.15,0:17:57.86,chs&eng,,0000,0000,0000,,{\blur3}对 痛宰他们{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah! Kill them!{\r}
+Dialogue: 0,0:17:59.11,0:18:01.41,chs&eng,,0000,0000,0000,,{\blur3}好吧 我也想痛宰他们{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, I want to kill them too.{\r}
+Dialogue: 0,0:18:01.58,0:18:03.24,chs&eng,,0000,0000,0000,,{\blur3}但他们是男生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But they're boys.{\r}
+Dialogue: 0,0:18:03.41,0:18:06.37,chs&eng,,0000,0000,0000,,{\blur3}我们该怎么打败三个男生{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know, how are we gonna beat three boys?{\r}
+Dialogue: 0,0:18:35.86,0:18:38.57,chs&eng,,0000,0000,0000,,{\blur3}还有一分钟半 我们落后两分{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}A minute and a half left, and we're down by two points.{\r}
+Dialogue: 0,0:18:38.74,0:18:39.95,chs&eng,,0000,0000,0000,,{\blur3}两分 姊妹们{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Two points, ladies.{\r}
+Dialogue: 0,0:18:46.16,0:18:48.37,chs&eng,,0000,0000,0000,,{\blur3}菲比 你再做后转身进攻{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Phoebe, you do a buttonhook again.{\r}
+Dialogue: 0,0:18:48.54,0:18:49.91,chs&eng,,0000,0000,0000,,{\blur3}瑞秋  你往前跑{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Rachel, you go long.{\r}
+Dialogue: 0,0:18:50.08,0:18:53.84,chs&eng,,0000,0000,0000,,{\blur3}不 别逼我往前跑 利用我 他们从来不防守我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, don't make me go long. Use me. They never cover me.{\r}
+Dialogue: 0,0:18:54.00,0:18:55.75,chs&eng,,0000,0000,0000,,{\blur3}甜心 那是有原因的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Honey, there's a reason.{\r}
+Dialogue: 0,0:18:57.09,0:18:59.76,chs&eng,,0000,0000,0000,,{\blur3}我一点都不逊 好吗 我可以有点贡献{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm not lame, okay? I can do something.{\r}
+Dialogue: 0,0:19:00.01,0:19:02.51,chs&eng,,0000,0000,0000,,{\blur3}你能让我丢球吗 这也是我的比赛{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Would you let me throw? This is my game too.{\r}
+Dialogue: 0,0:19:02.72,0:19:04.39,chs&eng,,0000,0000,0000,,{\blur3}让她丢球吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let her throw the ball.{\r}
+Dialogue: 0,0:19:04.56,0:19:08.27,chs&eng,,0000,0000,0000,,{\blur3}你跑到后面 我会把球传给你 你把球丢给菲比{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sweep behind, I'll pitch it. You throw it downfield to Phoebe.{\r}
+Dialogue: 0,0:19:08.43,0:19:09.52,chs&eng,,0000,0000,0000,,{\blur3}谢谢你{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you.{\r}
+Dialogue: 0,0:19:09.69,0:19:11.06,chs&eng,,0000,0000,0000,,{\blur3}- 分开   - 分开{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Break!     - Break!{\r}
+Dialogue: 0,0:19:11.23,0:19:12.90,chs&eng,,0000,0000,0000,,{\blur3}好了 开始吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, here we go.{\r}
+Dialogue: 0,0:19:13.06,0:19:15.36,chs&eng,,0000,0000,0000,,{\blur3}32 , 71 开始{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thirty-two, 71, hike!{\r}
+Dialogue: 0,0:19:15.52,0:19:17.94,chs&eng,,0000,0000,0000,,{\blur3}一 二 三{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}One Mississippi, two Mississippi, three Mississippi!{\r}
+Dialogue: 0,0:19:23.41,0:19:24.99,chs&eng,,0000,0000,0000,,{\blur3}快点跑{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Go, go, go!{\r}
+Dialogue: 0,0:19:25.74,0:19:27.12,chs&eng,,0000,0000,0000,,{\blur3}接住{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Catch it!{\r}
+Dialogue: 0,0:19:29.41,0:19:32.42,chs&eng,,0000,0000,0000,,{\blur3}- 我真的好抱歉 你没事吧   - 不 我有事{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- I'm so sorry. Are you okay?     - No, I'm not okay!{\r}
+Dialogue: 0,0:19:33.75,0:19:36.21,chs&eng,,0000,0000,0000,,{\blur3}他们来追我 我不知道该怎么办{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They were coming at me, and I didn't know what to do.{\r}
+Dialogue: 0,0:19:36.38,0:19:38.46,chs&eng,,0000,0000,0000,,{\blur3}只剩三十秒{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thirty seconds left on the timer.{\r}
+Dialogue: 0,0:19:38.63,0:19:41.76,chs&eng,,0000,0000,0000,,{\blur3}我们得把那个笨娃娃带回家{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So we get to take that, uh, stupid troll thing home.{\r}
+Dialogue: 0,0:19:41.93,0:19:44.89,chs&eng,,0000,0000,0000,,{\blur3}来吧 快点 没时间了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on! Hurry! We're running out of time.{\r}
+Dialogue: 0,0:19:45.05,0:19:46.76,chs&eng,,0000,0000,0000,,{\blur3}- 小组会议   - 好吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Huddle up!     - Okay.{\r}
+Dialogue: 0,0:19:48.22,0:19:51.10,chs&eng,,0000,0000,0000,,{\blur3}这是我们最后一次小组会议{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh! This is our last huddle!{\r}
+Dialogue: 0,0:19:51.94,0:19:54.94,chs&eng,,0000,0000,0000,,{\blur3}好吧 菲比 准备接球 瑞秋{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, Phoebe, get open. Rachel...{\r}
+Dialogue: 0,0:19:55.11,0:19:57.61,chs&eng,,0000,0000,0000,,{\blur3}- 往前跑   - 好的{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- ...go long.     - Okay.{\r}
+Dialogue: 0,0:19:57.77,0:19:59.48,chs&eng,,0000,0000,0000,,{\blur3}分开{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Break!{\r}
+Dialogue: 0,0:20:46.66,0:20:49.41,chs&eng,,0000,0000,0000,,{\blur3}我办到了 达阵得分 我们办到了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ahh! I did it! Touchdown! We did it!{\r}
+Dialogue: 0,0:20:53.12,0:20:57.46,chs&eng,,0000,0000,0000,,{\blur3}你们知道吗 这真的很好笑 终点在灯柱那边{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know? Funny thing, actually. The end zone starts at that pole.{\r}
+Dialogue: 0,0:20:57.67,0:20:59.67,chs&eng,,0000,0000,0000,,{\blur3}你少了五尺 所以…{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So you're five feet short. So...{\r}
+Dialogue: 0,0:20:59.84,0:21:02.55,chs&eng,,0000,0000,0000,,{\blur3}我们赢了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...ha-ha-ha, we win!{\r}
+Dialogue: 0,0:21:03.84,0:21:05.30,chs&eng,,0000,0000,0000,,{\blur3}太棒了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, yes, yes!{\r}
+Dialogue: 0,0:21:05.47,0:21:07.51,chs&eng,,0000,0000,0000,,{\blur3}等一下 请解释一下{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait, explain something, though.{\r}
+Dialogue: 0,0:21:07.68,0:21:12.01,chs&eng,,0000,0000,0000,,{\blur3}如果没有人扑倒瑞秋 比赛还在进行中吧{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If nobody tagged Rachel, then isn't the play still going?{\r}
+Dialogue: 0,0:21:17.23,0:21:19.73,chs&eng,,0000,0000,0000,,{\blur3}- 让我来   - 不行 放手{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Let me in! Let me in!     - No way! Let go!{\r}
+Dialogue: 0,0:21:19.90,0:21:22.86,chs&eng,,0000,0000,0000,,{\blur3}放手 我只是个小女孩{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let go? I'm a tiny little woman!{\r}
+Dialogue: 0,0:21:23.32,0:21:25.32,chs&eng,,0000,0000,0000,,{\blur3}两位 好了 今天是感恩节{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Guys, come on, it's Thanksgiving!{\r}
+Dialogue: 0,0:21:25.49,0:21:27.86,chs&eng,,0000,0000,0000,,{\blur3}输赢不重要{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's not important who wins or loses.{\r}
+Dialogue: 0,0:21:28.03,0:21:30.99,chs&eng,,0000,0000,0000,,{\blur3}重点是那个荷兰女孩选了我{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The important thing is the Dutch girl picked me!{\r}
+Dialogue: 0,0:21:33.00,0:21:37.16,chs&eng,,0000,0000,0000,,{\blur3}她选了我 不是你 荷兰爱钱德 谢谢阿姆斯特丹 晚安{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Me, not you! Holland loves Chandler! Thank you, Amsterdam! Good night!{\r}
+Dialogue: 0,0:21:41.38,0:21:42.71,chs&eng,,0000,0000,0000,,{\blur3}哇{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ow!{\r}
+Dialogue: 0,0:21:44.88,0:21:46.97,chs&eng,,0000,0000,0000,,{\blur3}我们该常常玩足球{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We should play football more often.{\r}
+Dialogue: 0,0:21:47.13,0:21:49.64,chs&eng,,0000,0000,0000,,{\blur3}或许我们可以加入联盟{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Maybe there's a league we could join.{\r}
+Dialogue: 0,0:21:49.89,0:21:52.93,chs&eng,,0000,0000,0000,,{\blur3}不是有国家美式足球联盟吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Isn't there a "national football league"?{\r}
+Dialogue: 0,0:21:53.85,0:21:56.60,chs&eng,,0000,0000,0000,,{\blur3}没错 他们会在星期天跟星期一晚上比赛{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, there is. They play on Sundays and Monday nights.{\r}
+Dialogue: 0,0:21:56.77,0:21:59.40,chs&eng,,0000,0000,0000,,{\blur3}该死 星期一晚上我得上班{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, shoot! I work Monday nights.{\r}
+Dialogue: 0,0:22:02.07,0:22:05.94,chs&eng,,0000,0000,0000,,{\blur3}馅料好好吃 你们觉得我们该包一点给他们吃吗{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This stuffing is amazing. Do you think we should bring them some?{\r}
+Dialogue: 0,0:22:06.11,0:22:08.20,chs&eng,,0000,0000,0000,,{\blur3}他们饿了就会回家{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}When they're hungry, they'll come in.{\r}
+Dialogue: 0,0:22:08.36,0:22:11.24,chs&eng,,0000,0000,0000,,{\blur3}- 放手   - 不 你才要放手{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Let go!     - No, you let go!{\r}
+Dialogue: 0,0:22:13.20,0:22:16.25,chs&eng,,0000,0000,0000,,{\blur3}为什么每次都是我们死抱着球不放{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How come it's always us left holding the ball?{\r}
+Dialogue: 0,0:22:16.41,0:22:20.25,chs&eng,,0000,0000,0000,,{\blur3}我不知道 我想其他人就是不在乎{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know. I guess the other people just don't care enough.{\r}
+Dialogue: 0,0:22:25.92,0:22:28.80,chs&eng,,0000,0000,0000,,{\blur3}下雪了{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, it's starting to snow.{\r}
+Dialogue: 0,0:22:33.06,0:22:36.22,chs&eng,,0000,0000,0000,,{\blur3}- 球给我   - 放手 快点{\r}\N{\blur3\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}- Give it to me! Let go!     - Let it go! Come on, let go!{\r}

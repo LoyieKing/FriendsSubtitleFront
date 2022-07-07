@@ -1,0 +1,404 @@
+﻿[Script Info]
+;SrtEdit 6.0.2011.1205
+;Copyright(C) 2005-2011 Yuan Weiguo
+
+Title: YYeTs
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: chs,Arial,20,&H00E0E0E0,&H00000000,&H00000000,&H80000000,0,0,0,0,100,100,0,0,0,2,1,2,1,1,3,1
+Style: *Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,0,2,3,2,20,20,20,1
+Style: Default,华文楷体,20,&H00E0E0E0,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0,0,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:17.47,0:00:19.56,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 抱歉   - 天啊 我受够了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I'm sorry.         - Oh, my God. That's it.{\r}
+Dialogue: 0,0:00:19.76,0:00:22.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你不敲门就闯进来？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You just barge in here and you don't knock?{\r}
+Dialogue: 0,0:00:22.23,0:00:24.10,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}难道你不尊重别人的隐私权？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You have no respect for anybody's privacy.{\r}
+Dialogue: 0,0:00:24.31,0:00:25.89,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 瑞秋 你等一下   - 不 你等一下{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Rachel, wait.     - No, you wait.{\r}
+Dialogue: 0,0:00:26.10,0:00:28.61,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我能说一件事吗？ - 什么事？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Can I just say one thing?     - What? What?{\r}
+Dialogue: 0,0:00:28.77,0:00:32.07,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这块布编得非常松 我仍能看见…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's a relatively open weave and I can still see your...{\r}
+Dialogue: 0,0:00:32.78,0:00:35.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你的两点   - 噢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- ...nippular area.     - Ugh!{\r}
+Dialogue: 0,0:01:27.67,0:01:28.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}中央咖啡厅{\r}
+Dialogue: 0,0:01:28.92,0:01:31.50,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}亲爱的 告诉他们你病人的故事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Honey, honey, tell them the story about your patient...{\r}
+Dialogue: 0,0:01:31.67,0:01:33.46,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那个人如何把事想成另一件事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...who thinks things are other things.{\r}
+Dialogue: 0,0:01:33.63,0:01:35.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你了解？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know?{\r}
+Dialogue: 0,0:01:35.59,0:01:38.51,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}例如电话响时她却去洗澡{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Like when the phone rings and she takes a shower...{\r}
+Dialogue: 0,0:01:40.30,0:01:42.01,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}差不多就是那样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's pretty much it.{\r}
+Dialogue: 0,0:01:43.52,0:01:45.81,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但你说得很好甜{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But you tell it really well, sweetie.{\r}
+Dialogue: 0,0:01:46.06,0:01:48.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谢谢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thanks. Okay.{\r}
+Dialogue: 0,0:01:48.35,0:01:50.98,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}快走开 这样我们才能谈你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Now go away so we can talk about you.{\r}
+Dialogue: 0,0:01:51.48,0:01:52.90,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好吧 我会想念你的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay. I'll miss you.{\r}
+Dialogue: 0,0:01:55.03,0:01:56.11,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他很不错吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Isn't he great?{\r}
+Dialogue: 0,0:01:56.28,0:01:58.61,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他好可爱 也好像很喜欢你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He's so cute. And he likes you so much.{\r}
+Dialogue: 0,0:01:58.82,0:01:59.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我知道{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I know. I know.{\r}
+Dialogue: 0,0:02:00.03,0:02:02.99,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他人很好 而且很复杂{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He's so sweet. And so complicated, you know?{\r}
+Dialogue: 0,0:02:03.24,0:02:06.62,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}以一位精神科医师来讲 不会太神经质{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And for a shrink, he's not too "shrinky." You know?{\r}
+Dialogue: 0,0:02:06.79,0:02:08.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他会在沙发上做吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So you think you'll do it on his couch?{\r}
+Dialogue: 0,0:02:09.00,0:02:11.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我不知道… 有点奇怪{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh. I don't know. That's a little weird.{\r}
+Dialogue: 0,0:02:12.00,0:02:13.38,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}聚乙稀做的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's vinyl.{\r}
+Dialogue: 0,0:02:16.55,0:02:19.34,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 好 大家还想要别的东西吗？ - 是的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Okay. You guys want anything else?     - Oh, yes.{\r}
+Dialogue: 0,0:02:19.59,0:02:21.09,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 要 我要…   - 抱歉 卖完了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Could I have...?     - Sorry, we're all out.{\r}
+Dialogue: 0,0:02:21.30,0:02:22.59,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 其他人呢？ - 好的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Anybody else?     - Okay.{\r}
+Dialogue: 0,0:02:23.64,0:02:25.39,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我是否错过了什么事？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Did I, uh, miss something?{\r}
+Dialogue: 0,0:02:25.60,0:02:28.81,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}她很生气 因为我看见她的乳房{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, she's still upset because I saw her boobies.{\r}
+Dialogue: 0,0:02:29.60,0:02:32.56,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你是怎么看到她的乳房的？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What were you doing seeing her boobies?{\r}
+Dialogue: 0,0:02:32.81,0:02:33.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那是意外{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It was an accident.{\r}
+Dialogue: 0,0:02:34.02,0:02:36.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这跟拿望远镜和甜甜圈过街的感觉不同{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I wasn't across the street with a telescope and a box of doughnuts.{\r}
+Dialogue: 0,0:02:38.49,0:02:40.49,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}能换个话题吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Can we change the subject, please?{\r}
+Dialogue: 0,0:02:40.99,0:02:44.87,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没错 因为那不是她的乳房 而是她的胸部{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Because, hello? These aren't her "boobies." These are her breasts.{\r}
+Dialogue: 0,0:02:46.41,0:02:49.50,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}菲比 我要的不只是改变说法{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Pheebs, I was hoping for more of a change.{\r}
+Dialogue: 0,0:02:50.46,0:02:54.08,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你为什么要难为情呢？你的乳房还蛮不错的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't know why you're embarrassed. They were very nice boobies.{\r}
+Dialogue: 0,0:02:55.38,0:02:56.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}"不错"？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}"Nice"?{\r}
+Dialogue: 0,0:02:56.96,0:02:58.05,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}它们很 "不错"？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}They were "nice"?{\r}
+Dialogue: 0,0:02:58.30,0:03:01.05,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}就这样？手套也很不错{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's it? I mean, mittens are "nice."{\r}
+Dialogue: 0,0:03:02.89,0:03:05.51,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 我真是…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay. Rock, hard place...{\r}
+Dialogue: 0,0:03:05.72,0:03:07.14,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}左右为难{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...me.{\r}
+Dialogue: 0,0:03:12.44,0:03:13.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你真搞笑{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're so funny.{\r}
+Dialogue: 0,0:03:14.90,0:03:16.77,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他真的很搞笑{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He's really funny.{\r}
+Dialogue: 0,0:03:17.15,0:03:20.90,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他不讲笑话的时候 我可不想待在这里{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I wouldn't want to be there when the laughter stops.{\r}
+Dialogue: 0,0:03:21.65,0:03:23.11,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}等等 回去上一句{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Whoa, whoa. Back up there, sparky.{\r}
+Dialogue: 0,0:03:25.41,0:03:26.66,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那是什么意思？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What did you mean by that?{\r}
+Dialogue: 0,0:03:27.58,0:03:30.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你似乎有亲密上的问题{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It seems that maybe you have intimacy issues...{\r}
+Dialogue: 0,0:03:31.00,0:03:34.83,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你用你的幽默和人保持距离{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...that you use your humor to keep people at a distance.{\r}
+Dialogue: 0,0:03:35.96,0:03:37.13,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}哈{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Huh.{\r}
+Dialogue: 0,0:03:37.38,0:03:40.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我是说 我才刚认识你 我也从来没听说过你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I mean, hey, I just met you. I don't know you from Adam.{\r}
+Dialogue: 0,0:03:41.97,0:03:43.13,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}独生子 对吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Only child, right?{\r}
+Dialogue: 0,0:03:44.59,0:03:46.85,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}父母在你青春期前离婚？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Parents divorced before you hit puberty.{\r}
+Dialogue: 0,0:03:49.22,0:03:50.56,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你怎会知道？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh-huh. How did you know?{\r}
+Dialogue: 0,0:03:51.27,0:03:52.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}典型课本范例{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's textbook.{\r}
+Dialogue: 0,0:03:55.65,0:03:56.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}各位{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, you guys.{\r}
+Dialogue: 0,0:03:56.94,0:03:58.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你们都认识我爸吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You all know my dad, right?{\r}
+Dialogue: 0,0:03:59.19,0:04:01.40,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 打算在纽约待多久？ - 就几天{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- How long are you in the city?     - A couple of days.{\r}
+Dialogue: 0,0:04:01.61,0:04:02.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我在市中心有工作{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I got a job midtown.{\r}
+Dialogue: 0,0:04:02.95,0:04:04.78,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我想和我儿子一起住{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I figure I'm better off staying with the kid...{\r}
+Dialogue: 0,0:04:04.95,0:04:07.66,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}比来回坐渡轮好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...than hauling my ass back and forth on the ferry.{\r}
+Dialogue: 0,0:04:07.91,0:04:09.03,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我没见过他{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't know this one.{\r}
+Dialogue: 0,0:04:09.20,0:04:11.37,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 他是我朋友罗杰   - 嗨{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Oh. This is my friend Roger.     - Hi.{\r}
+Dialogue: 0,0:04:11.58,0:04:13.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 幸会 罗杰   - 彼此彼此{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Good to meet you.     - You too.{\r}
+Dialogue: 0,0:04:13.46,0:04:16.25,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}玩布偶的那个怎么了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What happened to the, uh, puppet guy?{\r}
+Dialogue: 0,0:04:16.46,0:04:18.71,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 爸   - 噢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Dad, uh...     - Oh, oh.{\r}
+Dialogue: 0,0:04:18.88,0:04:19.96,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}抱歉{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Excuse me.{\r}
+Dialogue: 0,0:04:20.17,0:04:21.84,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}罗斯 你老婆还好吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So, Ross, uh, how's the wife?{\r}
+Dialogue: 0,0:04:24.63,0:04:26.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}哪壶不开提哪壶了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh for two, huh? Heh.{\r}
+Dialogue: 0,0:04:26.59,0:04:29.14,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}钱德 快点 说点好笑的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, Chandler, quick, say something funny.{\r}
+Dialogue: 0,0:04:38.40,0:04:41.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我得挂电话了 我也想你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Gotta go. Ha, ha. I miss you too.{\r}
+Dialogue: 0,0:04:41.28,0:04:43.36,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我爱你 但现在很晚了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I love you, but it's getting late now...{\r}
+Dialogue: 0,0:04:43.61,0:04:45.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}让我向她打声招呼 嘿 妈妈{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Let me say hi. Hey, Ma.{\r}
+Dialogue: 0,0:04:45.49,0:04:49.16,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我和包西达大夫约了时间 而且…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Listen, I made the appointment with Dr. Bassida and...{\r}
+Dialogue: 0,0:04:50.24,0:04:51.45,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Excuse me?{\r}
+Dialogue: 0,0:04:54.96,0:04:56.50,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你知道这不是妈妈？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Did you know this isn't Ma?{\r}
+Dialogue: 0,0:05:05.68,0:05:06.72,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}她叫罗妮{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Her name's Ronni.{\r}
+Dialogue: 0,0:05:08.43,0:05:09.89,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}她从事宠物殡葬业{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}She's a pet mortician.{\r}
+Dialogue: 0,0:05:14.14,0:05:15.23,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Sure.{\r}
+Dialogue: 0,0:05:16.44,0:05:18.35,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你和她多久了…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So how long have you been...{\r}
+Dialogue: 0,0:05:20.48,0:05:23.36,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}记得小时候我常带你去海军军港…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Remember when you were a kid, I'd take you to the Navy yard...{\r}
+Dialogue: 0,0:05:23.53,0:05:24.99,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}看大船？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...and show you the big ships?{\r}
+Dialogue: 0,0:05:25.15,0:05:28.99,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 从那时候就开始了？ - 没有 才六年{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Since then?     - No, it's only been six years.{\r}
+Dialogue: 0,0:05:29.20,0:05:30.87,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我只想勾起你美好的回忆{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I wanted to give you a nice memory...{\r}
+Dialogue: 0,0:05:31.12,0:05:34.33,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}让你不会觉得我一直是个王八蛋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...so you'd know I wasn't always such a terrible guy.{\r}
+Dialogue: 0,0:05:37.00,0:05:39.33,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}乔伊 你爱过吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Joe, have you ever been in love?{\r}
+Dialogue: 0,0:05:41.04,0:05:42.09,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我不知道{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't know.{\r}
+Dialogue: 0,0:05:42.84,0:05:44.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那就是没有{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Then you haven't.{\r}
+Dialogue: 0,0:05:44.84,0:05:47.80,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你的蕃茄烧焦了   - 你还好意思说我{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- You're burning your tomatoes.     - Hmm. You're one to talk.{\r}
+Dialogue: 0,0:05:50.43,0:05:52.35,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}乔 你老爸爱得无法自拔{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Joe, your dad's in love, bigtime.{\r}
+Dialogue: 0,0:05:52.56,0:05:55.35,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}最糟的是我爱上两个不同的女人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And the worst part is, it's with two different women.{\r}
+Dialogue: 0,0:05:55.60,0:05:58.64,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}天啊 拜托你告诉我 其中一个是妈妈{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, man. Please tell me one of them is Ma.{\r}
+Dialogue: 0,0:05:58.90,0:06:01.81,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}当然其中一个是你妈妈 你秀逗了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Of course one of them's Ma. What's the matter with you?{\r}
+Dialogue: 0,0:06:10.37,0:06:13.12,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这就像你某天起床突然发现{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's like if you woke up one day and found out...{\r}
+Dialogue: 0,0:06:13.33,0:06:15.45,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你老爸是个双面人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...your dad was leading this double life.{\r}
+Dialogue: 0,0:06:15.66,0:06:19.66,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好像是为中央情报局工作的间谍{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He's, like, actually some spy working for the CIA.{\r}
+Dialogue: 0,0:06:20.29,0:06:21.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那倒挺酷的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That'd be cool.{\r}
+Dialogue: 0,0:06:22.42,0:06:23.84,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这实在是太逊了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}This blows.{\r}
+Dialogue: 0,0:06:25.92,0:06:28.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我知道 为何父母就不能好好当父母？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I know. Why can't parents just stay parents?{\r}
+Dialogue: 0,0:06:29.22,0:06:31.13,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}为何他们就得成为一般人？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Why do they have to become people?{\r}
+Dialogue: 0,0:06:31.39,0:06:33.30,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}为何他们要…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Why do they have...?{\r}
+Dialogue: 0,0:06:33.89,0:06:35.81,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}为什么…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Why...{\r}
+Dialogue: 0,0:06:37.06,0:06:40.35,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你能不能不要一直盯着我的胸部看？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...can't you stop staring at my breasts?{\r}
+Dialogue: 0,0:06:41.77,0:06:46.36,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What?{\r}
+Dialogue: 0,0:06:47.24,0:06:49.95,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那一天你还看得不够吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Didn't you get a good enough look the other day?{\r}
+Dialogue: 0,0:06:50.20,0:06:51.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好了… 我们都已是成年人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All right, we're all adults here.{\r}
+Dialogue: 0,0:06:51.78,0:06:54.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}此事只有一个解决方法{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There's only one way to resolve this.{\r}
+Dialogue: 0,0:06:54.78,0:06:56.33,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}既然你看过她的乳房{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Since you saw her boobies...{\r}
+Dialogue: 0,0:06:56.54,0:06:59.08,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你应该让她看你的小鸡鸡{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...I think, uh, you're gonna have to show her your pee-pee.{\r}
+Dialogue: 0,0:07:08.55,0:07:10.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}想都别想{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know, I don't see that happening.{\r}
+Dialogue: 0,0:07:12.18,0:07:14.51,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}快点 他说得没错 以眼还眼{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on. He's right. Tit for tat.{\r}
+Dialogue: 0,0:07:19.39,0:07:21.89,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我不会让你看的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well I'm not showing you my tat.{\r}
+Dialogue: 0,0:07:24.98,0:07:26.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谁啊？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello?{\r}
+Dialogue: 0,0:07:26.19,0:07:28.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 是菲比   - 还有罗杰{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- It's Phoebe.     - And Rog.{\r}
+Dialogue: 0,0:07:29.86,0:07:30.90,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}快上来{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on up.{\r}
+Dialogue: 0,0:07:31.11,0:07:34.11,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这下可好 罗杰来了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, good. Rog is here.{\r}
+Dialogue: 0,0:07:35.37,0:07:38.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 罗杰怎么了？ - 没什么 小事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What's the matter with Rog?     - Nothing. It's a little thing.{\r}
+Dialogue: 0,0:07:38.79,0:07:40.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我讨厌这家伙{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I hate that guy.{\r}
+Dialogue: 0,0:07:41.25,0:07:44.88,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}为什么？因为他太善于分析 这是职业病啊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What? So he was a little analytical. That's what he does.{\r}
+Dialogue: 0,0:07:45.13,0:07:47.00,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}拜托 他没那么糟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on, he's not that bad.{\r}
+Dialogue: 0,0:07:47.21,0:07:50.01,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你这里错了 如果当初我感觉到她是女同志…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's where you're wrong. Why would I marry her...{\r}
+Dialogue: 0,0:07:50.21,0:07:53.05,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我何必和她结婚呢？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...if I thought on any level that she was a lesbian?{\r}
+Dialogue: 0,0:07:54.05,0:07:55.39,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我也不确定{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't know.{\r}
+Dialogue: 0,0:07:55.64,0:07:57.85,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}或许你想让你的婚姻失败{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Maybe you wanted your marriage to fail.{\r}
+Dialogue: 0,0:08:02.19,0:08:04.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 哈   - 为什么？我为什么会这么做？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Ha, ha.     - Why? Why would I? Why?{\r}
+Dialogue: 0,0:08:04.60,0:08:06.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}为什么…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Why? Why? Why?{\r}
+Dialogue: 0,0:08:06.73,0:08:10.65,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我也不确定 或许自信心不足{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't know. Maybe low self-esteem?{\r}
+Dialogue: 0,0:08:10.86,0:08:14.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}或许是弥补你抢兄弟姊妹风头的事情 或许…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Maybe to compensate for overshadowing a sibling. Maybe...{\r}
+Dialogue: 0,0:08:15.03,0:08:17.91,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}等等 回到兄弟姊妹的话题{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Wait. Go back to that "sibling" thing.{\r}
+Dialogue: 0,0:08:18.16,0:08:20.83,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嗯 我不知道{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, I don't know.{\r}
+Dialogue: 0,0:08:21.04,0:08:24.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你让你的婚姻碰壁{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's conceivable that you sabotaged your marriage...{\r}
+Dialogue: 0,0:08:24.46,0:08:28.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好显示你兄弟姊妹在父母面前没那么失败{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...so the sibling would be less of a failure in the parents' eyes.{\r}
+Dialogue: 0,0:08:31.84,0:08:36.12,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这太荒谬了 她不成才 我一点都不会感到内疚{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's ridiculous. I don't feel guilty for her failures.{\r}
+Dialogue: 0,0:08:38.64,0:08:41.18,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你认为我不成才？ - 他不错吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Oh, so you think I'm a failure?     - Isn't he good?{\r}
+Dialogue: 0,0:08:41.39,0:08:44.68,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不 我不是那个意思{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah. No. That's not what I was saying.{\r}
+Dialogue: 0,0:08:44.89,0:08:46.94,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}多年来我以为你支持我{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}All these years, I thought you were on my side...{\r}
+Dialogue: 0,0:08:47.19,0:08:49.52,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但或许你婚姻失败的目的是想巴结爸妈{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...but maybe you were sucking up to Mom and Dad...{\r}
+Dialogue: 0,0:08:49.73,0:08:50.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好让他们更心疼你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...so they'd favor you.{\r}
+Dialogue: 0,0:08:51.07,0:08:53.49,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嘿 我娶女同志 是想让你看起来更好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, I married a lesbian to make you look good.{\r}
+Dialogue: 0,0:08:58.45,0:08:59.62,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你说得对{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're right.{\r}
+Dialogue: 0,0:08:59.87,0:09:01.28,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我说 你说得对{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I mean, you're right.{\r}
+Dialogue: 0,0:09:01.49,0:09:05.29,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那不是威伯的问题 而是威伯游乐宫{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It wasn't just the Weebles, but it was the Weeble Play Palace...{\r}
+Dialogue: 0,0:09:08.04,0:09:10.25,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}和威伯游轮的问题{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...and the Weeble's Cruise Ship...{\r}
+Dialogue: 0,0:09:10.50,0:09:14.42,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}它上面的救生艇让威伯能缓缓驶出{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...which had this little lifeboat for the Weebles to wobble in.{\r}
+Dialogue: 0,0:09:15.63,0:09:17.47,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那很难受{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's tough, tough stuff.{\r}
+Dialogue: 0,0:09:17.84,0:09:21.10,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}菲比 我们现在该走了 不然就赶不上电影了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Pheebs, if we're gonna catch that movie, we gotta go.{\r}
+Dialogue: 0,0:09:21.26,0:09:22.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}希望你好过一点 瑞秋{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay. Feel better, okay?{\r}
+Dialogue: 0,0:09:23.18,0:09:25.06,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 菲比 我们快来不及了 甜心   - 好的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- We're gonna be late, sweetie.     - Okay.{\r}
+Dialogue: 0,0:09:25.27,0:09:28.10,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 谢谢你做的一切 摩妮卡   - 不客气{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Listen, thanks for everything, Mon.     - No problem.{\r}
+Dialogue: 0,0:09:28.48,0:09:30.73,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}各位 很高兴和各位再度见面{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It was great seeing you again.{\r}
+Dialogue: 0,0:09:32.94,0:09:35.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}摩妮卡 饼干别吃太多{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Mon, uh, easy on those cookies, okay?{\r}
+Dialogue: 0,0:09:36.07,0:09:38.20,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}切记 那些东西只是食物…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Remember, they're just food...{\r}
+Dialogue: 0,0:09:38.45,0:09:39.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不是爱{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...they're not love.{\r}
+Dialogue: 0,0:09:44.33,0:09:45.91,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我讨厌这家伙{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I hate that guy.{\r}
+Dialogue: 0,0:09:49.63,0:09:50.88,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}晚安 各位{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Good night, you guys.{\r}
+Dialogue: 0,0:09:53.92,0:09:56.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}看 这是我们订的女人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, look. It's the woman we ordered.{\r}
+Dialogue: 0,0:10:00.76,0:10:02.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嘿 需要帮忙吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey. Can, uh... Can we help you?{\r}
+Dialogue: 0,0:10:03.35,0:10:06.47,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不用 谢谢 我在等乔伊•崔比亚尼{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh. No, thanks. I'm just waiting for, uh, Joey Tribbiani.{\r}
+Dialogue: 0,0:10:07.98,0:10:09.39,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我就是乔伊•崔比亚尼{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm Joey Tribbiani.{\r}
+Dialogue: 0,0:10:09.77,0:10:13.23,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}喔 不是你 是老乔伊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh. Oh, no, not you. Big Joey.{\r}
+Dialogue: 0,0:10:13.44,0:10:14.48,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}天啊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, my God.{\r}
+Dialogue: 0,0:10:14.69,0:10:17.76,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你比照片上帅多了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're so much cuter than your pictures.{\r}
+Dialogue: 0,0:10:19.86,0:10:21.53,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我是罗妮{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm Ronni.{\r}
+Dialogue: 0,0:10:24.66,0:10:25.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}想吃起司片吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Cheese Nip?{\r}
+Dialogue: 0,0:10:27.87,0:10:30.33,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}乔伊的脑子有点秀逗了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, Joey's having an embolism...{\r}
+Dialogue: 0,0:10:30.96,0:10:32.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但我要起司片{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...but I'd go for a Nip.{\r}
+Dialogue: 0,0:10:39.43,0:10:42.01,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}大部分人在宠物过世后{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You see, most people, when their pets pass on...{\r}
+Dialogue: 0,0:10:42.18,0:10:44.89,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}希望他们像睡觉那样躺着{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...they want them laid out like they're sleeping.{\r}
+Dialogue: 0,0:10:45.10,0:10:48.27,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但有时有些人要他们摆出姿势{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But occasionally you get a person who wants them in a pose.{\r}
+Dialogue: 0,0:10:48.56,0:10:51.23,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}像追自己的尾巴{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Like, uh, chasing their tail.{\r}
+Dialogue: 0,0:10:51.94,0:10:55.23,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}或跳起来接住飞盘{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Or, uh, jumping to catch a Frisbee.{\r}
+Dialogue: 0,0:10:56.44,0:10:59.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}乔伊 如果我先走一步 我的姿势要像找钥匙一样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Joey, if I go first, I want to be looking for my keys.{\r}
+Dialogue: 0,0:11:01.70,0:11:03.20,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 好好笑   - 嗨 乔{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- That's a good one.     - Hey, Joe.{\r}
+Dialogue: 0,0:11:03.49,0:11:04.95,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嗨 爸爸 罗妮来了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, Dad. Ronni's here.{\r}
+Dialogue: 0,0:11:05.20,0:11:06.45,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 嗨   - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Huh?     - Hi.{\r}
+Dialogue: 0,0:11:06.70,0:11:07.91,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 嘿   - 嘿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey.     - Hey.{\r}
+Dialogue: 0,0:11:08.16,0:11:09.62,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}亲爱的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello, babe.{\r}
+Dialogue: 0,0:11:10.50,0:11:12.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你来做什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}What are...? What are you doing here?{\r}
+Dialogue: 0,0:11:13.00,0:11:15.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你的假发留在我的住处{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, uh, you left your hair at my apartment.{\r}
+Dialogue: 0,0:11:16.00,0:11:18.38,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我想你明天开会用得上{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I figured you'd need it for your meeting.{\r}
+Dialogue: 0,0:11:21.22,0:11:22.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谢谢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thank you. Uh...{\r}
+Dialogue: 0,0:11:24.39,0:11:26.85,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谁想玩大老二？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So who's up for a big game of Kerplunk?{\r}
+Dialogue: 0,0:11:31.31,0:11:32.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}听着 我…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, I, uh...{\r}
+Dialogue: 0,0:11:32.81,0:11:34.31,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我不该来这里{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I shouldn't have come.{\r}
+Dialogue: 0,0:11:34.56,0:11:36.98,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我该走了 我不想错过最后一班地铁{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I gotta go. I'll miss the last train.{\r}
+Dialogue: 0,0:11:37.19,0:11:39.28,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不 我不想让你这么晚还搭地铁{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, I don't want you taking that thing this late.{\r}
+Dialogue: 0,0:11:39.49,0:11:41.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 那我要睡哪里？这里吗？ - 哇{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Where am I gonna stay? Here?     - Whoa.{\r}
+Dialogue: 0,0:11:43.32,0:11:46.91,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们去住饭店{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We'll go to a hotel.{\r}
+Dialogue: 0,0:11:48.45,0:11:50.45,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 不行   - 不行{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- No, you won't.     - No, we won't.{\r}
+Dialogue: 0,0:11:50.75,0:11:53.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你们去饭店就一定会嘿咻{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}If you go to a hotel, you'll be doing stuff.{\r}
+Dialogue: 0,0:11:53.79,0:11:56.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我要你们待在这里 这样我就可以盯着你们{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I want you right here, where I can keep an eye on you.{\r}
+Dialogue: 0,0:11:56.96,0:11:58.63,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你要盯着我们？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're gonna keep an eye on us?{\r}
+Dialogue: 0,0:11:58.84,0:11:59.88,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没错 先生{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's right, mister.{\r}
+Dialogue: 0,0:12:00.05,0:12:02.59,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不管你年纪多大 只要住在我家屋檐下…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't care how old you are, while you're here...{\r}
+Dialogue: 0,0:12:02.84,0:12:05.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}一切就得听我的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...you're gonna live by my rules.{\r}
+Dialogue: 0,0:12:08.81,0:12:11.77,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那就是不准你和你女朋友睡在一起{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And that means no sleeping with your girlfriend.{\r}
+Dialogue: 0,0:12:12.44,0:12:15.06,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}哇 他好严格{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Wow, he's strict.{\r}
+Dialogue: 0,0:12:15.56,0:12:16.77,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}爸 你睡我房问{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Dad, you'll be in my room.{\r}
+Dialogue: 0,0:12:17.02,0:12:20.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}罗妮 你睡钱德的房问{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ronni, uh, you can stay in Chandler's room.{\r}
+Dialogue: 0,0:12:20.32,0:12:22.65,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}谢谢 你真是个好孩子{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Thanks. You're a good kid.{\r}
+Dialogue: 0,0:12:22.86,0:12:24.90,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}来 我带你去看我房问{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Come on. I'll show you to my room.{\r}
+Dialogue: 0,0:12:26.57,0:12:30.49,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}感觉真奇怪你没说 "不 谢了 时候不早了"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That sounds weird when it's not followed by, "No, thanks, it's late."{\r}
+Dialogue: 0,0:12:34.71,0:12:38.13,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 只有今晚而已 明天你就得做出改变{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay. This is just for tonight. Starting tomorrow, you gotta change.{\r}
+Dialogue: 0,0:12:38.38,0:12:40.88,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 六年时间可不短   - 什么改变？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Six years is long enough.     - What kind of change?{\r}
+Dialogue: 0,0:12:41.13,0:12:43.09,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 和罗妮分手   - 我不能{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Break up with Ronni...     - I can't.{\r}
+Dialogue: 0,0:12:43.34,0:12:45.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}要不就和我妈妈离婚 这样是不对的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Then come clean with Ma. This is not right.{\r}
+Dialogue: 0,0:12:46.59,0:12:49.22,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我不想听 快进我房里{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I don't wanna hear it. Now go to my room.{\r}
+Dialogue: 0,0:13:03.32,0:13:04.90,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嘿 踢踏舞者{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, kickie.{\r}
+Dialogue: 0,0:13:07.62,0:13:10.12,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你在干什么？ - 想让自己舒服一点{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What are you doing?     - Trying to get comfortable.{\r}
+Dialogue: 0,0:13:10.37,0:13:13.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 穿着内裤我睡不着   - 你非穿不可{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I can't sleep in my underwear.     - Well, you're gonna.{\r}
+Dialogue: 0,0:13:20.09,0:13:21.38,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我一直在想…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I've been thinking...{\r}
+Dialogue: 0,0:13:21.63,0:13:24.92,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我总是看见女人叠在女人上面{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...about how I'm always seeing girls on top of girls.{\r}
+Dialogue: 0,0:13:27.89,0:13:31.18,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}她们是尾对尾相接 还是是像煎饼一样叠起来？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Are they end-to-end, or tall, like pancakes?{\r}
+Dialogue: 0,0:13:31.76,0:13:34.77,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你知道我什么意思 这些和我约过会的女人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know what I mean. How I date all these women.{\r}
+Dialogue: 0,0:13:35.02,0:13:37.85,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}因为我总是想 当真命天女出现时{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I always figured, when the right one comes along...{\r}
+Dialogue: 0,0:13:38.06,0:13:41.40,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我就会勇往直前 坚持到最后{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...I'll be able to be a standup guy and go the distance, you know?{\r}
+Dialogue: 0,0:13:41.61,0:13:44.03,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但如今看见我爸 我想…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Now I'm looking at my Dad thinking...{\r}
+Dialogue: 0,0:13:44.24,0:13:46.65,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你不是他 你是你自己{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're not him, you're you.{\r}
+Dialogue: 0,0:13:47.53,0:13:51.41,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}当他们希望你继承你爸的事业时 你有屈服吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}When they wanted you to go into your father's business, did you cave?{\r}
+Dialogue: 0,0:13:51.66,0:13:52.70,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 没有   - 没有{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- No.     - No.{\r}
+Dialogue: 0,0:13:52.87,0:13:55.65,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你决心从事没有工作的演艺事业{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You decided to go into the out-of-work-actor business.{\r}
+Dialogue: 0,0:13:57.21,0:13:59.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这不是一件容易的事 但你办到了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That wasn't easy, but you did it.{\r}
+Dialogue: 0,0:14:00.25,0:14:03.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我也相信 当真命天女出现时{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And I believe that when the right woman comes along...{\r}
+Dialogue: 0,0:14:03.42,0:14:05.34,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你会有勇气对她说{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...you'll have the guts to say:{\r}
+Dialogue: 0,0:14:05.55,0:14:07.47,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}"抱歉 我已婚"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}"No thanks, I'm married."{\r}
+Dialogue: 0,0:14:13.76,0:14:14.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你真的这样认为？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You really think so?{\r}
+Dialogue: 0,0:14:15.47,0:14:17.31,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}真的 我真的这样认为{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah. I really do.{\r}
+Dialogue: 0,0:14:17.56,0:14:19.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 谢谢 钱德   - 滚开{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Thanks, Chandler.     - Get off.{\r}
+Dialogue: 0,0:14:31.91,0:14:33.32,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 嗨   - 嗨{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hi.     - Hi.{\r}
+Dialogue: 0,0:14:33.49,0:14:34.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}有事吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}May I help you?{\r}
+Dialogue: 0,0:14:34.74,0:14:38.90,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}乔伊说我能用你的浴室 因为钱德正在用我们的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh, Joey said I could use your shower since, uh, Chandler's in ours.{\r}
+Dialogue: 0,0:14:39.33,0:14:41.25,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好 你是谁？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay. Who are you?{\r}
+Dialogue: 0,0:14:41.58,0:14:44.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我叫罗妮 罗妮•罗普拉诺   - 哦{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Oh, uh, I'm Ronni. Ronni Rapalono.     - Uh-huh.{\r}
+Dialogue: 0,0:14:45.13,0:14:46.96,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}情妇？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}The mistress?{\r}
+Dialogue: 0,0:14:48.67,0:14:50.88,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 请进   - 谢谢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Um, come on in.     - Thanks.{\r}
+Dialogue: 0,0:14:51.09,0:14:53.05,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我叫瑞秋 浴室在那里{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hi, I'm Rachel. Bathroom's up there.{\r}
+Dialogue: 0,0:14:53.26,0:14:54.30,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嘿 听好 罗妮{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, Ronni.{\r}
+Dialogue: 0,0:14:54.47,0:14:56.68,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}钱德进浴室多久了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}How long has Chandler been in the shower?{\r}
+Dialogue: 0,0:14:56.89,0:14:58.68,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}大约五分钟{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh. Like, uh, five minutes.{\r}
+Dialogue: 0,0:14:59.89,0:15:01.06,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}太好了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Perfect.{\r}
+Dialogue: 0,0:15:03.27,0:15:04.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}请系好安全带{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Fasten your seat belts...{\r}
+Dialogue: 0,0:15:05.07,0:15:06.69,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}看小鸡鸡的时间到了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...it's pee-pee time.{\r}
+Dialogue: 0,0:15:12.70,0:15:13.99,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嘿 崔比亚尼先生{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, Mr. Trib.{\r}
+Dialogue: 0,0:15:14.16,0:15:15.91,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嘿 早安 亲爱的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey. Good morning, dear.{\r}
+Dialogue: 0,0:15:17.75,0:15:21.71,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}钱德•宾 该换我看你的小东西了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Chandler Bing, it's time to see your thing.{\r}
+Dialogue: 0,0:15:33.59,0:15:36.89,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 你是怎么搞的？ - 我以为你是钱德{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What's the matter with you?     - I thought it was Chandler.{\r}
+Dialogue: 0,0:15:37.18,0:15:41.21,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你应该在浴室 这样我才能看见你的小东西{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You were supposed to be in there so I could see your thing.{\r}
+Dialogue: 0,0:15:42.44,0:15:45.27,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我的小东西在里面 和我在一起{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Sorry, my thing was in there with me.{\r}
+Dialogue: 0,0:15:52.36,0:15:54.03,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 嘿   - 菲比{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey.     - Hey, Pheebs.{\r}
+Dialogue: 0,0:15:54.24,0:15:56.62,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 还好吧？ - 不错{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- How's it going?     - Good. Oh, oh.{\r}
+Dialogue: 0,0:15:56.78,0:15:59.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}罗杰想邀大家一起吃晚餐{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Roger's having a dinner thing and he wanted me to invite you guys.{\r}
+Dialogue: 0,0:16:04.25,0:16:06.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 怎么了？ - 没事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- So, what's going on?     - Nothing.{\r}
+Dialogue: 0,0:16:07.21,0:16:08.42,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}只是…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's just that, uh...{\r}
+Dialogue: 0,0:16:09.42,0:16:10.51,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}是罗杰{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's Roger.{\r}
+Dialogue: 0,0:16:10.92,0:16:13.51,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我不知道 有些事…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Um, ahem, I don't know. There's something about... Ahem.{\r}
+Dialogue: 0,0:16:14.22,0:16:15.97,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}基本上我们认为他…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Basically, we just feel that he's, uh...{\r}
+Dialogue: 0,0:16:16.22,0:16:17.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们讨厌他{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We hate that guy.{\r}
+Dialogue: 0,0:16:17.55,0:16:18.72,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我们讨厌他{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We hate him.{\r}
+Dialogue: 0,0:16:19.10,0:16:20.47,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}菲比 我们很抱歉{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}We're sorry, Pheebs.{\r}
+Dialogue: 0,0:16:20.68,0:16:21.98,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Uh-huh. Okay.{\r}
+Dialogue: 0,0:16:22.23,0:16:25.56,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}是不是他太有洞察力{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Don't you think maybe it's just that he's so perceptive...{\r}
+Dialogue: 0,0:16:25.81,0:16:27.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}所以吓到你们了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...that it freaked you out?{\r}
+Dialogue: 0,0:16:27.65,0:16:29.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 不 我讨厌他   - 不 我们讨厌他…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- No, I hate him.     - No, we hate him.{\r}
+Dialogue: 0,0:16:29.65,0:16:30.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}抱歉{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm sorry.{\r}
+Dialogue: 0,0:16:44.12,0:16:45.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}妈妈 你来干什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ma. What are you doing here?{\r}
+Dialogue: 0,0:16:46.00,0:16:48.04,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我把这个带给你{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I came to give you this...{\r}
+Dialogue: 0,0:16:48.29,0:16:49.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 还有这一巴掌   - 哇{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- ...and this.     - Ow.{\r}
+Dialogue: 0,0:16:49.88,0:16:51.25,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你的大戒指打到很痛{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Big ring.{\r}
+Dialogue: 0,0:16:51.59,0:16:54.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你为什么要对你爸讲一大堆{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Why did you fill your father's head with that garbage...{\r}
+Dialogue: 0,0:16:54.80,0:16:57.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}关于改邪归正的废话呢？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...about making things right?{\r}
+Dialogue: 0,0:16:57.68,0:16:59.93,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}一切事情本来都很好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Things were fine the way they were.{\r}
+Dialogue: 0,0:17:00.18,0:17:02.85,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}里面有鸡肉 放冰箱冰好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}There's chicken in there. Put it away.{\r}
+Dialogue: 0,0:17:03.14,0:17:05.98,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}拜托 乔伊 真的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}For God's sake, Joey. Really.{\r}
+Dialogue: 0,0:17:08.36,0:17:09.98,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}等一下 你都知道？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hold on. You knew?{\r}
+Dialogue: 0,0:17:10.19,0:17:12.57,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我当然知道 你认为呢？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Of course I knew. What do you think?{\r}
+Dialogue: 0,0:17:12.82,0:17:15.19,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你爸又不是詹姆士•邦德{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Your father is no James Bond.{\r}
+Dialogue: 0,0:17:15.45,0:17:17.28,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你应该听听他的谎言{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You should have heard his cover stories.{\r}
+Dialogue: 0,0:17:17.53,0:17:19.78,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}"我在会计家里睡"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}"I'm sleeping over at my accountant's."{\r}
+Dialogue: 0,0:17:20.03,0:17:22.29,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}那是什么屁话？拜托{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I mean, what is that? Please.{\r}
+Dialogue: 0,0:17:22.54,0:17:24.37,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你怎能…？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So then, how could you...?{\r}
+Dialogue: 0,0:17:24.58,0:17:27.08,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}记得你爸以前的模样吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Do you remember how your father used to be?{\r}
+Dialogue: 0,0:17:27.33,0:17:31.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}总是大喊大叫 总是不开心{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Always yelling. Nothing made him happy.{\r}
+Dialogue: 0,0:17:31.80,0:17:35.51,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}连工作室和瓶内的小船也无法让他开心{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Not that wood shop, not those stupid little ships in the bottle.{\r}
+Dialogue: 0,0:17:35.76,0:17:37.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}现在他很开心{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Now he's happy.{\r}
+Dialogue: 0,0:17:37.51,0:17:40.49,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这样很好 他好歹有个嗜好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I mean, it's nice. He has a hobby.{\r}
+Dialogue: 0,0:17:42.68,0:17:46.02,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}妈妈 我无意冒犯 但是…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ma, I don't mean to be disrespectful, but...{\r}
+Dialogue: 0,0:17:46.44,0:17:48.44,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你到底在说什么？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...what the hell are you talking about?{\r}
+Dialogue: 0,0:17:49.73,0:17:53.01,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 我是说 那你怎么办？ - 我很好啊{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- I mean, what about you?     - Me? I'm fine.{\r}
+Dialogue: 0,0:17:53.36,0:17:54.61,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}听着 亲爱的…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Look, honey...{\r}
+Dialogue: 0,0:17:54.99,0:17:57.07,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}在理想的世界中{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...in an ideal world...{\r}
+Dialogue: 0,0:17:57.36,0:18:00.93,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}没有她 而且你爸是个大帅哥{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...there'd be no her and your father would look like Sting.{\r}
+Dialogue: 0,0:18:02.91,0:18:04.58,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}再告诉你别的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And I'll tell you something else:{\r}
+Dialogue: 0,0:18:04.79,0:18:08.16,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}自从那贵妇犬一样的女人出现后{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ever since that poodle-stuffer came along...{\r}
+Dialogue: 0,0:18:08.42,0:18:12.71,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他感觉很羞耻 变得对我很用心{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...he's been so ashamed of himself that he's been more attentive.{\r}
+Dialogue: 0,0:18:12.92,0:18:14.80,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}并且开始对我体贴{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He's been more loving.{\r}
+Dialogue: 0,0:18:15.30,0:18:17.55,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}每天都像我们的结婚纪念日{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's like every day is our anniversary.{\r}
+Dialogue: 0,0:18:18.18,0:18:20.18,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我该为你高兴？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I'm happy for you?{\r}
+Dialogue: 0,0:18:20.39,0:18:21.59,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不必了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, don't be.{\r}
+Dialogue: 0,0:18:22.64,0:18:24.51,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}因为现在全搞砸了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Because now everything's screwed up.{\r}
+Dialogue: 0,0:18:26.02,0:18:30.27,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我只想回到像从前一样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I just want it the way it was.{\r}
+Dialogue: 0,0:18:30.52,0:18:33.40,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}妈妈 对不起{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ma, I'm sorry.{\r}
+Dialogue: 0,0:18:33.65,0:18:37.11,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我以为我做了你想做的事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I just did what I thought you'd want.{\r}
+Dialogue: 0,0:18:37.36,0:18:41.28,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我知道 亲爱的 我知道{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}I know you did, cookie. Oh, I know you did.{\r}
+Dialogue: 0,0:18:44.24,0:18:45.66,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}告诉我{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So tell me...{\r}
+Dialogue: 0,0:18:47.04,0:18:48.56,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你见到她了吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Did you see her?{\r}
+Dialogue: 0,0:18:49.71,0:18:50.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}见到了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah.{\r}
+Dialogue: 0,0:18:51.79,0:18:54.34,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你比她漂亮十倍都不止{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're 10 times prettier than she is.{\r}
+Dialogue: 0,0:18:54.55,0:18:55.88,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}嘴巴真甜{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}That's sweet.{\r}
+Dialogue: 0,0:18:57.71,0:18:59.47,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我打得过她吗？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Could I take her?{\r}
+Dialogue: 0,0:19:00.76,0:19:03.47,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你有这么大的戒指 她没辙{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}With this ring, no contest.{\r}
+Dialogue: 0,0:19:07.14,0:19:09.39,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 怎么了 甜心？   - 没事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What's wrong, sweetie?     - Nothing.{\r}
+Dialogue: 0,0:19:09.73,0:19:12.15,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}到底怎么了？快说嘛{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, no. What's wrong? Come on.{\r}
+Dialogue: 0,0:19:12.35,0:19:13.77,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay.{\r}
+Dialogue: 0,0:19:17.03,0:19:18.78,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}好吧 我没事{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's nothing. I'm fine.{\r}
+Dialogue: 0,0:19:18.99,0:19:20.95,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}只是我的朋友{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's just, um... It's my friends.{\r}
+Dialogue: 0,0:19:21.20,0:19:23.87,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他们对你有意见{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}They have a liking problem with you...{\r}
+Dialogue: 0,0:19:24.12,0:19:25.32,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}其实…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...in that, um...{\r}
+Dialogue: 0,0:19:25.58,0:19:26.95,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他们不喜欢你…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...they don't.{\r}
+Dialogue: 0,0:19:29.37,0:19:31.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他们不喜欢我？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh. They don't?{\r}
+Dialogue: 0,0:19:32.79,0:19:34.04,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不过 你知道…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But you know...{\r}
+Dialogue: 0,0:19:34.29,0:19:37.09,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他们看不见 只有我才能看见的好处{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...they don't see all of the wonderfulness that I see.{\r}
+Dialogue: 0,0:19:37.34,0:19:40.84,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他们看不见你体贴的一面{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}They don't see all the good stuff and all the sweet stuff.{\r}
+Dialogue: 0,0:19:41.09,0:19:42.63,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他们认为你有点…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}They think you're a little...{\r}
+Dialogue: 0,0:19:43.51,0:19:46.60,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 什么？ - 执着的恐怖{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What?     - Intense and creepy.{\r}
+Dialogue: 0,0:19:48.68,0:19:49.85,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}噢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh.{\r}
+Dialogue: 0,0:19:50.02,0:19:52.64,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但我 菲比不这么认为{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}But I don't. Me. Phoebe.{\r}
+Dialogue: 0,0:19:54.86,0:19:57.11,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我对他们的反应 丝毫不感到惊讶{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Well, I'm not at all surprised they feel that way.{\r}
+Dialogue: 0,0:19:57.32,0:19:59.73,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不惊讶吗？这就是你棒的地方{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You're not? See, that's why you're so great.{\r}
+Dialogue: 0,0:20:00.11,0:20:02.24,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}当群体动力失调时{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Actually, it's quite typical behavior...{\r}
+Dialogue: 0,0:20:02.49,0:20:06.66,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这是很平常的反应{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...when you have this kind of dysfunctional group dynamic.{\r}
+Dialogue: 0,0:20:06.87,0:20:09.49,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这种相互依赖…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}You know, this kind of codependent...{\r}
+Dialogue: 0,0:20:09.75,0:20:11.37,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}情绪障碍{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...emotionally stunted...{\r}
+Dialogue: 0,0:20:11.66,0:20:16.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}坐在那家烂咖啡屋 拿着又大又蠢的咖啡杯{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...sitting in your stupid coffeehouse, with your stupid big cups...{\r}
+Dialogue: 0,0:20:17.04,0:20:20.78,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}或许还有乳头在上面{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...which, I'm sorry, might as well have nipples on them.{\r}
+Dialogue: 0,0:20:21.84,0:20:26.30,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你们都会说 "噢 定义我的性格 定义我的性格"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And you're all like, "Oh, define me. Define me.{\r}
+Dialogue: 0,0:20:26.51,0:20:29.31,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}"爱我 我需要爱"{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Love me. I need love."{\r}
+Dialogue: 0,0:20:30.81,0:20:32.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你和你爸谈过了？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So you talked to your dad, huh?{\r}
+Dialogue: 0,0:20:32.64,0:20:35.89,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}对 他要以我妈妈希望的方式 继续对我妈妈劈腿{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah. He's gonna keep cheating on Ma, like she wanted.{\r}
+Dialogue: 0,0:20:35.98,0:20:38.52,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我妈妈要继续假装她一无所知{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Ma's gonna keep pretending she doesn't know even though she does.{\r}
+Dialogue: 0,0:20:38.77,0:20:41.53,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我妹妹蒂娜不能再见她丈夫了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And my sister Tina can't see her husband anymore...{\r}
+Dialogue: 0,0:20:41.78,0:20:43.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}因为他接到禁制令{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...because he got a restraining order.{\r}
+Dialogue: 0,0:20:44.66,0:20:48.07,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}这两件事没关系 但我今天才听说{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Which has nothing to do with it, except that I found out today.{\r}
+Dialogue: 0,0:20:48.24,0:20:49.28,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}哇{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Wow.{\r}
+Dialogue: 0,0:20:49.45,0:20:52.08,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}沃顿山这里的事全变了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Things sure have changed here on Walton's mountain.{\r}
+Dialogue: 0,0:20:54.25,0:20:55.41,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}乔伊 你没事吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}So, Joey, are you okay?{\r}
+Dialogue: 0,0:20:56.04,0:20:57.17,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}或许吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, I guess.{\r}
+Dialogue: 0,0:20:57.42,0:20:59.67,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他们是… 父母{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's just... You know, they're parents.{\r}
+Dialogue: 0,0:20:59.92,0:21:02.88,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你不得不随他们的意思{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}After a certain point, you gotta let go.{\r}
+Dialogue: 0,0:21:03.38,0:21:04.76,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}即使你知道这样做不对{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Even if you know better...{\r}
+Dialogue: 0,0:21:04.97,0:21:07.47,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}但你还是得让他们犯自己的错误{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...you gotta let them make their own mistakes.{\r}
+Dialogue: 0,0:21:07.68,0:21:08.72,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}我只是想…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And just think...{\r}
+Dialogue: 0,0:21:08.93,0:21:11.06,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}几年后我们就会和他们一样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...in a couple years, we get to turn into them.{\r}
+Dialogue: 0,0:21:11.31,0:21:12.68,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}拜托{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh, please.{\r}
+Dialogue: 0,0:21:12.93,0:21:15.52,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}如果我像他们一样 我不是变成…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}If I turn into my parents, I'll either be an alcoholic blond...{\r}
+Dialogue: 0,0:21:15.69,0:21:18.77,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}追逐年轻帅哥的金发醉鬼老玻璃{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...chasing after 20-year-old boys...{\r}
+Dialogue: 0,0:21:19.02,0:21:20.82,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}就是变得和我妈妈一样{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...or I'll end up like my mom.{\r}
+Dialogue: 0,0:21:25.07,0:21:26.86,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 嗨   - 嗨 菲比{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- Hey.     - Hey, Pheebs.{\r}
+Dialogue: 0,0:21:27.24,0:21:28.53,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}还好吧？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}How's it going?{\r}
+Dialogue: 0,0:21:29.66,0:21:32.03,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}还好 只是我和罗杰分手了{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Okay, except I broke up with Roger.{\r}
+Dialogue: 0,0:21:32.29,0:21:33.79,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}噢{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Oh.{\r}
+Dialogue: 0,0:21:34.04,0:21:35.12,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}得了吧{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Yeah, right.{\r}
+Dialogue: 0,0:21:35.29,0:21:37.92,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}不 是真的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}No, no, really. Aw.{\r}
+Dialogue: 0,0:21:39.21,0:21:42.92,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}- 怎么了？ - 我说不上来 我是说…{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}- What happened?     - Ugh. I don't know. I mean...{\r}
+Dialogue: 0,0:21:43.13,0:21:44.63,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他是个好人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}He's a good person...{\r}
+Dialogue: 0,0:21:44.88,0:21:46.76,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}而且还对我很体贴{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}...and he can be really sweet.{\r}
+Dialogue: 0,0:21:47.38,0:21:50.26,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}他在某些方面很适合我{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}And in some ways, I think he is so right for me.{\r}
+Dialogue: 0,0:21:50.51,0:21:53.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}只是… 我讨厌这个人{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}It's just, I hate that guy.{\r}
+Dialogue: 0,0:22:00.65,0:22:03.11,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}怎么样？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hey, Joey. What's going on?{\r}
+Dialogue: 0,0:22:03.36,0:22:05.99,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}一劳永逸解决乳房风波{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Clear the tracks for the boobie payback express.{\r}
+Dialogue: 0,0:22:06.24,0:22:08.43,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}下一站 瑞秋•葛林{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Next stop, Rachel Green.{\r}
+Dialogue: 0,0:22:14.37,0:22:16.75,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}乔伊 你在搞什么鬼？{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Joey, what the hell were you doing?{\r}
+Dialogue: 0,0:22:17.25,0:22:19.54,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}对不起 看错乳房{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Sorry, wrong boobies.{\r}
+Dialogue: 0,0:22:32.76,0:22:33.89,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}乔伊 你好{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello, Joey.{\r}
+Dialogue: 0,0:22:35.43,0:22:36.64,chs,NTP,0000,0000,0000,,{\fn华文楷体\blur3}你好 亲爱的{\r}\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&\blur3}Hello, dear.{\r}

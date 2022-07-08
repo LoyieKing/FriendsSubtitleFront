@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { getSubtitleAsync, translateAsync } from './utils/api';
+import { getSubtitleAsync, translateAsync, TranslateResult } from './utils/api';
 import * as AssCompiler from "ass-compiler";
-import { Button, Layout, List, Slider, Tag } from 'antd';
+import { Button, Card, Descriptions, Layout, List, Slider, Tag } from 'antd';
 import { SliderMarks } from 'antd/lib/slider';
 import { asTimeString } from './utils/string';
 import Item from 'antd/lib/list/Item';
@@ -34,6 +34,7 @@ export const Subtitle: React.FunctionComponent<{ season: number, eposide: number
     }, [season, eposide])
 
     const videoDuration = useMemo(() => {
+        console.log(ass)
         if (!ass) return 0
 
         let maxEnd = 0
@@ -76,8 +77,8 @@ export const Subtitle: React.FunctionComponent<{ season: number, eposide: number
             let item = {
                 start: d.Start,
                 end: d.End,
-                chinese: d.Text?.parsed.find(it => it.tags.some(t => t.fn == "华文楷体"))?.text,
-                english: d.Text?.parsed.find(it => it.tags.some(t => t.fn == "Cronos Pro Subhead"))?.text,
+                chinese: d.Text?.parsed[0]?.text?.replace("\\N", ""),
+                english: d.Text?.parsed[1]?.text == "\\N" ? d.Text?.parsed[2]?.text : d.Text?.parsed[1]?.text,
             }
             if (item.chinese && item.english) {
                 dialogues.push(item)
@@ -116,28 +117,55 @@ export const Subtitle: React.FunctionComponent<{ season: number, eposide: number
     }, [resize])
 
 
+    const [translation, setTranslation] = useState<TranslateResult | undefined>()
+    const showTranslation = async (words: string) => {
+        let trans: TranslateResult | undefined = undefined
+        try {
+            trans = await translateAsync(words)
+        } catch (error) {
+
+        }
+        setTranslation(trans)
+    }
+
+    const translationCardStyle: React.CSSProperties = document.body.clientHeight > document.body.clientWidth ? {
+        position: "absolute"
+    } : {
+        float: "right",
+        maxWidth: "40%"
+    }
 
     return (
         <div>
-            <div ref={listRef} style={{ overflow: "auto" }}>
-                <List dataSource={dialogues} renderItem={(item, index) => (
-                    <SubtitleItem focusing={item == currentDialogue} dialogue={item} onClick={() => {
-                        const newTime = item.start + 0.01
-                        setCurrentTime(newTime)
-                        setSliderValue(newTime)
-                    }} onWordsSelect={(words) => {
-                        translateAsync(words.join(" "))
-                    }}
-                    />
-                )} />
-            </div>
-            <div ref={sliderRef} style={{ padding: "0 32px" }}>
-                <Slider step={0.01} marks={sliderMarks} tipFormatter={(val) => asTimeString(val)}
-                    tooltipPlacement="bottom" tooltipVisible
-                    max={videoDuration}
-                    value={sliderValue} onChange={(val) => setSliderValue(val)} />
-            </div>
-        </div >
+            {translation && <Card
+                style={{ zIndex: 9999, background: "white", textAlign: "left", ...translationCardStyle }}
+                title={<>{translation.query}{translation?.basic?.['us-phonetic'] && <Tag style={{ marginLeft: 8 }}>{translation.basic['us-phonetic']}</Tag>}</>}
+                extra={<Button onClick={() => setTranslation(undefined)} type="text">关闭</Button>}
+            >
+                {translation.basic?.explains.map(it => <>{it}<br /></>)}
+            </Card>}
+            <div>
+                <div ref={listRef} style={{ overflow: "auto" }}>
+                    <List dataSource={dialogues} renderItem={(item, index) => (
+                        <SubtitleItem focusing={item == currentDialogue} dialogue={item} onClick={() => {
+                            const newTime = item.start + 0.01
+                            setCurrentTime(newTime)
+                            setSliderValue(newTime)
+                        }} onWordsSelect={(words) => {
+                            showTranslation(words.join(" "))
+                        }}
+                        />
+                    )} />
+                </div>
+                <div ref={sliderRef} style={{ padding: "0 32px" }}>
+                    <Slider step={0.01} marks={sliderMarks} tipFormatter={(val) => asTimeString(val)}
+                        tooltipPlacement="bottom" tooltipVisible
+                        max={videoDuration}
+                        value={sliderValue} onChange={(val) => setSliderValue(val)} />
+                </div>
+            </div >
+        </div>
+
     )
 }
 

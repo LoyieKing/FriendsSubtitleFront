@@ -15,12 +15,12 @@ export type TranslateResult = {
     errorCode: string,
     query: string,
     translation: string[],
-    basic: {
-        "phonetic": string,
-        "uk-phonetic": string, //英式音标
-        "us-phonetic": string, //美式音标
-        "uk-speech": string,//英式发音
-        "us-speech": string,//美式发音
+    basic?: {
+        "phonetic"?: string,
+        "uk-phonetic"?: string, //英式音标
+        "us-phonetic"?: string, //美式音标
+        "uk-speech"?: string,//英式发音
+        "us-speech"?: string,//美式发音
         "explains": string[]
     },
     web: {
@@ -34,25 +34,8 @@ export type TranslateResult = {
 }
 
 export async function translateAsync(text: string) {
-
-    const secret = "7Lf0448VYgQa34z4K5J4TVX0vP8UEIYR"
-    const appKey = "00f96704d6ac41df"
-
-    const uuid = (new Date).getTime().toString()
-    const curtime = Math.round(new Date().getTime() / 1000);
-
-    const sign = sha256(appKey + truncate(text) + uuid + curtime + secret)
-
-    let result = await axios.post<TranslateResult>("https://openapi.youdao.com/api", {
-        q: text,
-        from: "en",
-        to: "zh-CHS",
-        appKey: "00f96704d6ac41df",
-        salt: uuid,
-        signType: "v3",
-        sign,
-        curtime
-    })
+    if (!text) throw "no text"
+    let result = await axios.post<TranslateResult>("api", { text })
     console.log(result.data)
     return result.data
 }
